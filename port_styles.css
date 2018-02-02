@@ -1,0 +1,399 @@
+html {
+  margin: 0;
+  width: 100%;
+  min-height: 100%;
+}
+
+
+html a {
+  color: black;
+}
+
+html a:hover {
+  text-decoration: none;
+  color: rgba(151, 174, 204, 0.5);
+}
+
+#body {
+  background-color: rgba(228, 203, 206, 0.5);
+}
+
+#main {
+  background-color: white;
+  margin-top: 1%;
+  margin-bottom: 1.5%;
+  width: 95%;
+}
+
+header a {
+  color: black;
+}
+
+
+header {
+  font-family: 'Nothing You Could Do', cursive;
+  text-shadow: 1px 1px #ececec;
+  text-align: center;
+}
+
+#name {
+    font-size: 38px;
+    letter-spacing: 3px;
+    padding-top: 10px;
+  }
+
+#jobTitle {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 3.6px;
+}
+
+#intro {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 100;
+  font-size: 14px;
+  letter-spacing: 1.5px;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#intro a:hover {
+  color: rgb(228, 203, 206);
+  text-decoration: underline;
+}
+
+#mainAccordion {
+  padding: 1%;
+}
+
+
+
+#hobbies {
+  font-family: 'Nothing You Could Do', cursive;
+  letter-spacing: 3px;
+  font-size: 18px;
+}
+
+#headingOne {
+  background-color: rgba(228, 203, 206, 0.5);
+  border-color: white;
+  border-style: solid;
+}
+
+#headingOne:hover {
+  opacity: .6;
+  color:
+}
+
+#headingTwo {
+  background-color: rgba(205, 181, 69, 0.5);
+  border-color: white;
+  border-style: solid;
+}
+
+#headingTwo:hover {
+  opacity: .6;
+}
+
+#headingThree {
+  background-color: rgba(151, 174, 204, 0.5);
+  border-color: white;
+  border-style: solid;
+}
+
+#headingThree:hover {
+  opacity: .6;
+}
+
+.accordionTitles {
+  font-family: 'Nothing You Could Do', cursive;
+  text-shadow: 1px 1px #ececec;
+  font-size: 16px;
+}
+
+.accordionTitles:hover {
+  color: white;
+}
+
+
+.resumeHeadings {
+    color: black;
+    font-family: 'Nothing You Could Do', cursive;
+    text-shadow: .5px .5px #ececec;
+}
+
+/* Resume Section Styles */
+
+#resumeSection {
+  padding: 7.5px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 14px;
+  font-weight: 100;
+}
+
+#resumeSection ul li {
+  list-style-type: none;
+  text-align: center;
+  padding: 5px;
+}
+
+/* Project Section Styles */
+
+.card {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#cardProjects {
+  border: none;
+}
+
+.card a {
+  color: #000000;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  font-size: 1.1em;
+}
+
+.card a:hover {
+  text-decoration: none;
+}
+
+.card-title {
+  color: black;
+  font-family: 'Nothing You Could Do', cursive;
+  text-shadow: .5px .5px #ececec;
+}
+
+.card-text {
+  padding: 3px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 14px;
+  font-weight: 100;
+  text-align: left;
+}
+
+#btnProjects {
+  font-family: 'Nothing You Could Do', cursive;
+  font-size: 12px;
+  text-shadow: .5px .5px #ececec;
+  background-color: rgba(205, 181, 69, 0.5);
+}
+
+#btnProjects:hover {
+  color: white;
+}
+
+#closing {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 100;
+  font-size: 14px;
+  letter-spacing: 1.5px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+
+/* Contact Section Styles */
+
+#contactSection {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 14px;
+  padding: 25px;
+  margin-top: 10%;
+}
+
+#contactSection a {
+  text-decoration: none;
+  text-transform: none;
+  font-size: 14px;
+}
+
+#contactForm {
+  padding: 25px;
+}
+
+#inputItems  {
+  font-family: 'Quicksand', sans-serif;
+}
+
+#contactButton {
+  text-shadow: .5px .5px #ececec;
+  font-family: 'Nothing You Could Do', cursive;
+  font-size: 14px;
+  background-color: rgba(151, 174, 204, 0.5);
+  color: black;
+}
+
+#contactButton:hover {
+  color: white;
+}
+
+/* Footer Icon Styles */
+
+#icons {
+  letter-spacing: 1.5px;
+  text-align: center;
+  font-weight: 100;
+  font-size: 11px;
+  font-family: 'Quicksand', sans-serif;
+  text-transform: uppercase;
+  padding-bottom: 15px;
+  padding-top: 20px;
+}
+
+#icons a {
+  color: black;
+}
+
+/* Media Queries For Responsive Design*/
+/*X-Small devices (landscape phones, 320px and down) */
+
+@media (max-width: 320px) {
+
+
+  #navigation {
+    display: none;
+  }
+
+  #name {
+    margin-top:  5%;
+    font-size: 26px;
+    padding-top: 15px;
+  }
+
+  #jobTitle {
+    font-size: 10.5px;
+    letter-spacing: 1px;
+  }
+
+
+}
+/*Small devices (landscape phones, 360px and up) */
+
+@media (min-width: 375px) {
+
+
+
+  #navigation {
+    display: none;
+  }
+
+  #name {
+    margin-top:  5%;
+    font-size: 31px;
+  }
+
+  #jobTitle {
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+
+  #name {
+    margin-top:  5%;
+  }
+
+
+ }
+
+ @media (min-width: 425px) {
+
+
+
+   #navigation{
+     display: none;
+   }
+
+   #name {
+     margin-top:  5%;
+     font-size: 35px;
+   }
+
+   #jobTitle {
+     font-size: 14px;
+     letter-spacing: 1px;
+   }
+
+
+  }
+
+/*Medium devices (tablets, 506px and up)*/
+
+@media (min-width: 506px) {
+
+    #navigation {
+      display: block;
+      font-family: 'Quicksand', sans-serif;
+      font-weight: 100;
+      font-size: 13px;
+      text-transform: uppercase;
+    }
+
+    #jobTitle {
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 400;
+        font-size: 13px;
+        text-transform: uppercase;
+        letter-spacing: 3.6px;
+      }
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+  #navigation {
+    display: block;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 100;
+    font-size: 13px;
+    text-transform: uppercase;
+  }
+
+  #name {
+      font-size: 44px;
+      letter-spacing: 3px;
+    }
+
+  #jobTitle {
+      font-family: 'Quicksand', sans-serif;
+      font-weight: 400;
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 3.6px;
+    }
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+  #navigation {
+    display: block;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 100;
+    font-size: 13px;
+    text-transform: uppercase;
+  }
+
+  #name {
+      margin-top: -.2%;
+      font-size: 50px;
+      letter-spacing: 3px;
+    }
+
+    #jobTitle {
+      font-family: 'Quicksand', sans-serif;
+      font-weight: 400;
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 3.6px;
+    }
+
+
+
+
+}
