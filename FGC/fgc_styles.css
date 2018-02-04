@@ -1,9 +1,17 @@
+html a:hover {
+  text-decoration: none;
+}
+
+#main {
+  background-color: white;
+}
+
 .nav {
   font-family: 'Raleway', sans-serif;
   font-weight: 100;
-  font-size: .5rem;
   background-color: black;
   text-transform: uppercase;
+  font-size: 9px;
 }
 
 .nav a {
@@ -42,6 +50,11 @@
   text-shadow: .5px .5px #000;
 }
 
+#title:hover {
+  opacity: .5;
+  text-decoration: none;
+}
+
 #tagline {
   font-family: 'Raleway', sans-serif;
   text-align: center;
@@ -51,7 +64,6 @@
   text-transform: uppercase;
   color: black;
   background-color: white;
-  //padding: 5px;
   border-radius: 2px;
   margin-top: 5%;
   width: 100%;
@@ -74,99 +86,35 @@
   border-radius: 2px;
 }
 
-#div1 {
- padding: 25px;
- margin-top: -10%;
- text-align: center;
-}
-
-#div1 h4 {
-  font-family: 'Arima Madurai', cursive;
-  font-weight: 900;
-  text-shadow: .5px .5px #000;
-}
-
-#div1 p {
- padding: 5px;
- font-size: .99rem;
-}
-
-#questions {
- font-family: 'Arima Madurai', cursive;
- text-align: center;
- font-weight: 900;
-}
-
-#btn {
-  border-color: rgba(237, 188, 56, .7);
-  color: rgba(237, 188, 56, .7);
-}
-
-#btn:hover {
-  background-color: rgba(237, 188, 56, .7);
-  color: white;
-}
-
-
-#addImg5 {
-  background-image: url('img/img_5_1110px.jpg');
-  background-size: cover;
-  background-position:bottom;
-  height: 350px;
-}
-
-#div2 {
-  padding: 20px;
+#div1, #div2, #div3, #div4, #div5 {
+  padding: 25px;
   text-align: center;
 }
 
-#div2 p {
+#div1 h4, #div2 h4, #div3 h4, #div4 h4, #div5 h4  {
+  font-family: 'Arima Madurai', cursive;
+  font-weight: 900;
+  margin-top: 10px;
+}
+
+#div1 p {
+  font-size: 1.2rem;
+}
+
+#div2 p, #div3 p, #div4 p, #div5 p  {
   padding: 5px;
   font-size: .89rem;
   line-height: 1.4rem;
   text-align: left;
 }
 
-#div2 h4 {
-  font-family: 'Arima Madurai', cursive;
-  font-weight: 900;
-  text-align: center;
-}
-
-#btn2 {
-  border-color: rgba(237, 188, 56, .7);
-  color: rgba(237, 188, 56, .7);
-}
-
-#btn2:hover {
-  background-color: rgba(237, 188, 56, .7);
-  color: white;
-}
-
-#div3 {
-  padding: 20px;
-  color: black;
-}
-
-#div3 p {
-  font-size: .89rem;
-  line-height: 1.4rem;
-  padding: 10px;
-}
-
-#div3 a {
+#div3 a , #div4 a, #div5 a {
   color: black;
   text-align: center;
 }
 
-#div3 a:hover {
+#div3 a:hover, #div4 a:hover, #div5 a:hover {
   color: rgba(237, 188, 56, .7);
-}
-
-#div3 h4 {
-  font-family: 'Arima Madurai', cursive;
-  font-weight: 900;
-  text-align: center;
 }
 
 #div3 h5 {
@@ -176,43 +124,45 @@
 
 #div3 .card {
   color: black;
-  border: 1.5px solid black;
+  border: none;
 }
 
-#div4 {
-  padding: 20px;
-  color: black;
-  text-align: center;
+
+#questions {
+ font-family: 'Arima Madurai', cursive;
+ text-align: center;
+ font-weight: 900;
+ font-size: 1.2rem;
 }
 
-#div4 h4 {
-  font-family: 'Arima Madurai', cursive;
-  font-weight: 900;
-  text-align: center;
-}
-
-#div4 p {
-  font-size: .89rem;
-  line-height: 1.4rem;
-  padding: 10px;
-  text-align: left;
-}
-
-#changeText {
-  font-family: 'Arima Madurai', cursive;
-  color: rgba(237, 188, 56, .7);
-  font-size: .9rem;
-  font-weight: 900;
-}
-
-#btn3 {
+#btn1, #btn2, #btn3, #btn4, #btn5 {
   border-color: rgba(237, 188, 56, .7);
   color: rgba(237, 188, 56, .7);
 }
 
-#btn3:hover {
+#btn1:hover, #btn2:hover, #btn3:hover, #btn4:hover, #btn5:hover   {
   background-color: rgba(237, 188, 56, .7);
   color: white;
+}
+
+#selfie {
+  border-color: black;
+  border-width: 3px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+
+footer {
+  margin-top: 10%;
+}
+
+footer a {
+  color: black;
+}
+
+footer a:hover {
+  color: rgba(237, 188, 56, .7);
 }
 
 address {
@@ -222,13 +172,92 @@ address {
 }
 
 
+
+/* Services Styles */
+
+#sDiv1, #sDiv2, #sDiv3, #sDiv4, #sDiv5 {
+ padding: 25px;
+ text-align: center;
+}
+
+#sDiv1 h4, #sDiv2 h4, #sDiv3 h4, #sDiv4 h4, #sDiv5 h4  {
+  font-family: 'Arima Madurai', cursive;
+  font-weight: 900;
+}
+
+#sDiv1 p, #sDiv2 p, #sDiv3 p, #sDiv4 p, #sDiv5 p  {
+  padding: 5px;
+  font-size: .89rem;
+  line-height: 1.4rem;
+  text-align: left;
+}
+
+
+/* Gallery Styles */
+
+.col-md img {
+  padding: 35px;
+}
+
+.col-md img:hover {
+  opacity: .5;
+}
+
+.col-md figcaption {
+  font-size: 1em;
+  text-align: center;
+  font-family: 'Arima Madurai', cursive;
+  padding: 40px;
+}
+
+.col-md a {
+  color: black;
+}
+
+.col-md a:hover {
+  color: rgba(237, 188, 56, .7);
+}
+
+#galleryImages {
+  text-align: center;
+}
+
+#galleryNav {
+  background-color: white;
+}
+
+#galleryNav a {
+  color: black;
+}
+
+
+#galleryNav a:hover {
+  color: rgba(237, 188, 56, .7);
+}
+
+
+/* Contact Styles */
+
+.form  {
+  text-align: center;
+}
+
+#contactForm {
+  text-align: center;
+  font-family: 'Arima Madurai', cursive;
+  font-size: .8rem;
+}
+
+#label {
+  text-align: left;
+}
+
+
 /* Media Queries For Responsive Design*/
 
 /*Small devices (landscape phones, 360px and up) */
 
 @media (min-width: 375px) {
-
-
 
   #jumbo1 {
     background-image: url('img/img_5_1110px.jpg');
@@ -347,10 +376,10 @@ address {
 
   .nav {
     font-weight: 100;
-    font-size: .7rem;
+    font-size: .6rem;
     background-color: black;
     text-transform: uppercase;
-    letter-spacing: 1.5px;
+    letter-spacing: 1.8px;
   }
 
   #jumbo1 {
@@ -386,60 +415,18 @@ address {
     letter-spacing: 2px;
   }
 
-  #div1 {
-   padding: 20px;
-   margin-top: -3%;
-   text-align: center;
+  /* Gallery Images */
+
+
+  .col-md figcaption {
+    font-size: 1em;
+    padding-left: 30px;
+    padding-right: 30px;
   }
 
-  #div1 p {
-   padding: 5px;
-   font-size: 1.3rem;
-  }
 
-  #div2 {
-   padding: 20px;
-   text-align: center;
-  }
 
-  #div2 p {
-    padding: 5px;
-    font-size: .8rem;
-    text-align: center;
-  }
 
-  #div3 {
-   padding: 20px;
-   text-align: center;
-  }
-
-  #div3 p {
-    padding: 5px;
-    font-size: .8rem;
-  }
-
-  #div3 .card {
-    text-align: left;
-  }
-
-  #div4 {
-   padding: 20px;
-   text-align: center;
-  }
-
-  #div4 p {
-    padding: 5px;
-    font-size: .8rem;
-    text-align: center;
-  }
-
-  #btn3 {
-    margin-top: 3;
-  }
-
-  address {
-    margin-top: 5%;
-  }
 
  }
 
@@ -448,11 +435,12 @@ address {
 
   .nav {
     font-weight: 100;
-    font-size: .8rem;
+    font-size: .6rem;
     background-color: black;
     text-transform: uppercase;
     letter-spacing: 1.8px;
   }
+
 
   #jumbo1 {
     background-image: url('img/img_5_612px.jpg');
@@ -472,15 +460,17 @@ address {
   }
 
 
-  #div1 {
-   padding: 20px;
-   margin-top: 0%;
-   text-align: center;
-  }
+/* Gallery Images */
 
-  #div2 p {
-    text-align: left;
-  }
+.col-md figcaption {
+  font-size: 1em;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+
+
+
 
 }
 
@@ -545,6 +535,14 @@ address {
     margin-left: auto;
     margin-right: auto;
   }
+
+/* Gallery Images */
+  .col-md figcaption {
+    font-size: 1em;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
 
 
 
