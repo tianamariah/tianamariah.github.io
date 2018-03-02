@@ -1,0 +1,86 @@
+.nav, .navbar {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.nav a, .navbar a {
+  color: black;
+}
+
+.navbar a:hover {
+  text-decoration: none;
+}
+
+.nav a:hover, .navbar a:hover {
+  color: pink;
+}
+
+.jumbotron {
+  background-image: url('img3.jpg');
+  background-position: center;
+  background-size: cover;
+  height: 550px;
+}
+
+#fanMessage {
+  padding: 5%;
+}
+
+#writings {
+  background-color: black;
+  color: white;
+  height: 450px;
+  padding: 20%;
+  text-align: center;
+}
+
+#covers {
+  padding: 3%;
+}
+
+#covers .row {
+  padding: 3%;
+}
+
+#covers iframe {
+  width: 98%;
+  height: auto;
+  box-shadow: 3px 2px 4px -1px rgba(97,92,97,1);
+}
+
+#covers figcaption {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1em;
+  text-align: center;
+  font-weight: 200;
+}
+
+#socials  {
+  font-size: 1.8em;
+  text-align: center;
+  color: black;
+}
+
+footer {
+  margin-top: 10%;
+  font-size: .75em;
+  text-align: center;
+}
+footer a {
+  color: black;
+}
+
+footer a:hover {
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+/* font-family: 'Source Sans Pro', sans-serif;
+font-family: 'News Cycle', sans-serif;
+font-family: 'Arsenal', sans-serif;
+font-family: 'Rosario', sans-serif;
+font-family: 'Nanum Gothic', sans-serif; */
