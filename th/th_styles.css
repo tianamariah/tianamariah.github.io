@@ -1,5 +1,5 @@
 .nav, .navbar {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Arsenal', sans-serif;
 }
 
 .nav a, .navbar a {
@@ -48,7 +48,7 @@
 }
 
 #covers figcaption {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Arsenal', sans-serif;
   font-size: 1em;
   text-align: center;
   font-weight: 200;
@@ -79,8 +79,6 @@ footer a:hover {
 
 
 
-/* font-family: 'Source Sans Pro', sans-serif;
-font-family: 'News Cycle', sans-serif;
+/* 
 font-family: 'Arsenal', sans-serif;
-font-family: 'Rosario', sans-serif;
-font-family: 'Nanum Gothic', sans-serif; */
+font-family: 'Cousine', monospace;*/
