@@ -26,6 +26,7 @@
 }
 
 #writings {
+  font-family: 'Cousine', monospace;
   background-color: black;
   color: white;
   height: 450px;
@@ -81,4 +82,5 @@ footer a:hover {
 
 /* 
 font-family: 'Arsenal', sans-serif;
-font-family: 'Cousine', monospace;*/
+font-family: 'Cousine', monospace;
+*/
