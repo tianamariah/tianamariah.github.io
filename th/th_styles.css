@@ -10,7 +10,6 @@
 .nav {
   letter-spacing: 1.8px;
   text-transform: uppercase;
-  font-size: 12px;
 }
 
 .navbar-brand a {
@@ -29,18 +28,12 @@
   color: rgb(242, 212, 205);
 }
 
-.jumbotron {
-  background-image: url('img3.jpg');
-  background-position: center;
-  background-size: cover;
-  height: 550px;
-}
 
 #fanMessage {
   padding: 5% 6% 5% 6%;
   //font-family: 'Arsenal', sans-serif;
   font-family: 'Cousine', monospace;
-  font-size: .75em;
+  font-size: .85em;
 }
 
 #writings {
