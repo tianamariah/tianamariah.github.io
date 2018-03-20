@@ -37,9 +37,22 @@
   font-size: .85em;
 }
 
+#homeCover {
+    text-align: center;
+}
+
+#homeCover iframe {
+  height: 550px;
+  width: 1110px;
+}
+
 #writings {
   font-family: 'Cousine', monospace;
   padding-top: 5%;
+}
+
+#writings h6 {
+  font-weight: bolder;
 }
 
 #writings .col-sm {
@@ -47,19 +60,21 @@
   text-align: left;
 }
 
-#writings p {
+#writings p, #wCollapse1 p {
   font-size: .75em;
 }
 
 #writings a {
   font-size: .69em;
-  color: black
+  color: black;
+  font-weight: bolder;
 }
 
 #writings a:hover {
   color: rgb(242, 212, 205);
   text-decoration: none;
 }
+
 
 #covers {
   padding: 3%;
@@ -89,17 +104,22 @@
   text-decoration: none;
 }
 
-#socials  {
+#socials {
   padding: 15%;
   font-size: 1.8em;
   text-align: center;
   color: black;
 }
+
+#socials a {
+  color: black;
+}
+
 #socials span {
   margin: .2%;
 }
 
-#socials span:hover {
+#socials a:hover {
   color: rgb(242, 212, 205);
 }
 
@@ -120,6 +140,121 @@ footer a:hover {
   color: rgb(242, 212, 205);
   text-decoration: none;
 }
+
+
+/* Media Queries For Responsive Design*/
+
+@media (min-width: 320px) {
+
+  .nav {
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-left: 12%;
+  }
+
+  .navbar-brand, .navbar-brand a {
+    margin-left: 8%;
+    font-size: 32px;
+  }
+
+  #fanMessage {
+    margin-top: 5%;
+    padding: 5% 6% 5% 6%;
+    font-family: 'Cousine', monospace;
+    font-size: .75em;
+  }
+
+  #socials {
+    font-size: 1.2em;
+  }
+
+  footer {
+    font-size: .7em;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 5%;
+    letter-spacing: .5px;
+    line-height: 20px;
+  }
+
+
+ }
+
+/*Small devices (landscape phones, 360px and up) */
+
+@media (min-width: 375px) {
+
+  .nav {
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-left: 18%;
+  }
+
+  .navbar-brand, .navbar-brand a {
+    margin-left: 12.5%;
+    font-size: 32px;
+  }
+
+
+ }
+
+
+ @media (min-width: 425px) {
+
+   .nav {
+     letter-spacing: 1.5px;
+     text-transform: uppercase;
+     font-size: 12px;
+     margin-left: 25.5%;
+   }
+
+   .navbar-brand, .navbar-brand a {
+     margin-left: 18%;
+     font-size: 32px;
+   }
+
+  }
+
+
+
+/*Medium devices (tablets, 506px and up)*/
+
+@media (min-width: 768px) {
+
+  .nav {
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+    font-size: 12px;
+  }
+
+  .navbar-brand, .navbar-brand a {
+    margin-left: -1%;
+    font-size: 28px;
+  }
+
+  #socials {
+    font-size: 1.8em;
+  }
+
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+
+
+
+
+}
+
 
 
 
