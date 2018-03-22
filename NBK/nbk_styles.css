@@ -1,0 +1,150 @@
+html {
+  margin: 0;
+  width: 100%;
+  min-height: 100%;
+}
+
+
+.navbar, .navbar a, .navbar-brand a {
+  font-family: 'Poiret One', cursive;
+  color: white;
+  text-align: center;
+  background-color: black;
+}
+
+.navbar-brand {
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  padding: 1.5%;
+}
+
+#title {
+  letter-spacing: 1.9px;
+}
+
+#title:hover {
+  color: #87c2c1;
+}
+
+.navbar-nav {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.nav-item:hover.nav-link:hover {
+  color: #87c2c1;
+  background-color: white;
+}
+
+.navbar, .navbar a , .navbar-brand a {
+  font-family: 'Poiret One', cursive;
+}
+
+#main {
+  background-image: url('img/img1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 110%;
+  //opacity: .8;
+  padding: 10%;
+  height: 660px;
+  margin-left: -3%;
+}
+
+
+
+#footer {
+  font-family: 'Alegreya Sans', sans-serif;
+  background-color: #fcc853;
+  height: 55px;
+  font-size: 10px;
+  text-align: center;
+  padding: 1%;
+}
+
+#footer a  {
+  color: black;
+  font-size: 12px;
+}
+
+
+
+/* Media Queries For Responsive Design*/
+
+@media (min-width: 320px) {
+
+#title {
+  font-size: 23px;
+}
+
+ }
+
+/*Small devices (landscape phones, 360px and up) */
+
+@media (min-width: 375px) {
+
+
+
+ }
+
+
+ @media (min-width: 425px) {
+
+
+
+  }
+
+
+
+/*Medium devices (tablets, 506px and up)*/
+
+@media (min-width: 768px) {
+
+
+
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+.navbar-nav {
+  margin-left: 45%;
+  letter-spacing: 3.5px;
+  font-size: 12.5px;
+}
+
+.navbar-nav a {
+  margin: 1.5%;
+}
+
+#title {
+  letter-spacing: 15px;
+}
+
+
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+
+
+
+
+}
+
+
+/*
+
+font-family: 'Poiret One', cursive;
+font-family: 'Alegreya Sans', sans-serif;
+
+
+.footer a  {
+  color: white;
+}
+
+
+*/
