@@ -1,0 +1,166 @@
+html {
+  margin: 0;
+  width: 100%;
+  min-height: 100%;
+}
+
+
+
+.navbar, .navbar a, .navbar-brand a {
+  font-family: 'Poiret One', cursive;
+  color: white;
+  text-align: left;
+  background-color: black;
+}
+
+.navbar-brand {
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  padding: 1.5%;
+}
+
+#title {
+  letter-spacing: 3.8px;
+  font-size: 16px;
+}
+
+#title:hover {
+  color: #e8dad3;
+}
+
+
+.navbar-nav {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.nav-item {
+  font-size: 11px;
+
+}
+
+.nav-item:hover.nav-link:hover {
+  color: #e8dad3;
+  text-decoration: underline;
+}
+
+.navbar, .navbar a , .navbar-brand a {
+  font-family: 'Poiret One', cursive;
+}
+
+
+
+#main {
+  background-image: url('img/img1.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 110%;
+  padding: 10%;
+  height: 850px;
+  margin-left: -3%;
+  margin-top: 3%;
+}
+
+#footer {
+  font-family: 'Alegreya Sans', sans-serif;
+  background-color: #e8dad3;
+  height: 65px;
+  font-size: 10px;
+  text-align: center;
+  padding: 1%;
+}
+
+#footer a  {
+  color: black;
+  font-size: 12px;
+}
+
+#footer button {
+  margin-top: 1%;
+}
+
+
+
+
+/* Media Queries For Responsive Design*/
+
+@media (min-width: 320px) {
+
+
+
+ }
+
+/*Small devices (landscape phones, 360px and up) */
+
+@media (min-width: 375px) {
+
+
+
+ }
+
+
+ @media (min-width: 425px) {
+
+
+  }
+
+
+
+/*Medium devices (tablets, 506px and up)*/
+
+@media (min-width: 768px) {
+
+  #title {
+    margin-left: 3%;
+  }
+
+ }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+.navbar-nav {
+  margin-left: 45%;
+  letter-spacing: 3.5px;
+  font-size: 12.5px;
+}
+
+.navbar-nav a {
+  margin: 1.5%;
+}
+
+#title {
+  margin-left: 3%;
+}
+
+#footer button {
+  margin-top: -.5%;
+}
+
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+  #title {
+    margin-left: 20%;
+  }
+
+
+}
+
+
+/*
+
+font-family: 'Poiret One', cursive;
+font-family: 'Alegreya Sans', sans-serif;
+
+
+.footer a  {
+  color: white;
+}
+
+
+*/
