@@ -8,7 +8,7 @@ html {
 .navbar, .navbar a, .navbar-brand a {
   font-family: 'Poiret One', cursive;
   color: white;
-  text-align: center;
+  text-align: left;
   background-color: black;
 }
 
@@ -19,26 +19,35 @@ html {
 }
 
 #title {
-  letter-spacing: 1.9px;
+  letter-spacing: 3.8px;
+  font-size: 16px;
 }
 
 #title:hover {
-  color: #87c2c1;
+  color: #e8dad3;
 }
+
 
 .navbar-nav {
   text-align: center;
   text-transform: uppercase;
 }
 
+.nav-item {
+  font-size: 11px;
+
+}
+
 .nav-item:hover.nav-link:hover {
-  color: #87c2c1;
-  background-color: white;
+  color: #e8dad3;
+  text-decoration: underline;
 }
 
 .navbar, .navbar a , .navbar-brand a {
   font-family: 'Poiret One', cursive;
 }
+
+
 
 #main {
   background-image: url('img/img1.jpg');
@@ -46,18 +55,16 @@ html {
   background-position: center;
   background-attachment: fixed;
   width: 110%;
-  //opacity: .8;
   padding: 10%;
-  height: 660px;
+  height: 850px;
   margin-left: -3%;
+  margin-top: 3%;
 }
-
-
 
 #footer {
   font-family: 'Alegreya Sans', sans-serif;
-  background-color: #fcc853;
-  height: 55px;
+  background-color: #e8dad3;
+  height: 65px;
   font-size: 10px;
   text-align: center;
   padding: 1%;
@@ -68,15 +75,18 @@ html {
   font-size: 12px;
 }
 
+#footer button {
+  margin-top: 1%;
+}
+
+
 
 
 /* Media Queries For Responsive Design*/
 
 @media (min-width: 320px) {
 
-#title {
-  font-size: 23px;
-}
+
 
  }
 
@@ -92,7 +102,6 @@ html {
  @media (min-width: 425px) {
 
 
-
   }
 
 
@@ -101,7 +110,9 @@ html {
 
 @media (min-width: 768px) {
 
-
+  #title {
+    margin-left: 3%;
+  }
 
  }
 
@@ -119,9 +130,12 @@ html {
 }
 
 #title {
-  letter-spacing: 15px;
+  margin-left: 3%;
 }
 
+#footer button {
+  margin-top: -.5%;
+}
 
 
 }
@@ -129,17 +143,23 @@ html {
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
 
-
-
+  #title {
+    margin-left: 20%;
+  }
 
 
 }
 
 
 /*
+
 font-family: 'Poiret One', cursive;
 font-family: 'Alegreya Sans', sans-serif;
+
+
 .footer a  {
   color: white;
 }
+
+
 */
