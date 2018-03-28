@@ -247,6 +247,9 @@ footer a:hover {
     font-size: 1.8em;
   }
 
+  #lastSentence {
+    margin-left: 35%;
+  }
 
 
 
@@ -255,6 +258,9 @@ footer a:hover {
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 
+  #lastSentence {
+    margin-left: 35%;
+  }
 
 
 }
@@ -263,7 +269,9 @@ footer a:hover {
 @media (min-width: 1200px) {
 
 
-
+#lastSentence {
+  margin-left: 35%;
+}
 
 
 }
