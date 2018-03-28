@@ -186,6 +186,10 @@ footer a:hover {
     line-height: 20px;
   }
 
+  #signature {
+    margin-left: 45%;
+  }
+
 
  }
 
@@ -251,6 +255,10 @@ footer a:hover {
     margin-left: 35%;
   }
 
+  #signature {
+    margin-left: 65%;
+  }
+
 
 
  }
@@ -262,6 +270,10 @@ footer a:hover {
     margin-left: 35%;
   }
 
+  #signature {
+    margin-left: 65%;
+  }
+
 
 }
 
@@ -271,6 +283,11 @@ footer a:hover {
 
 #lastSentence {
   margin-left: 35%;
+}
+
+
+#signature {
+  margin-left: 65%;
 }
 
 
