@@ -186,9 +186,6 @@ footer a:hover {
     line-height: 20px;
   }
 
-  #signature {
-    margin-left: 45%;
-  }
 
 
  }
@@ -247,18 +244,13 @@ footer a:hover {
     font-size: 28px;
   }
 
+  #fanMessage {
+    text-align: center;
+    }
+
   #socials {
     font-size: 1.8em;
   }
-
-  #lastSentence {
-    margin-left: 35%;
-  }
-
-  #signature {
-    margin-left: 65%;
-  }
-
 
 
  }
@@ -266,13 +258,9 @@ footer a:hover {
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 
-  #lastSentence {
-    margin-left: 35%;
-  }
-
-  #signature {
-    margin-left: 65%;
-  }
+  #fanMessage {
+    text-align: center;
+    }
 
 
 }
@@ -281,14 +269,10 @@ footer a:hover {
 @media (min-width: 1200px) {
 
 
-#lastSentence {
-  margin-left: 35%;
-}
+  #fanMessage {
+    text-align: center;
+    }
 
-
-#signature {
-  margin-left: 65%;
-}
 
 
 }
