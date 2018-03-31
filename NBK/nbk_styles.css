@@ -109,8 +109,8 @@ video:hover {
 }
 
 #about {
-  background-attachment: fixed;
-  background-color: rgba(242,189,208, .3);
+  //background-color: rgba(242,189,208, .3);
+  border: 1px solid rgba(242,189,208, .3);
 }
 
 #about h1 {
@@ -148,6 +148,108 @@ video:hover {
   padding: 2.5%;
 }
 
+#image3 {
+  //background-image: linear-gradient(-225deg, #2CD8D5 0%, #C5C1FF 56%, #FFBAC3 100%);
+  background-image: url('img/img4.jpg');
+  background-position: top;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 15%;
+  height: 230px;
+  opacity: .5;
+}
+
+#image4 {
+  //background-image: linear-gradient(-225deg, #2CD8D5 0%, #C5C1FF 56%, #FFBAC3 100%);
+  background-image: url('img/img3.jpg');
+  background-position: top;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 15%;
+  height: 230px;
+  opacity: .5;
+}
+
+#image5 {
+  //background-image: linear-gradient(-225deg, #2CD8D5 0%, #C5C1FF 56%, #FFBAC3 100%);
+  background-image: url('img/img5.jpg');
+  background-position: top;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 15%;
+  height: 230px;
+  opacity: .5;
+}
+
+#menuS {
+  padding: 20%;
+}
+
+#menuS h1 {
+  font-family: 'Poiret One', cursive;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#menuS caption {
+    font-family: 'Poiret One', cursive;
+    text-align: center;
+    padding: 5%;
+}
+
+.table {
+  text-align: center;
+  margin-top: 5%;
+}
+
+.table-borderless > tbody > tr > td,
+.table-borderless > tbody > tr > th,
+.table-borderless > tfoot > tr > td,
+.table-borderless > tfoot > tr > th,
+.table-borderless > thead > tr > td,
+.table-borderless > thead > tr > th {
+    border: none;
+}
+
+.table > thead > tr  {
+  margin: 35%;
+}
+
+
+#galleryImages {
+  padding: 10%;
+}
+
+#galleryImages h1 {
+  font-family: 'Poiret One', cursive;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 3%;
+}
+
+#galleryImages h5 {
+  font-family: 'Poiret One', cursive;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 5%;
+}
+
+
+
+#galleryImages{
+  padding: 3%;
+  text-align: center;
+}
+
+#galleryImages .nav {
+  padding-top: 3%;
+}
+
+#galleryImages .nav a {
+  font-family: 'Alegreya Sans';
+  color: black;
+  font-size: 14px;
+}
 
 #socialsAbout, #socialsAbout a {
     text-align: center;
@@ -257,6 +359,15 @@ video:hover {
   text-align: center;
 }
 
+#menuS caption {
+  text-align: left;
+}
+
+#showArrow {
+  display: block;
+  text-align: center;
+}
+
 
 }
 
@@ -294,6 +405,11 @@ video:hover {
   margin-left: 5%;
 }
 
+#showArrow {
+  display: block;
+  text-align: center;
+}
+
 
  }
 
@@ -329,6 +445,11 @@ video:hover {
 
    #vids .row  {
      margin-left: 8.5%;
+   }
+
+   #showArrow {
+     display: block;
+     text-align: center;
    }
 
   }
@@ -396,6 +517,16 @@ video:hover {
 #aboutContent  h5 {
 
 }
+
+#menuS caption {
+  text-align: center;
+}
+
+#showArrow {
+  display: none;
+}
+
+
 
  }
 
@@ -482,6 +613,15 @@ video:hover {
   padding: 20%:
 }
 
+#menuS caption {
+  text-align: center;
+}
+
+#showArrow {
+  display: none;
+}
+
+
 
 }
 
@@ -536,6 +676,14 @@ video:hover {
     margin-left: 2.5%;
   }
 
+
+  #menuS caption {
+    text-align: center;
+  }
+
+  #showArrow {
+    display: none;
+  }
 
 
 
