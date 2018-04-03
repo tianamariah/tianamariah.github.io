@@ -11,7 +11,7 @@ html,body  {
 
 .navbar, .navbar a, .navbar-brand a {
   font-family: 'Poiret One', cursive;
-  color: white;
+  color: black;
   text-align: left;
 }
 
@@ -28,7 +28,7 @@ html,body  {
 }
 
 #title:hover {
-  color: #e8dad3;
+  color: white;
 }
 
 .navbar-nav {
@@ -38,7 +38,7 @@ html,body  {
 
 
 .nav-item:hover.nav-link:hover {
-  color: #e8dad3;
+  color: white;
   text-decoration: underline;
 }
 
@@ -111,6 +111,7 @@ video:hover {
 #about {
   //background-color: rgba(242,189,208, .3);
   border: 1px solid rgba(242,189,208, .3);
+  padding: 10%;
 }
 
 #about h1 {
@@ -142,7 +143,7 @@ video:hover {
   font-family: 'Alegreya Sans', sans-serif;
 }
 
-#aboutContent  h5 {
+#aboutContent  h1,  #appointments h1 {
   text-align: center;
   font-family: 'Poiret One', cursive;
   padding: 2.5%;
@@ -181,8 +182,19 @@ video:hover {
   opacity: .5;
 }
 
+#image6 {
+  //background-image: linear-gradient(-225deg, #2CD8D5 0%, #C5C1FF 56%, #FFBAC3 100%);
+  background-image: url('img/img6.jpg');
+  background-position: top;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 15%;
+  height: 230px;
+  opacity: .5;
+}
+
 #menuS {
-  padding: 20%;
+  padding: 5%;
 }
 
 #menuS h1 {
@@ -220,11 +232,12 @@ video:hover {
   padding: 10%;
 }
 
-#galleryImages h1 {
+#galleryImages h3 {
   font-family: 'Poiret One', cursive;
   text-transform: uppercase;
   text-align: center;
   padding: 3%;
+  letter-spacing: 3px;
 }
 
 #galleryImages h5 {
@@ -251,6 +264,48 @@ video:hover {
   font-size: 14px;
 }
 
+#galleryImages {
+  width: 85%;
+  padding: 3%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#galleryImages img {
+  -webkit-box-shadow: 0 10px 6px -6px #777;
+  -moz-box-shadow: 0 10px 6px -6px #777;
+  box-shadow: 0 10px 6px -6px #777;
+  width: 285px;
+}
+
+#galleryImages .row .col-md {
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 25px;
+}
+
+.showMore {
+  font-family: 'Alegreya Sans';
+  color: black;
+  font-size: 14px;
+}
+
+.showMore:hover {
+  color: #C5C1FF;
+  text-decoration: none;
+  opacity: .5;
+}
+
+#appointments {
+  background-color: white;
+  padding: 5%;
+}
+
+#buttons {
+  text-align: center;
+}
+
+
 #socialsAbout, #socialsAbout a {
     text-align: center;
     margin-top: 1%;
@@ -276,14 +331,33 @@ video:hover {
 }
 
 #footer a  {
-  color: white;
+  color: black;
   font-size: 10px;
   letter-spacing: 3px;
+}
+
+#footer a:hover {
+  color: white;
+}
+
+#vidButton, #appointmentsButton1, #appointmentsButton2, #footerButton {
+  background-color: transparent;
+  color: #000;
+  border: .5px solid #000;
+  font-family: 'Alegreya Sans', sans-serif;
+   cursive;text-transform: uppercase;
+   letter-spacing: 2.5px;
+}
+
+#vidButton:hover, #appointmentsButton1:hover, #appointmentsButton2:hover, #footerButton:hover {
+  background-color: black;
+  color: white;
 }
 
 .col-sm {
   padding-top: 0px;
 }
+
 
 
 /* Media Queries For Responsive Design  -------------------------------------------------------------------  */
@@ -305,6 +379,13 @@ video:hover {
   padding-top: 2%;
 }
 
+#main {
+  display: none;
+}
+
+#vids {
+  margin-top: 18.5%;
+}
 
 #footer a {
   font-size: .5rem;
@@ -470,6 +551,15 @@ video:hover {
     padding-top: 0px;
   }
 
+  #vids {
+    margin-top: 0;
+  }
+
+  #main {
+    display: block;
+  }
+
+
   #footer a {
     font-size: 10px;
   }
@@ -514,9 +604,6 @@ video:hover {
   margin-top: -20%;
 }
 
-#aboutContent  h5 {
-
-}
 
 #menuS caption {
   text-align: center;
@@ -525,6 +612,7 @@ video:hover {
 #showArrow {
   display: none;
 }
+
 
 
 
@@ -556,6 +644,14 @@ video:hover {
 
 .col-sm {
   padding-top: 0px;
+}
+
+#main {
+  display: block;
+}
+
+#vids {
+  margin-top: 0;
 }
 
 #footer a {
@@ -640,6 +736,14 @@ video:hover {
 
   .col-sm {
     padding-top: 0px;
+  }
+
+  #main {
+    display: block;
+  }
+
+  #vids {
+    margin-top: 0;
   }
 
   #footer a {
