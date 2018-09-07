@@ -1,0 +1,22 @@
+body {
+  background: url('img/img2.jpg');
+  height: 1366px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+font-family: 'Arapey';
+font-family: 'Cormorant';
+font-family: 'Dynalight';
+font-family: 'Halant';
+font-family: 'Mate';
+font-family: 'Nanum Myeongjo';
+font-family: 'Old Standard TT';
+font-family: 'Pompiere';
+font-family: 'Unica One';
+font-family: 'Plaster', cursive; /* timestap font */
+font-family: 'Coda', cursive;
+font-family: 'Poller One', cursive;
+font-family: 'Bowlby One', cursive;
