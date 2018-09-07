@@ -35,25 +35,12 @@
         <h1>Universal Conspiracy</h1>
         <p id="cd"></p>
         <figure id="vidContainer">
-          <video id="ucTeaserVid" onclick="showCtrls()" width="400" height="400" preload="metadata" controls>
+          <video id="ucTeaserVid" onclick="showCtrls()" width="400" height="400" preload="metadata">
             <source src="uc_teaser.mp4" type="video/mp4">
             <source src="uc_teaser.webm" type="video/webm">
               <source src="uc_teaser.ogg" type="video/ogg">
             <p>Your browser doesn't support HTML5 video. Here is a <a href="uc_teaser.webm">link to the video</a> instead.</p>
           </video>
-          <ul id="video-controls" class="controls">
-            <li><button id="playpause" type="button">Play/Pause</button></li>
-            <li><button id="stop" type="button">Stop</button></li>
-            <li class="progress">
-              <progress id="progress" value="0" min="0">
-                <span id="progress-bar"></span>
-              </progress>
-            </li>
-            <li><button id="mute" type="button">Mute/Unmute</button></li>
-            <li><button id="volinc" type="button">Vol+</button></li>
-            <li><button id="voldec" type="button">Vol-</button></li>
-            <li><button id="fs" type="button">Fullscreen</button></li>
-          </ul>
         </figure>
       </div>
     </div>
