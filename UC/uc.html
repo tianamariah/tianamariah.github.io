@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>UNIVERSAL CONSPIRACY | Tonee Heart</title>
+<link href="https://fonts.googleapis.com/css?family=Cousine:400,400i,700,700i" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Josefin+Slab:100,300,400,600" rel="stylesheet">
+<link rel="stylesheet" href="uc_styles.css">
+</head>
+  <body id="body">
+      <div class="vidBox" id="box">
+          <video class="vid" id="ucTeaserVid" preload="metadata" poster="img/poster2.jpg" controls>
+            <source src="uc_teaser.mp4" type="video/mp4">
+            <source src="uc_teaser.webm" type="video/webm">
+              <source src="uc_teaser.ogg" type="video/ogg">
+            <p>Your browser doesn't support HTML5 video. Here is a <a href="uc_teaser.webm">link to the video</a> instead.</p>
+          </video>
+            <div id="main" class="container-fluid" tyle="display:none;">
+              <p>Are you ready?</p>
+              <p id="cd"></p>
+            </div>
+        </div>
+    <!--<video id="ucTeaserVid" onclick="showCtrls()" preload="metadata">
+      <source src="uc_teaser.mp4" type="video/mp4">
+      <source src="uc_teaser.webm" type="video/webm">
+        <source src="uc_teaser.ogg" type="video/ogg">
+      <p>Your browser doesn't support HTML5 video. Here is a <a href="uc_teaser.webm">link to the video</a> instead.</p>
+    </video>-->
+   <!--<iframe  src="uc_teaser.mp4" allowfullscreen id="ucTeaserVid" onclick="showCtrls()"></iframe>-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script>
+
+    var vid = document.getElementById("ucTeaserVid");
+    vid.addEventListener("ended", hideVideo, false);
+
+    function hideVideo() {
+        var vid = document.getElementById("ucTeaserVid");
+        var other = document.getElementById("main");
+        vid.removeEventListener("ended", hideVideo, false);
+        vid.style.display = "none";
+        other.style.display = "block";
+    }
+
+
+    /* Counter Starts */
+    // Set the date we're counting down to
+      var countDownDate = new Date("November 1, 2018").getTime();
+
+      // Update the count down every 1 second
+      var x = setInterval(function() {
+
+        // Get todays date and time
+        var now = new Date().getTime();
+
+        // Find the distance between now and the count down date
+        var distance = countDownDate - now;
+
+        // Time calculations for days, hours, minutes and seconds
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        // Output the result in an element with id="demo"
+        document.getElementById("cd").innerHTML = ""+ days + " : " + hours + " : "
+        + minutes + " : " + seconds + "" + "";
+
+        // If the count down is over, write some text
+        if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("cd").innerHTML = "EXPIRED";
+        }
+      }, 1000);
+
+      /* Counter Ends */
+
+      /* OnClick Video Controls will Display
+
+      function showCtrls() {
+        document.getElementById("ucTeaserVid").controls = true;
+        document.getElementById('ucTeaserVid').style.borderRadius = "25px";
+      }*/
+
+      /* OnClick ends */
+    </script>
+  </body>
+</html>
