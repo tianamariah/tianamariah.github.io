@@ -1,0 +1,595 @@
+#body {
+  background-image: url('img/img3.jpg');
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #fff;
+  width: 100%;
+  height: 750px;
+}
+
+
+#header {
+  text-align: center;
+  margin-top: 25.5%;
+  color: #000;
+}
+
+#header h2 {
+  font-family: 'Kumar One', cursive;
+  cursor: pointer;
+  margin-bottom: -.1%;
+  letter-spacing: 2.8px;
+}
+
+#header span {
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+  letter-spacing: 3px;
+  font-size: 20px;
+}
+
+#header a {
+  color: #000;
+}
+
+h2 a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+#nav a {
+  font-family: 'Mogra', cursive;
+  color: #000;
+  cursor: pointer;
+  font-size: 1.5em;
+}
+
+#menuToggle {
+  text-align: center;
+  font-family: 'Kumar One', cursive;
+}
+
+#menuToggle label {
+  text-decoration: none;
+}
+
+label:hover {
+  text-decoration: none;
+  color: #000;
+  letter-spacing: 3px;
+}
+
+label {
+  cursor: pointer;
+  font-size: 3em;
+  text-decoration: underline;
+}
+
+label, #content {
+  height: auto;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+#menu-toggle {
+  display: none;
+}
+
+#menu {
+  text-align: center;
+  width: auto;
+  overflow: hidden;
+  max-height: 0;
+  padding: 0;
+  margin: 0 auto;
+  -webkit-transition: all 0.3s ease;
+}
+
+#menu li {
+  padding: 2%;
+}
+
+#menu li a {
+  padding: 1%;
+  color: black;
+  letter-spacing: 1.8px;
+}
+
+#menu li a:hover {
+  background-color: black;
+  text-decoration: none;
+  letter-spacing: 10px;
+  cursor: pointer;
+}
+
+#nav li a:hover {
+  background-color: black;
+  text-decoration: none;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+#pink:hover {
+  color: pink;
+  cursor: pointer;
+}
+
+#blue:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+#green:hover {
+  color: #88d8b0;
+  cursor: pointer;
+}
+
+#white:hover {
+  color: white;
+  cursor: pointer;
+}
+
+#menu-toggle:checked + #menu {
+  max-height: 400px;
+  font-size: 2em;
+}
+
+.photoGallery {
+  text-align: center;
+  font-family: 'Barrio', cursive;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 25%;
+}
+
+.photoGallery h5 {
+  padding-top: 3%;
+  font-size: 1.2em;
+}
+
+.photoGallery hr {
+  margin-top: .1%;
+}
+
+.photoGallery .col-lg {
+  margin: .8%;
+}
+.photoGallery img:hover {
+  opacity: .7;
+}
+
+.photoGallery img {
+  box-shadow: 0 10px 6px -6px #777;
+}
+
+
+#spacerTablet {
+  height: 350px;
+}
+
+#bottom {
+  text-align: center;
+  font-family: 'Barrio', cursive;
+  font-size: .7em;
+  letter-spacing: 5px;
+  width: 100%;
+}
+
+
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                        /* Media Queries For Responsive Design*/
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                        /*Small devices (landscape phones, 320px and up) */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+
+
+@media (min-width: 320px) {
+
+  #body {
+    display: block;
+    width: 100% !important;
+    height: 275px;
+    background-image: url('img/img3.jpg');
+    margin-top: -3%;
+  }
+
+  #header {
+    margin-top: -60%;
+  }
+
+  #header h2 a {
+    font-size: 16px;
+    color: #fff;
+  }
+
+  #menuToggle {
+    display: block;
+    padding: .5%;
+    background-color: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30%;
+    color: #fff;
+}
+
+#menu li a {
+  padding: 15%;
+  color: #fff !important;
+}
+
+.democlass {
+  background-color: #000;
+  padding-top: 35%;
+  color: #fff;
+  height: 320px;
+}
+
+#menu li:first-child {
+  padding-top: 10%;
+}
+
+
+  label, #menu-toggle:checked + #menu, label:hover {
+    color: #fff;
+    font-size:1.2em;
+  }
+
+  #menu-toggle:checked + #menu {
+    font-size: 1.5em;
+    color: #fff;
+  }
+
+  #btm {
+    height: 900px;
+  }
+
+  #nav {
+    display: none;
+  }
+
+.photoGallery {
+  margin-top: 10%;
+}
+
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                        /*Small devices (landscape phones, 360px and up) */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+
+@media (min-width: 375px) {
+
+  #body {
+    display: block;
+    width: 100% !important;
+    height: 320px;
+    background-image: url('img/img3.jpg');
+    margin-top: -3%;
+  }
+
+  #header {
+    margin-top: -60%;
+  }
+
+  #header h2 a {
+    font-size: 20px;
+    padding: 2%;
+    color: #fff;
+  }
+
+  #menuToggle {
+    display: block;
+    padding: .5%;
+    background-color: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 33%;
+    color: #fff;
+}
+
+#menu li a {
+  padding: 15%;
+  color: #fff !important;
+}
+
+.democlass {
+  background-color: #000;
+  padding-top: 10%;
+  color: #fff;
+  height: 300px;
+}
+
+
+  label, #menu-toggle:checked + #menu, label:hover {
+    color: #fff;
+    font-size:1.2em;
+  }
+
+  #menu-toggle:checked + #menu {
+    font-size: 1.5em;
+    color: #fff;
+  }
+
+  #btm {
+    height: 900px;
+  }
+
+      #menu li:first-child {
+        padding-top: 8%;
+      }
+
+  #nav {
+    display: none;
+  }
+
+}
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                        /*Small devices (landscape phones, 425px and up) */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+
+@media (min-width: 425px) {
+
+    #body {
+      display: block;
+      width: 100% !important;
+      height: 360px;
+      background-image: url('img/img3.jpg');
+      margin-top: -3%;
+    }
+
+    #header {
+      margin-top: -58%;
+    }
+
+    #header h2 a {
+      font-size: 22px;
+      padding: 2%;
+      color: #fff;
+    }
+
+    #menuToggle {
+      display: block;
+      padding: .5%;
+      background-color: none;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 30%;
+      color: #fff;
+  }
+
+  #menu li a {
+    padding: 5%;
+    color: #fff !important;
+  }
+
+  .democlass {
+    background-color: #000;
+    padding-top: 10%;
+    color: #fff;
+  }
+
+
+    label, #menu-toggle:checked + #menu, label:hover {
+      color: #fff;
+      font-size:1.2em;
+    }
+
+    #menu-toggle:checked + #menu {
+      font-size: 1.5em;
+      color: #fff;
+    }
+
+    #btm {
+      height: 900px;
+    }
+
+
+    #menu li:first-child {
+      padding-top: 5%;
+    }
+
+    #nav {
+      display: none;
+    }
+
+
+  }
+
+
+
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                        /*Medium devices (tablets, 506px and up)*/
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+@media (min-width: 506px) {
+
+  #body {
+    display: block;
+    width: 100% !important;
+    height: 400px;
+    background-image: url('img/img3.jpg');
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #fff;
+  }
+
+  #header {
+    margin-top: -10% !important;
+  }
+
+  #header h2 a {
+    font-size: 20px;
+    padding: 5%;
+    color: #fff;
+  }
+  #nav {
+    display: none;
+    font-family: 'Barrio', cursive;
+  }
+
+  #menuToggle, label:hover, label {
+    display:block;
+    color: #000;
+    margin-top: 1.5%;
+  }
+
+  #menu li:first-child {
+    padding-top: 5%;
+  }
+
+  .photoGallery {
+    margin-top: 0%;
+    width: 85%;
+  }
+
+
+ }
+
+ /* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                         /*Tablet Devices 768px and up) */
+ /* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+
+
+@media (min-width: 768px) {
+  #body {
+    display: block;
+    width: 100% !important;
+    height: 400px;
+    background-image: url('img/img3.jpg');
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #fff;
+  }
+
+  #header {
+    margin-top: -5% !important;
+  }
+
+  #header h2 a {
+    font-size: 20px;
+    padding: 5%;
+    color: #fff;
+  }
+
+  #menuToggle, label:hover, label {
+    display:block;
+    color: #000;
+    margin-top: .2%;
+  }
+
+  #menu-toggle:checked + #menu {
+    font-size: 1.1em;
+    color: #fff;
+  }
+
+  .photoGallery {
+    margin-top: 0%;
+    width: 85%;
+  }
+
+}
+
+
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                        /* Large devices (desktops, 1024px and up) */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+@media (min-width: 1024px) {
+
+#body {
+    display: block;
+    width: 100% !important;
+    height: 900px !important;
+    background-image: url('img/img3.jpg');
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #fff;
+  }
+
+  #header {
+    margin-top: -40% !important;
+  }
+
+  #header h2 a {
+    font-size: 1.2em !important;
+  }
+
+  #nav {
+    display: block;
+    font-family: 'Barrio', cursive;
+  }
+
+#nav li a {
+  color: #fff;
+}
+  #menuToggle {
+    display: none;
+  }
+
+
+  .photoGallery {
+    width: 65%;
+  }
+
+
+}
+
+
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                        /* Extra large devices (large desktops, 1440px and up) */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+@media (min-width: 1440px) {
+
+
+  #header {
+    margin-top: -15% !important;
+  }
+
+
+
+}
+
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                /* ExtraExtra large devices (large desktops, 2560px and up) */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+@media (min-width: 2560px) {
+
+
+    #body {
+      display: block;
+      width: 100% !important;
+      height: 1950px !important;;
+      background-image: url('img/img3.jpg');
+      background-position: top;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-color: #fff;
+    }
+
+    #header h2 a {
+      font-size: 1.8em !important;
+    }
+
+    #nav a {
+      font-family: 'Mogra', cursive;
+      color: #000;
+      cursor: pointer;
+      font-size: 2.5em;
+    }
+
+    #menuToggle {
+      display: none;
+    }
+
+    .photoGallery {
+      width: 45%;
+    }
+
+}
