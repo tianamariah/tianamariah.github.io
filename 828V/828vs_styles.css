@@ -1,0 +1,338 @@
+@font-face {
+    font-family: 'webfontregular';
+    src: url('fonts/perfect_redemption_regular.woff2') format('woff2'),
+         url('fonts/perfect_redemption_regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+nav {
+  background-size: cover;
+  background-position: top;
+  height: 45px;
+  width: 105% !important;
+}
+
+.navbar a {
+  color: #000;
+  letter-spacing: 4px;
+  background-color: #fff;
+  font-family: 'webfontregular';
+}
+
+.mobileSocials {
+  height: 35px;
+  padding-bottom: 2.5% !important;
+}
+
+.mobileMenu {
+  height: 45px;
+  padding-top: 2%;
+  //background-image: url('img/img_bg2.jpg');
+  background-size: cover;
+  width: 105% !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mobileMenu i {
+    margin-top: -20%;
+}
+
+.show {
+  display: block;
+}
+
+.mobileSocials a {
+  color: #000;
+}
+
+.mobileSocials, .mobileMenu, .mobileSocials a, .mobileMenu a  {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+}
+
+.mobileSocials a {
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.mobileSocials {
+  margin-top: -5%;
+  padding-left: 55%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#promoSection {
+  text-align: center;
+  padding-top: 5%;
+  font-family: 'webfontregular';
+  text-transform: uppercase;
+}
+
+#promoVid {
+  margin-top: 5%;
+  height: 360px;
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url('img/homePageVid.gif');
+  background-position: bottom;
+  background-size: cover;
+}
+
+.home_lead_menu {
+  margin-top: 10%;
+  width: 250px;
+  height: 350px;
+  padding: 3.5% !important;
+}
+
+.col-sm img, .col-sm {
+  //padding: 2%;
+}
+
+#myDropdown {
+  display: none;
+  margin-top: -10%;
+  padding: 1%;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 3%;
+}
+
+.dropdown-content a {
+  color:#000;
+  font-size: 18px;
+  font-family: 'Didact Gothic', sans-serif;
+  text-transform: uppercase;
+}
+
+.dropdown-content a:hover {
+  text-transform: lowercase;
+  background-color: #000;
+  color: #fff;
+  letter-spacing: 5px;
+  text-decoration: none;
+}
+
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                        /* Media Queries For Responsive Design*/
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                        /*Small devices (landscape phones, 320px and up) */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+
+
+@media (min-width: 320px) {
+
+  body {
+    margin-top: 10%;
+  }
+
+  nav {
+    height: 55px;
+  }
+
+  .navbar a {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20.5px;
+    padding: 1.5%;
+    text-align: center;
+  }
+
+  .mobileMenu a {
+    font-size: 10px;
+  }
+
+  .mobileSocials, .mobileMenu {
+    display: block;
+  }
+
+  #carouselHomepage {
+    display: none;
+  }
+
+  #myDropdown {
+    display: none;
+  }
+
+  #menuLink {
+    margin-top: -3%;
+    margin-left: -2%;
+  }
+
+
+}
+
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                        /*Small devices (landscape phones, 360px and up) */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+
+@media (min-width: 375px) {
+
+  body {
+    margin-top: -15% !important;
+  }
+
+  .navbar a {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 22.5px;
+    padding: 1.5%;
+    text-align: center;
+  }
+
+  .mobileSocials, .mobileMenu {
+    display: block;
+  }
+
+  #carouselHomepage {
+    display: none;
+  }
+
+}
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                        /*Small devices (landscape phones, 425px and up) */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+
+@media (min-width: 425px) {
+
+  body {
+    margin-top: -15% !important;
+  }
+
+  .navbar a {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 22.5px;
+    padding: 1.5%;
+    text-align: center;
+  }
+
+  .mobileSocials, .mobileMenu {
+    display: block;
+  }
+
+  #carouselHomepage {
+    display: none;
+  }
+
+  }
+
+
+
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                        /*Medium devices (tablets, 506px and up)*/
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+@media (min-width: 506px) {
+
+  .navbar a {
+    font-size: 28px;
+    padding: .6%;
+  }
+
+  .mobileSocials, .mobileMenu {
+    display: block;
+  }
+
+  #carouselHomepage {
+    display: block;
+  }
+
+ }
+
+ /* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                         /*Tablet Devices 768px and up) */
+ /* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+
+
+@media (min-width: 768px) {
+
+  .navbar a {
+    font-size: 40px;
+    padding: .6%;
+  }
+
+  .mobileSocials, .mobileMenu {
+    display: none;
+  }
+
+  #carouselHomepage {
+    display: block;
+  }
+}
+
+
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                        /* Large devices (desktops, 1024px and up) */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+@media (min-width: 1024px) {
+
+  .navbar a {
+    font-size: 40px;
+    padding: .6%;
+  }
+
+  .mobileSocials, .mobileMenu {
+    display: none;
+  }
+
+  #carouselHomepage {
+    display: block;
+  }
+
+}
+
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                /* ExtraExtra large devices (large desktops, 2560px and up) */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+@media (min-width: 2560px) {
+
+  .navbar a {
+    font-size: 40px;
+    padding: .6%;
+  }
+
+  .mobileSocials, .mobileMenu {
+    display: none;
+  }
+
+  #carouselHomepage {
+    display: block;
+  }
+
+
+}
+
+
+
+
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                                       /* Fonts */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+
+/*
+
+font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Russo One', sans-serif;
+font-family: 'Comfortaa', cursive;
+font-family: 'Barriecito', cursive;
+font-family: 'Didact Gothic', sans-serif;
+
+font-family: 'Baloo', cursive;
+
+*/
