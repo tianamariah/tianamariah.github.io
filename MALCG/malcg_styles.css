@@ -1,0 +1,452 @@
+#body {
+  background-color: #000;
+  background-image: url('img/bg.jpg');
+}
+
+#main {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+}
+
+#centerHome, #centerHome2 {
+  margin-left: 30%;
+  margin-right: 30%;
+
+}
+
+.navbar {
+  height: 55px;
+  font-family: 'Knewave', cursive;
+  color: #000;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-shadow: none;
+  background-image: url('img/bg.jpg');
+  background-repeat: no-repeat;
+}
+
+.navbar-nav, .nav-link {
+  font-family: 'Knewave', cursive;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-family: 'Knewave', cursive;
+  color: #000;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-shadow: none;
+  text-shadow: 4px 4px 2px red;
+  -webkit-text-stroke: 1px #f3ebeb;
+}
+
+.nav-link:hover, .dropdown-item h3:hover {
+  text-decoration: none;
+  color: #fff;
+  text-shadow: 5px 5px 4px red;
+  -webkit-text-stroke: 2px #000;
+  text-transform: uppercase;
+}
+
+.dropdown-item h3 {
+  font-size: 18px;
+}
+
+.navbar-toggler-icon, .navbar-light,  .navbar-toggler {
+  border: none;
+}
+
+#main {
+  display: none;
+}
+
+#centerHome2 {
+  margin-left: -52%;
+}
+
+
+#promo {
+  margin-left: 105%;
+}
+
+#desktopPromo {
+  margin-left: 3%;
+  margin-top: -10%;
+  padding: 15%;
+}
+
+#desktopPromo h3 {
+  font-family: 'Knewave', cursive;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-family: 'Knewave', cursive;
+  color: #000;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-shadow: none;
+  text-shadow: 4px 4px 2px red;
+  -webkit-text-stroke: 1px #f3ebeb;
+  font-size: 18px;
+}
+
+#musicTags img:hover, #musicTags a:hover, #musicTags:hover {
+  background-color:rgba(0, 0, 0, .3);
+}
+
+
+#heading, #heading h1 {
+  font-family: 'Knewave', cursive;
+  color: #000;
+  text-transform: uppercase;
+  text-shadow: 10px 10px 4px red;
+  -webkit-text-stroke: 2px #f3ebeb;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#heading h2, #heading h3 {
+  font-family: 'Knewave', cursive;
+  color: #000;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-shadow: none;
+}
+
+#artist_name {
+  font-size: 40px;
+  font-family: 'Knewave', cursive;
+  color: #000;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-shadow: none;
+  text-shadow: 4px 4px 2px red;
+  -webkit-text-stroke: 2px #f3ebeb;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-left: 5%;
+}
+
+#artist_tagline {
+  font-size: 18px;
+  font-family: 'Knewave', cursive;
+  color: #000;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-shadow: none;
+}
+
+
+#gr8ness_logo {
+  -webkit-transform:rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  transform: rotate(270deg);
+  height: 180px;
+  width: auto;
+  background-color: none;
+  margin-top: -12%;
+}
+
+#sectionHeading, #sectionHeading2 {
+  font-family: 'Knewave', cursive;
+  color: #000;
+  text-shadow: none;
+  text-align: center;
+}
+
+#sectionHeading2 {
+  margin-top: 25%;
+  margin-left: -15%;
+}
+
+#sectionHeading {
+  margin-left: 15%;
+  margin-top: -10%;
+}
+
+#sectionHeading h4 {
+  background-color: #fff;
+  width: 100%;
+  margin-left: 55%;
+  margin-right: auto;
+  margin-top: 35%;
+}
+
+#artist_email {
+  font-size: 20px
+}
+
+#promo {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10% !important;
+}
+
+#sectionHeading2 {
+  padding: 0 !important;
+}
+
+#socials {
+  margin-top: 2%;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#socials, #socials a {
+  font-family: 'Knewave', cursive;
+  color: #000;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+#socials a:hover {
+  text-decoration: none;
+  color: #fff;
+  text-shadow: 10px 10px 4px red;
+  -webkit-text-stroke: 2px #000;
+  text-transform: uppercase;
+}
+
+/* Rollin thru Images Start */
+
+#cf {
+  position:relative;
+  height: 400px;
+  width: 400px;
+  margin:0 auto;
+}
+
+#cf img {
+  position:absolute;
+  left:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+@keyframes cf3FadeInOut {
+   0% {
+   opacity:1;
+  }
+  45% {
+  opacity:1;
+  }
+  55% {
+  opacity:0;
+  }
+  100% {
+  opacity:0;
+  }
+}
+
+#cf3 img.top {
+  animation-name: cf3FadeInOut;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 10s;
+  animation-direction: alternate;
+}
+
+/* Rollin thru Images End */
+
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                        /* Media Queries For Responsive Design*/
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                        /*Small devices (landscape phones, 320px and up) */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+
+
+@media (min-width: 320px) {
+
+  #body {
+    background-color: #fff;
+  }
+
+#main {
+    display: block;
+  }
+
+#promo img {
+  margin-left: 13%;
+}
+
+#desktopPromo {
+  margin-top: .1%;
+}
+
+#artist_name {
+  text-align: center;
+}
+
+
+
+
+}
+
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                        /*Small devices (landscape phones, 360px and up) */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+
+@media (min-width: 375px) {
+
+  #main {
+    display: block;
+  }
+
+  #artist_name {
+    text-align: center;
+  }
+
+
+
+
+}
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                        /*Small devices (landscape phones, 425px and up) */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+
+@media (min-width: 425px) {
+
+  #main {
+    display: block;
+  }
+
+  #artist_name {
+    text-align: center;
+  }
+
+
+  }
+
+
+
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                        /*Medium devices (tablets, 506px and up)*/
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+@media (min-width: 506px) {
+
+  #body {
+    background-color: #fff;
+  }
+
+  #main {
+    display: none;
+  }
+
+  #desktopPromo {
+    margin-top: -10%;
+  }
+
+
+ }
+
+ /* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                         /*Tablet Devices 768px and up) */
+ /* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+
+
+@media (min-width: 768px) {
+
+  #body {
+    background-color: #fff;
+  }
+
+  #main {
+    display: none;
+  }
+
+  #desktopPromo {
+    margin-top: -10%;
+  }
+
+
+
+
+
+
+}
+
+
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                        /* Large devices (desktops, 1024px and up) */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+@media (min-width: 1024px) {
+
+  #body {
+    background-color: #fff;
+  }
+
+  #main {
+    display: none;
+  }
+
+  #desktopPromo {
+    margin-top: -10%;
+  }
+
+
+}
+
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                /* Large devices (large desktops, 1440px and up) */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+@media (min-width: 1440px) {
+
+  #main {
+    display: none;
+  }
+
+  #desktopPromo {
+    margin-top: -10%;
+  }
+
+
+
+
+}
+
+
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                /* ExtraExtra large devices (large desktops, 2560px and up) */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+@media (min-width: 2560px) {
+  #main {
+    display: none;
+  }
+
+  #desktopPromo {
+    margin-top: -10%;
+  }
+
+}
+
+
+
+
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                                       /* Fonts */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+
+
+/*
+
+font-family: 'Catamaran', sans-serif;
+font-family: 'Knewave', cursive;
+font-family: 'UnifrakturCook', cursive;
+font-family: 'Coda Caption', sans-serif;
+*/
