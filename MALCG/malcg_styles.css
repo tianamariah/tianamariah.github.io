@@ -1,0 +1,571 @@
+#body {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#centerHome, #centerHome2 {
+  margin-left: 30%;
+  margin-right: 30%;
+
+}
+
+.navbar {
+  height: 70px;
+  font-family: 'Knewave', cursive;
+  color: #000;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-shadow: none;
+  background-image: url('img/img_bg2.jpg');
+  background-repeat: no-repeat;
+  margin-top: -.5% !important;
+}
+
+.navbar-nav, .nav-link {
+  font-family: 'Knewave', cursive;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-family: 'Knewave', cursive;
+  color: #fff;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-shadow: none;
+  text-shadow: 4px 4px 2px red;
+  -webkit-text-stroke: 1px #000;
+}
+
+.nav-link:hover, .dropdown-item h3:hover {
+  text-decoration: none;
+  color: #fff;
+  text-shadow: 5px 5px 4px red;
+  -webkit-text-stroke: 2px #000;
+  text-transform: uppercase;
+}
+
+.dropdown-item h3 {
+  font-size: 12px;
+}
+
+
+#gr8nssImg {
+  -webkit-transform:rotate(270deg);
+  -moz-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  transform: rotate(270deg);
+  height: 180px;
+  width: auto;
+}
+
+.navbar-toggler-icon, .navbar-light,  .navbar-toggler {
+  border: none;
+}
+
+
+#desktopPromo {
+  margin-top: -10%;
+  padding: 15%;
+  padding-bottom: 5.5% !important;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#desktopPromo h3 {
+  font-family: 'Knewave', cursive;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-family: 'Knewave', cursive;
+  color: #000;
+  text-shadow: 4px 4px 2px red;
+  -webkit-text-stroke: 1px #f3ebeb;
+  font-size: 18px;
+}
+
+
+#img1:hover, #img2:hover, #img3:hover, #img4:hover, #img5:hover, #img6:hover {
+  box-shadow: 2px 2px 4px rgba(0,0,0, .5);
+}
+
+#musicTags:hover {
+  text-shadow: 4px 4px 2px red;
+}
+
+#artist_name {
+  font-size: 40px;
+  font-family: 'Knewave', cursive;
+  color: #fff;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-shadow: none;
+  text-shadow: 4px 4px 2px red;
+  -webkit-text-stroke: 2px #000;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-left: 5%;
+}
+
+#artist_tagline {
+  font-size: 18px;
+  font-family: 'Knewave', cursive;
+  color: #000;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-shadow: none;
+}
+
+
+#sectionHeading, #sectionHeading2 {
+  font-family: 'Knewave', cursive;
+  color: #000;
+  text-shadow: none;
+  text-align: center;
+}
+
+#sectionHeading2 {
+  margin-top: 25%;
+  margin-left: -15%;
+}
+
+#sectionHeading {
+  margin-left: 15%;
+  margin-top: -10%;
+}
+
+#sectionHeading h4 {
+  background-color: #fff;
+  width: 100%;
+  margin-left: 55%;
+  margin-right: auto;
+  margin-top: 35%;
+}
+
+#artist_email {
+  font-size: 20px
+}
+
+#promo {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10% !important;
+}
+
+#sectionHeading2 {
+  padding: 0 !important;
+}
+
+#socials  {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: #fff;
+  padding-top: .3%;
+}
+
+#socials a {
+  color: #fff;
+    -webkit-text-stroke: .8px #000;
+}
+
+#scSocial:hover, #ytSocial:hover, #tidalIcon:hover, #amSocial:hover, #twSocial:hover, #igSocial:hover, #fbSocial:hover, #spSocial:hover {
+  text-decoration: none;
+  color: red;
+  text-shadow: 10px 10px 4px red;
+  -webkit-text-stroke: 2px #000;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+
+#tidalIcon:hover {
+  box-shadow: 10px 10px 4px red;
+  background-color: #fff;
+}
+
+#tidalIcon {
+  height: 25px;
+  width: 25px;
+  margin-top: -2% !important;
+}
+
+#footerHome {
+  -webkit-text-stroke: .8px #000;
+  color: #fff;
+  position: absolute !important;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  line-height: 60px;
+  background-image: url('img/img_bg2.jpg');
+}
+
+#footerHome p, #booking p {
+  text-align: center;
+  font-family: 'Knewave', cursive;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-family: 'Knewave', cursive;
+  color: #fff;
+  text-shadow: 4px 4px 2px red;
+  -webkit-text-stroke: 1px #000;
+}
+
+#booking a:hover {
+  text-decoration: none !important;
+  color: #fff !important;
+  -webkit-text-stroke: 2px #000;
+  text-transform: uppercase;
+}
+
+#booking a, #booking p {
+  font-size: 18px !important;
+}
+
+#footerHome col {
+  padding: none !important;
+}
+
+#scSocial, #ytSocial, #tiSocial, #amSocial, #twSocial, #igSocial, #fbSocial, #spSocial {
+  padding: .8%;
+  font-size: 12px;
+  text-shadow: 2px 2px 1px red;
+}
+
+#footerCopyright p {
+  font-size: 16px;
+  text-shadow: none !important;
+  text-align: center;
+  text-shadow: 2px 2px 1px red !important;
+}
+
+.alert img {
+  height: 150px;
+  width: 150px;
+}
+
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                        /* Media Queries For Responsive Design*/
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                        /*Small devices (landscape phones, 320px and up) */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+
+
+@media (min-width: 320px) {
+
+  #body, .navbar, #footerHome {
+    width: 100%;
+  }
+
+  #desktopPromo {
+    margin-top: 5%;
+  }
+
+  #artist_name {
+    text-align: center;
+    margin-left: 35%;
+  }
+
+  .alert img {
+    height: 275px;
+    width: 275px;
+    margin-left: -35% !important;
+  }
+
+  #footerHome {
+    -webkit-text-stroke: .8px #000;
+    color: #fff;
+    position: relative !important;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    line-height: 60px;
+    background-image: url('img/img_bg2.jpg');
+  }
+
+
+}
+
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                        /*Small devices (landscape phones, 360px and up) */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+
+@media (min-width: 375px) {
+
+  #body, .navbar, #footerHome {
+    width: 100%;
+  }
+
+  #artist_name {
+    text-align: center;
+    margin-left: 35%;
+  }
+
+  .alert img {
+    height: 275px;
+    width: 275px;
+    margin-left: -25% !important;
+  }
+
+  #footerHome {
+    -webkit-text-stroke: .8px #000;
+    color: #fff;
+    position: relative !important;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    line-height: 60px;
+    background-image: url('img/img_bg2.jpg');
+  }
+
+}
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                        /*Small devices (landscape phones, 425px and up) */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+
+@media (min-width: 425px) {
+
+  #body, .navbar, #footerHome {
+    width: 100%;
+  }
+
+  #artist_name {
+    text-align: center;
+    margin-left: 35%;
+  }
+
+  .alert img {
+    height: 275px;
+    width: 275px;
+      margin-left: -10% !important;
+  }
+
+  #footerHome {
+    -webkit-text-stroke: .8px #000;
+    color: #fff;
+    position: relative !important;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    line-height: 60px;
+    background-image: url('img/img_bg2.jpg');
+  }
+
+
+  }
+
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                        /*Medium devices (tablets, 506px and up)*/
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+@media (min-width: 506px) {
+
+  #body, .navbar {
+    width: 100%;
+  }
+
+
+  #desktopPromo {
+    margin-top: -10%;
+  }
+
+  #artist_name {
+      margin-left: 5%;
+  }
+
+  .alert img {
+    height: 275px;
+    width: 275px;
+  }
+
+
+  #footerHome {
+    -webkit-text-stroke: .8px #000;
+    color: #fff;
+    position: relative !important;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    line-height: 60px;
+    background-image: url('img/img_bg2.jpg');
+  }
+
+
+
+ }
+
+ /* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                         /*Tablet Devices 768px and up) */
+ /* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+
+
+@media (min-width: 768px) {
+
+  #body {
+
+    width: 100%;
+  }
+
+  #desktopPromo {
+    margin-top: -10%;
+  }
+
+  #artist_name {
+      margin-left: 5%;
+  }
+
+  .alert img {
+    height: 275px;
+    width: 275px;
+  }
+
+  #footerHome {
+    -webkit-text-stroke: .8px #000;
+    color: #fff;
+    position: relative !important;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    line-height: 60px;
+    background-image: url('img/img_bg2.jpg');
+  }
+
+
+
+
+
+
+}
+
+
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                        /* Large devices (desktops, 1024px and up) */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+@media (min-width: 1024px) {
+
+  #body {
+
+    width: 100%;
+  }
+
+  #desktopPromo {
+    margin-top: -10%;
+  }
+
+  #artist_name {
+      margin-left: 5%;
+  }
+
+  .alert img {
+    height: 150px;
+    width: 150px;
+  }
+
+  #footerHome {
+    -webkit-text-stroke: .8px #000;
+    color: #fff;
+    position: absolute !important;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-image: url('img/img_bg2.jpg');
+  }
+
+
+
+}
+
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                /* Large devices (large desktops, 1440px and up) */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+@media (min-width: 1440px) {
+
+  #body {
+    width: 100%;
+  }
+
+  #desktopPromo {
+    margin-top: -10%;
+  }
+
+  #artist_name {
+      margin-left: 5%;
+  }
+
+  ..alert img {
+    height: 150px;
+    width: 150px;
+  }
+
+  #footerHome {
+    -webkit-text-stroke: .8px #000;
+    color: #fff;
+    position: absolute !important;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-image: url('img/img_bg2.jpg');
+  }
+
+
+
+}
+
+
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                /* ExtraExtra large devices (large desktops, 2560px and up) */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+@media (min-width: 2560px) {
+
+  #desktopPromo {
+    margin-top: -10%;
+  }
+
+  #artist_name {
+      margin-left: 5%;
+  }
+
+  .alert img {
+    height: 150px;
+    width: 150px;
+  }
+
+  #footerHome {
+    -webkit-text-stroke: .8px #000;
+    color: #fff;
+    position: absolute !important;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-image: url('img/img_bg2.jpg');
+  }
+
+
+}
+
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                                       /* Fonts */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+
+
+/*
+
+font-family: 'Catamaran', sans-serif;
+font-family: 'Knewave', cursive;
+font-family: 'UnifrakturCook', cursive;
+font-family: 'Coda Caption', sans-serif;
+*/
