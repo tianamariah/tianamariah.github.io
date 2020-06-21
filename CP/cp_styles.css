@@ -1,0 +1,506 @@
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                                    /* Nav Styles */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+
+.nav, .nav-item a {
+  font-family: 'Staatliches', cursive;
+  color: #000;
+  font-size: 18px;
+  letter-spacing: 5px;
+  margin-top: 2%;
+}
+
+.nav-link:hover {
+  color: #276540;
+  letter-spacing: 5px;
+}
+
+
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                                    /* Nav Styles End */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                                    /* Body Styles */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+
+.sectionOne, .sectionOneCondensed {
+  padding-left: 15%;
+  padding-right: 15%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+  font-family: 'Staatliches', cursive;
+}
+
+#title, #titleCondensed {
+  background-color: #276540;
+  text-align: center;
+  color: #fff;
+  padding: 3%;
+}
+
+#title h1, #titleCondensed h1 {
+  font-size: 90px;
+  letter-spacing: 5px;
+}
+
+#title h5, #titleCondensed h5 {
+  font-family: 'Parisienne', cursive;
+  letter-spacing: 1px;
+  font-size: 28px;
+}
+
+#title h6, #titleCondensed h6 {
+  letter-spacing: 3px;
+}
+
+#imgOne {
+  background-image: url('media/painted-ladies-houses.jpg');
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+}
+
+.sectionTwo {
+  color: #000;
+  margin-top: 5%;
+  padding-left: 15%;
+  padding-right: 15%;
+
+}
+
+.sectionTwo h3 {
+  text-align: center;
+  font-family: 'Staatliches', cursive;
+}
+
+.sectionTwo p {
+  line-height: 30px;
+}
+
+.aboutCopy {
+  margin-top: 10%;
+}
+
+.aboutCopy h1 {
+  font-family: 'Staatliches', cursive;
+}
+.aboutCopy h1 {
+  text-align: center;
+}
+
+.sectionThree, .sectionThreeCondensed {
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 1%;
+  margin-top: 2%;
+}
+
+.sectionThree h3, .sectionThreeCondensed h3 {
+  font-family: 'Staatliches', cursive;
+}
+
+.sectionThree p, .sectionThreeCondensed p {
+  line-height: 30px;
+}
+
+
+.sectionFour {
+  margin-top: 5%;
+}
+
+.sectionFour h3 {
+  font-family: 'Staatliches', cursive;
+  text-align: center;
+}
+
+.form {
+  width: 55%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Staatliches', cursive;
+}
+
+.btn {
+  font-family: 'Staatliches', cursive;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  font-size: 20px;
+}
+
+.col > img:hover {
+  width: 500px;
+  height: 200px;
+}
+
+/*♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                                    /* Body Styles End */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                        /* Media Queries For Responsive Design*/
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                        /*Small devices (landscape phones, 320px and up) */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+
+@media only screen and (min-width: 320px) {
+
+  .sectionOneCondensed, .sectionThreeCondensed {
+    display: none !important;
+  }
+
+  .sectionOne, .sectionThree {
+    display: block !important;
+  }
+
+  #body{
+    margin-left: 2%;
+  }
+
+  .nav, .nav-item a {
+    font-size: 18px;
+    letter-spacing: 0;
+    }
+
+    .sectionOne, .sectionOneCondensed, .sectionTwo, .sectionThree, .sectionThreeCondensed, .sectionFour  {
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    #imgOne {
+      height: 300px;
+    }
+
+  .sectionTwo p, .sectionThree p, .sectionThreeCondensed p {
+    padding: 3.5%;
+  }
+
+  .sectionThree h3, .sectionThreeCondensed h3 {
+    text-align: center;
+  }
+
+  .form {
+    width: 100%;
+  }
+
+
+
+}
+
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                        /*Small devices (landscape phones, 360px and up) */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+
+@media only screen and (min-width: 375px) {
+
+  .sectionOneCondensed, .sectionThreeCondensed {
+    display: none !important;
+  }
+
+  .sectionOne, .sectionThree {
+    display: block !important;
+  }
+
+
+
+  .nav, .nav-item a {
+    font-size: 18px;
+    letter-spacing: 0;
+    }
+
+    .sectionOne, .sectionOneCondensed, .sectionTwo, .sectionThree, .sectionThreeCondensed, .sectionFour  {
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+  .sectionTwo p, .sectionThree p, .sectionThreeCondensed p {
+    padding: 3.5%;
+  }
+
+  .sectionThree h3, .sectionThree h3 {
+    text-align: center;
+  }
+
+  .form {
+    width: 100%;
+  }
+
+
+
+
+
+}
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                        /*Small devices (landscape phones, 425px and up) */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+
+@media only screen and (min-width: 425px) {
+
+  .sectionOneCondensed, .sectionThreeCondensed {
+    display: none !important;
+  }
+
+  .sectionOne, .sectionThree {
+    display: block !important;
+  }
+
+  .nav, .nav-item a {
+    font-size: 18px;
+    letter-spacing: 0;
+    }
+
+    .sectionOne, .sectionOneCondensed, .sectionTwo, .sectionThree, .sectionThreeCondensed, .sectionFour  {
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+  .sectionTwo p, .sectionThree p, .sectionThreeCondensed p {
+    padding: 3.5%;
+  }
+
+  .sectionThree h3, .sectionThree h3 {
+    text-align: center;
+  }
+
+  .form {
+    width: 100%;
+  }
+
+
+}
+
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                        /*Medium devices (tablets, 506px and up)*/
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+@media only screen and (min-width: 506px) {
+
+  .sectionOneCondensed, .sectionThreeCondensed {
+    display: none !important;
+  }
+
+  .sectionOne, .sectionThree {
+    display: block !important;
+  }
+
+
+  .nav, .nav-item a {
+    font-size: 18px;
+    }
+
+  .sectionOne, .sectionOneCondensed, .sectionTwo, .sectionThree, .sectionThreeCondensed, .sectionFour  {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .sectionTwo p, .sectionThree p, .sectionThreeCondensed p {
+    padding: 3.5%;
+  }
+
+  .sectionThree h3, .sectionThreeCondensed h3 {
+    text-align: center;
+  }
+
+  .form {
+    width: 100%;
+  }
+
+
+ }
+
+ /* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                         /*Tablet Devices 768px and up) */
+ /* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+@media  only screen and (min-width: 576px) {
+  .sectionOneCondensed, .sectionThreeCondensed {
+    display: none !important;
+  }
+
+  .sectionOne, .sectionThree {
+    display: block !important;
+  }
+
+
+  .nav, .nav-item a {
+    font-size: 18px;
+    }
+
+  .sectionOne, .sectionOneCondensed, .sectionTwo, .sectionThree, .sectionThreeCondensed, .sectionFour  {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .sectionTwo p, .sectionThree p, .sectionThreeCondensed p {
+    padding: 3.5%;
+  }
+
+  .sectionThree h3, .sectionThreeCondensed h3 {
+    text-align: center;
+  }
+
+  .form {
+    width: 100%;
+  }
+
+  
+
+
+
+}
+
+@media only screen and (min-width: 768px) {
+
+  #imgOne {
+    height: auto;
+  }
+
+  .sectionThree {
+    display: none !important;
+  }
+
+  .sectionOne {
+    display: none !important;
+  }
+
+  .sectionOneCondensed, .sectionThreeCondensed {
+    display: block !important;
+  }
+
+  .nav, .nav-item a {
+    font-size: 18px;
+    }
+
+     .sectionOneCondensed, .sectionTwo, .sectionThreeCondensed, .sectionFour  {
+      padding-left: 15%;
+      padding-right: 15%;
+    }
+
+
+
+  .form {
+    width: 100%;
+  }
+
+  }
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                        /* Large devices (desktops, 1024px and up) */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+@media only screen and (min-width: 1024px) {
+
+  .sectionOne {
+    display: none !important;
+  }
+
+  .sectionThree {
+    display: none !important;
+  }
+
+  .sectionOneCondensed, .sectionThreeCondensed {
+    display: block !important;
+  }
+
+  .nav, .nav-item a {
+    font-size: 18px;
+  }
+
+  .sectionOne, .sectionOneCondensed, .sectionTwo, .sectionThree, .sectionThreeCondensed, .sectionFour  {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+
+  .form {
+    width: 55%;
+  }
+
+
+
+
+}
+
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                /* Large devices (large desktops, 1440px and up) */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+@media only screen and (min-width: 1440px) {
+
+  .sectionOne {
+    display: none !important;
+  }
+
+  .sectionThree {
+    display: none !important;
+  }
+
+  .sectionOneCondensed, .sectionThreeCondensed {
+    display: block !important;
+  }
+
+  .nav, .nav-item a {
+    font-size: 18px;
+    }
+
+    .sectionOne, .sectionOneCondensed, .sectionTwo, .sectionThree, .sectionThreeCondensed, .sectionFour  {
+      padding-left: 15%;
+      padding-right: 15%;
+    }
+
+  .form {
+    width: 55%;
+  }
+
+
+}
+
+
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                /* ExtraExtra large devices (large desktops, 2560px and up) */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+@media only screen and (min-width: 2560px) {
+
+  .sectionOne {
+    display: none !important;
+  }
+
+  .sectionThree {
+    display: none !important;
+  }
+
+  .sectionOneCondensed, .sectionThreeCondensed {
+    display: block !important;
+  }
+
+
+  .nav, .nav-item a {
+    font-size: 18px;
+    }
+
+  .sectionOne, .sectionOneCondensed, .sectionTwo, .sectionThree, .sectionThreeCondensed, .sectionFour  {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+
+  .form {
+    width: 55%;
+  }
+
+
+}
+
+
+
+
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                                    /* FONTS */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+font-family: 'Staatliches', cursive;
