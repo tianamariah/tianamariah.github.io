@@ -22,7 +22,7 @@ html, body {width: auto!important; overflow-x: hidden!important}
 
 
  #body {
-  background: url(img/img1.png) no-repeat center center fixed;
+  //background: url(img/img1.png) no-repeat center center fixed;
   -webkit-background-size: 75%;
   -moz-background-size: 75%;
   -o-background-size: 75%;
@@ -33,7 +33,7 @@ html, body {width: auto!important; overflow-x: hidden!important}
   //font-family: 'Gotu', sans-serif;
   font-family: 'Kirang Haerang', cursive;
   font-size: 18px;
-  overflow: hidden;
+  text-align: center;
 }
 
 #body p {
@@ -60,8 +60,27 @@ html, body {width: auto!important; overflow-x: hidden!important}
   height: 40px;
 }
 
+
+#work {
+  margin-top: 5%;
+}
+
+#body h1 {
+  font-size: 14px;
+  margin-top: 1%;
+}
+
+.container-fluid {
+  margin-top:  -1%;
+  padding: none !important;
+}
+
 #body a {
-  color: #000!important;
+  color: #000 !important;
+}
+
+#hover:hover {
+  color: #8f7bfb;
 }
 
 
@@ -268,3 +287,4 @@ html, body {width: auto!important; overflow-x: hidden!important}
 /* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
                                     /* FONTS */
 /* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+v
