@@ -122,21 +122,24 @@ footer {
   color: #fff;
 }
 
-#servicesSection img {
-  width: 450px;
-  height: auto;
-}
 
-#servicesSection {
+#servicesSection, #videoSection {
   width: 95%;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
 
 }
 
-#servicesSection img {
-  height: 400px;
+#servicesSection .col-lg img {
+  height: 250px;
+  width: 450px;
 }
+
+#videoSection {
+  margin-left: 0% !important;
+}
+
 
 .col-lg h3, .col-lg p {
   padding-top: 1.5%;
@@ -206,6 +209,22 @@ footer {
   #header {
     margin-top: 5% !important;
   }
+
+
+  #servicesSection img {
+    height: 200px;
+  }
+
+
+  #videoSection .col-lg {
+    height: 200px;
+  }
+
+  #videoSection {
+    margin-left: -5% !important;
+  }
+
+
 
 
 
@@ -283,6 +302,11 @@ footer {
 
   #tagLine {
     display: block;
+  }
+
+
+  #videoSection {
+    margin-left: 0% !important;
   }
 
 
