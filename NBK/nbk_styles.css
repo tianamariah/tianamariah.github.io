@@ -1,0 +1,475 @@
+/*♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+html, body {width: auto!important; overflow-x: hidden!important}
+/*♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                                    /* Nav Styles */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+
+
+.navbar {
+  background-color: #000 !important;
+  //background-image: linear-gradient(-225deg, #2CD8D5 0%, #C5C1FF 56%, #FFBAC3 100%);
+  box-shadow: 0 8px 6px -6px #D3D3D3;
+  height: 85px !important;
+}
+
+.navbar, .navbar a, .navbar-brand a {
+  font-family: 'Thasadith', sans-serif;
+  color: #ED6EAD;
+  font-weight: bolder !important;
+}
+
+.navbar-nav {
+  text-transform: uppercase;
+}
+
+
+.nav-item:hover.nav-link:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+#navbarNavAltMarkup {
+  margin-left: 70%;
+}
+
+
+#title img {
+  width: auto;
+  height: 100px;
+  margin-left: 40% !important;
+}
+
+#title {
+    margin-top: 1.8% !important;
+}
+
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                                    /* Nav Styles End */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+
+
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                                    /* Body Styles */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+
+body {
+    background-color: #000 !important;
+}
+
+#main {
+  background-image: url('img/shopImage.jpg');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 20%;
+  width: auto;
+}
+
+
+
+#intro {
+  text-align: right;
+  margin-left: 18%;
+  margin-top: 5%;
+  color: #000;
+}
+
+#intro h1 {
+  font-family: 'Thasadith', sans-serif;
+}
+
+#intro p {
+  font-family: 'Thasadith', sans-serif;
+}
+
+
+
+#aboutMe {
+  //border: 1px solid rgba(242,189,208, .3);
+  padding: 10%;
+}
+
+#about h1 {
+  text-align: center;
+}
+
+#aboutImage {
+  font-family: 'Thasadith', sans-serif;
+  padding: 14.5%;
+  opacity: .9;
+}
+
+#aboutImage {
+  margin-left: auto;
+  margin-top: 3% !important;
+}
+
+
+#aboutMe img {
+  -webkit-box-shadow: 0 10px 6px -6px #777;
+  -moz-box-shadow: 0 10px 6px -6px #777;
+  box-shadow: 0 10px 6px -6px #777;
+}
+
+#aboutMe {
+  margin-top: -15% !important;
+}
+
+#aboutContent {
+  margin-top: 5%;
+  color:  #ED6EAD;
+  padding: 20%;
+  font-family: 'Thasadith', sans-serif;
+  text-align: center;
+}
+
+#eventSection {
+  padding: 5%;
+  font-family: 'Thasadith', sans-serif;
+  text-align: center;
+  color:  #ED6EAD;
+  margin-top: 5%;
+}
+
+#photoGallerySection {
+  padding: 5%;
+  font-family: 'Thasadith', sans-serif;
+  text-align: center;
+  color:  #ED6EAD;
+  margin-top: 5%;
+}
+
+#aboutSection {
+  font-family: 'Thasadith', sans-serif;
+  text-align: center;
+  color:  #ED6EAD;
+  margin-top: 10%;
+  padding: 5%;
+}
+
+#eventSection img {
+  width: 750px;
+  height: auto;
+}
+
+
+#aboutContent a {
+  color: #ED6EAD !important;
+
+}
+
+#aboutContent a:hover {
+  color: #fff !important;
+  text-decoration: none !important;
+}
+
+
+
+
+#image3 {
+  //background-image: linear-gradient(-225deg, #2CD8D5 0%, #C5C1FF 56%, #FFBAC3 100%);
+  background-image: url('img/img4.jpg');
+  background-position: top;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 15%;
+  height: 230px;
+  opacity: .5;
+}
+
+#image4 {
+  //background-image: linear-gradient(-225deg, #2CD8D5 0%, #C5C1FF 56%, #FFBAC3 100%);
+  background-image: url('img/img3.jpg');
+  background-position: top;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 15%;
+  height: 230px;
+  opacity: .5;
+}
+
+#image5 {
+  //background-image: linear-gradient(-225deg, #2CD8D5 0%, #C5C1FF 56%, #FFBAC3 100%);
+  background-image: url('img/img5.jpg');
+  background-position: top;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 15%;
+  height: 230px;
+  opacity: .5;
+}
+
+#image6 {
+  //background-image: linear-gradient(-225deg, #2CD8D5 0%, #C5C1FF 56%, #FFBAC3 100%);
+  background-image: url('img/img6.jpg');
+  background-position: top;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 15%;
+  height: 230px;
+  opacity: .5;
+}
+
+
+
+#galleryImages {
+  width: 95%;
+  padding: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#galleryImages img {
+  -webkit-box-shadow: 0 10px 6px -6px #777;
+  -moz-box-shadow: 0 10px 6px -6px #777;
+  box-shadow: 0 10px 6px -6px #777;
+  width: 285px;
+}
+
+#galleryImages .row .col-sm {
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+#buttons {
+  text-align: center;
+}
+
+
+#footerButton, #mainButton {
+  background-color: transparent;
+  color: #ED6EAD;
+  border: .5px solid #ED6EAD;
+  font-family: 'Thasadith', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-size: 10px !important;
+}
+
+
+ #footerButton:hover, #mainButton:hover {
+  background-color: white;
+  color: #ED6EAD;
+}
+
+#socialsAbout a, #socialsAbout i {
+    text-align: center;
+    margin-top: 1%;
+    padding: 1%;
+    font-size: 20px;
+    color: #ED6EAD;
+}
+
+#socials a, #socials i {
+  margin-top: 1%;
+  padding: 1%;
+  color: #ED6EAD;
+}
+
+#socials i:hover {
+  color: #fff;
+}
+
+
+#footer {
+  font-family: 'Thasadith', sans-serif;
+  background-color: #000 !important;
+  //background-image: linear-gradient(-225deg, #2CD8D5 0%, #C5C1FF 56%, #FFBAC3 100%);
+  height: auto;
+  text-align: center;
+  padding: .5%;
+  -webkit-box-shadow: 0px -2px 3px #D3D3D3;
+  -moz-box-shadow: 0px -2px 3px #D3D3D3;
+  box-shadow: 0px -2px 3px #D3D3D3;
+}
+
+#footer a  {
+  color: #fff;
+  font-size: 12px;
+  letter-spacing: 3px;
+  color: #ED6EAD;
+}
+
+#footer a:hover {
+  color: #fff;
+}
+
+#footerTagline, #footerButton, {
+  margin-top: 5px  !important;
+  color: #ED6EAD;
+}
+
+#socials i {
+  margin-top: -.5% !important;
+}
+
+
+
+
+
+/*♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                                    /* Body Styles End */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+
+
+
+
+
+
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                        /* Media Queries For Responsive Design*/
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                        /*Small devices (landscape phones, 320px and up) */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+@media only screen and (min-width: 320px)  {
+
+  #footerTagline {
+    margin-top: -5%  !important;
+  }
+
+  #title img {
+      margin-top: -35% !important;
+      margin-left: auto;
+  }
+
+
+
+
+
+}
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                        /*Small devices (landscape phones, 360px and up) */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+
+ @media only screen and (min-width: 375px) {
+
+   #title img {
+       margin-top: -40% !important;
+       margin-left: auto;
+   }
+
+
+
+ }
+
+
+
+
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                          /*Small devices (landscape phones, 425px and up) */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+
+@media only screen and (min-width: 425px) {
+
+
+   }
+
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                           /*Medium devices (tablets, 506px and up)*/
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+
+@media only screen and (min-width: 506px) {
+
+  #footerTagline {
+    margin-top: 0px  !important;
+  }
+
+
+
+
+
+}
+
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                        /*Tablet Devices 768px and up) */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+@media  only screen and (min-width: 576px) {
+
+  #footerTagline {
+    margin-top: 0px  !important;
+  }
+
+
+
+
+}
+
+
+
+@media only screen and (min-width: 768px) {
+
+  #footerTagline {
+    margin-top: 0px  !important;
+  }
+
+
+
+
+
+
+}
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                        /* Large devices (desktops, 1024px and up) */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+@media only screen and (min-width: 1024px) {
+
+  #title img {
+      margin-top: -40% !important;
+      margin-left: auto;
+  }
+
+
+
+}
+
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                /* Large devices (large desktops, 1440px and up) */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+@media only screen and (min-width: 1440px) {
+
+
+
+}
+
+
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                /* ExtraExtra large devices (large desktops, 2560px and up) */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+@media only screen and (min-width: 2560px) {
+
+/*
+
+font-family: 'Poiret One', cursive;
+font-family: 'Festive', cursive;
+
+
+
+.footer a  {
+  color: white;
+}
+
+Box Shadow for Gallery Images
+-webkit-box-shadow: 0 10px 6px -6px #777;
+-moz-box-shadow: 0 10px 6px -6px #777;
+box-shadow: 0 10px 6px -6px #777;
+
+
+*/
