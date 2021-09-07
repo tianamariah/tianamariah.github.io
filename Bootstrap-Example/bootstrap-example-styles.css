@@ -1,0 +1,81 @@
+  body {
+    font-family: 'Urbanist', sans-serif;
+    background-color: #F8BAFF  !important;
+  }
+
+  header {
+    text-align: center !important;
+    font-size: 44px !important;
+    font-weight: 900 !important;
+    margin-top: 1% !important;
+  }
+
+  hr {
+    color: #000 !important;
+    height: 3px !important;
+    opacity: inherit;
+  }
+
+  .nav {
+    margin-top: 1% !important;
+  }
+
+  .nav a {
+    color: #000 !important;
+    font-weight: bold !important;
+  }
+
+  #missionSection {
+    margin-top: 2% !important;
+    text-align: center;
+  }
+
+  #missionSection h1 {
+    font-size: 28px !important;
+    font-weight: 900 !important;
+  }
+
+  #missionSection p {
+    font-size: 18px !important;
+  }
+
+  #categories {
+    margin-top: 5% !important;
+  }
+
+  #categoriesContent {
+    margin-top: -3% !important;
+  }
+
+  .row {
+    padding-top: 1% !important;
+    padding-bottom: 3.8% !important;
+    text-align: center !important;
+    margin-left: -2% !important;
+    margin-right: auto !important;
+    width: 105% !important;
+  }
+
+  .row h2 {
+    color: #F8BAFF  !important;
+    font-size: 18px !important;
+    text-align: center !important;
+    margin-top: 5% !important;
+  }
+
+  .row button {
+    margin-top: 5% !important;
+    color: #F8BAFF !important;
+    border-color: #F8BAFF !important;
+    font-size: 12px !important;
+
+  }
+
+  #categories h2 {
+    font-weight: 900 !important;
+  }
+
+    img {
+      width: auto !important;
+      height: 200px !important;
+    }
