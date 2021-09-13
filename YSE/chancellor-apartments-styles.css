@@ -1,0 +1,2189 @@
+/* Universal Styles */
+* {
+  border-radius: 0 !important;
+}
+
+html, body, footer {
+  width: auto !important;
+  overflow-x: hidden !important;
+}
+
+button {
+  text-transform: uppercase !important;
+  font-size: 12px !important;
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+.btnSmall {
+  width: 140px !important;
+}
+
+.btnLarge {
+  width: 200px !important;
+}
+
+.amenitiesRow1, .amenitiesRow2, .row, .pgrow1, .pgrow2  {
+  --bs-gutter-x: none !important;
+}
+/* Universal Styles End */
+
+/* Header Styles */
+
+/* Nav Styles */
+.navbar {
+  background-color: rgb(46,75,107) !important;
+  margin-left: -.9% !important;
+  margin-right: auto !important;
+  width: 103% !important;
+  height: 60px !important;
+}
+.container-fluid.navMenu {
+  margin-left: -20% !important;
+}
+
+.navbar-brand {
+  margin-left: 40% !important;
+}
+
+.navbar-brand img {
+  height: 40px !important;
+}
+/* Nav Styles End */
+
+/* Header Content Start */
+#headerImage {
+  height: 900px;
+  background-image: url(img/header-image.jpg);
+  background-size: 145% !important;
+  background-repeat: no-repeat !important;
+  background-position: top;
+  margin-top: -5% !important;
+}
+
+#headerContent {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin-top: -48% !important;
+  width: 100% !important;
+  text-align: center;
+  position: relative !important;
+}
+
+#headerContent  img {
+  width: 108px !important;
+  height: 108px !important;
+  position: relative;
+}
+
+#headerContent  h4 {
+  margin-top: 1.5% !important;
+  font-family: 'Open Sans', sans-serif !important;
+  font-weight: 300 !important;
+  color: #fff !important;
+}
+
+#headerContent  h1 {
+  font-family: 'Montserrat', sans-serif !important;
+  color: #fff !important;
+  letter-spacing: 2px !important;
+  font-size: 65px !important;
+  font-weight: 200 !important;
+}
+/* Header Content End */
+
+#opacityOverlayHeaderImage {
+  height: 900px !important;
+  width: 103% !important;
+  margin-left: -2% !important;
+  margin-top: -.01% !important;
+  background-color: #000 !important;
+  opacity: .4 !important;
+}
+/* Header Styles End */
+
+/* Contacts Row */
+#contactsRow {
+  width: 103% !important;
+  height: auto !important;
+  color: #fff !important;
+  text-align: center !important;
+  padding: auto !important;
+  background-color: #000 !important;
+  padding-top: 2% !important;
+  padding-bottom: 3% !important;
+  opacity: .8 !important;
+  margin-top: 15.8% !important;
+  margin-left: -2% !important;
+}
+
+#contactsRow  h6 {
+  font-family: 'Montserrat', sans-serif !important;
+  font-size: 20px !important;
+  position: relative !important;
+}
+
+#contactsRow  p {
+  font-family: 'Open Sans', sans-serif !important;
+  font-size: 12px !important;
+  line-height: 20px !important;
+  padding-left: 15% !important;
+  padding-right: 15% !important;
+}
+
+.verticalLine {
+  border-right: thin solid #fff !important;
+}
+/* Contacts Row End */
+
+/* Chancellor Description Section */
+#chancellorDescriptionSection {
+  height: auto !important;
+  text-align: center !important;
+  padding-top: 5% !important;
+}
+
+#chancellorDescriptionSection h1 {
+  color: #000 !important;
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 300 !important;
+}
+
+#chancellorDescriptionSection p {
+  color: #898989 !important;
+  font-family: 'Open Sans', sans-serif !important;
+  padding: 1% !important;
+  font-weight: 900 !important;
+}
+/* Chancellor Description Section End */
+
+/* Chancellor Lifestyle Section */
+#chancellorCommunityLifestyleSection {
+  background-image: url(img/lifestyle-bg.png);
+  text-align: center !important;
+  padding: 5% !important;
+  margin-top: 5% !important;
+}
+
+#chancellorCommunityLifestyleSection h1 {
+  color: #fff !important;
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 300 !important;
+}
+
+#chancellorCommunityLifestyleSection p {
+  color: #fff !important;
+  font-family: 'Open Sans', sans-serif !important;
+  padding: 1% !important;
+}
+
+#chancellorCommunityLifestyleSection button {
+  margin-top: 5% !important;
+}
+
+#lifestyleRow {
+  text-align: center !important;
+}
+
+#lifestyleRow h4 {
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 300 !important;
+  color: #fff !important;
+  font-weight: 500 !important;
+}
+
+#lifestyleRow h5 {
+  color: #fff !important;
+  font-size: 20px !important;
+  position: relative !important;
+  margin-top: -45% !important;
+  margin-left: -35% !important;
+}
+
+/* Chancellor Lifestyle Section End */
+
+/* Chancellor Amenities Section */
+#chancellorAmenities {
+  background-image: url(img/amenities-bg.jpg);
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  text-align: center !important;
+  padding: 5% !important;
+}
+
+#chancellorAmenities button {
+  margin-top: 5% !important;
+}
+
+#chancellorAmenities h1 {
+  color: #000 !important;
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 300 !important;
+  margin-top: 1% !important;
+}
+
+#chancellorAmenities p {
+  color: #8e8f91 !important;
+  font-family: 'Open Sans', sans-serif !important;
+  padding: 1% !important;
+  font-weight: 300 !important;
+}
+
+#amenitiesRow {
+ margin-left: auto !important;
+ margin-right: auto !important;
+ text-align: center !important;
+ margin-top: 1% !important;
+ background-color: rgb(250,250,250) !important;
+ opacity: .85 !important;
+ width: 75% !important;
+ padding: 1% !important;
+}
+
+#amenitiesRow i, #contactsRow i  {
+  color: #3791B5 !important;
+}
+
+#amenitiesRow .col {
+  padding: 5% !important;
+}
+
+#amenitiesRow h6 {
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 900 !important;
+}
+
+#amenitiesRow p {
+  font-family: 'Open Sans', sans-serif !important;
+  font-weight: 900 !important;
+  font-size: 12px !important;
+  color: #8e8f91 !important;
+}
+
+.amcol1, .amcol2, .amcol4, .amcol5 {
+  border-right: thin solid #8e8f91 !important;
+  height: 280px !important;
+}
+
+.amcol4, .amcol5, .amcol6 {
+  border-top: thin solid #8e8f91 !important;
+  height: 280px !important;
+}
+/* Chancellor Amenities Section End */
+
+/* Chancellor Photo Gallery Section */
+#chancellorPhotoGallery {
+  text-align: center !important;
+  padding: 5% !important;
+  width: 103% !important;
+  margin-top: -1% !important;
+}
+
+#chancellorPhotoGallery  h1 {
+  color: #000 !important;
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: 300 !important;
+  margin-top: 1% !important;
+}
+
+#chancellorPhotoGallery p {
+  color: #000 !important;
+  font-family: 'Open Sans', sans-serif !important;
+  padding: 5% !important;
+  font-weight: 300 !important;
+}
+
+#chancellorPhotoGallery .col {
+  margin: .5% .5%;
+}
+
+.pgcol1 {
+  background-image: url("img/gallery-1.jpg");
+  height: 445px !important;
+  background-size: cover !important;
+  background-position: right !important;
+}
+
+.pgcol2 {
+  background-image: url("img/gallery-2.jpg");
+  height: 270px !important;
+  background-size: cover !important;
+  background-position: right !important;
+}
+
+.pgcol3 {
+  background-image: url("img/gallery-3.jpg");
+  height: 445px !important;
+  background-size: cover !important;
+  background-position: center !important;
+}
+
+.pgcol4 {
+  background-image: url("img/gallery-4.jpg");
+  height: 270px !important;
+  background-size: cover !important;
+  background-position: top !important;
+}
+
+.pgcol5 {
+  background-image: url("img/gallery-5.jpg");
+  height: 270px !important;
+  background-size: cover !important;
+  background-position: center !important;
+}
+
+.pgcol6 {
+  background-image: url("img/gallery-6.jpg");
+  height: 445px !important;
+  background-size: cover !important;
+  margin-top: -12% !important;
+  background-position: right !important;
+}
+
+.pgcol7 {
+  background-image: url("img/gallery-7.jpg");
+  height: 270px !important;
+  background-size: cover !important;
+  background-position: right !important;
+}
+
+.pgcol8 {
+  background-image: url("img/gallery-8.jpg");
+  height: 445px !important;
+  background-size: cover !important;
+  margin-top: -12% !important;
+  background-position: center !important;
+}
+
+#chancellorPhotoGallery button {
+    margin-top: 5% !important;
+}
+/* Chancellor Photo Gallery Section End */
+
+/* Chancellor Schedule a Tour Section */
+#scheduleTourSection {
+  background-color: #3791B5 !important;
+  color: #fff !important;
+  font-family: 'Montserrat', sans-serif !important;
+  text-align: center !important;
+  padding: 1% !important;
+}
+
+#scheduleTourSection i {
+  color: #43A7C2 !important;
+}
+
+#scheduleTourSection h4 {
+  margin-top: 1% !important;
+  font-weight: 200 !important;
+}
+/* Chancellor Schedule a Tour Section End */
+
+/* Footer Styles */
+footer {
+  height: auto !important;
+  background-color: #000 !important;
+  color: #fff !important;
+  text-align: left !important;
+  font-family: 'Open Sans', sans-serif !important;
+  font-weight: 300 !important;
+}
+
+footer img {
+  width: 150px !important;
+  height: auto !important;
+  text-align: left !important;
+}
+
+footer p {
+  line-height: 1 !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  padding: .5% !important;
+}
+
+#footerSectionRow {
+  width: 75% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding: 5% !important;
+}
+
+.fcol1 p {
+ line-height: 0px !important;
+}
+
+.fcol2 {
+  margin-left: 10% !important;
+}
+
+.footerHR {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin-top: -3% !important;
+  width: 68% !important;
+  color: #8e8f91 !important;
+  text-align: center !important;
+}
+
+.footerHR p {
+  font-size: 12px !important;
+}
+
+.footerIcons {
+  margin-left: 25% !important;
+}
+/* Footer Styles End */
+
+/* Media Queries For Responsive Design */
+/*Small devices (landscape phones, 320px and up) */
+@media only screen and (min-width: 320px)  {
+
+  #headerImage, #opacityOverlayHeaderImage {
+    height: 310px !important;
+    width: 110% !important;
+  }
+
+   #opacityOverlayHeaderImage  {
+     margin-left: -5% !important;
+   }
+
+   #headerContent  img {
+     width: 50px !important;
+     height: 50px !important;
+     position: relative;
+   }
+
+   #headerContent {
+     margin-top: -55% !important;
+     margin-left: -5% !important;
+   }
+
+   #headerContent h4 {
+     font-size: 16px !important;
+     margin-top: 3% !important;
+     font-weight: 400 !important;
+   }
+
+   #headerContent h1 {
+     font-size: 27px !important;
+     font-weight: 500 !important;
+   }
+
+   #contactsRow {
+     width: 110% !important;
+     margin-left: -10% !important;
+     margin-top: 19% !important;
+     padding: 5% !important;
+   }
+
+   #ccol2, #ccol3 {
+     margin-top: 1% !important;
+   }
+
+   #showBrLargeScreens {
+     display: none !important;
+   }
+
+   #showExtraSmallScreensSize {
+     display: block !important;
+   }
+
+   #chancellorDescriptionSection {
+     margin-top: 190% !important;
+   }
+
+   #chancellorDescriptionSection h1, #chancellorCommunityLifestyleSection h1, #chancellorAmenities h1, #chancellorPhotoGallery h1 {
+     font-size: 20px !important;
+     font-weight: 500 !important;
+   }
+
+   #scheduleTourSection h4 {
+     font-size: 16px !important;
+   }
+
+   #chancellorDescriptionSection p, #chancellorCommunityLifestyleSection p, #chancellorPhotoGallery p {
+     font-size: 12px !important;
+   }
+
+   #lifestyleRow {
+     margin-top: -25% !important;
+   }
+
+  #lifestyleRow .col {
+    margin-top: 25% !important;
+  }
+
+  #lifestyleRow h5 {
+    margin-top: -40% !important;
+    margin-left: -30% !important;
+  }
+
+  #moveUpColLargeScreens h5 {
+    margin-top: -35% !important;
+  }
+
+  #lifestyleRow button {
+    margin-top: 15% !important;
+  }
+
+   #chancellorAmenities p {
+     font-size: 12px !important;
+     color: #000 !important;
+   }
+
+   #amenitiesRow {
+     width: 100% !important;
+   }
+
+   .amcol1, .amcol2, .amcol4, .amcol5 {
+     border-right: none !important;
+     height: auto !important;
+   }
+
+   .amcol4, .amcol5, .amcol6 {
+     border-top: none !important;
+     height: auto !important;
+   }
+
+   .pgrow1, .pgrow2 {
+     margin-left: -3% !important;
+   }
+
+   .pgcol6, .pgcol8 {
+     margin-top: 0px !important;
+   }
+
+  #footerSectionRow {
+    text-align:  center !important;
+  }
+
+  .fcol2 {
+    margin-left: 0% !important;
+  }
+
+  .footerHR {
+    width: 103% !important;
+  }
+
+  .footerHR p {
+    font-size: 10px !important;
+    line-height: 15px !important;
+  }
+
+  .footerIcons {
+    margin-left: 0% !important;
+  }
+}
+
+/* Media Queries For Responsive Design */
+/*Small devices (landscape phones, 320px and up) */
+
+/* Small devices (landscape phones, 360px and up) */
+ @media only screen and (min-width: 375px) {
+
+   #headerContent {
+     margin-top: -45% !important;
+     margin-left: -5% !important;
+   }
+
+   #contactsRow {
+     width: 110% !important;
+     margin-left: -10% !important;
+     margin-top: 14% !important;
+     padding: 5% !important;
+   }
+
+   #chancellorDescriptionSection {
+     margin-top: 150% !important;
+   }
+
+   #lifestyleRow button {
+     margin-top: 20% !important;
+   }
+
+   #showExtraSmallScreensSize {
+     display: block !important;
+   }
+
+   #showBrLargeScreens {
+     display: none !important;
+   }
+ }
+ /* Small devices (landscape phones, 360px and up) End */
+
+/* Small devices (landscape phones, 425px and up) */
+@media only screen and (min-width: 425px) {
+
+  #headerContent {
+    margin-top: -40% !important;
+    margin-left: -5% !important;
+  }
+
+  #contactsRow {
+    width: 110% !important;
+    margin-left: -10% !important;
+    margin-top: 12.5% !important;
+    padding: 5% !important;
+  }
+
+  #chancellorDescriptionSection {
+    margin-top: 130% !important;
+  }
+
+  #lifestyleRow h5 {
+    margin-top: -40% !important;
+    margin-left: -30% !important;
+  }
+
+  #moveUpColLargeScreens h5 {
+    margin-top: -35% !important;
+  }
+
+  #lifestyleRow button {
+    margin-top: 20% !important;
+  }
+
+  #showExtraSmallScreensSize {
+    display: block !important;
+  }
+
+  #showBrLargeScreens {
+    display: none !important;
+  }
+}
+/* Small devices (landscape phones, 425px and up) End */
+
+/* Medium devices (tablets, 500px and up) */
+@media only screen and (min-width: 500px) {
+
+  #headerContent {
+    margin-top: -35% !important;
+    margin-left: -5% !important;
+  }
+
+  #contactsRow {
+    width: 110% !important;
+    margin-left: -10% !important;
+    margin-top: 11.5% !important;
+    padding: 5% !important;
+  }
+
+  #chancellorDescriptionSection {
+    margin-top: 115% !important;
+  }
+
+  #lifestyleRow {
+    margin-top: -25% !important;
+  }
+
+   #lifestyleRow .col {
+     margin-top: 30% !important;
+   }
+
+   #lifestyleRow h5 {
+     margin-top: -40% !important;
+     margin-left: -30% !important;
+   }
+
+   #moveUpColLargeScreens h5 {
+     margin-top: -35% !important;
+   }
+
+   #lifestyleRow button {
+     margin-top: 25% !important;
+   }
+
+  #showExtraSmallScreensSize {
+    display: display !important;
+  }
+
+  #showBrLargeScreens {
+    display: none !important;
+  }
+}
+/* Medium devices (tablets, 500px and up) End */
+
+/* Tablet Devices 575px and up) */
+@media  only screen and (min-width: 575px) {
+
+  #headerContent {
+    margin-top: -30% !important;
+    margin-left: -5% !important;
+  }
+
+  #contactsRow {
+    width: 110% !important;
+    margin-left: -10% !important;
+    margin-top: 9% !important;
+    padding: 5% !important;
+  }
+
+  #chancellorDescriptionSection {
+    margin-top: 100% !important;
+  }
+
+  #lifestyleRow h4 {
+    margin-top: 25% !important;
+  }
+
+  #moveUpColLargeScreens h5 {
+    margin-top: -33% !important;
+  }
+
+  #lifestyleRow button {
+    margin-top: 25% !important;
+  }
+
+  #showExtraSmallScreensSize {
+    display: none !important;
+  }
+
+  #showBrLargeScreens {
+    display: none !important;
+  }
+}
+/* Tablet Devices 575px and up) End */
+
+/*Tablet Devices 768px and up) */
+@media only screen and (min-width: 768px) {
+
+  #headerContent {
+    margin-top: -20% !important;
+    margin-left: -5% !important;
+  }
+
+  #headerContent h1 {
+    font-size: 2.5rem !important;
+  }
+
+  #chancellorDescriptionSection h1, #chancellorCommunityLifestyleSection h1, #chancellorAmenities h1, #chancellorPhotoGallery h1 {
+    font-size: 1.5rem !important;
+  }
+
+  #chancellorDescriptionSection p, #chancellorCommunityLifestyleSection p, #chancellorAmenities p, #chancellorPhotoGallery p {
+    font-size: 12px !important;
+  }
+
+
+  #contactsRow {
+    width: 110% !important;
+    margin-left: -10% !important;
+    margin-top: 1.8% !important;
+    padding: 5% !important;
+  }
+
+  #chancellorDescriptionSection {
+    margin-top: 35% !important;
+  }
+
+  #lifestyleRow img {
+    height: 228px !important;
+    width: 438px !important;
+    padding: 3% !important;
+  }
+
+  #moveUpColLargeScreens h5 {
+    margin-top: -40% !important;
+  }
+
+  #lifestyleRow button {
+    margin-top: 15% !important;
+  }
+
+  .moveUpLargeScreens {
+    margin-top: -20% !important;
+  }
+
+ #amenitiesRow {
+  width: 100% !important;
+ }
+
+ .amcol1, .amcol2, .amcol4, .amcol5 {
+   border-right: thin solid #8e8f91 !important;
+   height: 280px !important;
+ }
+
+ .amcol4, .amcol5, .amcol6 {
+   border-top: thin solid #8e8f91 !important;
+   height: 280px !important;
+ }
+
+  #showExtraSmallScreensSizes {
+    display: none !important;
+  }
+
+  #showBrLargeScreens {
+    display: block !important;
+  }
+
+  #photoGallery {
+    margin-left: -1% !important;
+    width: 100% !important;
+  }
+
+  #pgcolOne {
+     height: 300px;
+    width: 750px;
+    }
+
+  #footerSectionRow {
+    width: 100% !important;
+  }
+
+  fcol1 p {
+   line-height: 25px !important;
+  }
+
+  .fcol1 {
+    margin-top: -2% !important;
+  }
+
+  .fcol2 {
+    margin-left: 0% !important;
+  }
+
+  .footerHR {
+    width: 75% !important;
+  }
+
+  .footerHR p {
+    font-size: 7px !important;
+  }
+
+  .footerIcons {
+    margin-left: 25% !important;
+  }
+}
+/* Tablet Devices 768px and up End */
+
+/* Large devices (desktops, 1024px and up) */
+@media only screen and (min-width: 1024px) {
+  /* Header Content Start */
+  #headerImage {
+    height: 950px !important;
+    background-image: url(img/header-image.jpg);
+    background-size: 145% !important;
+    background-repeat: no-repeat !important;
+    background-position: top;
+    margin-top: -5% !important;
+  }
+
+  #headerContent {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: -68% !important;
+    margin-left: -3% !important;
+    width: 100% !important;
+    text-align: center;
+    position: relative !important;
+  }
+
+  #headerContent  img {
+    width: 108px !important;
+    height: 108px !important;
+    position: relative;
+  }
+
+  #headerContent  h4 {
+    margin-top: 1.5% !important;
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300 !important;
+    color: #fff !important;
+    font-size: 1.5rem !important;
+  }
+
+  #headerContent  h1 {
+    font-family: 'Montserrat', sans-serif !important;
+    color: #fff !important;
+    letter-spacing: 2px !important;
+    font-size: 65px !important;
+    font-weight: 200 !important;
+    font-size: 2.5rem !important;
+  }
+  /* Header Content End */
+
+  #opacityOverlayHeaderImage {
+    height: 950px !important;
+    width: 103% !important;
+    margin-left: -2% !important;
+    margin-top: -.01% !important;
+    background-color: #000 !important;
+    opacity: .4 !important;
+  }
+  /* Header Styles End */
+
+  /* Contacts Row */
+  #contactsRow {
+    width: 103% !important;
+    margin-left: -10% !important;
+    height: auto !important;
+    color: #fff !important;
+    text-align: center !important;
+    padding: auto !important;
+    background-color: #000 !important;
+    padding-top: 2% !important;
+    padding-bottom: 3% !important;
+    opacity: .8 !important;
+    margin-top: 26.5% !important;
+    margin-left: -6% !important;
+  }
+
+  #contactsRow  h6 {
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 20px !important;
+    position: relative !important;
+    font-size: 1rem !important;
+  }
+
+  #contactsRow  p {
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 12px !important;
+    line-height: 20px !important;
+    padding-left: 15% !important;
+    padding-right: 15% !important;
+    font-size: 1rem !important;
+  }
+
+  .verticalLine {
+    border-right: thin solid #fff !important;
+  }
+  /* Contacts Row End */
+
+  /* Chancellor Description Section */
+  #chancellorDescriptionSection {
+    height: auto !important;
+    text-align: center !important;
+    padding-top: 5% !important;
+    margin-top: 0% !important;
+  }
+
+  #chancellorDescriptionSection h1 {
+    color: #000 !important;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 300 !important;
+    font-size: 2.5rem !important;
+  }
+
+  #chancellorDescriptionSection p {
+    color: #898989 !important;
+    font-family: 'Open Sans', sans-serif !important;
+    padding: 1% !important;
+    font-weight: 900 !important;
+    font-size: 1rem !important;
+  }
+  /* Chancellor Description Section End */
+
+  /* Chancellor Lifestyle Section */
+  #chancellorCommunityLifestyleSection {
+    background-image: url(img/lifestyle-bg.png);
+    text-align: center !important;
+    padding: 5% !important;
+    margin-top: 5% !important;
+  }
+
+  #chancellorCommunityLifestyleSection h1 {
+    color: #fff !important;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 300 !important;
+    font-size: 2.5rem !important;
+  }
+
+  #chancellorCommunityLifestyleSection p {
+    color: #fff !important;
+    font-family: 'Open Sans', sans-serif !important;
+    padding: 1% !important;
+    font-size: 1rem !important;
+  }
+
+  #chancellorCommunityLifestyleSection button {
+    margin-top: 5% !important;
+  }
+
+  #lifestyleRow {
+    text-align: center !important;
+  }
+
+  #lifestyleRow h5 {
+    color: #fff !important;
+    font-size: 20px !important;
+    position: relative !important;
+    margin-top: -30% !important;
+    font-size: 1.25rem !important;
+  }
+
+  #lifestyleRow button {
+    margin-top: 10% !important;
+  }
+  /* Chancellor Lifestyle Section End */
+
+  /* Chancellor Amenities Section */
+  #chancellorAmenities {
+    background-image: url(img/amenities-bg.jpg);
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    text-align: center !important;
+    padding: 5% !important;
+  }
+
+  #chancellorAmenities button {
+    margin-top: 5% !important;
+  }
+
+  #chancellorAmenities h1 {
+    color: #000 !important;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 300 !important;
+    margin-top: 1% !important;
+    font-size: 2.5rem !important;
+  }
+
+  #chancellorAmenities p {
+    color: #8e8f91 !important;
+    font-family: 'Open Sans', sans-serif !important;
+    padding: 1% !important;
+    font-weight: 300 !important;
+    font-size: 1rem !important;
+  }
+
+  #amenitiesRow {
+   margin-left: auto !important;
+   margin-right: auto !important;
+   text-align: center !important;
+   margin-top: 1% !important;
+   background-color: rgb(250,250,250) !important;
+   opacity: .85 !important;
+   width: 85% !important;
+   padding: 1% !important;
+  }
+
+  #amenitiesRow i, #contactsRow i  {
+    color: #3791B5 !important;
+  }
+
+  #amenitiesRow .col {
+    padding: 5% !important;
+  }
+
+  #amenitiesRow h6 {
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 900 !important;
+    font-size: 1rem !important;
+  }
+
+  #amenitiesRow p {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 900 !important;
+    font-size: 12px !important;
+    color: #8e8f91 !important;
+    font-size: 1rem !important;
+  }
+
+  .amcol1, .amcol2, .amcol4, .amcol5 {
+    border-right: thin solid #8e8f91 !important;
+    height: 280px !important;
+  }
+
+  .amcol4, .amcol5, .amcol6 {
+    border-top: thin solid #8e8f91 !important;
+    height: 280px !important;
+  }
+  /* Chancellor Amenities Section End */
+
+  /* Chancellor Photo Gallery Section */
+  #chancellorPhotoGallery {
+    text-align: center !important;
+    width: 103% !important;
+    margin-top: -1% !important;
+  }
+
+  #photoGallery {
+    width: 120% !important;
+    margin-top: -3% !important;
+    margin-left: .5% !important;
+  }
+
+  #chancellorPhotoGallery  h1 {
+    color: #000 !important;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 300 !important;
+    font-size: 2.5rem !important;
+  }
+
+  #chancellorPhotoGallery p {
+    color: #000 !important;
+    font-family: 'Open Sans', sans-serif !important;
+    padding: 5% !important;
+    font-weight: 300 !important;
+    margin-top: -3% !important;
+    font-size: 1rem !important;
+  }
+
+  #chancellorPhotoGallery .col {
+    margin: .5% .5%;
+  }
+
+  .pgcol1 {
+    background-image: url("img/gallery-1.jpg");
+    height: 445px !important;
+    width: 230px !important;
+    background-size: cover !important;
+    background-position: right !important;
+  }
+
+  .pgcol2 {
+    background-image: url("img/gallery-2.jpg");
+    height: 270px !important;
+    width: 230px !important;
+    background-size: cover !important;
+    background-position: right !important;
+  }
+
+  .pgcol3 {
+    background-image: url("img/gallery-3.jpg");
+    height: 445px !important;
+    width: 230px !important;
+    background-size: cover !important;
+    background-position: center !important;
+  }
+
+  .pgcol4 {
+    background-image: url("img/gallery-4.jpg");
+    height: 270px !important;
+    width: 230px !important;
+    background-size: cover !important;
+    background-position: top !important;
+  }
+
+  .pgcol5 {
+    background-image: url("img/gallery-5.jpg");
+    height: 270px !important;
+    width: 230px !important;
+    background-size: cover !important;
+    background-position: center !important;
+  }
+
+  .pgcol6 {
+    background-image: url("img/gallery-6.jpg");
+    height: 445px !important;
+    width: 230px !important;
+    background-size: cover !important;
+    margin-top: -15% !important;
+    background-position: right !important;
+  }
+
+  .pgcol7 {
+    background-image: url("img/gallery-7.jpg");
+    height: 270px !important;
+    width: 230px !important;
+    background-size: cover !important;
+    background-position: right !important;
+  }
+
+  .pgcol8 {
+    background-image: url("img/gallery-8.jpg");
+    height: 445px !important;
+    width: 230px !important;
+    background-size: cover !important;
+    margin-top: -15% !important;
+    background-position: center !important;
+  }
+
+
+  #chancellorPhotoGallery button {
+      margin-top: 5% !important;
+  }
+  /* Chancellor Photo Gallery Section End */
+
+  /* Chancellor Schedule a Tour Section */
+  #scheduleTourSection {
+    background-color: #3791B5 !important;
+    color: #fff !important;
+    font-family: 'Montserrat', sans-serif !important;
+    text-align: center !important;
+    padding: 1% !important;
+  }
+
+  #scheduleTourSection i {
+    color: #43A7C2 !important;
+  }
+
+  #scheduleTourSection h4 {
+    margin-top: 1% !important;
+    font-weight: 200 !important;
+    font-size: 1.5rem !important;
+  }
+  /* Chancellor Schedule a Tour Section End */
+
+  /* Footer Styles */
+  footer {
+    height: auto !important;
+    background-color: #000 !important;
+    color: #fff !important;
+    text-align: left !important;
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300 !important;
+  }
+
+  footer img {
+    width: 150px !important;
+    height: auto !important;
+    text-align: left !important;
+  }
+
+  footer p {
+    line-height: 1 !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    padding: .5% !important;
+  }
+
+  #footerSectionRow {
+    width: 100% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding: 5% !important;
+  }
+
+  .fcol1 p {
+   line-height: 0px !important;
+  }
+
+  .fcol2 {
+    margin-left: 0% !important;
+  }
+
+  .footerHR {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: -3% !important;
+    width: 75% !important;
+    color: #8e8f91 !important;
+    text-align: left !important;
+  }
+
+  .footerHR p {
+    font-size: 10px !important;
+  }
+
+  .footerIcons {
+    margin-left: 20% !important;
+  }
+  /* Footer Styles End */
+
+  #showBrLargeScreens {
+    display: block !important;
+  }
+}
+/* Large devices (desktops, 1024px and up) End */
+
+/* Large devices (large desktops, 1440px and up) */
+@media only screen and (min-width: 1440px) {
+  /* Header Styles */
+
+  /* Nav Styles */
+  .navbar {
+    background-color: rgb(46,75,107) !important;
+    margin-left: -.9% !important;
+    margin-right: auto !important;
+    width: 103% !important;
+    height: 60px !important;
+  }
+  .container-fluid.navMenu {
+    margin-left: -20% !important;
+  }
+
+  .navbar-brand {
+    margin-left: 40% !important;
+  }
+
+  .navbar-brand img {
+    height: 40px !important;
+  }
+  /* Nav Styles End */
+
+  /* Header Content Start */
+  #headerImage {
+    height: 900px;
+    background-image: url(img/header-image.jpg);
+    background-size: 145% !important;
+    background-repeat: no-repeat !important;
+    background-position: top;
+    margin-top: -5% !important;
+  }
+
+  #headerContent {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: -40% !important;
+    width: 100% !important;
+    text-align: center;
+    position: relative !important;
+    margin-left: -5% !important;
+  }
+
+  #headerContent  img {
+    width: 108px !important;
+    height: 108px !important;
+    position: relative;
+  }
+
+  #headerContent  h4 {
+    margin-top: 1.5% !important;
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300 !important;
+    color: #fff !important;
+    font-size: 1.5rem !important;
+  }
+
+  #headerContent  h1 {
+    font-family: 'Montserrat', sans-serif !important;
+    color: #fff !important;
+    letter-spacing: 2px !important;
+    font-size: 65px !important;
+    font-weight: 200 !important;
+    font-size: 2.5rem !important;
+  }
+  /* Header Content End */
+
+  #opacityOverlayHeaderImage {
+    height: 900px !important;
+    width: 103% !important;
+    margin-left: -2% !important;
+    margin-top: -.01% !important;
+    background-color: #000 !important;
+    opacity: .4 !important;
+  }
+  /* Header Styles End */
+
+  /* Contacts Row */
+  #contactsRow {
+    width: 103% !important;
+    height: auto !important;
+    color: #fff !important;
+    text-align: center !important;
+    padding: auto !important;
+    background-color: #000 !important;
+    padding-top: 2% !important;
+    padding-bottom: 3% !important;
+    opacity: .8 !important;
+    margin-top: 13% !important;
+    margin-left: -6% !important;
+  }
+
+  #contactsRow  h6 {
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 20px !important;
+    position: relative !important;
+  }
+
+  #contactsRow  p {
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 12px !important;
+    line-height: 20px !important;
+    padding-left: 15% !important;
+    padding-right: 15% !important;
+    font-size: 1rem !important;
+  }
+
+  .verticalLine {
+    border-right: thin solid #fff !important;
+  }
+  /* Contacts Row End */
+
+  /* Chancellor Description Section */
+  #chancellorDescriptionSection {
+    height: auto !important;
+    text-align: center !important;
+    padding-top: 5% !important;
+  }
+
+  #chancellorDescriptionSection h1 {
+    color: #000 !important;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 300 !important;
+    font-size: 2.5rem !important;
+  }
+
+  #chancellorDescriptionSection p {
+    color: #898989 !important;
+    font-family: 'Open Sans', sans-serif !important;
+    padding: 1% !important;
+    font-weight: 900 !important;
+    font-size: 1rem !important;
+  }
+  /* Chancellor Description Section End */
+
+  /* Chancellor Lifestyle Section */
+  #chancellorCommunityLifestyleSection {
+    background-image: url(img/lifestyle-bg.png);
+    text-align: center !important;
+    padding: 5% !important;
+    margin-top: 5% !important;
+    height: auto !important;
+  }
+
+  #chancellorCommunityLifestyleSection h1 {
+    color: #fff !important;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 300 !important;
+    font-size: 2.5rem !important;
+  }
+
+  #chancellorCommunityLifestyleSection p {
+    color: #fff !important;
+    font-family: 'Open Sans', sans-serif !important;
+    padding: 1% !important;
+    font-size: 1rem !important;
+  }
+
+  #lifestyleRow {
+    text-align: center !important;
+    width: 75% !important;
+    padding: 3% !important;
+    margin-top: -22% !important;
+  }
+
+  .moveUpLargeScreens {
+    margin-top: -10% !important;
+  }
+
+  #lifestyleRow img {
+    height: 228px !important;
+    width: 436px !important;
+    padding: 0% !important;
+  }
+
+  #lifestyleRow2 {
+    margin-top: -21% !important;
+  }
+
+  #lifestyleRow h5 {
+    color: #fff !important;
+    font-size: 20px !important;
+    position: relative !important;
+    font-size: 1.25rem !important;
+  }
+
+  #chancellorCommunityLifestyleSection button {
+    margin-top: 15% !important;
+  }
+
+  /* Chancellor Lifestyle Section End */
+
+  /* Chancellor Amenities Section */
+  #chancellorAmenities {
+    background-image: url(img/amenities-bg.jpg);
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    text-align: center !important;
+    padding: 5% !important;
+  }
+
+  #chancellorAmenities button {
+    margin-top: 5% !important;
+  }
+
+  #chancellorAmenities h1 {
+    color: #000 !important;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 300 !important;
+    margin-top: 1% !important;
+    font-size: 2.5rem !important;
+  }
+
+  #chancellorAmenities p {
+    color: #8e8f91 !important;
+    font-family: 'Open Sans', sans-serif !important;
+    padding: 1% !important;
+    font-weight: 300 !important;
+    font-size: 1rem !important;
+  }
+
+  #amenitiesRow {
+   margin-left: auto !important;
+   margin-right: auto !important;
+   text-align: center !important;
+   margin-top: 1% !important;
+   background-color: rgb(250,250,250) !important;
+   opacity: .85 !important;
+   width: 75% !important;
+   padding: 1% !important;
+  }
+
+  #amenitiesRow i, #contactsRow i  {
+    color: #3791B5 !important;
+  }
+
+  #amenitiesRow .col {
+    padding: 5% !important;
+  }
+
+  #amenitiesRow h6 {
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 900 !important;
+  }
+
+  #amenitiesRow p {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 900 !important;
+    font-size: 12px !important;
+    color: #8e8f91 !important;
+    font-size: 1rem !important;
+  }
+
+  .amcol1, .amcol2, .amcol4, .amcol5 {
+    border-right: thin solid #8e8f91 !important;
+    height: 280px !important;
+  }
+
+  .amcol4, .amcol5, .amcol6 {
+    border-top: thin solid #8e8f91 !important;
+    height: 280px !important;
+  }
+  /* Chancellor Amenities Section End */
+
+  /* Chancellor Photo Gallery Section */
+  #chancellorPhotoGallery {
+    text-align: center !important;
+    width: 103% !important;
+    margin-top: -1% !important;
+  }
+
+  #photoGallery {
+    width: 110% !important;
+    margin-top: -3% !important;
+    margin-left: -3% !important;
+  }
+
+  #chancellorPhotoGallery  h1 {
+    color: #000 !important;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 300 !important;
+    font-size: 2.5rem !important;
+  }
+
+  #chancellorPhotoGallery p {
+    color: #000 !important;
+    font-family: 'Open Sans', sans-serif !important;
+    padding: 5% !important;
+    font-weight: 300 !important;
+    margin-top: -3% !important;
+    font-size: 1rem !important;
+  }
+
+  #chancellorPhotoGallery .col {
+    margin: .5% .5%;
+  }
+
+  .pgcol1 {
+    background-image: url("img/gallery-1.jpg");
+    height: 445px !important;
+    width: 344px !important;
+    background-size: cover !important;
+    background-position: right !important;
+  }
+
+  .pgcol2 {
+    background-image: url("img/gallery-2.jpg");
+    height: 273px !important;
+    width: 342px !important;
+    background-size: cover !important;
+    background-position: right !important;
+  }
+
+  .pgcol3 {
+    background-image: url("img/gallery-3.jpg");
+    height: 445px !important;
+    width: 344px !important;
+    background-size: cover !important;
+    background-position: center !important;
+  }
+
+  .pgcol4 {
+    background-image: url("img/gallery-4.jpg");
+    height: 273px !important;
+    width: 342px !important;
+    background-size: cover !important;
+    background-position: top !important;
+  }
+
+  .pgcol5 {
+    background-image: url("img/gallery-5.jpg");
+    height: 273px !important;
+    width: 342px !important;
+    background-size: cover !important;
+    background-position: center !important;
+  }
+
+  .pgcol6 {
+    background-image: url("img/gallery-6.jpg");
+    height: 445px !important;
+    width: 344px !important;
+    background-size: cover !important;
+    margin-top: -11% !important;
+    background-position: right !important;
+  }
+
+  .pgcol7 {
+    background-image: url("img/gallery-7.jpg");
+    height: 273px !important;
+    width: 342px !important;
+    background-size: cover !important;
+    background-position: right !important;
+  }
+
+  .pgcol8 {
+    background-image: url("img/gallery-8.jpg");
+    height: 445px !important;
+    width: 344px !important;
+    background-size: cover !important;
+    margin-top: -11% !important;
+    background-position: center !important;
+  }
+
+  #chancellorPhotoGallery button {
+      margin-top: 5% !important;
+  }
+  /* Chancellor Photo Gallery Section End */
+
+  /* Chancellor Schedule a Tour Section */
+  #scheduleTourSection {
+    background-color: #3791B5 !important;
+    color: #fff !important;
+    font-family: 'Montserrat', sans-serif !important;
+    text-align: center !important;
+    padding: 1% !important;
+  }
+
+  #scheduleTourSection i {
+    color: #43A7C2 !important;
+  }
+
+  #scheduleTourSection h4 {
+    margin-top: 1% !important;
+    font-weight: 200 !important;
+    font-size: 1.5rem !important;
+  }
+  /* Chancellor Schedule a Tour Section End */
+
+  /* Footer Styles */
+  footer {
+    height: auto !important;
+    background-color: #000 !important;
+    color: #fff !important;
+    text-align: left !important;
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300 !important;
+    width: 103% !important;
+  }
+
+  footer img {
+    width: 150px !important;
+    height: auto !important;
+    text-align: left !important;
+  }
+
+  footer p {
+    line-height: 1 !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    padding: .5% !important;
+  }
+
+  #footerSectionRow {
+    width: 75% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding: 5% !important;
+  }
+
+  .fcol1 p {
+   line-height: 0px !important;
+  }
+
+  .fcol2 {
+    margin-left: 0% !important;
+  }
+
+  .footerHR {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: -3% !important;
+    width: 68% !important;
+    color: #8e8f91 !important;
+    text-align: center !important;
+  }
+
+  .footerHR p {
+    font-size: 12px !important;
+  }
+
+  .footerIcons {
+    margin-left: 25% !important;
+  }
+  /* Footer Styles End */
+
+  #showBrLargeScreens {
+    display: block !important;
+  }
+}
+/* Large devices (large desktops, 1440px and up) End */
+
+/* Extra Extra large devices (large desktops, 2560px and up) */
+@media only screen and (min-width: 2560px) {
+  /* Header Styles */
+
+  /* Nav Styles */
+  .navbar {
+    background-color: rgb(46,75,107) !important;
+    margin-left: -.9% !important;
+    margin-right: auto !important;
+    width: 103% !important;
+    height: 60px !important;
+  }
+  .container-fluid.navMenu {
+    margin-left: -20% !important;
+  }
+
+  .navbar-brand {
+    margin-left: 40% !important;
+  }
+
+  .navbar-brand img {
+    height: 40px !important;
+  }
+  /* Nav Styles End */
+
+  /* Header Content Start */
+  #headerImage {
+    height: 950px;
+    background-image: url(img/header-image.jpg);
+    background-size: 145% !important;
+    background-repeat: no-repeat !important;
+    background-position: top;
+    margin-top: -5% !important;
+  }
+
+  #headerContent {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: -25% !important;
+    width: 100% !important;
+    text-align: center;
+    position: relative !important;
+    margin-left: -5% !important;
+  }
+
+  #headerContent  img {
+    width: 150px !important;
+    height: 150px !important;
+    position: relative;
+  }
+
+  #headerContent  h4 {
+    margin-top: 1.5% !important;
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300 !important;
+    color: #fff !important;
+    font-size: 1.5rem !important;
+  }
+
+  #headerContent  h1 {
+    font-family: 'Montserrat', sans-serif !important;
+    color: #fff !important;
+    letter-spacing: 2px !important;
+    font-size: 65px !important;
+    font-weight: 200 !important;
+    font-size: 2.5rem !important;
+  }
+  /* Header Content End */
+
+  #opacityOverlayHeaderImage {
+    height: 950px !important;
+    width: 103% !important;
+    margin-left: -2% !important;
+    margin-top: -.01% !important;
+    background-color: #000 !important;
+    opacity: .4 !important;
+  }
+  /* Header Styles End */
+
+  /* Contacts Row */
+  #contactsRow {
+    width: 103% !important;
+    height: auto !important;
+    color: #fff !important;
+    text-align: center !important;
+    padding: auto !important;
+    background-color: #000 !important;
+    padding-top: 2% !important;
+    padding-bottom: 3% !important;
+    opacity: .8 !important;
+    margin-top: 4% !important;
+    margin-left: -6% !important;
+  }
+
+  #contactsRow  h6 {
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 20px !important;
+    position: relative !important;
+  }
+
+  #contactsRow  p {
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 12px !important;
+    line-height: 20px !important;
+    padding-left: 15% !important;
+    padding-right: 15% !important;
+    font-size: 1rem !important;
+  }
+
+  .verticalLine {
+    border-right: thin solid #fff !important;
+  }
+  /* Contacts Row End */
+
+  /* Chancellor Description Section */
+  #chancellorDescriptionSection {
+    height: auto !important;
+    text-align: center !important;
+    padding-top: 5% !important;
+  }
+
+  #chancellorDescriptionSection h1 {
+    color: #000 !important;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 300 !important;
+    font-size: 2.5rem !important;
+  }
+
+  #chancellorDescriptionSection p {
+    color: #898989 !important;
+    font-family: 'Open Sans', sans-serif !important;
+    padding: 1% !important;
+    font-weight: 900 !important;
+    font-size: 1rem !important;
+  }
+  /* Chancellor Description Section End */
+
+  /* Chancellor Lifestyle Section */
+  #chancellorCommunityLifestyleSection {
+    background-image: url(img/lifestyle-bg.png);
+    text-align: center !important;
+    padding: 5% !important;
+    margin-top: 5% !important;
+    height: auto !important;
+  }
+
+  #chancellorCommunityLifestyleSection h1 {
+    color: #fff !important;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 300 !important;
+    font-size: 2.5rem !important;
+  }
+
+  #chancellorCommunityLifestyleSection p {
+    color: #fff !important;
+    font-family: 'Open Sans', sans-serif !important;
+    padding: 1% !important;
+    font-size: 1rem !important;
+  }
+
+  #lifestyleRow {
+    text-align: center !important;
+    width: 75% !important;
+    padding: 2% !important;
+    margin-top: -22% !important;
+  }
+
+  .moveUpLargeScreens {
+    margin-top: -10% !important;
+  }
+
+  #lifestyleRow img {
+    height: 450px !important;
+    width: 650px !important;
+    padding: 0% !important;
+  }
+
+  #lifestyleRow2 {
+    margin-top: -18% !important;
+  }
+
+  #lifestyleRow h5 {
+    color: #fff !important;
+    font-size: 20px !important;
+    position: relative !important;
+    font-size: 1.25rem !important;
+    margin-top: -30% !important;
+  }
+
+  #chancellorCommunityLifestyleSection button {
+    margin-top: 15% !important;
+  }
+
+  /* Chancellor Lifestyle Section End */
+
+  /* Chancellor Amenities Section */
+  #chancellorAmenities {
+    background-image: url(img/amenities-bg.jpg);
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    text-align: center !important;
+    padding: 5% !important;
+  }
+
+  #chancellorAmenities button {
+    margin-top: 5% !important;
+  }
+
+  #chancellorAmenities h1 {
+    color: #000 !important;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 300 !important;
+    margin-top: 1% !important;
+    font-size: 2.5rem !important;
+  }
+
+  #chancellorAmenities p {
+    color: #8e8f91 !important;
+    font-family: 'Open Sans', sans-serif !important;
+    padding: 1% !important;
+    font-weight: 300 !important;
+    font-size: 1rem !important;
+  }
+
+  #amenitiesRow {
+   margin-left: auto !important;
+   margin-right: auto !important;
+   text-align: center !important;
+   margin-top: 1% !important;
+   background-color: rgb(250,250,250) !important;
+   opacity: .85 !important;
+   width: 75% !important;
+   padding: 1% !important;
+  }
+
+  .amenitiesRow2 {
+    margin-top: -2% !important;
+  }
+
+  #amenitiesRow i, #contactsRow i  {
+    color: #3791B5 !important;
+  }
+
+  #amenitiesRow .col {
+    padding: 5% !important;
+  }
+
+  #amenitiesRow h6 {
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 900 !important;
+  }
+
+  #amenitiesRow p {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 900 !important;
+    font-size: 12px !important;
+    color: #8e8f91 !important;
+    font-size: 1rem !important;
+  }
+
+  .amcol1, .amcol2, .amcol4, .amcol5 {
+    border-right: thin solid #8e8f91 !important;
+    height: 280px !important;
+  }
+
+  .amcol4, .amcol5, .amcol6 {
+    border-top: thin solid #8e8f91 !important;
+    height: 280px !important;
+  }
+  /* Chancellor Amenities Section End */
+
+  /* Chancellor Photo Gallery Section */
+  #chancellorPhotoGallery {
+    text-align: center !important;
+    width: 103% !important;
+    margin-top: -1% !important;
+  }
+
+  #photoGallery {
+    width: 150% !important;
+    margin-top: -3% !important;
+    margin-left: 10% !important;
+  }
+
+  #chancellorPhotoGallery  h1 {
+    color: #000 !important;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 300 !important;
+    font-size: 2.5rem !important;
+  }
+
+  #chancellorPhotoGallery p {
+    color: #000 !important;
+    font-family: 'Open Sans', sans-serif !important;
+    padding: 5% !important;
+    font-weight: 300 !important;
+    margin-top: -3% !important;
+    font-size: 1rem !important;
+  }
+
+  #chancellorPhotoGallery .col {
+    margin: .5% .5%;
+  }
+
+  .pgcol1 {
+    background-image: url("img/gallery-1.jpg");
+    height: 599px !important;
+    width: 462px !important;
+    background-size: cover !important;
+    background-position: right !important;
+  }
+
+  .pgcol2 {
+    background-image: url("img/gallery-2.jpg");
+    height: 372px !important;
+    width: 463px !important;
+    background-size: cover !important;
+    background-position: right !important;
+  }
+
+  .pgcol3 {
+    background-image: url("img/gallery-3.jpg");
+    height: 599px !important;
+    width: 462px !important;
+    background-size: cover !important;
+    background-position: center !important;
+  }
+
+  .pgcol4 {
+    background-image: url("img/gallery-4.jpg");
+    height: 372px !important;
+    width: 463px !important;
+    background-size: cover !important;
+    background-position: top !important;
+  }
+
+  .pgcol5 {
+    background-image: url("img/gallery-5.jpg");
+    height: 372px !important;
+    width: 463px !important;
+    background-size: cover !important;
+    background-position: center !important;
+  }
+
+  .pgcol6 {
+    background-image: url("img/gallery-6.jpg");
+    height: 599px !important;
+    width: 462px !important;
+    background-size: cover !important;
+    margin-top: -5.5% !important;
+    background-position: right !important;
+  }
+
+  .pgcol7 {
+    background-image: url("img/gallery-7.jpg");
+    height: 372px !important;
+    width: 463px !important;
+    background-size: cover !important;
+    background-position: right !important;
+  }
+
+  .pgcol8 {
+    background-image: url("img/gallery-8.jpg");
+    height: 599px !important;
+    width: 462px !important;
+    background-size: cover !important;
+    margin-top: -5.5% !important;
+    background-position: center !important;
+  }
+
+  #chancellorPhotoGallery button {
+      margin-top: 5% !important;
+  }
+  /* Chancellor Photo Gallery Section End */
+
+  /* Chancellor Schedule a Tour Section */
+  #scheduleTourSection {
+    background-color: #3791B5 !important;
+    color: #fff !important;
+    font-family: 'Montserrat', sans-serif !important;
+    text-align: center !important;
+    padding: 1% !important;
+  }
+
+  #scheduleTourSection i {
+    color: #43A7C2 !important;
+  }
+
+  #scheduleTourSection h4 {
+    margin-top: 1% !important;
+    font-weight: 200 !important;
+    font-size: 1.5rem !important;
+  }
+  /* Chancellor Schedule a Tour Section End */
+
+  /* Footer Styles */
+  footer {
+    height: auto !important;
+    background-color: #000 !important;
+    color: #fff !important;
+    text-align: left !important;
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300 !important;
+    width: 103% !important;
+  }
+
+  footer img {
+    width: 150px !important;
+    height: auto !important;
+    text-align: left !important;
+  }
+
+  footer p {
+    line-height: 1 !important;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+    padding: .5% !important;
+  }
+
+  #footerSectionRow {
+    width: 75% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding: 5% !important;
+  }
+
+  .fcol1 p {
+   line-height: 0px !important;
+  }
+
+  .fcol2 {
+    margin-left: 0% !important;
+  }
+
+  .footerHR {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: -3% !important;
+    width: 68% !important;
+    color: #8e8f91 !important;
+    text-align: center !important;
+  }
+
+  .footerHR p {
+    font-size: 12px !important;
+  }
+
+  .footerIcons {
+    margin-left: 25% !important;
+  }
+  /* Footer Styles End */
+
+  #showBrLargeScreens {
+    display: block !important;
+  }
+}
+/* Extra Extra large devices (large desktops, 2560px and up) End */
+/* Media Queries For Responsive Design End */
