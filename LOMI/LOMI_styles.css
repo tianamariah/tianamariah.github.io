@@ -1,0 +1,1701 @@
+/* Universal Styles */
+* {
+  box-sizing: none !important;
+}
+
+#body {
+  background: #000 !important;
+}
+
+html, body {width: auto!important; overflow-x:auto !important;}
+
+/* Universal Styles End */
+
+/* Nav Styles */
+.navbar {
+  font-family: 'Bodoni Moda', serif;
+  font-weight: 600;
+  background-color: #000 !important;
+}
+
+.navbar a {
+  color: #fff !important;
+}
+
+.navbar a:hover {
+  color: red !important;
+  text-decoration: none !important;
+}
+
+
+.navbar p {
+  font-family: 'Nanum Myeongjo', serif;
+  text-transform: uppercase !important;
+  font-size: 12px !important;
+  letter-spacing: 1px !important;
+  font-weight: 800 !important;
+}
+
+
+.navbar-toggler {
+  border: none !important;
+  border-radius: none !important;
+  box-shadow: none !important;
+}
+
+.navbar-toggler:focus {
+  border: none !important;
+  border-radius: none !important;
+  box-shadow: none !important;
+}
+
+.fa-bars {
+  color: #fff !important;
+}
+
+#navbarNavAltMarkup {
+  margin-top: .5% !important;
+}
+
+.dropdown-menu a {
+  color: #000 !important;
+}
+/* Nav Styles End */
+
+/* Jumbotron Intro Styles */
+.jumbotron {
+  background-image: url('img/bg.jpg');
+  height: 750px !important;
+  width: 100% !important;
+  background-size: cover;
+  background-position: center;
+  color: #fff !important;
+}
+
+.jumbotron h1 {
+  font-family: 'Bodoni Moda', serif;
+  width: 60% !important;
+  color: red !important;
+  margin-left: 3% !important;
+  margin-top: 18% !important;
+  width: 50% !important;
+  letter-spacing: 1px !important;
+}
+
+.jumbotron p {
+  font-family: 'Nanum Myeongjo', serif;
+  width: 60% !important;
+  margin-left: 3% !important;
+  width: 50% !important;
+  letter-spacing: 1px !important;
+  font-weight: 800 !important;
+}
+
+.jumbotron button {
+  margin-left: 3% !important;
+  border-color: red !important;
+  color: red !important;
+  font-family: 'Nanum Myeongjo', serif;
+  font-weight: 800 !important;
+}
+
+.jumbotron button:hover {
+  color: #fff !important;
+  background-color: red !important;
+}
+/* Jumbotron Intro Styles End */
+
+/* PI Section  Styles */
+  .PI {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center !important;
+    padding: 1% !important;
+  }
+
+  .PI h1 {
+    font-family: 'Bodoni Moda', serif;
+    color: #fff !important;
+    text-transform: uppercase !important;
+    letter-spacing: 5px !important;
+    color: red !important;
+    font-weight: 600;
+    margin-top: 5% !important;
+  }
+
+  .PI h4 {
+    font-family: 'Bodoni Moda', serif;
+    color: #fff !important;
+    text-transform: uppercase !important;
+    letter-spacing: 5px !important;
+  }
+
+.pIframes {
+    margin-top: 5% !important;
+  }
+
+.pIframes iframe {
+    box-shadow: 0 3px 8px red;
+  }
+/* PI Section Styles End */
+
+/* Research Section Styles */
+.research {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.research article {
+  padding: 2% !important;
+}
+
+.research h1 {
+  font-family: 'Bodoni Moda', serif;
+  color: #fff !important;
+  text-transform: uppercase !important;
+  letter-spacing: 5px !important;
+  color: red !important;
+  font-weight: 600;
+  margin-top: 5% !important;
+  text-align: center !important;
+}
+
+.research article h2 {
+  font-family: 'Bodoni Moda', serif;
+  color: #fff !important;
+  text-transform: uppercase !important;
+  letter-spacing: 5px !important;
+  text-align: left !important;
+  margin-top: 5% !important;
+  width: 100% !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.research article h6 {
+  font-family: 'Nanum Myeongjo', serif;
+  font-weight: 800;
+  text-transform: uppercase !important;
+  letter-spacing: 5px !important;
+  color: red !important;
+  margin-top: 1% !important;
+  text-align: left !important;
+  width: 100% !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.research article p, .research article li, .research article small {
+  color: #fff !important;
+  font-family: 'Nanum Myeongjo', serif;
+  font-weight: 400;
+  letter-spacing: 1px !important;
+  font-weight: 800 !important;
+  text-align: left !important;
+  margin-top: 1% !important;
+}
+
+.research article p, .research article ol {
+  width: 100% !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.research video {
+  margin-top: 5% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  width: 100% !important;
+}
+
+  article a {
+    font-family: 'Bodoni Moda', serif !important;
+    font-weight: 600 !important;
+    color: #fff !important;
+  }
+
+  article a:hover {
+    color: gray !important;
+    text-decoration: none !important;
+  }
+/* Research Section Styles End */
+
+/* Team Section Styles */
+  .currentTeamMembers, .currentRotationStudents, .formerTeamMembers, .formerRotationStudents, .formerSummerTeamMembers {
+    text-align: center !important;
+  }
+
+  .currentTeamMembers h1, .currentRotationStudents h1, .formerTeamMembers h1, .formerRotationStudents h1, .formerSummerTeamMembers h1 {
+    font-family: 'Bodoni Moda', serif;
+    color: #fff !important;
+    text-transform: uppercase !important;
+    letter-spacing: 5px !important;
+    color: red !important;
+    font-weight: 600;
+    margin-top: 5% !important;
+  }
+
+.currentTeamMembers h4, .currentRotationStudents h4, .formerTeamMembers h4, .formerRotationStudents h4, .formerSummerTeamMembers h4  {
+    font-family: 'Bodoni Moda', serif;
+    color: #fff !important;
+    text-transform: uppercase !important;
+    letter-spacing: 5px !important;
+    margin-top: 1% !important;
+  }
+
+  .accordion-body {
+    height: auto !important;
+    padding-bottom: 10% !important;
+  }
+
+  .accordion-button:not(.collapsed) {
+    background-color: red !important;
+    color: #fff !important;
+  }
+
+  .accordion-button {
+    font-family: 'Bodoni Moda', serif !important;
+    font-weight: 600 !important;
+    color: #fff !important;
+    border-color: none !important;
+  }
+
+  .accordion-button.collapsed {
+    color: #fff !important;
+    background-color: red !important;
+    border-color: none !important;
+  }
+
+  .accordion-body, .accordion-item {
+    border: none !important;
+    padding-bottom: auto !important;
+    border-color: none !important;
+  }
+
+  .accordion-body figure {
+    float: left !important;
+    padding-right: 3% !important;
+    margin-top: .5% !important;
+  }
+
+  .accordion-body figcaption {
+    font-family: 'Bodoni Moda', serif;
+    font-weight: 600;
+    margin-top: 5% !important;
+  }
+
+  .accordion-body img {
+    box-shadow: 0 1px 5px red;
+  }
+
+  .accordion-body h5 {
+    font-family: 'Bodoni Moda', serif;
+    font-weight: 600 !important;
+
+  }
+
+  .accordion-body p {
+    text-align: left !important;
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 500 !important;
+    letter-spacing: 1.5px !important;
+  }
+
+  .currentRotationStudents, .formerTeamMembers, .formerRotationStudents, .formerSummerTeamMembers {
+    margin-top: 10% !important;
+  }
+
+  #formerTeamMembersAccordion {
+    height: auto !important;
+  }
+/* Team Styles End */
+
+
+/* Professional Societies Styles */
+.professionalSocieties  {
+  margin-top: 10% !important;
+  text-align: center;
+}
+
+.professionalSocieties .row {
+  margin-top: 5% !important;
+}
+
+.professionalSocieties h1 {
+  font-family: 'Bodoni Moda', serif;
+  color: #fff !important;
+  text-transform: uppercase !important;
+  letter-spacing: 5px !important;
+  color: red !important;
+  font-weight: 600;
+  margin-top: 5% !important;
+}
+
+.professionalSocieties h4 {
+  font-family: 'Bodoni Moda', serif;
+  color: #fff !important;
+  text-transform: uppercase !important;
+  letter-spacing: 5px !important;
+  margin-top: 1% !important;
+}
+/* Professional Societies Styles End */
+
+
+/* News Section Styles */
+.news {
+  margin-top: 10% !important;
+  text-align: center;
+}
+
+.news a {
+  color: red !important;
+}
+
+.news a:hover {
+  text-decoration: none !important;
+  text-transform: uppercase;
+}
+
+.news h1 {
+  font-family: 'Bodoni Moda', serif;
+  color: #fff !important;
+  text-transform: uppercase !important;
+  letter-spacing: 5px !important;
+  color: red !important;
+  font-weight: 600;
+  margin-top: 5% !important;
+}
+
+.news h4 {
+  font-family: 'Bodoni Moda', serif;
+  color: #fff !important;
+  text-transform: uppercase !important;
+  letter-spacing: 5px !important;
+  margin-top: 1% !important;
+  text-align: center !important;
+}
+
+.news2021, .news2020, .news2019, .news2018, .news2017 {
+  margin-top: 5% !important;
+  color: #fff !important;
+  text-align: left !important;
+  font-family: 'Nanum Myeongjo', serif;
+  font-weight: 400;
+}
+
+.conferencesMeetings {
+  margin-top: 5% !important;
+  color: #fff !important;
+  text-align: center !important;
+  font-family: 'Nanum Myeongjo', serif;
+  font-weight: 400;
+}
+
+.conferencesMeetings li{
+  list-style: none !important;
+}
+/* News Section Styles End */
+
+/* Collaborators Section Styles */
+.collaborators {
+  margin-top: 10% !important;
+  color: #fff !important;
+  font-family: 'Nanum Myeongjo', serif;
+  font-weight: 400;
+  text-align: center !important;
+}
+
+.collaborators h6 a {
+  color: #fff !important;
+  font-family: 'Bodoni Moda', serif;
+  letter-spacing: 5px !important;
+}
+
+.collaborators #mainh6 {
+  margin-top: 5% !important;
+}
+
+.collaborators a:hover {
+  text-decoration: none !important;
+  text-transform: uppercase;
+  color: red !important;
+}
+
+.collaborators h1 {
+  font-family: 'Bodoni Moda', serif;
+  color: #fff !important;
+  text-transform: uppercase !important;
+  letter-spacing: 5px !important;
+  color: red !important;
+  font-weight: 600;
+  margin-top: 5% !important;
+}
+/* Collaborators Section Styles End */
+
+/* Contact Section Styles */
+.contact {
+  margin-top: 10% !important;
+  color: #fff !important;
+  text-align: left !important;
+  font-family: 'Nanum Myeongjo', serif;
+  font-weight: 400;
+}
+
+.contact a {
+  color: red !important;
+}
+
+.contact a:hover {
+  text-decoration: none !important;
+  text-transform: uppercase;
+}
+
+.contact h1 {
+  font-family: 'Bodoni Moda', serif;
+  color: #fff !important;
+  text-transform: uppercase !important;
+  letter-spacing: 5px !important;
+  color: red !important;
+  font-weight: 600;
+  margin-top: 5% !important;
+  text-align: center !important;
+}
+
+.contact h4 {
+  font-family: 'Bodoni Moda', serif;
+  color: #fff !important;
+  text-transform: uppercase !important;
+  letter-spacing: 5px !important;
+  margin-top: 1% !important;
+  text-align: left !important;
+}
+
+.contact .row {
+  margin-top: 5% !important;
+  width: 100% !important;
+  margin-left: 7.5% !important;
+  margin-right: auto !important;
+}
+
+.col1 {
+  margin-top: 2% !important;
+}
+/* Contact Section Styles End */
+
+/* Footer Styles */
+.footer  {
+  color: #fff !important;
+  text-align: center !important;
+  width: 100% !important;
+  margin-right: auto !important;
+  margin-left: auto !important;
+  height: 70px !important;
+  padding: 1% !important;
+  font-family: 'Nanum Myeongjo', serif;
+  font-weight: 900 !important;
+}
+
+.footer {
+  width: 100% !important;
+  text-align: center !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  background-color: #000 !important;
+  padding: 2% !important;
+}
+
+.footer p {
+  font-size: .8rem !important;
+  margin-top: -1% !important;
+}
+
+
+.footer a {
+  color: #fff !important;
+}
+
+.footer a:hover{
+  color: red !important;
+  text-decoration: none !important;
+}
+/* Footer Styles End */
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                        /* Media Queries For Responsive Design*/
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                        /*Small devices (landscape phones, 320px and up) */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+@media only screen and (min-width: 320px)  {
+  /* Nav Styles */
+
+    .navbar {
+      text-align: center !important;
+    }
+    .navbar h5 {
+      font-size: 9px !important;
+    }
+
+    .navbar a {
+      padding: none !important;
+    }
+  /* Nav Styles End */
+
+  /* Jumbotron Styles */
+    .jumbotron {
+      width: 310px !important;
+      height: 550px !important;
+      text-align: center !important;
+      background-color: #000 !important;
+      background-image: none !important;
+    }
+
+    .jumbotron h1 {
+      width: 100% !important;
+      font-size: 28px !important;
+      text-align: center;
+      margin-top: 20% !important;
+    }
+
+    .jumbotron p {
+      font-size: 12px !important;
+      text-align: center !important;
+      width: 90% !important;
+    }
+  /* Jumbotron Styles End */
+
+  /* PI Section */
+    .PI h1 {
+      font-size: 1.5rem !important;
+      font-family: 'Bodoni Moda', serif;
+      margin-top: -3% !important;
+    }
+
+    .PI h4{
+      font-size: .8rem !important;
+    }
+
+    .pIframes iframe {
+      width: 300px !important;
+    }
+  /* PI Section */
+
+  /* Research Styles */
+    .research h1 {
+      font-size: 1.5rem !important;
+      margin-top: 5% !important;
+      font-family: 'Bodoni Moda', serif;
+    }
+
+    .research article h2 {
+      font-size: 1.2rem !important;
+      text-align: center !important;
+      margin-top: -1% !important;
+    }
+
+    .research article h6 {
+      font-size: 1rem !important;
+      text-align: center !important;
+      font-weight: 700 !important;
+    }
+
+    .research article p {
+      font-size: .8rem !important;
+      text-align: left !important;
+    }
+
+    .research small, .research li {
+      font-size: .7rem !important;
+      text-align: left !important;
+      line-height: none !important;
+    }
+  /* Research Styles End */
+
+  /* Team Styles */
+      /* Current Team Members Style */
+      .currentTeamMembers h1 {
+        font-size: 1.5rem !important;
+        margin-top: 5% !important;
+      }
+
+      .currentTeamMembers h4 {
+        font-size: 1rem !important;
+      }
+
+      #bonnieImage, #jayImage, #evonneImage {
+        width: 250px;
+      }
+
+      figcaption {
+        font-size: .8rem !important;
+      }
+
+      .accordion-body p {
+        font-size: .8rem !important;
+      }
+
+      .accordion-body li {
+        list-style: none !important;
+      }
+
+      .accordion-body .row {
+        display: none !important;
+      }
+      /* Current Team Members Style */
+
+    .currentRotationStudents h1, .formerTeamMembers h1, .formerRotationStudents h1, .formerSummerTeamMembers h1 {
+      font-size: 1.5rem !important;
+      margin-top: 35% !important;
+    }
+
+    .formerTeamMembers, .formerRotationStudents, .formerSummerTeamMembers {
+      margin-top: 25% !important;
+    }
+
+    .currentRotationStudents h4, .formerTeamMembers h4, .formerRotationStudents h4, .formerSummerTeamMembers h4 {
+      font-size: 1rem !important;
+    }
+/*Team Styles */
+
+/* Professional Societies Styles */
+.professionalSocieties {
+  margin-top: 25% !important;
+}
+
+.professionalSocieties h1 {
+  font-size: 1.5rem !important;
+}
+/* Professional Societies Styles End */
+
+/* News Styles */
+.news {
+  margin-top: 20% !important;
+}
+
+.news h1 {
+  font-size: 1.5rem !important;
+}
+
+.news p {
+  text-align: center !important;
+}
+/* News Styles End */
+
+/* Collaborators Section Styles */
+.collaborators {
+  margin-top: 25% !important;
+}
+
+.collaborators h1 {
+  font-size: 1.5rem !important;
+}
+.collaborators h6 {
+  font-size: 10px !important;
+  font-weight: 700 !important;
+}
+
+.collaborators #mainh6 {
+  margin-top:10% !important;
+}
+/* Collaborators Section Styles End */
+
+/* Contact Section Styles */
+
+.contact h1 {
+  font-size: 1.5rem !important;
+  margin-top: 25% !important;
+}
+
+.contact h4 {
+  font-size: 1.2rem !important;
+}
+
+.col2 {
+  margin-left: -5% !important;
+}
+
+.col2 iframe {
+  width: 250px !important;
+}
+/* Contact Section Styles End */
+}
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                        /*Small devices (landscape phones, 360px and up) */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+
+ @media only screen and (min-width: 375px) {
+
+   /* Nav Styles */
+   .navbar h5 {
+     font-size: 11.5px !important;
+   }
+   /* Nav Styles End */
+
+   /* Jumbotron Styles */
+     .jumbotron {
+       width: 100% !important;
+       height: 560px !important;
+       text-align: center !important;
+       background-color: #000 !important;
+       background-image: none !important;
+     }
+
+     .jumbotron h1 {
+       margin-top: 25% !important;
+     }
+
+     .jumbotron p {
+       width: 95% !important;
+     }
+   /* Jumbotron Styles End */
+
+   /* PI Section */
+     .PI h1 {
+       font-size: 1.5rem !important;
+       font-family: 'Bodoni Moda', serif;
+       margin-top: -3% !important;
+     }
+
+     .PI h4{
+       font-size: .8rem !important;
+     }
+
+     .pIframes iframe {
+       width: 100% !important;
+     }
+   /* PI Section Styles End */
+
+   /* Team Styles */
+   .currentRotationStudents h1 {
+     margin-top: 20% !important;
+   }
+   /* Team Styles End */
+
+   /* Collaborators Section Styles */
+   .collaborators h6 {
+     font-weight: 700 !important;
+   }
+   /* Collaborators Section Styles End */
+
+   /* Contact Section Styles */
+   .contact h1 {
+     margin-top: 20% !important;
+   }
+
+   .contact .row {
+     margin-left: 3% !important;
+     height: auto !important;
+   }
+
+   .contact .col1 {
+     margin-top: -2% !important;
+   }
+
+   .col2 iframe {
+     width: 320px !important;
+     padding-bottom: 5% !important;
+   }
+   /* Contact Section Styles End */
+ }
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                          /*Small devices (landscape phones, 425px and up) */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+
+@media only screen and (min-width: 425px) {
+
+  .navbar h5 {
+    font-size: 14px !important;
+  }
+
+  .collaborators #mainh6 {
+    margin-top: 4% !important;
+  }
+
+  .col2 {
+    margin-left: -1% !important;
+  }
+
+  .col2 iframe {
+    width: 355px !important;
+  }
+
+  .contact h1 {
+    margin-top: 20% !important;
+  }
+
+}
+
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                           /*Medium devices (tablets, 506px and up)*/
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+
+@media only screen and (min-width: 500px) {
+  .navbar h5 {
+    font-size: 14px !important;
+  }
+
+  .currentTeamMembers h4, .formerTeamMembers h4, .formerRotationStudents h4, .formerSummerTeamMembers h4 {
+    font-size: .8rem !important;
+  }
+
+  .formerTeamMembers h4, .formerRotationStudents h4, .formerSummerTeamMembers h4 {
+    margin-top: -10% !important;
+  }
+
+
+  .collaborators h1 {
+    margin-top: -5% !important;
+  }
+
+  .collaborators #mainh6 {
+    margin-top: 4% !important;
+  }
+
+  .contact h1 {
+    margin-top: 20% !important;
+  }
+
+  .col2 iframe {
+    width: 425px !important;
+  }
+
+}
+
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                        /*Tablet Devices 768px and up) */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+@media  only screen and (min-width: 575px) {
+
+  .jumbotron h1 {
+    margin-top: 20% !important;
+    font-size: 2.5rem !important;
+  }
+
+  .jumbotron p {
+    width: 95% !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .accordion-body figure {
+    float: none !important;
+    padding-right: 3% !important;
+    margin-top: .5% !important;
+  }
+
+  .accordion-body .row {
+    display: block !important;
+  }
+
+  .formerTeamMembers h4, .formerRotationStudents h4, .formerSummerTeamMembers h4 {
+    margin-top: -10% !important;
+  }
+
+  .news h1 {
+    margin-top: -5% !important;
+  }
+
+  .contact h1 {
+    margin-top: 15% !important;
+  }
+
+  .contact .row {
+    margin-left: 10% !important;
+
+  }
+}
+
+
+@media only screen and (min-width: 768px) {
+
+  .jumbotron {
+    background-image: url('img/bg.jpg') !important;
+    height: 750px !important;
+    width: 100% !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-color: none !important;
+    text-align: left !important;
+  }
+
+  .jumbotron h1 {
+    font-family: 'Bodoni Moda', serif;
+    width: 60% !important;
+    color: red !important;
+    margin-left: 3% !important;
+    margin-top: 10% !important;
+    width: 50% !important;
+    letter-spacing: 1px !important;
+    text-align: left !important;
+  }
+
+  .jumbotron p {
+    font-family: 'Nanum Myeongjo', serif;
+    width: 60% !important;
+    margin-left: 3% !important;
+    width: 50% !important;
+    letter-spacing: 1px !important;
+    font-weight: 800 !important;
+    text-align: left !important;
+  }
+
+  #hideLargeScreens {
+    display: none !important;
+  }
+
+  #currentTeamMember1 figure {
+    float: left !important;
+    padding-right: 3% !important;
+    margin-top: .5% !important;
+  }
+
+  .currentRotationStudents h1 {
+    margin-top: 10% !important;
+  }
+
+  .formerTeamMembers h4, .formerRotationStudents h4, .formerSummerTeamMembers h4 {
+    margin-top: -15% !important;
+  }
+
+  .professionalSocieties h1 {
+    margin-top: -15% !important;
+  }
+
+  .news h1 {
+    margin-top: -10% !important;
+  }
+
+  .collaborators h1 {
+    margin-top: -15% !important;
+  }
+
+  .collaborators h6 {
+    font-size: .7rem !important;
+  }
+
+  .contact h1 {
+    margin-top: 1% !important;
+  }
+
+  .contact .row {
+    margin-left: 3% !important;
+  }
+
+  .contact .col2 {
+    margin-left: 3% !important;
+  }
+
+}
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                        /* Large devices (desktops, 1024px and up) */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+@media only screen and (min-width: 1024px) {
+
+  .navbar p {
+    font-size: .4rem !important;
+  }
+
+  .navbar h5 {
+    font-size: 1rem !important;
+    margin-left: -10% !important;
+  }
+
+  .jumbotron {
+    height: 610px !important;
+  }
+
+  .jumbotron h1, .jumbotron p, .jumbotron button {
+    margin-left: 1% !important;
+  }
+
+  .PI h1 {
+    margin-top: 5% !important;
+  }
+
+  .pIframes iframe {
+      width: 550px !important;
+      height: 300px !important;
+    }
+
+  #secondVideo {
+    margin-top: 0% !important;
+  }
+
+  .accordion-body figure {
+    float: left !important;
+    padding-right: 3% !important;
+    margin-top: .5% !important;
+  }
+
+  .accordion-body figure img {
+    height: 291px !important;
+    width: auto !important;
+  }
+
+  .accordion-body .row img {
+    display: none !important;
+  }
+
+  .currentRotationStudents h1 {
+    margin-top: -1% !important;
+  }
+
+  .formerTeamMembers h4, .formerRotationStudents h4, .formerSummerTeamMembers h4 {
+    margin-top: -18% !important;
+  }
+
+  .professionalSocieties img {
+    width: 450px !important;
+    height: auto !important;
+  }
+
+  .collaborators h1 {
+    margin-top: -20% !important;
+  }
+
+  .contact h1 {
+    margin-top: -3% !important;
+  }
+
+  .contact .col2 {
+    margin-left: -5% !important;
+    margin-top: -2% !important;
+  }
+
+  .contact .row {
+    margin-top: 10% !important;
+  }
+}
+
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                /* Large devices (large desktops, 1440px and up) */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+@media only screen and (min-width: 1440px) {
+
+  .navbar p {
+    font-size: .8rem !important;
+  }
+
+  .jumbotron {
+    height: 690px !important;
+  }
+
+  .jumbotron h1 {
+    margin-top: 18% !important;
+  }
+
+  .PI h1 {
+    margin-top: -1% !important;
+  }
+
+  .pIframes iframe {
+      width: 500px !important;
+      height: 300px !important;
+    }
+
+  .accordion-body {
+    text-align: center !important;
+  }
+
+  .accordion-body figure {
+    float: left !important;
+    padding-right: 3% !important;
+    margin-top: .5% !important;
+  }
+
+  .accordion-item {
+    text-align: center !important;
+  }
+
+  .accordion-item img {
+    display: block !important;
+    height: 350px !important;
+    width: auto !important;
+    padding-bottom: 5% !important;
+  }
+
+  .col-lg {
+    margin-left: 5% !important;
+  }
+
+  .col-lgMove {
+    margin-left: 15% !important;
+  }
+
+  .currentRotationStudents h1 {
+    margin-top: -3% !important;
+  }
+
+  .professionalSocieties h1 {
+    margin-top: -18% !important;
+  }
+
+  .professionalSocieties .row {
+    margin-top: -1% !important;
+  }
+
+  .news h1 {
+    margin-top: -14% !important;
+  }
+
+  .collaborators h1 {
+    margin-top: -20% !important;
+  }
+
+  .collaborators a {
+    font-size: .9rem !important;
+  }
+
+  .contact .row {
+    margin-left: 10% !important;
+  }
+
+}
+
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                /* ExtraExtra large devices (large desktops, 2560px and up) */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+@media only screen and (min-width: 2560px) {
+
+  /* Nav Styles */
+  .navbar {
+    font-family: 'Bodoni Moda', serif;
+    font-weight: 600;
+    background-color: #000 !important;
+  }
+
+  .navbar a {
+    color: #fff !important;
+  }
+
+  .navbar a:hover {
+    color: red !important;
+    text-decoration: none !important;
+  }
+
+  .navbar h5 {
+    letter-spacing: .5px !important;
+    color: #fff !important;
+    font-weight: 800 !important;
+    font-size: 1.5rem !important;
+    margin-left: -5% !important;
+  }
+
+  .navbar p {
+    font-family: 'Nanum Myeongjo', serif;
+    text-transform: uppercase !important;
+    font-size: 1rem !important;
+    letter-spacing: 1px !important;
+    font-weight: 800 !important;
+  }
+
+
+  .navbar-toggler {
+    border: none !important;
+    border-radius: none !important;
+    box-shadow: none !important;
+  }
+
+  .navbar-toggler:focus {
+    border: none !important;
+    border-radius: none !important;
+    box-shadow: none !important;
+  }
+
+  .fa-bars {
+    color: #fff !important;
+  }
+
+  #navbarNavAltMarkup {
+    margin-top: .5% !important;
+  }
+
+  .dropdown-menu a {
+    color: #000 !important;
+  }
+  /* Nav Styles End */
+
+  /* Jumbotron Intro Styles */
+  .jumbotron {
+    background-image: url('img/bg.jpg');
+    height: 950px !important;
+    width: 100% !important;
+    background-size: cover;
+    background-position: center;
+    color: #fff !important;
+  }
+
+  .jumbotron h1 {
+    font-family: 'Bodoni Moda', serif;
+    width: 60% !important;
+    color: red !important;
+    margin-left: 3% !important;
+    margin-top: 20% !important;
+    width: 50% !important;
+    letter-spacing: 1px !important;
+    font-size: 3rem !important;
+  }
+
+  .jumbotron p {
+    font-family: 'Nanum Myeongjo', serif;
+    width: 60% !important;
+    margin-left: 3% !important;
+    width: 50% !important;
+    letter-spacing: 1px !important;
+    font-weight: 800 !important;
+    font-size: 1rem !important;
+  }
+
+  .jumbotron button {
+    margin-left: 3% !important;
+    border-color: red !important;
+    color: red !important;
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 800 !important;
+  }
+
+  .jumbotron button:hover {
+    color: #fff !important;
+    background-color: red !important;
+  }
+  /* Jumbotron Intro Styles End */
+
+  /* PI Section  Styles */
+    .PI {
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center !important;
+      padding: 1% !important;
+    }
+
+    .PI h1 {
+      font-family: 'Bodoni Moda', serif;
+      color: #fff !important;
+      text-transform: uppercase !important;
+      letter-spacing: 5px !important;
+      color: red !important;
+      font-weight: 600;
+      margin-top: 5% !important;
+    }
+
+    .PI h4 {
+      font-family: 'Bodoni Moda', serif;
+      color: #fff !important;
+      text-transform: uppercase !important;
+      letter-spacing: 5px !important;
+    }
+
+  .pIframes {
+      margin-top: 5% !important;
+    }
+
+  .pIframes iframe {
+      box-shadow: 0 3px 8px red;
+    }
+
+    .pIframes iframe {
+        width: 450px !important;
+        height: 300px !important;
+      }
+  /* PI Section Styles End */
+
+  /* Research Section Styles */
+  .research {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .research article {
+    padding: 2% !important;
+  }
+
+  .research h1 {
+    font-family: 'Bodoni Moda', serif;
+    color: #fff !important;
+    text-transform: uppercase !important;
+    letter-spacing: 5px !important;
+    color: red !important;
+    font-weight: 600;
+    margin-top: 5% !important;
+    text-align: center !important;
+  }
+
+  .research article h2 {
+    font-family: 'Bodoni Moda', serif;
+    color: #fff !important;
+    text-transform: uppercase !important;
+    letter-spacing: 5px !important;
+    text-align: left !important;
+    margin-top: -1% !important;
+    width: 100% !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .research article h6 {
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 800;
+    text-transform: uppercase !important;
+    letter-spacing: 5px !important;
+    color: red !important;
+    margin-top: 1% !important;
+    text-align: left !important;
+    width: 100% !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .research article p, .research article li, .research article small {
+    color: #fff !important;
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 400;
+    letter-spacing: 1px !important;
+    font-weight: 800 !important;
+    text-align: left !important;
+    margin-top: 1% !important;
+  }
+
+  .research article p, .research article ol {
+    width: 100% !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .research video {
+    margin-top: 5% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 100% !important;
+  }
+
+    article a {
+      font-family: 'Bodoni Moda', serif !important;
+      font-weight: 600 !important;
+      color: #fff !important;
+    }
+
+    article a:hover {
+      color: gray !important;
+      text-decoration: none !important;
+    }
+  /* Research Section Styles End */
+
+  /* Team Section Styles */
+    .currentTeamMembers, .currentRotationStudents, .formerTeamMembers, .formerRotationStudents, .formerSummerTeamMembers {
+      text-align: center !important;
+    }
+
+    .currentTeamMembers h1 {
+      font-family: 'Bodoni Moda', serif;
+      color: #fff !important;
+      text-transform: uppercase !important;
+      letter-spacing: 5px !important;
+      color: red !important;
+      font-weight: 600;
+      margin-top: 5% !important;
+    }
+
+    .currentRotationStudents h1 {
+      margin-top: -5% !important;
+      font-family: 'Bodoni Moda', serif;
+      color: #fff !important;
+      text-transform: uppercase !important;
+      letter-spacing: 5px !important;
+      color: red !important;
+      font-weight: 600;
+    }
+
+    .formerTeamMembers h4, .formerRotationStudents h4, .formerSummerTeamMembers h4 {
+      margin-top: -5% !important;
+      font-family: 'Bodoni Moda', serif;
+      color: #fff !important;
+      text-transform: uppercase !important;
+      letter-spacing: 5px !important;
+      color: red !important;
+      font-weight: 600;
+    }
+
+  .currentTeamMembers h4, .currentRotationStudents h4, .formerTeamMembers h4, .formerRotationStudents h4, .formerSummerTeamMembers h4  {
+      font-family: 'Bodoni Moda', serif;
+      color: #fff !important;
+      text-transform: uppercase !important;
+      letter-spacing: 5px !important;
+    }
+
+    .accordion-body {
+      height: auto !important;
+      padding-bottom: 10% !important;
+    }
+
+    .accordion-button:not(.collapsed) {
+      background-color: red !important;
+      color: #fff !important;
+    }
+
+    .accordion-button {
+      font-family: 'Bodoni Moda', serif !important;
+      font-weight: 600 !important;
+      color: #fff !important;
+      border-color: none !important;
+    }
+
+    .accordion-button.collapsed {
+      color: #fff !important;
+      background-color: red !important;
+      border-color: none !important;
+    }
+
+    .accordion-body, .accordion-item {
+      border: none !important;
+      padding-bottom: auto !important;
+      border-color: none !important;
+    }
+
+    .accordion-body figure {
+      float: left !important;
+      padding-right: 3% !important;
+      margin-top: .5% !important;
+    }
+
+    .accordion-body figure img {
+      height: 450px !important;
+      width: auto !important;
+    }
+
+    .accordion-body figcaption {
+      font-family: 'Bodoni Moda', serif;
+      font-weight: 600;
+      margin-top: 5% !important;
+      font-size: 1.2rem !important;
+    }
+
+    .accordion-body img {
+      box-shadow: 0 1px 5px red;
+    }
+
+    .accordion-body h5 {
+      font-family: 'Bodoni Moda', serif;
+      font-weight: 600 !important;
+    }
+
+    .accordion-body p {
+      text-align: left !important;
+      font-family: 'Nanum Myeongjo', serif;
+      font-weight: 500 !important;
+      letter-spacing: 1.5px !important;
+      font-size: 1.5rem !important;
+    }
+
+    .currentRotationStudents, .formerTeamMembers, .formerRotationStudents, .formerSummerTeamMembers {
+      margin-top: 10% !important;
+    }
+
+    #formerTeamMembersAccordion {
+      height: auto !important;
+    }
+
+
+    /* Team Image Gallery Styles */
+      .teamGallery img {
+        width: 250px !important;
+        height: 200px !important;
+        box-shadow: 0 1px 5px red;
+      }
+
+      .row1 {
+        width: 100% !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        margin-top: 5% !important;
+      }
+
+      .col3, .col5 {
+        margin-left: -5% !important;
+      }
+
+      .col2, .col4, .col6 {
+        margin-left: -5% !important;
+      }
+    /* Team Image Gallery Styles End */
+  /* Team Styles End */
+
+
+  /* Professional Societies Styles */
+  .professionalSocieties  {
+    margin-top: 0% !important;
+    text-align: center;
+  }
+
+  .professionalSocieties .row {
+    margin-top: 5% !important;
+  }
+
+  .professionalSocieties h1 {
+    font-family: 'Bodoni Moda', serif;
+    color: #fff !important;
+    text-transform: uppercase !important;
+    letter-spacing: 5px !important;
+    color: red !important;
+    font-weight: 600;
+    margin-top: 5% !important;
+  }
+
+  .professionalSocieties h4 {
+    font-family: 'Bodoni Moda', serif;
+    color: #fff !important;
+    text-transform: uppercase !important;
+    letter-spacing: 5px !important;
+    margin-top: 1% !important;
+  }
+  /* Professional Societies Styles End */
+
+
+  /* News Section Styles */
+  .news {
+    margin-top: 0% !important;
+    text-align: center;
+  }
+
+  .news a {
+    color: red !important;
+  }
+
+  .news a:hover {
+    text-decoration: none !important;
+    text-transform: uppercase;
+  }
+
+  .news h1 {
+    font-family: 'Bodoni Moda', serif;
+    color: #fff !important;
+    text-transform: uppercase !important;
+    letter-spacing: 5px !important;
+    color: red !important;
+    font-weight: 600;
+    margin-top: 5% !important;
+  }
+
+  .news h4 {
+    font-family: 'Bodoni Moda', serif;
+    color: #fff !important;
+    text-transform: uppercase !important;
+    letter-spacing: 5px !important;
+    margin-top: -5% !important;
+    text-align: center !important;
+  }
+
+  .news2021, .news2020, .news2019, .news2018, .news2017 {
+    margin-top: 5% !important;
+    color: #fff !important;
+    text-align: left !important;
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 400;
+  }
+
+  .conferencesMeetings {
+    margin-top: 5% !important;
+    color: #fff !important;
+    text-align: center !important;
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 400;
+  }
+
+  .conferencesMeetings li{
+    list-style: none !important;
+  }
+  /* News Section Styles End */
+
+  /* Collaborators Section Styles */
+  .collaborators {
+    margin-top: 10% !important;
+    color: #fff !important;
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 400;
+    text-align: center !important;
+  }
+
+  .collaborators h6 a {
+    color: #fff !important;
+    font-family: 'Bodoni Moda', serif;
+    letter-spacing: 5px !important;
+  }
+
+  .collaborators #mainh6 {
+    margin-top: 5% !important;
+  }
+
+  .collaborators a:hover {
+    text-decoration: none !important;
+    text-transform: uppercase;
+    color: red !important;
+  }
+
+  .collaborators h1 {
+    font-family: 'Bodoni Moda', serif;
+    color: #fff !important;
+    text-transform: uppercase !important;
+    letter-spacing: 5px !important;
+    color: red !important;
+    font-weight: 600;
+    margin-top: 5% !important;
+  }
+  /* Collaborators Section Styles End */
+
+  /* Contact Section Styles */
+  .contact {
+    margin-top: 10% !important;
+    color: #fff !important;
+    text-align: left !important;
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 400;
+  }
+
+  .contact a {
+    color: red !important;
+  }
+
+  .contact a:hover {
+    text-decoration: none !important;
+    text-transform: uppercase;
+  }
+
+  .contact h1 {
+    font-family: 'Bodoni Moda', serif;
+    color: #fff !important;
+    text-transform: uppercase !important;
+    letter-spacing: 5px !important;
+    color: red !important;
+    font-weight: 600;
+    margin-top: 5% !important;
+    text-align: center !important;
+  }
+
+  .contact h4 {
+    font-family: 'Bodoni Moda', serif;
+    color: #fff !important;
+    text-transform: uppercase !important;
+    letter-spacing: 5px !important;
+    margin-top: 1% !important;
+    text-align: left !important;
+  }
+
+  .contact .row {
+    margin-top: 5% !important;
+    width: 100% !important;
+    margin-left: 7.5% !important;
+    margin-right: auto !important;
+  }
+
+  .col1 {
+    margin-top: 2% !important;
+  }
+  /* Contact Section Styles End */
+}
