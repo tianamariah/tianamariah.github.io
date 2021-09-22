@@ -79,7 +79,7 @@ html, body {width: auto!important; overflow-x: hidden!important}
   }
 
   .main {
-    margin-top: 45% !important;
+    margin-top: 25% !important;
   }
 
   .main p {
@@ -95,7 +95,9 @@ html, body {width: auto!important; overflow-x: hidden!important}
   }
 
 
-
+  .fixed-bottom {
+    height: 50px !important;
+  }
 
 
 }
@@ -113,7 +115,7 @@ html, body {width: auto!important; overflow-x: hidden!important}
   }
 
   .main {
-    margin-top: 35% !important;
+    margin-top: 25% !important;
   }
 
 
