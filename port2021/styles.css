@@ -33,7 +33,7 @@ html, body {width: auto!important; overflow-x: hidden!important}
 
 
 .navbar {
-  height: 50px;
+  height: 90px;
 }
 
 
@@ -95,6 +95,40 @@ display: none !important;
   }
 
 
+  #emailMobile {
+  display: block !important;
+  }
+
+  #emailDesktop {
+    display: none !important;
+  }
+
+}
+
+
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                        /*Small devices (landscape phones, 360px and up) */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+@media only screen and (min-width: 280px) {
+
+  #body {
+   background: url(img/angeladavis_elik.jpg) no-repeat center center fixed;
+   -webkit-background-size: 55%;
+   -moz-background-size: 55%;
+   -o-background-size: 55%;
+   background-size: 55%;
+   background-blend-mode:multiply;
+   overflow: hidden;
+ }
+
+  #row1 {
+    margin-top: 30%;
+  }
+
+  #row2 {
+    margin-top: 90%;
+  }
 
   #emailMobile {
   display: block !important;
@@ -104,21 +138,7 @@ display: none !important;
     display: none !important;
   }
 
-
-
-
-
-
-
-
-
-
 }
-
-
-/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
-                        /*Small devices (landscape phones, 360px and up) */
-/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
 
 @media only screen and (min-width: 375px) {
 
@@ -149,13 +169,27 @@ display: none !important;
     display: none !important;
   }
 
-
-
 }
 
 /* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
                         /*Small devices (landscape phones, 425px and up) */
 /* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+@media only screen and (min-width: 411px) {
+
+  #body {
+   background: url(img/angeladavis_elik.jpg) no-repeat center center fixed;
+   -webkit-background-size: 40%;
+   -moz-background-size: 40%;
+   -o-background-size: 40%;
+   background-size: 40%;
+   background-blend-mode:multiply;
+   overflow: hidden;
+ }
+
+
+
+}
+
 
 @media only screen and (min-width: 425px) {
 
@@ -225,9 +259,6 @@ display: none !important;
     display: block !important;
   }
 
-
-
-
  }
 
  /* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
@@ -261,11 +292,6 @@ display: none !important;
   #emailDesktop {
     display: block !important;
   }
-
-
-
-
-
 }
 
 @media only screen and (min-width: 768px) {
@@ -290,22 +316,20 @@ display: none !important;
   }
 
 
-#work {
-  margin-top: 50%;
-}
-
-
-#emailMobile {
-display: none !important;
-}
-
-#emailDesktop {
-  display: block !important;
-}
-
-
-
+  #work {
+    margin-top: 50%;
   }
+
+
+  #emailMobile {
+  display: none !important;
+  }
+
+  #emailDesktop {
+    display: block !important;
+  }
+
+}
 
 /* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
                         /* Large devices (desktops, 1024px and up) */
@@ -321,8 +345,6 @@ display: none !important;
    background-blend-mode:multiply;
    overflow: hidden;
  }
-
-
 
   #row1 {
     margin-top: 5%;
@@ -341,9 +363,7 @@ display: none !important;
     display: block !important;
   }
 
-
 }
-
 
 /* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
                 /* Large devices (large desktops, 1440px and up) */
@@ -359,8 +379,6 @@ display: none !important;
    background-blend-mode:multiply;
    overflow: hidden;
  }
-
-
 
   #row1 {
     margin-top: 3%;
@@ -379,8 +397,6 @@ display: none !important;
     display: block !important;
   }
 
-
-
 }
 
 
@@ -398,10 +414,7 @@ display: none !important;
    background-size: 25%;
    background-blend-mode:multiply;
    overflow: hidden;
- }
-
-
-
+  }
 
   #row1 {
     margin-top: 5%;
@@ -420,15 +433,4 @@ display: none !important;
   #emailDesktop {
     display: block !important;
   }
-
-
-
 }
-
-
-
-
-
-/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
-                                    /* FONTS */
-/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
