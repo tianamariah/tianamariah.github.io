@@ -4,7 +4,9 @@
 }
 
 #body {
-  background: #000 !important;
+  background: #7324b3 !important;
+  font-family: 'Nanum Myeongjo', serif !important;
+  font-weight: 400 !important;
 }
 
 html, body {width: auto!important; overflow-x:auto !important;}
@@ -13,29 +15,30 @@ html, body {width: auto!important; overflow-x:auto !important;}
 
 /* Nav Styles */
 .navbar {
-  font-family: 'Bodoni Moda', serif;
-  font-weight: 600;
-  background-color: #000 !important;
+  background-color: #7324b3 !important;
+}
+
+.navabr h5 {
+  font-weight: 800 !important;
 }
 
 .navbar a {
-  color: #fff !important;
+  color: #ec8228 !important;
+  font-weight: 700 !important;
 }
 
 .navbar a:hover {
-  color: red !important;
+  color: #fff !important;
   text-decoration: none !important;
 }
 
 
 .navbar p {
-  font-family: 'Nanum Myeongjo', serif;
   text-transform: uppercase !important;
   font-size: 12px !important;
   letter-spacing: 1px !important;
-  font-weight: 800 !important;
+  font-weight: 700 !important;
 }
-
 
 .navbar-toggler {
   border: none !important;
@@ -50,7 +53,7 @@ html, body {width: auto!important; overflow-x:auto !important;}
 }
 
 .fa-bars {
-  color: #fff !important;
+  color: #ec8228 !important;
 }
 
 #navbarNavAltMarkup {
@@ -58,13 +61,14 @@ html, body {width: auto!important; overflow-x:auto !important;}
 }
 
 .dropdown-menu a {
-  color: #000 !important;
+  color: #ec8228 !important;
+  font-weight: 700 !important;
 }
 /* Nav Styles End */
 
 /* Jumbotron Intro Styles */
 .jumbotron {
-  background-image: url('img/bg.jpg');
+  background-color: #7324b3 !important;
   height: 750px !important;
   width: 100% !important;
   background-size: cover;
@@ -73,35 +77,32 @@ html, body {width: auto!important; overflow-x:auto !important;}
 }
 
 .jumbotron h1 {
-  font-family: 'Bodoni Moda', serif;
   width: 60% !important;
-  color: red !important;
+  color: #ec8228 !important;
   margin-left: 3% !important;
   margin-top: 18% !important;
   width: 50% !important;
   letter-spacing: 1px !important;
+  font-weight: 800 !important;
 }
 
 .jumbotron p {
-  font-family: 'Nanum Myeongjo', serif;
   width: 60% !important;
   margin-left: 3% !important;
   width: 50% !important;
   letter-spacing: 1px !important;
-  font-weight: 800 !important;
+  font-weight: 700 !important;
 }
 
 .jumbotron button {
   margin-left: 3% !important;
-  border-color: red !important;
-  color: red !important;
-  font-family: 'Nanum Myeongjo', serif;
-  font-weight: 800 !important;
+  border-color: #ec8228 !important;
+  color: #ec8228 !important;
 }
 
 .jumbotron button:hover {
   color: #fff !important;
-  background-color: red !important;
+  background-color: #ec8228 !important;
 }
 /* Jumbotron Intro Styles End */
 
@@ -114,20 +115,18 @@ html, body {width: auto!important; overflow-x:auto !important;}
   }
 
   .PI h1 {
-    font-family: 'Bodoni Moda', serif;
-    color: #fff !important;
     text-transform: uppercase !important;
     letter-spacing: 5px !important;
-    color: red !important;
-    font-weight: 600;
+    color: #ec8228 !important;
     margin-top: 5% !important;
+    font-weight: 800 !important;
   }
 
   .PI h4 {
-    font-family: 'Bodoni Moda', serif;
     color: #fff !important;
     text-transform: uppercase !important;
     letter-spacing: 5px !important;
+    font-weight: 700 !important;
   }
 
 .pIframes {
@@ -135,7 +134,7 @@ html, body {width: auto!important; overflow-x:auto !important;}
   }
 
 .pIframes iframe {
-    box-shadow: 0 3px 8px red;
+    box-shadow: 0 3px 8px #ec8228;
   }
 /* PI Section Styles End */
 
@@ -150,18 +149,16 @@ html, body {width: auto!important; overflow-x:auto !important;}
 }
 
 .research h1 {
-  font-family: 'Bodoni Moda', serif;
   color: #fff !important;
   text-transform: uppercase !important;
   letter-spacing: 5px !important;
-  color: red !important;
-  font-weight: 600;
+  color: #ec8228 !important;
   margin-top: 5% !important;
   text-align: center !important;
+  font-weight: 800 !important;
 }
 
 .research article h2 {
-  font-family: 'Bodoni Moda', serif;
   color: #fff !important;
   text-transform: uppercase !important;
   letter-spacing: 5px !important;
@@ -170,27 +167,24 @@ html, body {width: auto!important; overflow-x:auto !important;}
   width: 100% !important;
   margin-left: auto;
   margin-right: auto;
+  font-weight: 700 !important;
 }
 
 .research article h6 {
-  font-family: 'Nanum Myeongjo', serif;
-  font-weight: 800;
   text-transform: uppercase !important;
   letter-spacing: 5px !important;
-  color: red !important;
+  color: #ec8228 !important;
   margin-top: 1% !important;
   text-align: left !important;
   width: 100% !important;
   margin-left: auto;
   margin-right: auto;
+  font-weight: 400 !important;
 }
 
 .research article p, .research article li, .research article small {
   color: #fff !important;
-  font-family: 'Nanum Myeongjo', serif;
-  font-weight: 400;
   letter-spacing: 1px !important;
-  font-weight: 800 !important;
   text-align: left !important;
   margin-top: 1% !important;
 }
@@ -209,13 +203,11 @@ html, body {width: auto!important; overflow-x:auto !important;}
 }
 
   article a {
-    font-family: 'Bodoni Moda', serif !important;
-    font-weight: 600 !important;
     color: #fff !important;
   }
 
   article a:hover {
-    color: gray !important;
+    color: #fff !important;
     text-decoration: none !important;
   }
 /* Research Section Styles End */
@@ -226,21 +218,20 @@ html, body {width: auto!important; overflow-x:auto !important;}
   }
 
   .currentTeamMembers h1, .currentRotationStudents h1, .formerTeamMembers h1, .formerRotationStudents h1, .formerSummerTeamMembers h1 {
-    font-family: 'Bodoni Moda', serif;
     color: #fff !important;
     text-transform: uppercase !important;
     letter-spacing: 5px !important;
-    color: red !important;
-    font-weight: 600;
+    color: #ec8228 !important;
     margin-top: 5% !important;
+    font-weight: 800 !important;
   }
 
 .currentTeamMembers h4, .currentRotationStudents h4, .formerTeamMembers h4, .formerRotationStudents h4, .formerSummerTeamMembers h4  {
-    font-family: 'Bodoni Moda', serif;
     color: #fff !important;
     text-transform: uppercase !important;
     letter-spacing: 5px !important;
     margin-top: 1% !important;
+    font-weight: 700 !important;
   }
 
   .accordion-body {
@@ -249,21 +240,21 @@ html, body {width: auto!important; overflow-x:auto !important;}
   }
 
   .accordion-button:not(.collapsed) {
-    background-color: red !important;
+    background-color: #ec8228 !important;
     color: #fff !important;
   }
 
   .accordion-button {
-    font-family: 'Bodoni Moda', serif !important;
-    font-weight: 600 !important;
     color: #fff !important;
     border-color: none !important;
+    font-weight: 700 !important;
   }
 
   .accordion-button.collapsed {
     color: #fff !important;
-    background-color: red !important;
+    background-color: #ec8228 !important;
     border-color: none !important;
+    font-weight: 700 !important;
   }
 
   .accordion-body, .accordion-item {
@@ -279,25 +270,21 @@ html, body {width: auto!important; overflow-x:auto !important;}
   }
 
   .accordion-body figcaption {
-    font-family: 'Bodoni Moda', serif;
-    font-weight: 600;
     margin-top: 5% !important;
+    font-weight: 700 !important;
   }
 
   .accordion-body img {
-    box-shadow: 0 1px 5px red;
+    box-shadow: 0 1px 5px #ec8228;
   }
 
   .accordion-body h5 {
-    font-family: 'Bodoni Moda', serif;
-    font-weight: 600 !important;
+
 
   }
 
   .accordion-body p {
     text-align: left !important;
-    font-family: 'Nanum Myeongjo', serif;
-    font-weight: 500 !important;
     letter-spacing: 1.5px !important;
   }
 
@@ -322,21 +309,20 @@ html, body {width: auto!important; overflow-x:auto !important;}
 }
 
 .professionalSocieties h1 {
-  font-family: 'Bodoni Moda', serif;
   color: #fff !important;
   text-transform: uppercase !important;
   letter-spacing: 5px !important;
-  color: red !important;
-  font-weight: 600;
+  color: #ec8228 !important;
   margin-top: 5% !important;
+  font-weight: 800 !important;
 }
 
 .professionalSocieties h4 {
-  font-family: 'Bodoni Moda', serif;
   color: #fff !important;
   text-transform: uppercase !important;
   letter-spacing: 5px !important;
   margin-top: 1% !important;
+  font-weight: 700 !important;
 }
 /* Professional Societies Styles End */
 
@@ -348,7 +334,7 @@ html, body {width: auto!important; overflow-x:auto !important;}
 }
 
 .news a {
-  color: red !important;
+  color: #ec8228 !important;
 }
 
 .news a:hover {
@@ -357,38 +343,33 @@ html, body {width: auto!important; overflow-x:auto !important;}
 }
 
 .news h1 {
-  font-family: 'Bodoni Moda', serif;
   color: #fff !important;
   text-transform: uppercase !important;
   letter-spacing: 5px !important;
-  color: red !important;
-  font-weight: 600;
+  color: #ec8228 !important;
   margin-top: 5% !important;
+  font-weight: 800 !important;
 }
 
 .news h4 {
-  font-family: 'Bodoni Moda', serif;
   color: #fff !important;
   text-transform: uppercase !important;
   letter-spacing: 5px !important;
-  margin-top: 1% !important;
+  margin-top: -2% !important;
   text-align: center !important;
+  font-weight: 700 !important;
 }
 
 .news2021, .news2020, .news2019, .news2018, .news2017 {
   margin-top: 5% !important;
   color: #fff !important;
   text-align: left !important;
-  font-family: 'Nanum Myeongjo', serif;
-  font-weight: 400;
 }
 
 .conferencesMeetings {
   margin-top: 5% !important;
   color: #fff !important;
   text-align: center !important;
-  font-family: 'Nanum Myeongjo', serif;
-  font-weight: 400;
 }
 
 .conferencesMeetings li{
@@ -400,15 +381,13 @@ html, body {width: auto!important; overflow-x:auto !important;}
 .collaborators {
   margin-top: 10% !important;
   color: #fff !important;
-  font-family: 'Nanum Myeongjo', serif;
-  font-weight: 400;
   text-align: center !important;
 }
 
 .collaborators h6 a {
   color: #fff !important;
-  font-family: 'Bodoni Moda', serif;
   letter-spacing: 5px !important;
+  font-weight: 700 !important;
 }
 
 .collaborators #mainh6 {
@@ -418,17 +397,16 @@ html, body {width: auto!important; overflow-x:auto !important;}
 .collaborators a:hover {
   text-decoration: none !important;
   text-transform: uppercase;
-  color: red !important;
+  color: #ec8228 !important;
 }
 
 .collaborators h1 {
-  font-family: 'Bodoni Moda', serif;
   color: #fff !important;
   text-transform: uppercase !important;
   letter-spacing: 5px !important;
-  color: red !important;
-  font-weight: 600;
+  color: #ec8228 !important;
   margin-top: 5% !important;
+  font-weight: 800 !important;
 }
 /* Collaborators Section Styles End */
 
@@ -437,12 +415,10 @@ html, body {width: auto!important; overflow-x:auto !important;}
   margin-top: 10% !important;
   color: #fff !important;
   text-align: left !important;
-  font-family: 'Nanum Myeongjo', serif;
-  font-weight: 400;
 }
 
 .contact a {
-  color: red !important;
+  color: #ec8228 !important;
 }
 
 .contact a:hover {
@@ -451,23 +427,22 @@ html, body {width: auto!important; overflow-x:auto !important;}
 }
 
 .contact h1 {
-  font-family: 'Bodoni Moda', serif;
   color: #fff !important;
   text-transform: uppercase !important;
   letter-spacing: 5px !important;
-  color: red !important;
-  font-weight: 600;
+  color: #ec8228 !important;
   margin-top: 5% !important;
   text-align: center !important;
+  font-weight: 800 !important;
 }
 
 .contact h4 {
-  font-family: 'Bodoni Moda', serif;
   color: #fff !important;
   text-transform: uppercase !important;
   letter-spacing: 5px !important;
   margin-top: 1% !important;
   text-align: left !important;
+  font-weight: 700 !important;
 }
 
 .contact .row {
@@ -484,38 +459,31 @@ html, body {width: auto!important; overflow-x:auto !important;}
 
 /* Footer Styles */
 .footer  {
-  color: #fff !important;
+  color: #ec8228 !important;
   text-align: center !important;
   width: 100% !important;
   margin-right: auto !important;
   margin-left: auto !important;
   height: 70px !important;
-  padding: 1% !important;
-  font-family: 'Nanum Myeongjo', serif;
-  font-weight: 900 !important;
+  padding: 2% !important;
+  background-color: #7324b3 !important;
 }
 
-.footer {
-  width: 100% !important;
-  text-align: center !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
-  background-color: #000 !important;
-  padding: 2% !important;
-}
 
 .footer p {
   font-size: .8rem !important;
   margin-top: -1% !important;
+  font-weight: 800 !important;
 }
 
 
 .footer a {
-  color: #fff !important;
+  color: #ec8228 !important;
+  font-weight: 800 !important;
 }
 
 .footer a:hover{
-  color: red !important;
+  color: #fff !important;
   text-decoration: none !important;
 }
 /* Footer Styles End */
@@ -547,7 +515,7 @@ html, body {width: auto!important; overflow-x:auto !important;}
       width: 310px !important;
       height: 550px !important;
       text-align: center !important;
-      background-color: #000 !important;
+      background-color: #7324b3 !important;
       background-image: none !important;
     }
 
@@ -568,7 +536,6 @@ html, body {width: auto!important; overflow-x:auto !important;}
   /* PI Section */
     .PI h1 {
       font-size: 1.5rem !important;
-      font-family: 'Bodoni Moda', serif;
       margin-top: -3% !important;
     }
 
@@ -585,7 +552,6 @@ html, body {width: auto!important; overflow-x:auto !important;}
     .research h1 {
       font-size: 1.5rem !important;
       margin-top: 5% !important;
-      font-family: 'Bodoni Moda', serif;
     }
 
     .research article h2 {
@@ -597,7 +563,6 @@ html, body {width: auto!important; overflow-x:auto !important;}
     .research article h6 {
       font-size: 1rem !important;
       text-align: center !important;
-      font-weight: 700 !important;
     }
 
     .research article p {
@@ -692,7 +657,6 @@ html, body {width: auto!important; overflow-x:auto !important;}
 }
 .collaborators h6 {
   font-size: 10px !important;
-  font-weight: 700 !important;
 }
 
 .collaborators #mainh6 {
@@ -738,7 +702,7 @@ html, body {width: auto!important; overflow-x:auto !important;}
        width: 100% !important;
        height: 560px !important;
        text-align: center !important;
-       background-color: #000 !important;
+       background-color: #7324b3 !important;
        background-image: none !important;
      }
 
@@ -754,7 +718,6 @@ html, body {width: auto!important; overflow-x:auto !important;}
    /* PI Section */
      .PI h1 {
        font-size: 1.5rem !important;
-       font-family: 'Bodoni Moda', serif;
        margin-top: -3% !important;
      }
 
@@ -775,7 +738,6 @@ html, body {width: auto!important; overflow-x:auto !important;}
 
    /* Collaborators Section Styles */
    .collaborators h6 {
-     font-weight: 700 !important;
    }
    /* Collaborators Section Styles End */
 
@@ -914,7 +876,7 @@ html, body {width: auto!important; overflow-x:auto !important;}
 @media only screen and (min-width: 768px) {
 
   .jumbotron {
-    background-image: url('img/bg.jpg') !important;
+    background-color: #7324b3 !important;
     height: 750px !important;
     width: 100% !important;
     background-size: cover !important;
@@ -924,9 +886,7 @@ html, body {width: auto!important; overflow-x:auto !important;}
   }
 
   .jumbotron h1 {
-    font-family: 'Bodoni Moda', serif;
     width: 60% !important;
-    color: red !important;
     margin-left: 3% !important;
     margin-top: 10% !important;
     width: 50% !important;
@@ -935,12 +895,10 @@ html, body {width: auto!important; overflow-x:auto !important;}
   }
 
   .jumbotron p {
-    font-family: 'Nanum Myeongjo', serif;
     width: 60% !important;
     margin-left: 3% !important;
     width: 50% !important;
     letter-spacing: 1px !important;
-    font-weight: 800 !important;
     text-align: left !important;
   }
 
@@ -1079,6 +1037,10 @@ html, body {width: auto!important; overflow-x:auto !important;}
 /* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
 @media only screen and (min-width: 1440px) {
 
+  .navbar h5 {
+    font-weight: 800 !important;
+  }
+
   .navbar p {
     font-size: .8rem !important;
   }
@@ -1167,9 +1129,7 @@ html, body {width: auto!important; overflow-x:auto !important;}
 
   /* Nav Styles */
   .navbar {
-    font-family: 'Bodoni Moda', serif;
-    font-weight: 600;
-    background-color: #000 !important;
+    background-color: #7324b3 !important;
   }
 
   .navbar a {
@@ -1177,24 +1137,21 @@ html, body {width: auto!important; overflow-x:auto !important;}
   }
 
   .navbar a:hover {
-    color: red !important;
+    color: #ec8228 !important;
     text-decoration: none !important;
   }
 
   .navbar h5 {
     letter-spacing: .5px !important;
     color: #fff !important;
-    font-weight: 800 !important;
     font-size: 1.5rem !important;
     margin-left: -5% !important;
   }
 
   .navbar p {
-    font-family: 'Nanum Myeongjo', serif;
     text-transform: uppercase !important;
     font-size: 1rem !important;
     letter-spacing: 1px !important;
-    font-weight: 800 !important;
   }
 
 
@@ -1225,18 +1182,15 @@ html, body {width: auto!important; overflow-x:auto !important;}
 
   /* Jumbotron Intro Styles */
   .jumbotron {
-    background-image: url('img/bg.jpg');
+    background-color: #7324b3 !important;
     height: 950px !important;
     width: 100% !important;
     background-size: cover;
     background-position: center;
-    color: #fff !important;
   }
 
   .jumbotron h1 {
-    font-family: 'Bodoni Moda', serif;
     width: 60% !important;
-    color: red !important;
     margin-left: 3% !important;
     margin-top: 20% !important;
     width: 50% !important;
@@ -1245,26 +1199,20 @@ html, body {width: auto!important; overflow-x:auto !important;}
   }
 
   .jumbotron p {
-    font-family: 'Nanum Myeongjo', serif;
     width: 60% !important;
     margin-left: 3% !important;
     width: 50% !important;
     letter-spacing: 1px !important;
-    font-weight: 800 !important;
     font-size: 1rem !important;
   }
 
   .jumbotron button {
     margin-left: 3% !important;
-    border-color: red !important;
-    color: red !important;
-    font-family: 'Nanum Myeongjo', serif;
-    font-weight: 800 !important;
   }
 
   .jumbotron button:hover {
     color: #fff !important;
-    background-color: red !important;
+    background-color: #fff !important;
   }
   /* Jumbotron Intro Styles End */
 
@@ -1277,17 +1225,14 @@ html, body {width: auto!important; overflow-x:auto !important;}
     }
 
     .PI h1 {
-      font-family: 'Bodoni Moda', serif;
       color: #fff !important;
       text-transform: uppercase !important;
       letter-spacing: 5px !important;
-      color: red !important;
-      font-weight: 600;
+      color: #ec8228 !important;
       margin-top: 5% !important;
     }
 
     .PI h4 {
-      font-family: 'Bodoni Moda', serif;
       color: #fff !important;
       text-transform: uppercase !important;
       letter-spacing: 5px !important;
@@ -1298,7 +1243,7 @@ html, body {width: auto!important; overflow-x:auto !important;}
     }
 
   .pIframes iframe {
-      box-shadow: 0 3px 8px red;
+      box-shadow: 0 3px 8px #ec8228;
     }
 
     .pIframes iframe {
@@ -1318,18 +1263,15 @@ html, body {width: auto!important; overflow-x:auto !important;}
   }
 
   .research h1 {
-    font-family: 'Bodoni Moda', serif;
     color: #fff !important;
     text-transform: uppercase !important;
     letter-spacing: 5px !important;
-    color: red !important;
-    font-weight: 600;
+    color: #ec8228 !important;
     margin-top: 5% !important;
     text-align: center !important;
   }
 
   .research article h2 {
-    font-family: 'Bodoni Moda', serif;
     color: #fff !important;
     text-transform: uppercase !important;
     letter-spacing: 5px !important;
@@ -1341,11 +1283,9 @@ html, body {width: auto!important; overflow-x:auto !important;}
   }
 
   .research article h6 {
-    font-family: 'Nanum Myeongjo', serif;
-    font-weight: 800;
     text-transform: uppercase !important;
     letter-spacing: 5px !important;
-    color: red !important;
+    color: #ec8228 !important;
     margin-top: 1% !important;
     text-align: left !important;
     width: 100% !important;
@@ -1355,10 +1295,7 @@ html, body {width: auto!important; overflow-x:auto !important;}
 
   .research article p, .research article li, .research article small {
     color: #fff !important;
-    font-family: 'Nanum Myeongjo', serif;
-    font-weight: 400;
     letter-spacing: 1px !important;
-    font-weight: 800 !important;
     text-align: left !important;
     margin-top: 1% !important;
   }
@@ -1377,8 +1314,6 @@ html, body {width: auto!important; overflow-x:auto !important;}
   }
 
     article a {
-      font-family: 'Bodoni Moda', serif !important;
-      font-weight: 600 !important;
       color: #fff !important;
     }
 
@@ -1394,37 +1329,30 @@ html, body {width: auto!important; overflow-x:auto !important;}
     }
 
     .currentTeamMembers h1 {
-      font-family: 'Bodoni Moda', serif;
       color: #fff !important;
       text-transform: uppercase !important;
       letter-spacing: 5px !important;
-      color: red !important;
-      font-weight: 600;
+      color: #ec8228 !important;
       margin-top: 5% !important;
     }
 
     .currentRotationStudents h1 {
       margin-top: -5% !important;
-      font-family: 'Bodoni Moda', serif;
       color: #fff !important;
       text-transform: uppercase !important;
       letter-spacing: 5px !important;
-      color: red !important;
-      font-weight: 600;
+      color: #ec8228 !important;
     }
 
     .formerTeamMembers h4, .formerRotationStudents h4, .formerSummerTeamMembers h4 {
       margin-top: -5% !important;
-      font-family: 'Bodoni Moda', serif;
       color: #fff !important;
       text-transform: uppercase !important;
       letter-spacing: 5px !important;
-      color: red !important;
-      font-weight: 600;
+      color: #ec8228 !important;
     }
 
   .currentTeamMembers h4, .currentRotationStudents h4, .formerTeamMembers h4, .formerRotationStudents h4, .formerSummerTeamMembers h4  {
-      font-family: 'Bodoni Moda', serif;
       color: #fff !important;
       text-transform: uppercase !important;
       letter-spacing: 5px !important;
@@ -1436,20 +1364,18 @@ html, body {width: auto!important; overflow-x:auto !important;}
     }
 
     .accordion-button:not(.collapsed) {
-      background-color: red !important;
+      background-color: #ec8228 !important;
       color: #fff !important;
     }
 
     .accordion-button {
-      font-family: 'Bodoni Moda', serif !important;
-      font-weight: 600 !important;
       color: #fff !important;
       border-color: none !important;
     }
 
     .accordion-button.collapsed {
       color: #fff !important;
-      background-color: red !important;
+      background-color: #ec8228 !important;
       border-color: none !important;
     }
 
@@ -1471,25 +1397,19 @@ html, body {width: auto!important; overflow-x:auto !important;}
     }
 
     .accordion-body figcaption {
-      font-family: 'Bodoni Moda', serif;
-      font-weight: 600;
       margin-top: 5% !important;
       font-size: 1.2rem !important;
     }
 
     .accordion-body img {
-      box-shadow: 0 1px 5px red;
+      box-shadow: 0 1px 5px #ec8228;
     }
 
     .accordion-body h5 {
-      font-family: 'Bodoni Moda', serif;
-      font-weight: 600 !important;
     }
 
     .accordion-body p {
       text-align: left !important;
-      font-family: 'Nanum Myeongjo', serif;
-      font-weight: 500 !important;
       letter-spacing: 1.5px !important;
       font-size: 1.5rem !important;
     }
@@ -1507,7 +1427,7 @@ html, body {width: auto!important; overflow-x:auto !important;}
       .teamGallery img {
         width: 250px !important;
         height: 200px !important;
-        box-shadow: 0 1px 5px red;
+        box-shadow: 0 1px 5px #ec8228;
       }
 
       .row1 {
@@ -1539,17 +1459,14 @@ html, body {width: auto!important; overflow-x:auto !important;}
   }
 
   .professionalSocieties h1 {
-    font-family: 'Bodoni Moda', serif;
     color: #fff !important;
     text-transform: uppercase !important;
     letter-spacing: 5px !important;
-    color: red !important;
-    font-weight: 600;
+    color: #ec8228 !important;
     margin-top: 5% !important;
   }
 
   .professionalSocieties h4 {
-    font-family: 'Bodoni Moda', serif;
     color: #fff !important;
     text-transform: uppercase !important;
     letter-spacing: 5px !important;
@@ -1565,7 +1482,7 @@ html, body {width: auto!important; overflow-x:auto !important;}
   }
 
   .news a {
-    color: red !important;
+    color: #ec8228 !important;
   }
 
   .news a:hover {
@@ -1574,21 +1491,18 @@ html, body {width: auto!important; overflow-x:auto !important;}
   }
 
   .news h1 {
-    font-family: 'Bodoni Moda', serif;
     color: #fff !important;
     text-transform: uppercase !important;
     letter-spacing: 5px !important;
-    color: red !important;
-    font-weight: 600;
+    color: #ec8228 !important;
     margin-top: 5% !important;
   }
 
   .news h4 {
-    font-family: 'Bodoni Moda', serif;
     color: #fff !important;
     text-transform: uppercase !important;
     letter-spacing: 5px !important;
-    margin-top: -5% !important;
+    margin-top: -10% !important;
     text-align: center !important;
   }
 
@@ -1596,16 +1510,12 @@ html, body {width: auto!important; overflow-x:auto !important;}
     margin-top: 5% !important;
     color: #fff !important;
     text-align: left !important;
-    font-family: 'Nanum Myeongjo', serif;
-    font-weight: 400;
   }
 
   .conferencesMeetings {
     margin-top: 5% !important;
     color: #fff !important;
     text-align: center !important;
-    font-family: 'Nanum Myeongjo', serif;
-    font-weight: 400;
   }
 
   .conferencesMeetings li{
@@ -1617,14 +1527,11 @@ html, body {width: auto!important; overflow-x:auto !important;}
   .collaborators {
     margin-top: 10% !important;
     color: #fff !important;
-    font-family: 'Nanum Myeongjo', serif;
-    font-weight: 400;
     text-align: center !important;
   }
 
   .collaborators h6 a {
     color: #fff !important;
-    font-family: 'Bodoni Moda', serif;
     letter-spacing: 5px !important;
   }
 
@@ -1635,16 +1542,14 @@ html, body {width: auto!important; overflow-x:auto !important;}
   .collaborators a:hover {
     text-decoration: none !important;
     text-transform: uppercase;
-    color: red !important;
+    color: #ec8228 !important;
   }
 
   .collaborators h1 {
-    font-family: 'Bodoni Moda', serif;
     color: #fff !important;
     text-transform: uppercase !important;
     letter-spacing: 5px !important;
-    color: red !important;
-    font-weight: 600;
+    color: #ec8228 !important;
     margin-top: 5% !important;
   }
   /* Collaborators Section Styles End */
@@ -1654,12 +1559,10 @@ html, body {width: auto!important; overflow-x:auto !important;}
     margin-top: 10% !important;
     color: #fff !important;
     text-align: left !important;
-    font-family: 'Nanum Myeongjo', serif;
-    font-weight: 400;
   }
 
   .contact a {
-    color: red !important;
+    color: #ec8228 !important;
   }
 
   .contact a:hover {
@@ -1668,18 +1571,15 @@ html, body {width: auto!important; overflow-x:auto !important;}
   }
 
   .contact h1 {
-    font-family: 'Bodoni Moda', serif;
     color: #fff !important;
     text-transform: uppercase !important;
     letter-spacing: 5px !important;
-    color: red !important;
-    font-weight: 600;
+    color: #ec8228 !important;
     margin-top: 5% !important;
     text-align: center !important;
   }
 
   .contact h4 {
-    font-family: 'Bodoni Moda', serif;
     color: #fff !important;
     text-transform: uppercase !important;
     letter-spacing: 5px !important;
@@ -1699,3 +1599,12 @@ html, body {width: auto!important; overflow-x:auto !important;}
   }
   /* Contact Section Styles End */
 }
+
+
+
+
+/* Font Family
+
+font-family: 'Nanum Myeongjo', serif;
+font-weight: 400, 700, 800
+*/
