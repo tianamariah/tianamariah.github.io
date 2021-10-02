@@ -2,7 +2,7 @@
 html, body {width: auto!important; overflow-x: hidden!important}
 
 a {
-  color: gold !important;
+  color: #000 !important;
 }
 
 a:hover {
@@ -16,15 +16,18 @@ a:hover {
 /* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
 
 #body {
-  background-color: #000 !important;
+  background-image: url(img/bg.jpg);
+  //background-color: #000 !important;
   text-align: center;
   font-family: 'Yesteryear', cursive;
-  color: #fff !important;
+  color: #000 !important;
+  background-size: cover;
+  font-weight: 900 !important;
 }
 
 .navbar, .fixed-bottom {
-  background-color: #000 !important;
-  color: gold !important;
+  background-color: none !important;
+  color: #000 !important;
 }
 
 .nav-item a {
@@ -32,7 +35,7 @@ a:hover {
 }
 
 .navbar a {
-  color: gold !important;
+  color: #000 !important;
 }
 
 
@@ -51,13 +54,14 @@ a:hover {
 .main h4 {
   font-family: 'Yesteryear', cursive;
   letter-spacing: 3px !important;
-  color: gold !important;
+  color: #000 !important;
 }
 
 .main p {
   font-family: 'Spartan', sans-serif !important;
-  font-size: 12px !important;
+  font-size: 20px !important;
   line-height: none !important;
+  font-weight: bolder !important;
 }
 
 .moveUp {
@@ -96,6 +100,7 @@ a:hover {
     font-family: 'Spartan', sans-serif !important;
     font-size: 12px !important;
     margin-top: 5% !important;
+    font-weight: 900 !important;
   }
 
   .main h4 {
@@ -133,6 +138,7 @@ a:hover {
     font-family: 'Spartan', sans-serif !important;
     font-size: 12px !important;
     margin-top: 5% !important;
+    font-weight: 900 !important;
   }
 
   .main h4 {
@@ -165,6 +171,7 @@ a:hover {
     font-family: 'Spartan', sans-serif !important;
     font-size: 12px !important;
     margin-top: 5% !important;
+    font-weight: 900 !important;
   }
 
   .main h4 {
@@ -198,6 +205,7 @@ a:hover {
     font-family: 'Spartan', sans-serif !important;
     font-size: 12px !important;
     margin-top: 5% !important;
+    font-weight: 900 !important;
   }
 
   .main h4 {
@@ -245,6 +253,7 @@ a:hover {
     font-size: 12px !important;
     line-height: none !important;
     margin-top: 0% !important;
+    font-weight: 900 !important;
   }
 
 
@@ -270,8 +279,8 @@ a:hover {
     font-family: 'Spartan', sans-serif !important;
     font-size: 12px !important;
     line-height: none !important;
-      margin-top: 0% !important;
-
+    margin-top: 0% !important;
+    font-weight: 900;
   }
 
 
@@ -302,8 +311,8 @@ a:hover {
     font-family: 'Spartan', sans-serif !important;
     font-size: 12px !important;
     line-height: none !important;
-      margin-top: 0% !important;
-
+    margin-top: 0% !important;
+    font-weight: 900 !important;
   }
 
 
@@ -335,7 +344,7 @@ a:hover {
     font-family: 'Spartan', sans-serif !important;
     font-size: 12px !important;
     line-height: none !important;
-      margin-top: 0% !important;
+    margin-top: 0% !important;
   }
 
 
