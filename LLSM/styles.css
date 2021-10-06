@@ -3,11 +3,13 @@ html, body {width: auto!important; overflow-x: hidden!important}
 
 a {
   color: #000 !important;
+  text-shadow: 2px 2px #fff;
 }
+
 
 a:hover {
   text-decoration: none !important;
-  color: #fff !important;
+  color: gold !important;
 }
 /*♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
 
@@ -17,56 +19,53 @@ a:hover {
 
 #body {
   background-image: url(img/bg.jpg);
-  //background-color: #000 !important;
   text-align: center;
   font-family: 'Yesteryear', cursive;
-  color: #000 !important;
   background-size: cover;
   font-weight: 900 !important;
+  text-shadow: 2px 2px #000;
 }
 
 .navbar, .fixed-bottom {
-  background-color: none !important;
   color: #000 !important;
+  text-shadow: 2px 2px #fff;
 }
 
-.nav-item a {
-  font-size: 1.5rem !important;
-}
 
 .navbar a {
   color: #000 !important;
+  text-shadow: 2px 2px #fff;
+}
+
+.navbar a:hover {
+  text-decoration: none !important;
+  color: gold !important;
 }
 
 
 .main img {
   width: 550px !important;
   height: auto !important;
-  margin-top: 5% !important;
+  opacity: .85;
 }
 
-.main {
-  height: auto !important;
-  margin-top: 3% !important;
-  width: 100% !important;
-}
 
 .main h4 {
   font-family: 'Yesteryear', cursive;
   letter-spacing: 3px !important;
   color: #000 !important;
+  text-shadow: 2px 2px #fff;
 }
 
 .main p {
   font-family: 'Spartan', sans-serif !important;
-  font-size: 20px !important;
+  font-size: 18px !important;
   line-height: none !important;
   font-weight: bolder !important;
+  color: #000;
+  text-shadow: 2px 2px #fff;
 }
 
-.moveUp {
-  margin-top: -3% !important;
-}
 
 
 /*♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
@@ -87,31 +86,19 @@ a:hover {
 
 @media only screen and (min-width: 320px) {
 
-  .nav-item a {
-    font-size: 1.4rem !important;
-    text-align: center !important;
-  }
 
-  .main {
-    margin-top: 25% !important;
+  .nav p {
+    text-align: center !important;
+    font-size: 23px !important;
   }
 
   .main p {
-    font-family: 'Spartan', sans-serif !important;
-    font-size: 12px !important;
+    font-size: 18px !important;
     margin-top: 5% !important;
-    font-weight: 900 !important;
   }
 
-  .main h4 {
-    font-family: 'Yesteryear', cursive;
-    letter-spacing: 3px !important;
-    font-size: 1rem !important;
-  }
-
-
-  .fixed-bottom {
-    height: 50px !important;
+  .dontShow {
+    display: none !important;
   }
 
 
@@ -124,28 +111,11 @@ a:hover {
 
 @media only screen and (min-width: 375px) {
 
-  .nav-item a {
-    font-size: 1.7rem !important;
+  .nav p {
     text-align: center !important;
+    font-size: 26px !important;
   }
 
-  .main {
-    margin-top: 25% !important;
-  }
-
-
-  .main p {
-    font-family: 'Spartan', sans-serif !important;
-    font-size: 12px !important;
-    margin-top: 5% !important;
-    font-weight: 900 !important;
-  }
-
-  .main h4 {
-    font-family: 'Yesteryear', cursive;
-    letter-spacing: 3px !important;
-    font-size: .8rem !important;
-  }
 
 
 
@@ -158,27 +128,12 @@ a:hover {
 
 @media only screen and (min-width: 425px) {
 
-  .nav-item a {
-    font-size: 1.85rem !important;
+  .nav p {
     text-align: center !important;
+    font-size: 31px !important;
   }
 
-  .main {
-    margin-top: 30% !important;
-  }
 
-  .main p {
-    font-family: 'Spartan', sans-serif !important;
-    font-size: 12px !important;
-    margin-top: 5% !important;
-    font-weight: 900 !important;
-  }
-
-  .main h4 {
-    font-family: 'Yesteryear', cursive;
-    letter-spacing: 3px !important;
-    font-size: 1rem !important;
-  }
 
 
 
@@ -191,27 +146,9 @@ a:hover {
 /* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
 @media only screen and (min-width: 500px) {
 
-
-  .nav-item a {
-    font-size: 2.3rem !important;
+  .navbar p {
     text-align: center !important;
-  }
-
-  .main {
-    margin-top: 30% !important;
-  }
-
-  .main p {
-    font-family: 'Spartan', sans-serif !important;
-    font-size: 12px !important;
-    margin-top: 5% !important;
-    font-weight: 900 !important;
-  }
-
-  .main h4 {
-    font-family: 'Yesteryear', cursive;
-    letter-spacing: 3px !important;
-    font-size: 1rem !important;
+    font-size: 36px !important;
   }
 
 
@@ -227,34 +164,28 @@ a:hover {
  /* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
 @media  only screen and (min-width: 576px) {
 
-  .nav-item a {
-    font-size: 2.7rem !important;
-    text-align: center !important;
-  }
 
+
+    .navbar p {
+      text-align: center !important;
+      font-size: 42px !important;
+    }
 
 
 }
 
 @media only screen and (min-width: 768px) {
 
-  .nav-item a {
-    font-size: 1.5rem !important;
+
+  .navbar p {
     text-align: center !important;
-  }
-
-
-  .main {
-    margin-top: 5% !important;
+    font-size: 25px !important;
   }
 
   .main p {
-    font-family: 'Spartan', sans-serif !important;
-    font-size: 12px !important;
-    line-height: none !important;
-    margin-top: 0% !important;
-    font-weight: 900 !important;
+    margin-top: 3% !important;
   }
+
 
 
   }
@@ -265,25 +196,10 @@ a:hover {
 @media only screen and (min-width: 1024px) {
 
 
-  .nav-item a {
-    font-size: 1.5rem !important;
+  .navbar p {
     text-align: center !important;
+    font-size: 25px !important;
   }
-
-  .main {
-    margin-top: 5% !important;
-  }
-
-
-  .main p {
-    font-family: 'Spartan', sans-serif !important;
-    font-size: 12px !important;
-    line-height: none !important;
-    margin-top: 0% !important;
-    font-weight: 900;
-  }
-
-
 
 
 
@@ -296,27 +212,10 @@ a:hover {
 @media only screen and (min-width: 1440px) {
 
 
-  .nav-item a {
-    font-size: 1.5rem !important;
+  .navbar p {
     text-align: center !important;
+    font-size: 25px !important;
   }
-
-
-  .main {
-    margin-top: 5% !important;
-  }
-
-
-  .main p {
-    font-family: 'Spartan', sans-serif !important;
-    font-size: 12px !important;
-    line-height: none !important;
-    margin-top: 0% !important;
-    font-weight: 900 !important;
-  }
-
-
-
 
 
 
@@ -330,25 +229,10 @@ a:hover {
 /* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
 @media only screen and (min-width: 2560px) {
 
-  .nav-item a {
-    font-size: 1.5rem !important;
+  .navbar p {
     text-align: center !important;
+    font-size: 25px !important;
   }
-
-
-  .main {
-    margin-top: 10% !important;
-  }
-
-  .main p {
-    font-family: 'Spartan', sans-serif !important;
-    font-size: 12px !important;
-    line-height: none !important;
-    margin-top: 0% !important;
-  }
-
-
-
 
 
 }
