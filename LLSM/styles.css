@@ -4,6 +4,7 @@ html, body {width: auto!important; overflow-x: hidden!important}
 a {
   color: #000 !important;
   text-shadow: 2px 2px #fff;
+  text-decoration: none !important;
 }
 
 
