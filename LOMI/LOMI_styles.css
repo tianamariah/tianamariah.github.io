@@ -23,7 +23,7 @@ html, body {width: auto!important; overflow-x:auto !important;}
 }
 
 .navbar a {
-  color: #ec8228 !important;
+  color: #fbc304 !important;
   font-weight: 700 !important;
 }
 
@@ -53,7 +53,7 @@ html, body {width: auto!important; overflow-x:auto !important;}
 }
 
 .fa-bars {
-  color: #ec8228 !important;
+  color: #fbc304 !important;
 }
 
 #navbarNavAltMarkup {
@@ -61,12 +61,20 @@ html, body {width: auto!important; overflow-x:auto !important;}
 }
 
 .dropdown-menu a {
-  color: #ec8228 !important;
+  color: #fbc304 !important;
   font-weight: 700 !important;
 }
 /* Nav Styles End */
 
 /* Jumbotron Intro Styles */
+#introVideo {
+  object-fit: fill;
+  width: 100vw;
+  height: 600px !important;
+  margin-top: -38% !important;
+  opacity: .15;
+}
+
 .jumbotron {
   background-color: #7324b3 !important;
   height: 750px !important;
@@ -78,7 +86,7 @@ html, body {width: auto!important; overflow-x:auto !important;}
 
 .jumbotron h1 {
   width: 60% !important;
-  color: #ec8228 !important;
+  color: #fbc304 !important;
   margin-left: 3% !important;
   margin-top: 18% !important;
   width: 50% !important;
@@ -96,13 +104,13 @@ html, body {width: auto!important; overflow-x:auto !important;}
 
 .jumbotron button {
   margin-left: 3% !important;
-  border-color: #ec8228 !important;
-  color: #ec8228 !important;
+  border-color: #fbc304 !important;
+  color: #fbc304 !important;
 }
 
 .jumbotron button:hover {
   color: #fff !important;
-  background-color: #ec8228 !important;
+  background-color: #fbc304 !important;
 }
 /* Jumbotron Intro Styles End */
 
@@ -117,7 +125,7 @@ html, body {width: auto!important; overflow-x:auto !important;}
   .PI h1 {
     text-transform: uppercase !important;
     letter-spacing: 5px !important;
-    color: #ec8228 !important;
+    color: #fbc304 !important;
     margin-top: 5% !important;
     font-weight: 800 !important;
   }
@@ -134,11 +142,16 @@ html, body {width: auto!important; overflow-x:auto !important;}
   }
 
 .pIframes iframe {
-    box-shadow: 0 3px 8px #ec8228;
+    box-shadow: 0 3px 8px #fbc304;
   }
 /* PI Section Styles End */
 
 /* Research Section Styles */
+.researchSection {
+  background-color: #fff !important;
+  padding: 5% !important;
+}
+
 .research {
   margin-left: auto;
   margin-right: auto;
@@ -149,17 +162,15 @@ html, body {width: auto!important; overflow-x:auto !important;}
 }
 
 .research h1 {
-  color: #fff !important;
+  color: #000 !important;
   text-transform: uppercase !important;
   letter-spacing: 5px !important;
-  color: #ec8228 !important;
-  margin-top: 5% !important;
   text-align: center !important;
   font-weight: 800 !important;
 }
 
 .research article h2 {
-  color: #fff !important;
+  color: #000 !important;
   text-transform: uppercase !important;
   letter-spacing: 5px !important;
   text-align: left !important;
@@ -173,7 +184,7 @@ html, body {width: auto!important; overflow-x:auto !important;}
 .research article h6 {
   text-transform: uppercase !important;
   letter-spacing: 5px !important;
-  color: #ec8228 !important;
+  color: #000 !important;
   margin-top: 1% !important;
   text-align: left !important;
   width: 100% !important;
@@ -183,7 +194,7 @@ html, body {width: auto!important; overflow-x:auto !important;}
 }
 
 .research article p, .research article li, .research article small {
-  color: #fff !important;
+  color: #000 !important;
   letter-spacing: 1px !important;
   text-align: left !important;
   margin-top: 1% !important;
@@ -202,12 +213,49 @@ html, body {width: auto!important; overflow-x:auto !important;}
   width: 100% !important;
 }
 
+.research .row p {
+  color:#000 !important;
+  text-align: center !important;
+  font-size: 14px !important;
+}
+
+.research img {
+  width: 500px;
+  height: auto;
+  box-shadow: 0 1px 5px #7324b3;
+}
+
+.figure {
+  text-align: center !important;
+  margin-top: 3% !important;
+}
+
+.figureTopic5 img {
+  width: auto;
+  height: 350px;
+  box-shadow: 0 1px 5px #7324b3;
+}
+
+figcaption {
+  margin-top: 1% !important;
+  color:#000 !important;
+}
+
+figcaption a {
+  color: #7324b3 !important;
+}
+
+figcaption a:hover {
+  color: #fbc304 !important;
+  text-decoration: none !important;
+}
+
   article a {
-    color: #fff !important;
+    color: #000 !important;
   }
 
   article a:hover {
-    color: #fff !important;
+    color: #000 !important;
     text-decoration: none !important;
   }
 /* Research Section Styles End */
@@ -221,7 +269,7 @@ html, body {width: auto!important; overflow-x:auto !important;}
     color: #fff !important;
     text-transform: uppercase !important;
     letter-spacing: 5px !important;
-    color: #ec8228 !important;
+    color: #fbc304 !important;
     margin-top: 5% !important;
     font-weight: 800 !important;
   }
@@ -240,7 +288,7 @@ html, body {width: auto!important; overflow-x:auto !important;}
   }
 
   .accordion-button:not(.collapsed) {
-    background-color: #ec8228 !important;
+    background-color: #fbc304 !important;
     color: #fff !important;
   }
 
@@ -252,7 +300,7 @@ html, body {width: auto!important; overflow-x:auto !important;}
 
   .accordion-button.collapsed {
     color: #fff !important;
-    background-color: #ec8228 !important;
+    background-color: #fbc304 !important;
     border-color: none !important;
     font-weight: 700 !important;
   }
@@ -275,7 +323,7 @@ html, body {width: auto!important; overflow-x:auto !important;}
   }
 
   .accordion-body img {
-    box-shadow: 0 1px 5px #ec8228;
+    box-shadow: 0 1px 5px #fbc304;
   }
 
   .accordion-body h5 {
@@ -312,7 +360,7 @@ html, body {width: auto!important; overflow-x:auto !important;}
   color: #fff !important;
   text-transform: uppercase !important;
   letter-spacing: 5px !important;
-  color: #ec8228 !important;
+  color: #fbc304 !important;
   margin-top: 5% !important;
   font-weight: 800 !important;
 }
@@ -334,7 +382,7 @@ html, body {width: auto!important; overflow-x:auto !important;}
 }
 
 .news a {
-  color: #ec8228 !important;
+  color: #fbc304 !important;
 }
 
 .news a:hover {
@@ -346,7 +394,7 @@ html, body {width: auto!important; overflow-x:auto !important;}
   color: #fff !important;
   text-transform: uppercase !important;
   letter-spacing: 5px !important;
-  color: #ec8228 !important;
+  color: #fbc304 !important;
   margin-top: 5% !important;
   font-weight: 800 !important;
 }
@@ -397,14 +445,14 @@ html, body {width: auto!important; overflow-x:auto !important;}
 .collaborators a:hover {
   text-decoration: none !important;
   text-transform: uppercase;
-  color: #ec8228 !important;
+  color: #fbc304 !important;
 }
 
 .collaborators h1 {
   color: #fff !important;
   text-transform: uppercase !important;
   letter-spacing: 5px !important;
-  color: #ec8228 !important;
+  color: #fbc304 !important;
   margin-top: 5% !important;
   font-weight: 800 !important;
 }
@@ -418,7 +466,7 @@ html, body {width: auto!important; overflow-x:auto !important;}
 }
 
 .contact a {
-  color: #ec8228 !important;
+  color: #fbc304 !important;
 }
 
 .contact a:hover {
@@ -430,7 +478,7 @@ html, body {width: auto!important; overflow-x:auto !important;}
   color: #fff !important;
   text-transform: uppercase !important;
   letter-spacing: 5px !important;
-  color: #ec8228 !important;
+  color: #fbc304 !important;
   margin-top: 5% !important;
   text-align: center !important;
   font-weight: 800 !important;
@@ -459,7 +507,7 @@ html, body {width: auto!important; overflow-x:auto !important;}
 
 /* Footer Styles */
 .footer  {
-  color: #ec8228 !important;
+  color: #fbc304 !important;
   text-align: center !important;
   width: 100% !important;
   margin-right: auto !important;
@@ -478,7 +526,7 @@ html, body {width: auto!important; overflow-x:auto !important;}
 
 
 .footer a {
-  color: #ec8228 !important;
+  color: #fbc304 !important;
   font-weight: 800 !important;
 }
 
@@ -511,6 +559,16 @@ html, body {width: auto!important; overflow-x:auto !important;}
   /* Nav Styles End */
 
   /* Jumbotron Styles */
+
+    #introVideo {
+      object-fit: fill;
+      width: 100vw;
+      height: 500px !important;
+      margin-top: -150% !important;
+      opacity: .15;
+      margin-left: 2% !important;
+    }
+
     .jumbotron {
       width: 310px !important;
       height: 550px !important;
@@ -545,19 +603,19 @@ html, body {width: auto!important; overflow-x:auto !important;}
 
     .pIframes iframe {
       width: 300px !important;
+      margin-left: -3% !important;
     }
   /* PI Section */
 
   /* Research Styles */
     .research h1 {
       font-size: 1.5rem !important;
-      margin-top: 5% !important;
     }
 
     .research article h2 {
       font-size: 1.2rem !important;
       text-align: center !important;
-      margin-top: -1% !important;
+      margin-top: 5% !important;
     }
 
     .research article h6 {
@@ -698,6 +756,16 @@ html, body {width: auto!important; overflow-x:auto !important;}
    /* Nav Styles End */
 
    /* Jumbotron Styles */
+
+     #introVideo {
+       object-fit: fill;
+       width: 100vw;
+       height: 550px !important;
+       margin-top: -115% !important;
+       opacity: .15;
+       margin-left: -1% !important;
+     }
+
      .jumbotron {
        width: 100% !important;
        height: 560px !important;
@@ -874,6 +942,16 @@ html, body {width: auto!important; overflow-x:auto !important;}
 
 
 @media only screen and (min-width: 768px) {
+
+  #introVideo {
+    object-fit: fill;
+    width: 100vw;
+    height: 550px !important;
+    margin-top: -115% !important;
+    opacity: .15;
+    margin-left: 0% !important;
+  }
+
 
   .jumbotron {
     background-color: #7324b3 !important;
@@ -1137,7 +1215,7 @@ html, body {width: auto!important; overflow-x:auto !important;}
   }
 
   .navbar a:hover {
-    color: #ec8228 !important;
+    color: #fbc304 !important;
     text-decoration: none !important;
   }
 
@@ -1228,7 +1306,7 @@ html, body {width: auto!important; overflow-x:auto !important;}
       color: #fff !important;
       text-transform: uppercase !important;
       letter-spacing: 5px !important;
-      color: #ec8228 !important;
+      color: #fbc304 !important;
       margin-top: 5% !important;
     }
 
@@ -1243,7 +1321,7 @@ html, body {width: auto!important; overflow-x:auto !important;}
     }
 
   .pIframes iframe {
-      box-shadow: 0 3px 8px #ec8228;
+      box-shadow: 0 3px 8px #fbc304;
     }
 
     .pIframes iframe {
@@ -1266,8 +1344,7 @@ html, body {width: auto!important; overflow-x:auto !important;}
     color: #fff !important;
     text-transform: uppercase !important;
     letter-spacing: 5px !important;
-    color: #ec8228 !important;
-    margin-top: 5% !important;
+    color: #fbc304 !important;
     text-align: center !important;
   }
 
@@ -1276,7 +1353,7 @@ html, body {width: auto!important; overflow-x:auto !important;}
     text-transform: uppercase !important;
     letter-spacing: 5px !important;
     text-align: left !important;
-    margin-top: -1% !important;
+    margin-top: 5% !important;
     width: 100% !important;
     margin-left: auto;
     margin-right: auto;
@@ -1285,7 +1362,7 @@ html, body {width: auto!important; overflow-x:auto !important;}
   .research article h6 {
     text-transform: uppercase !important;
     letter-spacing: 5px !important;
-    color: #ec8228 !important;
+    color: #fbc304 !important;
     margin-top: 1% !important;
     text-align: left !important;
     width: 100% !important;
@@ -1332,7 +1409,7 @@ html, body {width: auto!important; overflow-x:auto !important;}
       color: #fff !important;
       text-transform: uppercase !important;
       letter-spacing: 5px !important;
-      color: #ec8228 !important;
+      color: #fbc304 !important;
       margin-top: 5% !important;
     }
 
@@ -1341,7 +1418,7 @@ html, body {width: auto!important; overflow-x:auto !important;}
       color: #fff !important;
       text-transform: uppercase !important;
       letter-spacing: 5px !important;
-      color: #ec8228 !important;
+      color: #fbc304 !important;
     }
 
     .formerTeamMembers h4, .formerRotationStudents h4, .formerSummerTeamMembers h4 {
@@ -1349,7 +1426,7 @@ html, body {width: auto!important; overflow-x:auto !important;}
       color: #fff !important;
       text-transform: uppercase !important;
       letter-spacing: 5px !important;
-      color: #ec8228 !important;
+      color: #fbc304 !important;
     }
 
   .currentTeamMembers h4, .currentRotationStudents h4, .formerTeamMembers h4, .formerRotationStudents h4, .formerSummerTeamMembers h4  {
@@ -1364,7 +1441,7 @@ html, body {width: auto!important; overflow-x:auto !important;}
     }
 
     .accordion-button:not(.collapsed) {
-      background-color: #ec8228 !important;
+      background-color: #fbc304 !important;
       color: #fff !important;
     }
 
@@ -1375,7 +1452,7 @@ html, body {width: auto!important; overflow-x:auto !important;}
 
     .accordion-button.collapsed {
       color: #fff !important;
-      background-color: #ec8228 !important;
+      background-color: #fbc304 !important;
       border-color: none !important;
     }
 
@@ -1402,7 +1479,7 @@ html, body {width: auto!important; overflow-x:auto !important;}
     }
 
     .accordion-body img {
-      box-shadow: 0 1px 5px #ec8228;
+      box-shadow: 0 1px 5px #fbc304;
     }
 
     .accordion-body h5 {
@@ -1427,7 +1504,7 @@ html, body {width: auto!important; overflow-x:auto !important;}
       .teamGallery img {
         width: 250px !important;
         height: 200px !important;
-        box-shadow: 0 1px 5px #ec8228;
+        box-shadow: 0 1px 5px #fbc304;
       }
 
       .row1 {
@@ -1462,7 +1539,7 @@ html, body {width: auto!important; overflow-x:auto !important;}
     color: #fff !important;
     text-transform: uppercase !important;
     letter-spacing: 5px !important;
-    color: #ec8228 !important;
+    color: #fbc304 !important;
     margin-top: 5% !important;
   }
 
@@ -1482,7 +1559,7 @@ html, body {width: auto!important; overflow-x:auto !important;}
   }
 
   .news a {
-    color: #ec8228 !important;
+    color: #fbc304 !important;
   }
 
   .news a:hover {
@@ -1494,7 +1571,7 @@ html, body {width: auto!important; overflow-x:auto !important;}
     color: #fff !important;
     text-transform: uppercase !important;
     letter-spacing: 5px !important;
-    color: #ec8228 !important;
+    color: #fbc304 !important;
     margin-top: 5% !important;
   }
 
@@ -1542,14 +1619,14 @@ html, body {width: auto!important; overflow-x:auto !important;}
   .collaborators a:hover {
     text-decoration: none !important;
     text-transform: uppercase;
-    color: #ec8228 !important;
+    color: #fbc304 !important;
   }
 
   .collaborators h1 {
     color: #fff !important;
     text-transform: uppercase !important;
     letter-spacing: 5px !important;
-    color: #ec8228 !important;
+    color: #fbc304 !important;
     margin-top: 5% !important;
   }
   /* Collaborators Section Styles End */
@@ -1562,7 +1639,7 @@ html, body {width: auto!important; overflow-x:auto !important;}
   }
 
   .contact a {
-    color: #ec8228 !important;
+    color: #fbc304 !important;
   }
 
   .contact a:hover {
@@ -1574,7 +1651,7 @@ html, body {width: auto!important; overflow-x:auto !important;}
     color: #fff !important;
     text-transform: uppercase !important;
     letter-spacing: 5px !important;
-    color: #ec8228 !important;
+    color: #fbc304 !important;
     margin-top: 5% !important;
     text-align: center !important;
   }

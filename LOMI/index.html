@@ -32,7 +32,7 @@
   <!-- Nav Start -->
   <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
-      <a class="navbar" href="index.html"><h5>The Laboratory of Mucosal Immunology <i class="fas fa-atom" style="color: #ec8228 !important; line-height: none !important;"></i></h5></a>
+      <a class="navbar" href="index.html"><h5>The Laboratory of Mucosal Immunology <i class="fas fa-atom" style="color: #fbc304 !important; line-height: none !important;"></i></h5></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar toogleicon"><i class="fas fa-bars"></i></span>
       </button>
@@ -45,8 +45,18 @@
                   <li><a class="dropdown-item" href="index.html#PI">PI Vidoes</a></li>
                 </ul>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#research"><p>Research</p></a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><p>Research</p></a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="index.html#research">Research Statement</a></li>
+                  <li><a class="dropdown-item" href="research-topic-1.html">M2 macrophages</a></li>
+                  <li><a class="dropdown-item" href="research-topic-2.html">Trefoil factor family proteins</a></li>
+                  <li><a class="dropdown-item" href="research-topic-3.html">Interleukin 33</a></li>
+                  <li><a class="dropdown-item" href="research-topic-4.html">Strongyloides transgenesis</a></li>
+                  <li><a class="dropdown-item" href="research-topic-5.html">Neurons</a></li>
+                  <li><a class="dropdown-item" href="research-topic-6.html">Tuft cell-neuron interactions in sinonasal allergic disease</a></li>
+                  <li><a class="dropdown-item" href="research-topic-7.html">Commitment to Diversity in Teaching and Mentoring</a></li>
+                </ul>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><p>Team</p></a>
@@ -90,24 +100,28 @@
   <!-- Intro Section -->
   <section>
     <div class="jumbotron jumbotron-fluid">
-        <h1> Welcome to<br>The Laboratory<br>of Mucosal Immunology</h1>
-        <p>The Herbert lab is exploring the immunoregulatory and regenerative mechanisms operating at the mucosal interface.
-          We have a keen interest in Trefoil factor proteins, which are a triad of mucus associated cytokines that currently lack bona-fide receptors.
-          Our work employs a combination of molecular and biochemical approches to interrogate cellular immunity under steady-state and infectious conditions.<br><br>
-          For all the latest, check our <a href="news.html"><span style="color: #ec8228 !important; font-family: 'Bodoni Moda', serif !important;
-          font-weight: 600 !importanat;">NEWS</span></a> tab!</p>
-          <a href="#research"><button type="button" class="btn btn-sm btn-outline-danger" href="#research">Learn More</button></a>
-          <span id="PI"></span>
+      <h1> Welcome to<br>The Laboratory<br>of Mucosal Immunology</h1>
+      <p>The Herbert lab is exploring the immunoregulatory and regenerative mechanisms operating at the mucosal interface.
+        We have a keen interest in Trefoil factor proteins, which are a triad of mucus associated cytokines that currently lack bona-fide receptors.
+        Our work employs a combination of molecular and biochemical approches to interrogate cellular immunity under steady-state and infectious conditions.<br><br>
+        For all the latest, check our <a href="news.html"><span style="color: #fbc304 !important; font-family: 'Bodoni Moda', serif !important;
+        font-weight: 600 !importanat;">NEWS</span></a> tab!</p>
+        <a href="#research"><button type="button" class="btn btn-sm btn-outline-danger" href="#research">Learn More</button></a>
+        <span id="PI"></span>
+      <video playsinline autoplay muted loop id="introVideo" class="cotainer-fluid img-fluid">
+        <source src="img/researchVideo.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+      </video>
       </div>
     </section>
-    <hr style="color: #ec8228 !important;" id="hideLargeScreens">
+    <hr style="color: #fff !important;" id="hideLargeScreens">
   <!-- Intro Section End -->
 
   <!-- Principal Investigator Section -->
   <section>
     <div class="container-fluid PI">
         <h1>Our Principal Investigator</h1>
-        <hr style="color: #ec8228 !important;">
+        <hr style="color: #fff !important;">
         <h4>De’Broski R. Herbert PhD</h4>
         <div class="pIframes container">
           <div class="row">
@@ -124,158 +138,32 @@
   </section>
   <!-- Principal Investigator Section Ends -->
 
-  <hr style="color: #ec8228 !important;" id="hideLargeScreens">
+  <hr style="color: #fff !important;" id="hideLargeScreens">
 
   <!-- Research Section -->
-  <section>
+  <section class="researchSection">
     <div class="container-fluid research">
       <h1>Our Research</h1>
+      <hr style="color: #7324b3 !important;">
 
-      <hr style="color: #ec8228 !important;">
-
-
-
-        <article>
-          <h2>Trefoil Receptor Identification</h2>
-          <h6>Tissue repair and regeneration at the mucosal interface.</h6>
-          <p>The most important undertaking of my scientific career to date has been investigation of Trefoil factor biology.
-            Trefoils are a family of three epithelial regenerative factors produced at sites of tissue injury and strongly implicated in regeneration and epithelial restitution.
-            Progress in the field of Trefoil factor biology has been hampered by the lack of a bona fide receptor that has been validated through rigorous in vivo testing.
-            My particular interest is to make our scientific contribution in understanding if and how Trefoils modulate immune cell function in the context of infectious and non-infectious injury.
-            My group has already published and produced several important advances to understanding how Trefoil factors modulate Type 2 and Type 1 immune responses.
-            We have now identified a putative receptor candidate and have one manuscript soon to be published.
-            I was the PI and senior author on all of these publications.
-          </p>
-            <ol>
-              <li>
-                <small>
-                Wills-Karp M, Rani R, Dienger K, Lewkowich I, Fox JG, Perkins C, Lewis L, Finkelman FD, Smith DE, Bryce PJ, Kurt-Jones EA, Wang TC, Sivaprasad U, Hershey GK, Herbert DR. Trefoil factor 2 rapidly induces interleukin 33 to promote type 2 immunity during allergic asthma and hookworm infection.
-                J Exp Med. 2012 Mar 12; 209(3):607-22.
-                </small>
-              </li>
-              <li>
-                <small>
-                  McBerry C, Egan CE, Rani R, Yang Y, Wu D, Boespflug N, Boon L, Butcher B, Mirpuri J, Hogan SP, Denkers EY, Aliberti J, Herbert DR.
-                  Trefoil factor 2 negatively regulates type 1 immunity against Toxoplasma gondii.
-                  J Immunol. 2012 Sep 15; 189(6):3078-84. PMID: 22896633. PMCID: PMC3436937McBerry C, Egan CE, Rani R, Yang Y, Wu D, Boespflug N, Boon L, Butcher B, Mirpuri J, Hogan SP, Denkers EY, Aliberti J, Herbert DR. Trefoil factor 2 negatively regulates type 1 immunity against Toxoplasma gondii.
-                  J Immunol. 2012 Sep 15; 189(6):3078-84. PMID: 22896633. PMCID: PMC3436937
-                </small>
-              </li>
-            </ol>
-        </article>
-
-        <hr style="color: #ec8228 !important;">
-
-        <article>
-          <h2>Macrophage subsets</h2>
-          <h6>The role of alternatively activated macrophages in regulating intestinal immunopathology.</h6>
-          <p>Type 2 cytokines interleukin 4 and interleukin 13 along with immunosuppressive cytokines interleukin 10 and transforming growth factor beta (TGF-b) are powerful regulators of tissue macrophage activity, but the molecular mechanisms responsible remain incompletely understood.
-            My work has made important contributions towards our understanding of how the alternatively activated macrophage (M2) phenotype serves to protect against helminth-infection, lung damage and colitic disease.
-            We have also demonstrated how TGF-beta modulates production of the pro-Type 2 cytokine IL-33 to thwart colitic inflammation and emphysematous lung pathology.
-            Thus, maintenance and repair of the mucosal tissue interface relies, at least in part on the macrophage receiving appropriate cytokine signals.
-            This topic is an active area of investigation in my laboratory and we are making novel mouse models to explore these topics in more detail.
-          </p>
-            <ol>
-              <li>
-                <small>
-                  Rani R, Jordan MB, Divanovic S, Herbert DR. IFN-gamma-Driven IDO Production from Macrophages Protects IL-4Ra-Deficient Mice against Lethality during Schistosoma mansoni Infection.
-                  Am J Pathol. 2012 May; 180(5):2001-8.
-                </small>
-              </li>
-              <li>
-                <small>
-                  Rani R, Smulian AG, Greaves DR, Hogan SP, Herbert DR. TGF-ß limits IL-33 production and promotes the resolution of colitis through regulation of macrophage function.
-                  Eur J Immunol. 2011 Jul; 41(7):2000-9.
-                </small>
-              </li>
-              <li>
-                <small>
-                  Heitmann L, Rani R, Dawson L, Perkins C, Yang Y, Downey J, Hölscher C, Herbert DR. TGF-ß-responsive myeloid cells suppress type 2 immunity and emphysematous pathology after hookworm infection.
-                  Am J Pathol. 2012 Sep; 181(3):897-906. PMID: 22901754. PMCID: PMC3432431
-                </small>
-              </li>
-              <li>
-                <small>
-                  Herbert DR, Hölscher C, Mohrs M, Arendse B, Schwegmann A, Radwanska M, Leeto M, Kirsch R, Hall P, Mossmann H, Claussen B, Förster I, Brombacher F.
-                  Alternative macrophage activation is essential for survival during schistosomiasis and downmodulates T helper 1 responses and immunopathology. Immunity. 2004 May; 20(5):623-35.
-                </small>
-              </li>
-            </ol>
-        </article>
-
-        <hr style="color: #ec8228 !important;">
-
-        <article>
-          <h2>Regulation of Type 2 Inflammation</h2>
-          <h6>The role of mucosal epithelia in driving host immunity against gastrointestinal worms.</h6>
-          <p>How the host eliminates large metazoan parasites from body cavities such as the gastrointestinal lumen remains unclear and a highly contentious topic.
-            Even more so, it remains unclear why humans infected with helminthes show poor signs of protective immunity whereas most experimental model systems using rodents show patent protective immunity following a single prior exposure.
-            My work has shed light on the critical role served by intestinal epithelial cells in the process of worm expulsion through producing immunoregulatory cytokines and bioactive mediators that interfere with parasite chemosensory locomotion.
-          </p>
-            <ol>
-              <li>
-                <small>
-                  Herbert DR, Yang JQ, Hogan SP, Groschwitz K, Khodoun M, Munitz A, Orekov T, Perkins C, Wang Q, Brombacher F, Urban JF, Rothenberg ME, Finkelman FD.
-                  Intestinal epithelial cell secretion of RELM-beta protects against gastrointestinal worm infection.
-                  J Exp Med. 2009 Dec 21; 206(13):2947-57.
-                </small>
-              </li>
-              <li>
-                <small>
-                  Hung LY, Lewkowich IP, Dawson LA, Downey J, Yang Y, Smith DE, Herbert DR.
-                  IL-33 drives biphasic IL-13 production for noncanonical Type 2 immunity against hookworms.
-                  Proc Natl Acad Sci U S A. 2013 Jan 2; 110(1):282-7. PMID: 23248269. PMCID: PMC3538196
-                </small>
-              </li>
-              <li>
-                <small>
-                  Wills-Karp M, Rani R, Dienger K, Lewkowich I, Fox JG, Perkins C, Lewis L, Finkelman FD, Smith DE, Bryce PJ, Kurt-Jones EA, Wang TC, Sivaprasad U, Hershey GK, Herbert DR.
-                  Trefoil factor 2 rapidly induces interleukin 33 to promote type 2 immunity during allergic asthma and hookworm infection.
-                  J Exp Med. 2012 Mar 12; 209(3):607-22.
-                </small>
-              </li>
-            </ol>
-        </article>
-
-        <hr style="color: #ec8228 !important;">
-
-        <article>
-          <h2>Bench-Work to the Real World</h2>
-          <h6>Connecting what we learn in lab to what can be done in the real world to fight worms.</h6>
-            <ol>
-              <li>
-                  We have established multiple collaborations.
-                  Notably, in the past, we were able to utilize samples from a data set in Brazil from individuals infected with parasitic worms.
-                  Our most current collaboration took us to Nigeria to look at samples from school-aged children.
-              </li>
-              <li>
-                  We have colleagues, like Graham LeGros from the Malaghan Institute in Wellington, New Zealand, who more directly deal with the dynamic between humans and parasitic worms.
-                  Below is a video courtesy of Graham depicting two different types of parasitic worms found during an endoscopy.
-                  The smaller worms are a hookworm species (that can be seen through the video) and the large worm (first seen at about 17 seconds) is an Ascaris worm.
-              </li>
-            </ol>
-            <video width="685" height="350" autoplay muted>
-              <source src="img/researchVideo.mp4" type="video/mp4">
-              <source src="img/researchVideo.webm" type="video/webm">
-              <p>Your browser doesn't support HTML5 video.
-                Here is a <a href="myVideo.mp4">link to the video</a> instead.</p>
-            </video>
-        </article>
-
-        <hr style="color: #ec8228 !important;">
-
-        <article>
-          <h2>Publications While at UPenn</h2>
-          <h6>See our list of publications from our lab w/our collaborators since moving to UPenn here:
-            <a href="#publications">PUBLICATIONS</a>
-          </h6>
-        </article>
-        <span id="team"></span>
-
-        <hr style="color: #ec8228 !important;" id="hideLargeScreens">
-
+      <div class="row">
+        <div class="col">
+          <article>
+            <h2>Research Statement</h2>
+            <p>The over-arching goal of my research program is to use parasitic organisms as a guide to investigate basic mechanisms of host immunity, inflammation and wound healing. I have been continuously NIH-R01 funded by the National Institutes of Health (NIH) since 2007 and have authored 55 manuscripts published in journals that include: Science, Science Immunology, Nature Medicine, Nature Communications, Immunity, JEM, PNAS, PLoS Pathogens, and the Journal of Immunology. Most of this work has focused on the immune response to parasitic helminths, organisms that are the likely evolutionary driving force for Type 2 immunity. Helminths are a major cause of disease in impoverished populations (~2-3 billion people) and biomedical research focused on parasitic helminths has been a fertile ground for scientific discovery.
+  	        Helminths such as hookworms pose a formidable challenge to the host immune system regarding their large size, morphological complexity and the host tissue niches they occupy. While infectious larval stages can cause tremendous damage to host tissues as they invade and migrate, the hematophagous nature of adult stages can cause persistent injury during feeding. Surprisingly, most helminth species can survive for years, even decades in their hosts due to a variety of mechanisms including those that suppress and evade host immunity. Given this complex biology, research projects based in my lab (and most collaborative work) focus on the mechanisms that initiate Type 2 responses, those that drive tissue repair, and requirements for host protective immunity at the sites where worms invade and reside (e.g., skin, respiratory tract, and intestine). Given the widely held notion that allergic inflammation is due to maladaptive Type 2 responses that initially evolved to deal with helminths, our work has broad relevance to both infectious and non-infectious disease. Below is an overview of the research topics covered by my laboratory, including key collaborative projects depicted in Figure “Research topics”
+            </p>
+          </article>
+        </div>
+        <div class="col figure">
+          <figure>
+            <img class="img-fluid" src="img/research-img.png" alt="research image of worms and their different transformations"/>
+            <figcaption>1. <a href="research-topic-1.html">M2 macrophages and myeloid APC in host defense and wound healing</a> <br>2. <a href="research-topic-2.html">Trefoil factor family proteins in tissue repair and mucosal barrier function</a> <br>3. <a href="research-topic-3.html">Cell-specific role for interleukin 33 in homeostasis and disease</a> <br>4. <a href="research-topic-4.html">Gene targeting in parasitic nematodes</a><br>5. <a href="research-topic-5.html">Role of sensory neurons in allergy and host defense</a></figcaption>
+          </figure>
+        </div>
       </div>
     </div>
+    <span id="team"></span>
   </section>
   <!-- Research Section Ends -->
 
@@ -284,7 +172,7 @@
   <section>
     <div class="container-fluid currentTeamMembers">
       <h1>Our Team</h1>
-      <hr style="color: #ec8228 !important;">
+      <hr style="color: #fff !important;">
       <h4>Current Members of the Herbert Lab</h4>
 
       <!-- Current Members Accordion -->
