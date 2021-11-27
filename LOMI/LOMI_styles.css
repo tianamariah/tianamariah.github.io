@@ -1,0 +1,1596 @@
+/* Universal Styles */
+* {
+  box-sizing: none !important;
+}
+
+#body {
+  background: #7324b3 !important;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400 !important;
+}
+
+html {width: auto!important; overflow-x:hidden !important;  overflow-y: scroll !important;}
+/* Universal Styles End */
+
+/* Nav Styles */
+.navbar {
+background: #7324b3 !important;
+}
+
+.navabr h5 {
+  font-weight: 800 !important;
+}
+
+.navbar a {
+  color: #fbc304 !important;
+  font-weight: 700 !important;
+}
+
+.navbar a:hover {
+  color: #000 !important;
+  text-decoration: none !important;
+}
+
+
+.navbar p {
+  text-transform: uppercase !important;
+  font-size: 12px !important;
+  letter-spacing: 1px !important;
+  font-weight: 700 !important;
+  text-shadow: 0.5px 0.5px #000 !important;
+}
+
+.navbar-toggler {
+  border: none !important;
+  border-radius: none !important;
+  box-shadow: none !important;
+}
+
+.navbar-toggler:focus {
+  border: none !important;
+  border-radius: none !important;
+  box-shadow: none !important;
+}
+
+.fa-bars {
+  color: #fbc304 !important;
+}
+
+#navbarNavAltMarkup {
+  margin-top: .5% !important;
+}
+
+.dropdown-menu a {
+  color: #fbc304 !important;
+  font-weight: 700 !important;
+}
+/* Nav Styles End */
+
+/* Jumbotron Intro Styles */
+
+
+.jumbotron {
+  background-color: #7324b3 !important;
+  height: auto !important;
+  width: 100% !important;
+  background-size: cover;
+  background-position: center;
+  color: #fff !important;
+}
+
+.jumbotron h1  {
+  color: #fbc304 !important;
+  letter-spacing: 1px !important;
+  font-weight: 800 !important;
+}
+
+.jumbotron button {
+  border-color: #fbc304 !important;
+  color: #fbc304 !important;
+}
+
+.jumbotron button:hover {
+  color: #fff !important;
+  background-color: #fbc304 !important;
+}
+
+
+/* Jumbotron Intro Styles End */
+
+/* PI Section  Styles */
+  .PI {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify !important;
+    padding: 1% !important;
+  }
+
+  .PI h1, .outingsAndSocial h1 {
+    text-transform: uppercase !important;
+    letter-spacing: 5px !important;
+    color: #fbc304 !important;
+    margin-top: 5% !important;
+    font-weight: 800 !important;
+    text-shadow: 2px 2px #000;
+    font-size: 1.5rem !important;
+  }
+
+  .PI h4 {
+    color: #fff !important;
+    text-transform: uppercase !important;
+    letter-spacing: 5px !important;
+    font-weight: 700 !important;
+      text-shadow: 1px 1px #000;
+  }
+
+.pIframes iframe {
+    box-shadow: 0 3px 8px #000;
+  }
+
+/* PI Section Styles End */
+
+
+/* Outings & Social Styles Start */
+
+.outingsAndSocial{
+  text-align: center !important;
+  padding: 5% !important;
+}
+
+.outingsAndSocial .col-sm {
+  padding: 1% !important;
+}
+
+
+/* Outings & Social Styles End */
+
+/* Research Section Styles */
+.researchSection {
+  background-color: #fff !important;
+  padding: 5% !important;
+}
+
+.research {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.research article {
+  padding: 2% !important;
+}
+
+.research h1 {
+  color: #000 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 5px !important;
+  text-align: justify !important;
+  font-weight: 800 !important;
+}
+
+.research article h2 {
+  color: #000 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 5px !important;
+  text-align: left !important;
+  margin-top: 5% !important;
+  width: 100% !important;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 700 !important;
+}
+
+
+.research article p, .research article li, .research article small {
+  color: #000 !important;
+  letter-spacing: 1px !important;
+  text-align: left !important;
+  margin-top: 1% !important;
+}
+
+.research article p, .research article ol {
+  width: 100% !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.research .row p {
+  color:#000 !important;
+  text-align: justify !important;
+}
+
+.research img {
+  width: 500px;
+  height: auto;
+  box-shadow: 0 1px 5px #7324b3;
+}
+
+.research figcaption {
+  margin-top: 5% !important;
+}
+
+.figure {
+  text-align: justify !important;
+  margin-top: 3% !important;
+}
+
+.figureTopic5 img {
+  width: auto;
+  height: 350px;
+  box-shadow: 0 1px 5px #7324b3;
+}
+
+figcaption {
+  margin-top: 1% !important;
+  color:#000 !important;
+}
+
+figcaption a {
+  color: #7324b3 !important;
+}
+
+figcaption a:hover {
+  color: #fbc304 !important;
+  text-decoration: none !important;
+}
+
+  article a {
+    color: #000 !important;
+  }
+
+  article a:hover {
+    color: #000 !important;
+    text-decoration: none !important;
+  }
+/* Research Section Styles End */
+
+/* Team Section Styles */
+
+
+  .currentTeamMembers, .currentRotationStudents, .formerTeamMembers, .formerRotationStudents, .formerSummerTeamMembers {
+    text-align: justify !important;
+  }
+
+  .currentTeamMembers h1, .currentRotationStudents h1, .formerTeamMembers h1, .formerRotationStudents h1, .formerSummerTeamMembers h1 {
+    color: #fff !important;
+    text-transform: uppercase !important;
+    letter-spacing: 5px !important;
+    color: #fbc304 !important;
+    margin-top: 5% !important;
+    font-weight: 800 !important;
+    text-align: center !important;
+      text-shadow: 2px 2px #000;
+  }
+
+.currentTeamMembers h4, .currentRotationStudents h4, .formerTeamMembers h4, .formerRotationStudents h4, .formerSummerTeamMembers h4  {
+    color: #fff !important;
+    text-transform: uppercase !important;
+    letter-spacing: 5px !important;
+    margin-top: 1% !important;
+    font-weight: 700 !important;
+    text-align: center !important;
+      text-shadow: 1px 1px #000;
+  }
+
+  .accordion-body {
+    height: auto !important;
+    padding-bottom: 10% !important;
+  }
+
+  .accordion-button:not(.collapsed) {
+    background-color: #fbc304 !important;
+    color: #000 !important;
+    ]
+  }
+
+  .accordion-button {
+    border-color: none !important;
+    font-weight: 700 !important;
+    color: #000 !important;
+  }
+
+  .accordion-button.collapsed {
+    background-color: #fbc304 !important;
+    border-color: none !important;
+    font-weight: 700 !important;
+  }
+
+  .accordion-body, .accordion-item {
+    border: none !important;
+    padding-bottom: auto !important;
+    border-color: none !important;
+  }
+
+  .accordion-body figure {
+    float: left !important;
+    padding-right: 3% !important;
+    margin-top: .5% !important;
+  }
+
+  .accordion-body figcaption {
+    margin-top: 5% !important;
+    font-weight: 700 !important;
+  }
+
+  .accordion-body img {
+    box-shadow: 0 1px 5px #fbc304;
+  }
+
+
+  .accordion-body p {
+    text-align: left !important;
+    letter-spacing: 1.5px !important;
+  }
+
+  .currentRotationStudents, .formerTeamMembers, .formerRotationStudents, .formerSummerTeamMembers {
+    margin-top: 10% !important;
+  }
+
+  #formerTeamMembersAccordion {
+    height: auto !important;
+  }
+/* Team Styles End */
+
+
+/* News Section Styles */
+.news {
+  margin-top: 10% !important;
+  text-align: justify;
+}
+
+.news a {
+  color: #fbc304 !important;
+}
+
+.news a:hover {
+  text-decoration: none !important;
+  text-transform: uppercase;
+}
+
+.news h1 {
+  color: #fff !important;
+  text-transform: uppercase !important;
+  letter-spacing: 5px !important;
+  color: #fbc304 !important;
+  margin-top: 5% !important;
+  font-weight: 800 !important;
+}
+
+.news h4 {
+  color: #fff !important;
+  text-transform: uppercase !important;
+  letter-spacing: 5px !important;
+  margin-top: -2% !important;
+  text-align: justify !important;
+  font-weight: 700 !important;
+}
+
+.news2021, .news2020, .news2019, .news2018, .news2017 {
+  margin-top: 5% !important;
+  color: #fff !important;
+  text-align: left !important;
+}
+
+.conferencesMeetings {
+  margin-top: 5% !important;
+  color: #fff !important;
+  text-align: justify !important;
+}
+
+.conferencesMeetings li{
+  list-style: none !important;
+}
+/* News Section Styles End */
+
+/* Collaborators Section Styles */
+.collaborators {
+  margin-top: 10% !important;
+  color: #fff !important;
+  text-align: justify !important;
+}
+
+.collaborators h6 a {
+  color: #fff !important;
+  letter-spacing: 5px !important;
+  font-weight: 700 !important;
+}
+
+.collaborators #mainh6 {
+  margin-top: 5% !important;
+}
+
+.collaborators a:hover {
+  text-decoration: none !important;
+  text-transform: uppercase;
+  color: #fbc304 !important;
+}
+
+.collaborators h1 {
+  color: #fff !important;
+  text-transform: uppercase !important;
+  letter-spacing: 5px !important;
+  color: #fbc304 !important;
+  margin-top: 5% !important;
+  font-weight: 800 !important;
+}
+/* Collaborators Section Styles End */
+
+/* Contact Section Styles */
+.contact {
+  margin-top: 10% !important;
+  color: #fff !important;
+  text-align: left !important;
+}
+
+.contact a {
+  color: #fbc304 !important;
+}
+
+.contact a:hover {
+  text-decoration: none !important;
+  text-transform: uppercase;
+}
+
+.contact h1 {
+  color: #fff !important;
+  text-transform: uppercase !important;
+  letter-spacing: 5px !important;
+  color: #fbc304 !important;
+  margin-top: 5% !important;
+  text-align: justify !important;
+  font-weight: 800 !important;
+}
+
+.contact h4 {
+  color: #fff !important;
+  text-transform: uppercase !important;
+  letter-spacing: 5px !important;
+  margin-top: 1% !important;
+  text-align: left !important;
+  font-weight: 700 !important;
+}
+
+.contact .row {
+  margin-top: 5% !important;
+  width: 100% !important;
+  margin-left: 7.5% !important;
+  margin-right: auto !important;
+}
+
+.col1 {
+  margin-top: 2% !important;
+}
+/* Contact Section Styles End */
+
+/* Footer Styles */
+.footer  {
+  color: #fbc304 !important;
+  text-align: center !important;
+  width: 100% !important;
+  margin-right: auto !important;
+  margin-left: auto !important;
+  height: 60px !important;
+  background-color: #7324b3 !important;
+}
+
+
+.footer p {
+  font-size: .8rem !important;
+  margin-top: 5% !important;
+  padding-bottom: 5% !important;
+}
+
+
+.footer a {
+  color: #fbc304 !important;
+}
+
+.footer a:hover{
+  color: #fff !important;
+  text-decoration: none !important;
+}
+/* Footer Styles End */
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                        /* Media Queries For Responsive Design*/
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                        /*Small devices (landscape phones, 320px and up) */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+@media only screen and (min-width: 280px) {
+
+  /* Nav Styles */
+
+    .navbar {
+      text-align: justify !important;
+    }
+    .navbar h5 {
+      font-size: 8px !important;
+
+    }
+
+    .fa-bars {
+      font-size: 8px !important;
+    }
+
+    .navbar a {
+      padding: none !important;
+    }
+  /* Nav Styles End */
+
+  /* Jumbotron Styles */
+
+  .jumbotron button {
+    margin-left: 5% !important;
+   }
+
+  .jumbotron h1 {
+    font-size: 1.4rem !important;
+    margin-left: 5% !important;
+    text-transform: uppercase !important;
+    letter-spacing: 5px !important;
+    color: #fbc304 !important;
+    font-weight: 800 !important;
+    text-shadow: 2px 2px #000;
+    text-align: left !important;
+  }
+
+  .colText {
+    margin-top: 10% !important;
+  }
+
+  .colVid video {
+    width: 280px !important;
+    margin-top: -15% !important;
+  }
+  /* Jumbotron Styles End */
+
+
+    /* PI Section */
+      .PI h1 {
+        font-size: 1.4rem !important;
+        width: 100% !important;
+        text-align: center !important;
+      }
+
+      .PI h4{
+        font-size: .8rem !important;
+        text-align: center !important;
+      }
+
+      .pIframes iframe {
+        width: 250px !important;
+        margin-left: -5% !important;
+      }
+
+
+    /* PI Section */
+
+    /* Research Styles */
+      .research h1 {
+        font-size: 1.4rem !important;
+        text-align: center !important;
+      }
+
+      .research article h2 {
+        margin-top: 15% !important;
+        letter-spacing: 0px !important;
+        font-size: 1.5rem !important;
+      }
+
+      .research article p {
+        font-size: .7rem !important;
+        text-align: left !important;
+      }
+
+      .research small, .research li {
+        font-size: .7rem !important;
+        text-align: left !important;
+        line-height: none !important;
+      }
+
+      #researchImageShow {
+        display: none !important;
+      }
+
+      .referenceSection {
+        text-align: left;
+      }
+    /* Research Styles End */
+
+    /* Team Styles */
+
+    /* Team  Members Styles Start */
+
+    .accordion-body img {
+      width: 320px !important;
+    }
+
+    /* Team Members Styles End */
+        /* Current Team Members Style */
+        #currentTeamMembersAccordion {
+          margin-top: 10% !important;
+        }
+
+        .currentTeamMembers h1 {
+          font-size: 1.4rem !important;
+          margin-top: 5% !important;
+        }
+
+        .currentTeamMembers h4 {
+          font-size: .9rem !important;
+        }
+
+        .accordion-button {
+          font-size: .8rem !important;
+        }
+
+        figcaption {
+          font-size: 10px !important;
+        }
+
+        .accordion-body p {
+          font-size: 10px !important;
+        }
+
+        .accordion-body li {
+          list-style: none !important;
+        }
+
+        .accordion-body .row {
+          display: none !important;
+        }
+        /* Current Team Members Style */
+
+      .currentRotationStudents h1, .formerTeamMembers h1, .formerRotationStudents h1, .formerSummerTeamMembers h1 {
+        font-size: 1.5rem !important;
+        margin-top: 20% !important;
+      }
+
+      .formerTeamMembers, .formerRotationStudents, .formerSummerTeamMembers {
+        margin-top: 20% !important;
+      }
+
+      .currentRotationStudents h4, .formerTeamMembers h4, .formerRotationStudents h4, .formerSummerTeamMembers h4 {
+        font-size: 1rem !important;
+      }
+  /*Team Styles */
+
+  /* News Styles */
+  .news {
+    margin-top: 20% !important;
+  }
+
+  .news h1 {
+    font-size: 1.5rem !important;
+    text-align: center !important;
+  }
+
+  .news h4 {
+    text-align: center !important;
+  }
+
+  .news p {
+    text-align: justify !important;
+    font-size: 10px !important;
+  }
+
+  .conferencesMeetings h5 {
+    text-align: left !important;
+  }
+
+  .conferencesMeetings p  {
+    text-align: left !important;
+    font-size: 14px !important;
+  }
+
+  ol, ul {
+    padding-left: 0 !important;
+  }
+  /* News Styles End */
+
+  /* Collaborators Section Styles */
+  .collaborators {
+    margin-top: 20% !important;
+  }
+
+  .collaborators h1 {
+    font-size: 1.2rem !important;
+  }
+  .collaborators h6 {
+    font-size: 10px !important;
+    font-weight: bolder !important;
+  }
+
+  .collaborators {
+    padding-bottom: 10% !important;
+  }
+  /* Collaborators Section Styles End */
+
+  /* Contact Section Styles */
+
+  .contact h1 {
+    font-size: 1.5rem !important;
+    margin-top: 20% !important;
+    margin-left: 12% !important;
+  }
+
+  .contact h4 {
+    font-size: 1.2rem !important;
+  }
+
+  .col1 {
+    font-size: 14px !important;
+  }
+
+  .col2 {
+    margin-left: -15% !important;
+  }
+
+
+  .col2 iframe {
+    width: 250px !important;
+  }
+  /* Contact Section Styles End */
+
+
+}
+
+@media only screen and (min-width: 320px)  {
+  /* Nav Styles */
+
+    .navbar {
+      text-align: justify !important;
+    }
+    .navbar h5 {
+      font-size: 10px !important;
+      margin-left: -10% !important
+    }
+
+    .fa-bars {
+      font-size: 10px !important;
+    }
+
+    .navbar a {
+      padding: none !important;
+    }
+  /* Nav Styles End */
+
+  /* Jumbotron Styles */
+
+  .jumbotron button {
+    margin-left: 5% !important;
+   }
+
+  .jumbotron h1 {
+    font-size: 1.4rem !important;
+    margin-left: 5% !important;
+    text-transform: uppercase !important;
+    letter-spacing: 5px !important;
+    color: #fbc304 !important;
+    font-weight: 800 !important;
+    text-shadow: 2px 2px #000;
+    text-align: left !important;
+  }
+
+  .colText {
+    margin-top: 10% !important;
+  }
+
+  .colVid video {
+    width: 320px !important;
+    margin-top: -15% !important;
+  }
+
+
+
+  /* Jumbotron Styles End */
+
+  /* PI Section */
+    .PI h1 {
+      font-size: 1.4rem !important;
+      width: 100% !important;
+      text-align: center !important;
+    }
+
+    .PI h4{
+      font-size: .8rem !important;
+      text-align: center !important;
+    }
+
+    .pIframes iframe {
+      width: 300px !important;
+      margin-left: -8% !important;
+    }
+
+
+  /* PI Section */
+
+  /* Research Styles */
+    .research h1 {
+      font-size: 1.4rem !important;
+      text-align: center !important;
+    }
+
+    .research article h2 {
+      margin-top: 15% !important;
+      letter-spacing: 0px !important;
+    }
+
+    .research article p {
+      font-size: .7rem !important;
+      text-align: left !important;
+    }
+
+    .research small, .research li {
+      font-size: .7rem !important;
+      text-align: left !important;
+      line-height: none !important;
+    }
+
+    #researchImageShow {
+      display: none !important;
+    }
+
+    .referenceSection {
+      text-align: left;
+    }
+  /* Research Styles End */
+
+  /* Team Styles */
+
+  /* Team  Members Styles Start */
+
+  .accordion-body img {
+    width: 320px !important;
+  }
+
+  /* Team Members Styles End */
+      /* Current Team Members Style */
+      #currentTeamMembersAccordion {
+        margin-top: 10% !important;
+      }
+
+      .currentTeamMembers h1 {
+        font-size: 1.4rem !important;
+        margin-top: 5% !important;
+      }
+
+      .currentTeamMembers h4 {
+        font-size: .9rem !important;
+      }
+
+      .accordion-button {
+        font-size: .8rem !important;
+      }
+
+      figcaption {
+        font-size: 10px !important;
+      }
+
+      .accordion-body p {
+        font-size: 10px !important;
+      }
+
+      .accordion-body li {
+        list-style: none !important;
+      }
+
+      .accordion-body .row {
+        display: none !important;
+      }
+      /* Current Team Members Style */
+
+    .currentRotationStudents h1, .formerTeamMembers h1, .formerRotationStudents h1, .formerSummerTeamMembers h1 {
+      font-size: 1.5rem !important;
+      margin-top: 20% !important;
+    }
+
+    .formerTeamMembers, .formerRotationStudents, .formerSummerTeamMembers {
+      margin-top: 20% !important;
+    }
+
+    .currentRotationStudents h4, .formerTeamMembers h4, .formerRotationStudents h4, .formerSummerTeamMembers h4 {
+      font-size: 1rem !important;
+    }
+/*Team Styles */
+
+/* News Styles */
+.news {
+  margin-top: 15% !important;
+}
+
+.news h1 {
+  font-size: 1.5rem !important;
+  text-align: center !important;
+}
+
+.news h4 {
+  text-align: center !important;
+}
+
+.news p {
+  text-align: justify !important;
+  font-size: 10px !important;
+}
+
+.conferencesMeetings h5 {
+  text-align: left !important;
+}
+
+.conferencesMeetings p  {
+  text-align: left !important;
+  font-size: 14px !important;
+}
+
+ol, ul {
+  padding-left: 0 !important;
+}
+/* News Styles End */
+
+/* Collaborators Section Styles */
+.collaborators {
+  margin-top: 20% !important;
+}
+
+.collaborators h1 {
+  font-size: 1.5rem !important;
+}
+.collaborators h6 {
+  font-size: 10px !important;
+  font-weight: bolder !important;
+}
+
+.collaborators {
+  padding-bottom: 10% !important;
+}
+/* Collaborators Section Styles End */
+
+/* Contact Section Styles */
+
+.contact h1 {
+  font-size: 1.5rem !important;
+  margin-top: 20% !important;
+  margin-left: 12% !important;
+}
+
+.contact h4 {
+  font-size: 1.2rem !important;
+}
+
+.col1 {
+  font-size: 14px !important;
+}
+
+.col2 {
+  margin-left: -5% !important;
+}
+
+
+.col2 iframe {
+  width: 250px !important;
+}
+/* Contact Section Styles End */
+}
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                        /*Small devices (landscape phones, 360px and up) */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+
+@media only screen and (min-width: 320px)  {
+
+  .colVid video {
+    width: 360px !important;
+    margin-top: -10% !important;
+  }
+
+  .pIframes {
+    margin-left: 5% !important;
+  }
+
+  .jumbotron { text-align: center !important;}
+  .jumbotron h1 { text-align: center !important; margin-left: 0% !important; }
+
+  .currentRotationStudents h4 {
+    font-size: .8rem !important;
+  }
+
+  .collaborators h1, .collaborators h6 {
+    margin-left: 12% !important;
+  }
+
+}
+
+ @media only screen and (min-width: 375px) {
+
+   /* Nav Styles */
+   .navbar h5 {
+     font-size: 12px !important;
+     margin-left: -5% !important;
+   }
+
+
+   .fa-bars {
+     font-size: 12px !important;
+   }
+   /* Nav Styles End */
+
+   /* Jumbotron Styles Start */
+
+   .jumbotron {
+     text-align: center !important;
+   }
+
+   .jumbotron h1 {
+     text-align: center !important;
+     margin-left: 0% !important;
+   }
+
+   .colVid video {
+     width: 375px !important;
+     margin-top: -10% !important;
+   }
+
+   .homepagebuttons {
+     margin-top: 5% !important;
+     margin-left: -10% !important;
+   }
+
+   /* Jumbotron Styles End */
+
+
+
+   /* PI Section */
+     .PI h1 {
+       font-size: 1.5rem !important;
+       margin-top: 10% !important;
+     }
+
+     .PI h4{
+       font-size: .8rem !important;
+     }
+
+     .PI iframe {
+       width: 320px !important;
+       margin-left: -5% !important;
+     }
+
+   /* PI Section Styles End */
+
+   /* Team Styles */
+   .currentRotationStudents h1 {
+     margin-top: 20% !important;
+   }
+   /* Team Styles End */
+
+   /* Collaborators Section Styles */
+   .collaborators h1, .collaborators h6 {
+     margin-left: 3% !important;
+   }
+
+   .collaborators, .contact {
+     padding-bottom: 10% !important;
+   }
+   /* Collaborators Section Styles End */
+
+   /* Contact Section Styles */
+   .contact h1 {
+     margin-left: 7% !important;
+   }
+
+   .contact .row {
+     margin-left: 3% !important;
+     height: auto !important;
+   }
+
+   .contact .col1 {
+     margin-top: -2% !important;
+   }
+
+   .col2 iframe {
+     width: 320px !important;
+     padding-bottom: 5% !important;
+   }
+   /* Contact Section Styles End */
+ }
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                          /*Small devices (landscape phones, 425px and up) */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+@media only screen and (min-width: 411px) {
+
+
+    .colVid video {
+      width: 420px !important;
+      margin-top: -10% !important;
+    }
+
+    .pIframes {
+      margin-left: 0% !important;
+    }
+
+    .PI iframe {
+      width: 390px !important;
+      margin-left: -5% !important;
+    }
+
+    .jumbotron { text-align: center !important;}
+    .jumbotron h1 { text-align: center !important; margin-left: 0% !important; }
+
+    .currentRotationStudents h4 {
+      font-size: .8rem !important;
+    }
+
+    .collaborators h1, .collaborators h6 {
+      margin-left: 12% !important;
+    }
+
+    .col2 iframe {
+
+      margin-left: 5% !important;
+    }
+
+}
+
+@media only screen and (min-width: 425px) {
+
+  .navbar h5 {
+    font-size: 14px !important;
+  }
+
+  .fa-bars {
+    font-size: 14px !important;
+  }
+
+  /* Jumbotron Styles */
+
+  .jumbotron h1 {
+    font-size: 1.5rem !important;
+  }
+
+  .colVid video {
+    width: 425px !important;
+  }
+  /* Jumbotron Styles End */
+
+  .accordion-body img {
+    width: 425px !important;
+  }
+
+  .collaborators #mainh6 {
+    margin-top: 4% !important;
+  }
+
+  .collaborators, .contact {
+    padding-bottom: 10% !important;
+  }
+
+  .col2 {
+    margin-left: -1% !important;
+  }
+
+  .col2 iframe {
+    width: 355px !important;
+  }
+
+  .contact h1 {
+    margin-top: 20% !important;
+  }
+
+}
+
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                           /*Medium devices (tablets, 506px and up)*/
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+
+@media only screen and (min-width: 500px) {
+
+  .colVid video {
+    width: 540px !important;
+    margin-top: -10% !important;
+  }
+
+  .pIframes {
+    margin-left: 0% !important;
+  }
+
+  .PI iframe {
+    width: 400px !important;
+    margin-left: 5% !important;
+  }
+
+  .jumbotron { text-align: center !important;}
+  .jumbotron h1 { text-align: center !important; margin-left: 0% !important; }
+
+  .accordion-body img {
+    width: 540px !important;
+  }
+
+  .currentRotationStudents h4 {
+    font-size: .8rem !important;
+  }
+
+  .collaborators h1, .collaborators h6 {
+    margin-left: 12% !important;
+  }
+
+  .col2 iframe {
+
+    margin-left: 5% !important;
+  }
+
+
+}
+
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                        /*Tablet Devices 768px and up) */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+
+
+
+@media only screen and (min-width: 768px) {
+
+  .navbar h5 {
+    font-size: 1rem !important;
+  }
+
+  .jumbotron h1 {
+    text-align: center !important;
+    margin-top: 0% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .homepagebuttons {
+    margin-top: 10% !important;
+  }
+
+  .colVid video {
+    width: auto !important;
+    margin-top: 30% !important;
+    height: 250px !important;
+    margin-left: -5% !important;
+    box-shadow: 0 1px 5px #000 !important;
+  }
+
+    .PI h1 {
+      margin-top: 0% !important;
+    }
+
+    .pIframes {
+        margin-top: 3% !important;
+    }
+
+    .PI iframe {
+      width: 650px !important;
+      margin-left: 3% !important;
+      height: 300px !important;
+    }
+
+    .accordion-body img  {
+      width: 250px !important;
+    }
+
+    .research img {
+      margin-top: 10% !important;
+    }
+
+    .currentRotationStudents h1  {
+      margin-top: 5% !important;
+    }
+
+    .formerTeamMembers h4, .formerRotationStudents h4, .formerSummerTeamMembers h4 {
+      margin-top: -10% !important;
+    }
+
+    .news h1 {
+      margin-top: -5% !important;
+    }
+
+    .collaborators h1 {
+      margin-top: -10% !important;
+      margin-left: 0% !important;
+    }
+
+    .collaborators h6 {
+      margin-top: -1% !important;
+      margin-left: 0% !important;
+      font-size: 1rem !important;
+    }
+
+    .contact h1 {
+      margin-top: 15% !important;
+      margin-left: 5% !important;
+    }
+
+    .col2 {
+      margin-top: -3% !important;
+      margin-left: -12% !important;
+    }
+
+
+
+
+
+
+}
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                        /* Large devices (desktops, 1024px and up) */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+@media only screen and (min-width: 1024px) {
+
+  .navbar h5 {
+    font-size: 12px !important;
+    text-shadow: 0.5px 0.5px #000 !important;
+  }
+
+  .navbar p {
+    font-size: 9px !important;
+  }
+
+  .introSection {
+    margin-left: 3% !important;
+  }
+
+  .jumbotron {
+    text-align: left !important;
+    background-color: #000 !important;
+    margin-left: 5% !important;
+    height: 300px !important;
+    box-shadow: 0 1px 5px #000 !important;
+    border: solid 5px #eda845 !important;
+  }
+
+  .jumbotron h1 {
+    text-align: left !important;
+    margin-top: 4.5% !important;
+    margin-left: 15% !important;
+    font-size: 1.2rem !important;
+    line-height: 32px !important;
+    width: 75% !important;
+    text-shadow: .5px .5px #e2e1e1;
+  }
+
+  .homepagebuttons {
+    margin-left: 10% !important;
+    margin-top: 2% !important;
+  }
+
+  .jumbotron button {
+    border-color: #fbc304 !important;
+    color: #fbc304 !important;
+    text-shadow: .3px .3px #e2e1e1;
+    box-shadow: .3px .3px #e2e1e1;
+  }
+
+  .jumbotron button:hover {
+    color: #fff !important;
+    background-color: #fbc304 !important;
+  }
+
+
+  .btn-sm {
+    font-size: 10px !important;
+   }
+
+  .colVid video {
+    width: auto !important;
+    margin-top: 21% !important;
+    height: 300px !important;
+    margin-left: 3% !important;
+    box-shadow: 0 1px 5px #000 !important;
+  }
+
+    .PI h1 {
+      margin-top: 5% !important;
+    }
+
+    .pIframes {
+      width: 100% !important;
+      margin-left: auto !important;
+      margin-right: auto !important;
+    }
+
+    .PI iframe {
+      width: 450px !important;
+    }
+
+    .currentRotationStudents h1  {
+      margin-top: -1% !important;
+    }
+
+    #currentTeamMembersAccordion {
+      margin-top: 0% !important;
+    }
+
+    .accordion-body img  {
+      width: 250px !important;
+    }
+
+    .accordion-body p {
+      font-size: 12px !important;
+    }
+
+    .formerTeamMembers h4, .formerRotationStudents h4, .formerSummerTeamMembers h4 {
+      margin-top: -10% !important;
+    }
+
+    .news h1 {
+      margin-top: -8% !important;
+    }
+
+
+    .collaborators h6 {
+      margin-top: -1% !important;
+      margin-left: 0% !important;
+      font-size: 1rem !important;
+    }
+
+    .contact h1 {
+      margin-left: 5% !important;
+    }
+
+    .col2 {
+      margin-top: -3% !important;
+      margin-left: -12% !important;
+    }
+
+
+
+}
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                /* ExtraExtra large devices (large desktops, 2560px and up) */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+@media only screen and (min-width: 1440px) {
+
+
+    .navbar h5 {
+      font-size: 14px !important;
+      text-shadow: 0.5px 0.5px #000 !important;
+    }
+
+    .navbar p {
+      font-size: 10px !important;
+    }
+
+    .introSection {
+      margin-left: 3% !important;
+    }
+
+    .jumbotron {
+      text-align: left !important;
+      background-color: #000 !important;
+      margin-left: 20% !important;
+      height: 300px !important;
+      box-shadow: 0 1px 5px #000 !important;
+      border: solid 5px #eda845 !important;
+    }
+
+    .jumbotron h1 {
+      text-align: left !important;
+      margin-top: 4.5% !important;
+      margin-left: 15% !important;
+      font-size: 1.2rem !important;
+      line-height: 32px !important;
+      width: 75% !important;
+      text-shadow: .5px .5px #e2e1e1;
+    }
+
+    .colVid {
+      margin-left: 10% !important;
+      margin-top: 1% !important;
+    }
+
+    .homepagebuttons {
+      margin-left: 10% !important;
+      margin-top: 2% !important;
+    }
+
+    .jumbotron button {
+      border-color: #fbc304 !important;
+      color: #fbc304 !important;
+      text-shadow: .3px .3px #e2e1e1;
+      box-shadow: .3px .3px #e2e1e1;
+    }
+
+    .jumbotron button:hover {
+      color: #fff !important;
+      background-color: #fbc304 !important;
+    }
+
+
+    .btn-sm {
+      font-size: 10px !important;
+     }
+
+    .colVid video {
+      width: auto !important;
+      margin-top: 21% !important;
+      height: 300px !important;
+      margin-left: 3% !important;
+      box-shadow: 0 1px 5px #000 !important;
+    }
+
+      .PI h1 {
+        margin-top: 5% !important;
+      }
+
+      .pIframes {
+        width: 100% !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+      }
+
+      .PI iframe {
+        width: 450px !important;
+      }
+
+      .research img {
+        margin-top: -1% !important;
+      }
+
+      .research article h2  {
+        margin-top: 5% !important;
+      }
+
+      .currentRotationStudents h1  {
+        margin-top: -1% !important;
+      }
+
+      #currentTeamMembersAccordion {
+        margin-top: 0% !important;
+      }
+
+      .accordion-body img  {
+        width: 250px !important;
+      }
+
+      .accordion-body p {
+        font-size: 12px !important;
+      }
+
+      .formerTeamMembers h4, .formerRotationStudents h4, .formerSummerTeamMembers h4 {
+        margin-top: -10% !important;
+      }
+
+      .news h1 {
+        margin-top: -8% !important;
+      }
+
+
+      .collaborators h6 {
+        margin-top: -1% !important;
+        margin-left: 0% !important;
+        font-size: 1rem !important;
+      }
+
+      .contact h1 {
+        margin-left: 5% !important;
+      }
+
+      .col2 {
+        margin-top: -3% !important;
+        margin-left: -12% !important;
+      }
+
+}
+
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                /* ExtraExtra large devices (large desktops, 2560px and up) */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+@media only screen and (min-width: 2560px) {
+
+}
+
+
+
+
+/* Font Family
+font-family: 'Lato', sans-serif;
+font-weight: 100 300 400 700 900
+*/
