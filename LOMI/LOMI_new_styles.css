@@ -1,0 +1,605 @@
+/* Universal Styles */
+html {width: auto!important; overflow-x:hidden !important;  overflow-y: scroll !important; zoom: 93% !important;}
+
+#body {
+  background: #000;  /* fallback for old browsers */
+}
+
+b {
+  font-weight: normal !important;
+}
+
+strong {
+  font-weight: bold !important;
+}
+
+a {
+  color: #FBC304 !important;
+  font-weight: 600 !important;
+  font-family: 'Lato', sans-serif !important;
+  text-shadow: 0px 0px 6px #000;
+}
+
+a:hover {
+  color: #fff !important;
+  text-decoration: none !important;
+}
+
+.dropdown-menu li a {
+  color: #000 !important;
+  text-shadow: none !important;
+}
+.dropdownmenu li a:hover {
+  color: #6a3093 !important;
+}
+
+
+.navbar-toggler {
+  border: none !important;
+}
+
+.fa-bars {
+  color: #FBC304 !important;
+}
+
+/* Universal Styles End */
+
+/* Homepage Styles */
+.navbar-expand-lg  {
+  background: transparent !important;
+}
+
+.sectionOne, .sectionTwo, .contactSectionOne, .contactSectionTwo {
+  width: 100% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  height: 100vh !important;
+}
+
+.sectionOne, .contactSectionOne {
+  background: #000 !important;
+  padding: 15% !important;
+  margin-top: 0% !important;
+  font-family: 'Lato', sans-serif !important;
+  color: #fff;
+}
+
+.contactSectionOne {
+  padding: 25% !important;
+}
+
+.sectionOne h1, .contactSectionOne h4 {
+  margin-top: 0% !important;
+  text-shadow: 0px 0px 6px #aaa;
+  color: #FBC304 !important;
+  text-align: left;
+}
+
+.sectionOne p {
+  color: #fff !important;
+  line-height: 32px;
+  text-align: justify;
+  font-size: 18px;
+  margin-top: 5%;
+}
+
+.sectionTwo, .contactSectionTwo {
+  overflow: hidden;
+  position: relative;
+}
+
+#mainRow .col-sm {
+  text-align: center !important;
+  color:  #FBC304 !important;
+}
+
+.sectionTwo video, .contactSectionTwo iframe {
+  min-width: 100%;
+  min-height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  opacity: .8;
+}
+
+.col-sm, .col {
+  padding: 0 !important;
+}
+
+.homepagebuttons {
+  margin-top: 3% !important;
+}
+
+.homepagebuttons button  {
+  border: none !important;
+  font-family: 'Lato', sans-serif !important;
+  color: #fbc304 !important;
+  font-weight: 600;
+  background-color: #000 !important;
+}
+
+.homepagebuttons button:hover {
+  background-color: #fff !important;
+  color: #000 !important;
+}
+
+.headings, .headingsTwo {
+  text-align: center;
+  color: #FBC304 !important;
+  text-shadow: 0px 0px 3px #aaa;
+  padding: 1% !important;
+}
+
+.headings i, .headingsTwo i {
+  text-shadow: 0px 0px 6px #000;
+  color: #FBC304 !important;
+}
+
+.headings i:hover, .headingsTwo i:hover {
+  color: #fff !important;
+}
+
+.headingsTwo {
+  margin-top: -.3% !important;
+}
+
+.videoOne iframe {
+  width: 100%;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  text-align: center !important;
+  height: 65vh !important;
+  text-align: center !important;
+}
+
+
+.videoTwo, .videoThree {
+  width: 50% !important;
+}
+
+.videoTwo, .videoThree img {
+  width: 100% !important;
+  height: 65vh !important;
+}
+/* Homepage Styles End */
+
+
+/* Research Section Styles */
+.researchSection , .dissertations, .collaborators, .helminthResearchers, .currentTeamMembers, .currentRotationStudents, .formerSummerMembers, .news {
+  background-color: #fff !important;
+  padding: 5% !important;
+}
+
+.research h1 {
+  font-family: 'Lato', sans-serif !important;
+  font-weight: bold;
+}
+
+article {
+  padding: 2% !important;
+}
+
+.figure {
+  padding: 0% !important;
+  padding-left: 5% !important;
+}
+
+.figure img {
+  height: 450px !important;
+}
+
+figcaption a {
+  color: #000 !important;
+  text-shadow: none !important;
+}
+
+figcaption a:hover {
+  color: #6a3093 !important;
+}
+/* Research Section Styles End */
+
+/* Team Member Section Styles */
+
+.helminthResearchers {
+  margin-top: -10% !important;
+}
+.currentTeamMembers, .currentRotationStudents, .formerSummerMembers, .collaborators, .helminthResearchers, .dissertations {
+  text-align: center;
+  padding: 5% 10% !important;
+}
+
+#ctm h1, #crs h1, #frs h1, #fsm h1, #ftm h1 {
+  color: #000 !important;
+  padding-bottom: 1% !important;
+  font-weight: bold;
+  font-family: 'lato' !important;
+  letter-spacing: 2px;
+}
+
+.currentTeamMembers a, .currentRotationStudents a, .formerSummerMembers a, .collaborators a, .helminthResearchers a, .dissertations a {
+  text-shadow: none !important;
+  color: #000 !important;
+}
+
+.currentTeamMembers a:hover, .currentRotationStudents a:hover, .formerSummerMembers a:hover, .collaborators a:hover, .helminthResearchers a:hover, .dissertations a:hover {
+  color: #FBC304 !important;
+}
+
+.currentTeamMembers .btn, .currentRotationStudents .btn {
+  background: #000;  /* fallback for old browsers */
+  color: #FBC304 !important;
+  border: none !important;
+}
+
+.currentTeamMembers .btn:hover {
+  background: #000 !important;
+  color: #fff !important;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.modal-backdrop {
+  background: none !important;
+  width: inherit !important;
+}
+
+.card {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.card-img-top {
+  width: auto !important;
+  height: auto !important;
+}
+
+.card-title {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 14px;
+}
+/* Team Member Section Styles End */
+
+/* News Section Styles */
+.news h4 {
+  color: #000 !important;
+  text-align: center;
+  padding-top: 5% !important;
+}
+
+.news {
+  color: #000 !important;
+}
+
+.news a {
+  color: #000 !important;
+  text-shadow: none !important;
+}
+
+
+/* News Section Styles End */
+
+
+/* Dissertations Section */
+.dissertations {
+  height: 100vh !important;
+}
+
+/* Dissertations Section End */
+/* Footer Styles */
+.footer {
+  font-weight: 600 !important;
+  color: #fbc304 !important;
+  text-shadow: 0px 0px 3px #000;
+}
+
+.footer a {
+  color: #fbc304 !important;
+  text-shadow: 0px 0px 3px #000;
+}
+
+.footer a:hover {
+  color: #fff !important;
+  text-shadow: 0px 0px 3px #000;
+}
+/* Footer Styles End */
+
+
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                        /* Media Queries For Responsive Design*/
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                        /*Small devices (landscape phones, 320px and up) */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+
+@media only screen and (min-width: 320px)  {
+
+  .navbarTitleOne {
+    display: none !important;
+  }
+
+  .navbarTitleTwo {
+    display: inline-block !important;
+  }
+
+  .videoThree {
+    width: 100% !important;
+  }
+
+  .currentTeamMembers .row, .currentRotationStudents .row, .formerSummerMembers .row, .dissertations .row, .collaborators .row, .helminthResearchers .row {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+  .currentTeamMembers .col, .currentRotationStudents .col, .formerSummerMembers .col, .dissertations .col, .collaborators .col, .helminthResearchers .col {
+    margin-top: 3%;
+    margin-left: 3%;
+  }
+
+  .headings .col-sm h4, .headingsTwo .col-sm h4 {
+    margin-top: 10% !important;
+  }
+
+  .figure img {
+    height: 270px !important;
+  }
+
+}
+
+
+ @media only screen and (min-width: 375px) {
+
+   .navbarTitleOne {
+     display: none !important;
+   }
+
+   .navbarTitleTwo {
+     display: inline-block !important;
+   }
+
+   .videoThree {
+     width: 100% !important;
+   }
+
+  .currentTeamMembers .row, .currentRotationStudents .row, .formerSummerMembers .row, .dissertations .row, .collaborators .row, .helminthResearchers .row {
+     width: 100%;
+     margin-left: auto;
+     margin-right: auto;
+
+   }
+
+   .currentTeamMembers .col, .currentRotationStudents .col, .formerSummerMembers .col, .dissertations .col, .collaborators .col, .helminthResearchers .col {
+     margin-top: 3%;
+     margin-left: 9%;
+   }
+
+
+ }
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                          /*Small devices (landscape phones, 425px and up) */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+@media only screen and (min-width: 425px) {
+
+  .navbarTitleOne {
+    display: none !important;
+  }
+
+  .navbarTitleTwo {
+    display: inline-block !important;
+  }
+
+  .videoThree {
+    width: 100% !important;
+  }
+
+  .currentTeamMembers .row, .currentRotationStudents .row, .formerSummerMembers .row, .dissertations .row, .collaborators .row, .helminthResearchers .row {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+  .currentTeamMembers .col, .currentRotationStudents .col, .formerSummerMembers .col, .dissertations .col, .collaborators .col, .helminthResearchers .col {
+    margin-top: 3%;
+    margin-left: 15%;
+  }
+
+
+
+}
+
+
+
+
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                        /*Tablet Devices 768px and up) */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+
+
+
+@media only screen and (min-width: 768px) {
+
+  .navbarTitleOne {
+    display: block !important;
+  }
+
+  .navbarTitleTwo {
+    display: none !important;
+  }
+
+  #midSection iframe, #midSection a, #midSection img {
+    height: 50vh !important;
+  }
+
+  .currentTeamMembers .row, .currentRotationStudents .row, .formerSummerMembers .row, .dissertations .row, .collaborators .row, .helminthResearchers .row {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+  .currentTeamMembers .col, .currentRotationStudents .col, .formerSummerMembers .col, .dissertations .col, .collaborators .col, .helminthResearchers .col {
+    margin-top: 3%;
+    margin-left: 9%;
+  }
+
+  .figure img {
+    height: 550px !important;
+  }
+
+
+
+}
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                        /* Large devices (desktops, 1024px and up) */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+@media only screen and (min-width: 1024px) {
+
+  .navbarTitleOne {
+    display: block !important;
+  }
+
+  .navbarTitleTwo {
+    display: none !important;
+  }
+
+  .nav-link p {
+    font-size: 10px !important;
+  }
+
+  .currentTeamMembers, .currentRotationStudents, .formerSummerMembers, .collaborators, .helminthResearchers, .dissertations {
+    text-align: center;
+    padding: 5% 5% !important;
+  }
+
+  .currentTeamMembers .row, .currentRotationStudents .row, .formerSummerMembers .row, .dissertations .row, .collaborators .row, .helminthResearchers .row {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+  .currentTeamMembers .col, .currentRotationStudents .col, .formerSummerMembers .col, .dissertations .col, .collaborators .col, .helminthResearchers .col {
+    width: 100% !important;
+    margin-top: 5% !important;
+    margin-left: 5% !important;
+  }
+
+
+
+}
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                /* ExtraExtra large devices (large desktops, 2560px and up) */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+@media only screen and (min-width: 1440px) {
+
+  .navbarTitleOne {
+    display: block !important;
+  }
+
+  .nav-link p {
+    font-size: 14px !important;
+  }
+
+  .navbarTitleTwo {
+    display: none !important;
+  }
+
+  .currentTeamMembers .row, .currentRotationStudents .row, .formerSummerMembers .row, .dissertations .row, .collaborators .row, .helminthResearchers .row {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+  .currentTeamMembers, .currentRotationStudents, .formerSummerMembers, .collaborators, .helminthResearchers {
+    text-align: center;
+    padding: 5% 10% !important;
+  }
+
+  .currentTeamMembers .col, .currentRotationStudents .col, .formerSummerMembers .col, .dissertations .col, .collaborators .col, .helminthResearchers .col {
+    width: 100% !important;
+    margin-top: auto !important;
+    margin-left: auto !important;
+  }
+
+
+
+}
+
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                /* ExtraExtra large devices (large desktops, 2560px and up) */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+@media only screen and (min-width: 2560px) {
+
+  .navbarTitleOne {
+    display: block !important;
+  }
+
+  .navbarTitleOne h5 {
+    font-size: 28px !important;
+  }
+
+  .navbarTitleTwo {
+    display: none !important;
+  }
+
+  .nav-link p {
+    font-size: 16px !important;
+  }
+
+  .sectionOne h1 {
+      font-size: 60px !important;
+    }
+
+  .sectionOne p {
+    font-size: 26px;
+  }
+
+  .btn-sm {
+    font-size: 26px !important;
+  }
+
+  .currentTeamMembers .row, .currentRotationStudents .row, .formerSummerMembers .row, .dissertations .row, .collaborators .row, .helminthResearchers .row {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+  .currentTeamMembers, .currentRotationStudents, .formerSummerMembers, .collaborators, .helminthResearchers {
+    text-align: center;
+    padding: 5% 25% !important;
+  }
+
+  .currentTeamMembers .col, .currentRotationStudents .col, .formerSummerMembers .col, .dissertations .col, .collaborators .col, .helminthResearchers .col {
+    width: 100% !important;
+    margin-top: auto !important;
+    margin-left: auto !important;
+  }
+
+  .contactSectionOne h4 {
+    font-size: 44px;
+  }
+
+  .contactSectionOne h6 {
+    font-size: 30px;
+  }
+
+  .contactSectionOne address, .contactSectionOne p {
+    font-size: 18px;
+  }
+
+
+}
