@@ -1,6 +1,5 @@
 /* Universal Styles */
-html {width: auto!important; overflow-x:hidden !important;  overflow-y: scroll !important; zoom: 93% !important;}
-
+html, #body {width: auto!important; overflow-x:hidden !important;}
 #body {
   background: #000;  /* fallback for old browsers */
 }
@@ -206,7 +205,6 @@ figcaption a:hover {
 }
 .currentTeamMembers, .currentRotationStudents, .formerSummerMembers, .collaborators, .helminthResearchers, .dissertations {
   text-align: center;
-  padding: 5% 10% !important;
 }
 
 #ctm h1, #crs h1, #frs h1, #fsm h1, #ftm h1 {
@@ -293,6 +291,7 @@ figcaption a:hover {
   font-weight: 600 !important;
   color: #fbc304 !important;
   text-shadow: 0px 0px 3px #000;
+  font-size: 10px;
 }
 
 .footer a {
@@ -308,13 +307,37 @@ figcaption a:hover {
 
 
 
-/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+/* â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ */
                         /* Media Queries For Responsive Design*/
-/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+/* â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ */
 
-/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+/* â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ */
                         /*Small devices (landscape phones, 320px and up) */
-/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+/* â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ */
+@media only screen and (min-width: 280px) {
+
+  .navbarTitleOne {
+    display: none !important;
+  }
+
+  .navbarTitleTwo {
+    display: inline-block !important;
+  }
+
+  .sectionOne {
+    height: 100vh !important;
+  }
+
+  .sectionTwo {
+    margin-top: 10% !important;
+  }
+
+  .currentTeamMembers .col, .currentRotationStudents .col, .formerSummerMembers .col, .dissertations .col, .collaborators .col, .helminthResearchers .col {
+    margin-top: 3%;
+    margin-left: -5%;
+  }
+
+}
 
 @media only screen and (min-width: 320px)  {
 
@@ -324,6 +347,14 @@ figcaption a:hover {
 
   .navbarTitleTwo {
     display: inline-block !important;
+  }
+
+  .sectionOne {
+    height: 100vh !important;
+  }
+
+  .sectionTwo {
+    margin-top: 35% !important;
   }
 
   .videoThree {
@@ -339,7 +370,7 @@ figcaption a:hover {
 
   .currentTeamMembers .col, .currentRotationStudents .col, .formerSummerMembers .col, .dissertations .col, .collaborators .col, .helminthResearchers .col {
     margin-top: 3%;
-    margin-left: 3%;
+    margin-left: -5%;
   }
 
   .headings .col-sm h4, .headingsTwo .col-sm h4 {
@@ -363,6 +394,14 @@ figcaption a:hover {
      display: inline-block !important;
    }
 
+   .sectionOne {
+     height: 100vh !important;
+   }
+
+   .sectionTwo {
+     margin-top: 35% !important;
+   }
+
    .videoThree {
      width: 100% !important;
    }
@@ -376,15 +415,15 @@ figcaption a:hover {
 
    .currentTeamMembers .col, .currentRotationStudents .col, .formerSummerMembers .col, .dissertations .col, .collaborators .col, .helminthResearchers .col {
      margin-top: 3%;
-     margin-left: 9%;
+     margin-left: 5%;
    }
 
 
  }
 
-/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+/* â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ */
                           /*Small devices (landscape phones, 425px and up) */
-/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+/* â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ */
 @media only screen and (min-width: 425px) {
 
   .navbarTitleOne {
@@ -393,6 +432,10 @@ figcaption a:hover {
 
   .navbarTitleTwo {
     display: inline-block !important;
+  }
+
+  .sectionOne {
+    height: 100vh !important;
   }
 
   .videoThree {
@@ -408,7 +451,7 @@ figcaption a:hover {
 
   .currentTeamMembers .col, .currentRotationStudents .col, .formerSummerMembers .col, .dissertations .col, .collaborators .col, .helminthResearchers .col {
     margin-top: 3%;
-    margin-left: 15%;
+    margin-left: 9%;
   }
 
 
@@ -419,9 +462,9 @@ figcaption a:hover {
 
 
 
-/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+/* â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ */
                         /*Tablet Devices 768px and up) */
-/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+/* â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ */
 
 
 
@@ -433,6 +476,10 @@ figcaption a:hover {
 
   .navbarTitleTwo {
     display: none !important;
+  }
+
+  .sectionTwo {
+    margin-top: 0% !important;
   }
 
   #midSection iframe, #midSection a, #midSection img {
@@ -448,7 +495,7 @@ figcaption a:hover {
 
   .currentTeamMembers .col, .currentRotationStudents .col, .formerSummerMembers .col, .dissertations .col, .collaborators .col, .helminthResearchers .col {
     margin-top: 3%;
-    margin-left: 9%;
+    margin-left: 30%;
   }
 
   .figure img {
@@ -459,10 +506,11 @@ figcaption a:hover {
 
 }
 
-/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+/* â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ */
                         /* Large devices (desktops, 1024px and up) */
-/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+/* â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ */
 @media only screen and (min-width: 1024px) {
+
 
   .navbarTitleOne {
     display: block !important;
@@ -476,6 +524,10 @@ figcaption a:hover {
     font-size: 10px !important;
   }
 
+  .sectionTwo {
+    margin-top: 0% !important;
+  }
+
   .currentTeamMembers, .currentRotationStudents, .formerSummerMembers, .collaborators, .helminthResearchers, .dissertations {
     text-align: center;
     padding: 5% 5% !important;
@@ -485,7 +537,6 @@ figcaption a:hover {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
-
   }
 
   .currentTeamMembers .col, .currentRotationStudents .col, .formerSummerMembers .col, .dissertations .col, .collaborators .col, .helminthResearchers .col {
@@ -494,13 +545,17 @@ figcaption a:hover {
     margin-left: 5% !important;
   }
 
+  #ctm, #ftm, #frs, #crs, #fsm {
+    zoom: 65% !important;
+  }
+
 
 
 }
 
-/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+/* â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ */
                 /* ExtraExtra large devices (large desktops, 2560px and up) */
-/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+/* â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ */
 @media only screen and (min-width: 1440px) {
 
   .navbarTitleOne {
@@ -513,6 +568,10 @@ figcaption a:hover {
 
   .navbarTitleTwo {
     display: none !important;
+  }
+
+  .sectionTwo {
+    margin-top: 0% !important;
   }
 
   .currentTeamMembers .row, .currentRotationStudents .row, .formerSummerMembers .row, .dissertations .row, .collaborators .row, .helminthResearchers .row {
@@ -533,15 +592,20 @@ figcaption a:hover {
     margin-left: auto !important;
   }
 
+  #ctm, #ftm, #frs, #crs, #fsm {
+    zoom: 75% !important;
+  }
+
 
 
 }
 
 
-/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+/* â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ */
                 /* ExtraExtra large devices (large desktops, 2560px and up) */
-/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+/* â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ â™¥ */
 @media only screen and (min-width: 2560px) {
+
 
   .navbarTitleOne {
     display: block !important;
@@ -565,6 +629,10 @@ figcaption a:hover {
 
   .sectionOne p {
     font-size: 26px;
+  }
+
+  .sectionTwo {
+    margin-top: 0% !important;
   }
 
   .btn-sm {
@@ -599,6 +667,10 @@ figcaption a:hover {
 
   .contactSectionOne address, .contactSectionOne p {
     font-size: 18px;
+  }
+
+  #ctm, #ftm, #frs, #crs, #fsm {
+    zoom: 75% !important;
   }
 
 
