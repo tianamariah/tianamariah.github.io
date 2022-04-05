@@ -8,7 +8,7 @@ html, body {width: auto!important; overflow-x: hidden!important}
 
 
 #body {
- font-family: 'Secular One', sans-serif;
+ font-family: 'Secular One', sans-serif !important;
 }
 
 #body p, #body a, #body p a  {
