@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="Tiana Mangual is a Front End Web Developer well versed in HTML5, CSS3, JavaScript, Bootstrap, Responsive Design and Agile Development.">
+  <meta name="keywords" content="Front End Developer, Los Angeles, E-Commerce, Web Designer, Web Designer, Freelance Web Developer, Los Angeles Web Designer. ">
+  <link rel="shortcut icon" href="favicon.io" type="image/x-icon">
+  <title>TMM - Work </title>
+  <link href="styles.css" rel="stylesheet"/>
+  <!-- jQuery CDN -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!-- Bootstrap CSS ♥ -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" rel="stylesheet">
+  <!--  FontAwesome ♥ -->
+  <script src="https://kit.fontawesome.com/a509e594dd.js"></script>
+  <!-- Google Fonts ♥ -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Beth+Ellen&family=Rubik+Puddles&family=Syne+Mono&display=swap" rel="stylesheet">
+</head>
+
+<body id="body">
+
+  <div class="container-fluid fixed-top topNav">
+    <div class="row">
+      <div class="col col1">
+        <h1>work</h1>
+      </div>
+      <div class="col col2">
+        <h1>resume</h1>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container middle">
+    <h1><a href="https://vintagetee28.substack.com/" target="_blank">Frugal</a></h1>
+    <h1><a href="http://drherbertlab.org/" target="_blank">Laboratory of Mucosal Immunology</a></h1>
+    <h1><a href="https://tianamariah.github.io/LLSM/" target="_blank">Long Live Sonia Mangual</a></h1>
+    <h1><a href="https://tianamariah.github.io/NBK/" target="_blank">The Nail Bar</a></h1>
+    <h1><a href="https://tianamariah.github.io/CP/" target="_blank">Correa Painting</a></h1>
+    <h1><a href="http://tianamariah.github.io/TWR" target="_blank">Training With Reggie</a></h1>
+    <h1><a href="https://tianamariah.github.io/FHB/index.html" target="_blank">FabHouse Beauty Supply</a></h1>
+    <h1><a href="https://vaflights18.github.io/home.html" target="_blank">Virginia Flights</a></h1>
+    <h1><a href="https://tianamariah.github.io/FGC/home.html" target="_blank">Fairy Good Cook</a></h1>
+    <h1><a href="https://tianamariah.github.io/TCB/" target="_blank">Tidewater Concert Band</a></h1>
+    <h1><a href="https://tianamariah.github.io/th./" target="_blank"> Tonee Heart </a></h1>
+  </div>
+
+
+
+  <div class="container-fluid fixed-bottom bottomNav">
+    <div class="row">
+      <div class="col col3">
+        <h1>about</h1>
+      </div>
+      <div class="col col4">
+        <h1>vintagetee28@gmail.com</h1>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script>
+    $(document).ready(function () {
+
+      function resizeMe() {
+        //Grab the element to resize:
+        var element = $('.middle');
+        //Grab the current windows's width and height:
+        var w_width = $(window).width();
+        var w_height = $(window).height();
+
+        //Grab the element to resize's width and height:
+        var resized_width = element.width();
+        var resized_height = element.height();
+
+        /*
+            	Set the top and left value:
+            	This is the "top-left" corner where the div will be place:
+            		Top: So, this will be (windows' height divided by 2), then substract the (div's height divided by 2)
+            		Left: So, this will be (windows' width divided by 2), then substract the (div's width divided by 2)
+         */
+
+        //Top:
+        var top_position = (w_height / 2) - (resized_height / 2);
+        //Left:
+        var left_position = (w_width / 2) - (resized_width / 2);
+
+        element.css({'top': top_position, 'left': left_position});
+      }
+
+      //Call the 'resizeMe()' function so that it runs immediately when the windows loads:
+      resizeMe();
+
+      //Then call the 'resizeMe()' function when the windows is resized:
+      $(window).resize(function () {
+        //Invoke the function
+        resizeMe();
+      });
+     });
+
+
+   </script>
+
+
+</body>
+</html>
