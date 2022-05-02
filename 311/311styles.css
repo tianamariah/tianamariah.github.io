@@ -1,0 +1,63 @@
+html, body {
+  margin: 0px !important;
+  height: 100% !important;
+}
+
+.bi-clock-history, .bi-camera, .bi-envelope-paper-heart {
+  font-size: 2.8rem !important;
+  text-align: center !important;
+}
+
+i {
+  font-size: 2.5rem !important;
+}
+
+.col {
+  width: 100% !important;
+}
+
+.col2 {
+  text-align: center !important;
+}
+
+.col h1 {
+  text-align: left !important;
+}
+
+.list-group-item {
+  height: 33.33vh !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  box-shadow: rgba(255, 2555, 255, 0.15) 0px 2px 5px 0px, rgba(255, 255, 255, 0.05) 0px 1px 1px 0px !important;
+}
+
+.list-item-1 {
+  background-color: #d06944 !important;
+  color: #fff !important;
+  border: 1px solid #fff;
+}
+
+.list-item-2 {
+  background-color: #f5c93d !important;
+  color: #000 !important;
+}
+
+.list-item-3 {
+  background-color: #3d727f !important;
+  color: #000 !important;
+}
+
+.row {
+  width: 100% !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+p {
+  font-size: 18px !important;
+  width: 100% !important;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+}
