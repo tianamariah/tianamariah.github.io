@@ -3,6 +3,16 @@ html, body {
   height: 100% !important;
   background-color: #fff !important;
   font-family: 'Nunito', sans-serif;
+  text-decoration: none !important;
+}
+
+.navbar-brand {
+  font-size: 18px !important;
+  font-weight: 700 !important;
+}
+
+.navbar {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px !important;
 }
 
 .bi-clock-history, .bi-camera, .bi-envelope-paper-heart {
@@ -14,11 +24,13 @@ html, body {
   font-size: 21px !important;
 }
 
-.bi-three-dots {
+.bi-three-dots-vertical {
   color: #000;
 }
+
 a {
   color: #000 !important;
+  text-decoration: none !important;
 }
 
 i {
@@ -42,8 +54,12 @@ i {
   text-align: left !important;
 }
 
+.list-group {
+  margin-top: 5% !important;
+}
+
 .list-group-item {
-  height: 33vh !important;
+  height: 30vh !important;
   display: flex !important;
   align-items: center !important;
   justify-content: center !important;
@@ -54,7 +70,11 @@ i {
   background: #CB356B;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #BD3F32, #CB356B);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, #BD3F32, #CB356B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  color: #000 !important;
+  color: #fff;
+}
+
+.list-group-item-1:hover {
+  color: #fff !important;
 }
 
 .btn-primary {
@@ -68,13 +88,13 @@ i {
 
 .list-group-item:hover {
   color: #fff !important;
-  border: 2px solid #fff;
+  border: 3px solid #fff;
+  text-decoration: underline;
 }
 
 .list-group-item p:hover, .list-group-item i:hover  {
-  color: #fff !important;
+  color: #000 !important;
 }
-
 
 .list-item-2 {
   background: #F2994A;  /* fallback for old browsers */
@@ -97,10 +117,10 @@ i {
   justify-content: center !important;
 }
 
-p {
-  font-size: 18px !important;
+.list-group p {
+  font-size: 22px !important;
   width: 100% !important;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .formSection, .cardSection {
@@ -118,4 +138,17 @@ p {
 
 .formSection p {
   font-size: 16px !important;
+}
+
+.header {
+  padding: 1%;
+  text-align: center;
+}
+
+.header h6 {
+    font-weight: 700;
+}
+
+.header p {
+  font-size: 14px;
 }
