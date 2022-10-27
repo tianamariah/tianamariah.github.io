@@ -1,27 +1,57 @@
-/*♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
-html, body, #body {width: auto!important; overflow-x: hidden!important; font-family: 'Beth Ellen', cursive !important;}
-/*♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+html, body, #body {width: auto!important; overflow-x: hidden!important;}
 
-/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
-                                    /* Main Styles */
-/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+@font-face {
+  font-family: "Nightydemo";
+  src: url('Nightydemo.otf');
+}
 
 #body {
-  background-color: #876d54 !important;
-  background-image: url('img/full-bg.png');
-  background-position: cover;
-  background-position: center;
-  color: #cbc64d;
+  background-color: #000;
+  background-image: url("IMG/pattern-16.png");
+  background-size: cover;
 }
+
+
+.middleText {
+  text-align: center;
+  position: fixed !important;
+  height: auto;
+  font-family: 'Nightydemo', cursive;
+  color: #fff;
+  }
+
+  .middleText h1 {
+    font-size: 5rem !important;
+    text-shadow: .04em .04em 0 #fbc40a;
+  }
+
+.workText h1 {
+    font-size: 2.8rem !important;
+    text-shadow: .04em .04em 0 #fbc40a;
+  }
 
 a {
-    color: #cbc64d !important;
+  color: #fff !important;
+  text-shadow: .04em .04em 0 #fbc40a;
+  font-family: 'Nightydemo', cursive;
+  text-decoration: none !important;
+  text-transform: uppercase;
 }
 
-.topNav, .bottomNav {
-  font-family: 'Beth Ellen', cursive;
+a:hover {
+  color: #fbc40a !important;
+  text-shadow: .04em .04em 0 #fff;
 }
 
+.workButton a {
+  color: #fbc40a !important;
+  text-shadow: .04em .04em 0 #FFF;
+}
+
+.workButton a:hover {
+  color: #fff !important;
+  text-shadow: .04em .04em 0 #fbc40a;
+}
 
 .col1, .col3 {
   text-align: left;
@@ -31,41 +61,49 @@ a {
   text-align: right;
 }
 
-.middle {
-  text-align: center;
+@keyframes wiggle {
+  0%, 7% {
+    transform: rotateZ(0);
+  }
+  15% {
+    transform: rotateZ(-15deg);
+  }
+  20% {
+    transform: rotateZ(10deg);
+  }
+  25% {
+    transform: rotateZ(-10deg);
+  }
+  30% {
+    transform: rotateZ(6deg);
+  }
+  35% {
+    transform: rotateZ(-4deg);
+  }
+  40%, 100% {
+    transform: rotateZ(0);
+  }
+}
+
+.moveMe {
+  animation: wiggle 5s infinite;
   position: absolute;
-  height: auto;
-  }
-
-  .middle h1 {
-    //font-size: 20px !important;
-  }
+}
 
 
 
-/*♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
-                                    /* Main Styles End */
-/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
 
 
 /* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
                         /* Media Queries For Responsive Design*/
 /* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
-/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
-                        /*Small devices (landscape phones, 320px and up) */
-/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+
 
 @media only screen and (min-width: 320px) {
 
-
-  .col h1 {
-    font-size: 14px !important;
-  }
-
-    .middle h1  {
-      font-size: 12px !important;
-
-}
+  .workText h1 {
+      font-size: 1.4rem !important;
+    }
 
 }
 
@@ -75,19 +113,10 @@ a {
 
 
 @media only screen and (min-width: 768px) {
-  .col h1 {
-    font-size: 18px !important;
-  }
 
-  .middle h1 {
-    font-size: 20px !important;
-  }
-
-  .middle {
-    background-image: none !important;
-  }
-
-
+  .workText h1 {
+      font-size: 2rem !important;
+    }
 
 }
 
@@ -96,24 +125,9 @@ a {
 /* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
 @media only screen and (min-width: 1024px) {
 
-
-
-}
-
-/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
-                /* Large devices (large desktops, 1440px and up) */
-/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
-@media only screen and (min-width: 1440px) {
-
+  .workText h1 {
+      font-size: 2.8rem !important;
+    }
 
 }
 
-
-
-/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
-                /* ExtraExtra large devices (large desktops, 2560px and up) */
-/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
-@media only screen and (min-width: 2560px) {
-
-
-}
