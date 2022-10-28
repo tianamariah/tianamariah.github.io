@@ -1,13 +1,8 @@
 html, body, #body {width: auto!important; overflow-x: hidden!important;}
 
-@font-face {
-  font-family: "Nightydemo";
-  src: url('Nightydemo.otf');
-}
-
 #body {
   background-color: #000;
-  background-image: url("IMG/pattern-16.png");
+  background-image: url("IMG/FV11.png");
   background-size: cover;
 }
 
@@ -16,41 +11,50 @@ html, body, #body {width: auto!important; overflow-x: hidden!important;}
   text-align: center;
   position: fixed !important;
   height: auto;
-  font-family: 'Nightydemo', cursive;
   color: #fff;
   }
 
-  .middleText h1 {
-    font-size: 5rem !important;
-    text-shadow: .04em .04em 0 #fbc40a;
+  .middleText h5 {
+    text-shadow: .05em .05em 0 #000;
+    letter-spacing: 1.5px !important;
+    font-family: 'Anybody';
+    font-weight: 300;
+    text-transform: uppercase;
   }
 
-.workText h1 {
-    font-size: 2.8rem !important;
-    text-shadow: .04em .04em 0 #fbc40a;
+  .middleText p {
+    font-family: 'Anybody';
+    letter-spacing: 3px;
+    font-weight: 100;
   }
+
 
 a {
   color: #fff !important;
-  text-shadow: .04em .04em 0 #fbc40a;
-  font-family: 'Nightydemo', cursive;
+  text-shadow: .04em .04em 0 #000;
+  font-family: 'Anybody';
+  font-weight: 300;
   text-decoration: none !important;
   text-transform: uppercase;
 }
 
 a:hover {
-  color: #fbc40a !important;
-  text-shadow: .04em .04em 0 #fff;
+  color: #fff !important;
+  text-shadow: .07em .07em 0 #000;
 }
 
 .workButton a {
-  color: #fbc40a !important;
-  text-shadow: .04em .04em 0 #FFF;
+  color: red !important;
+  text-shadow: .04em .04em 0 #000;
 }
 
 .workButton a:hover {
   color: #fff !important;
-  text-shadow: .04em .04em 0 #fbc40a;
+  text-shadow: .04em .04em 0 #000;
+}
+
+.workText a:hover {
+  color: red !important;
 }
 
 .col1, .col3 {
@@ -101,9 +105,10 @@ a:hover {
 
 @media only screen and (min-width: 320px) {
 
-  .workText h1 {
+  .workText h1  {
       font-size: 1.4rem !important;
     }
+
 
 }
 
@@ -118,6 +123,7 @@ a:hover {
       font-size: 2rem !important;
     }
 
+
 }
 
 /* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
@@ -129,5 +135,5 @@ a:hover {
       font-size: 2.8rem !important;
     }
 
-}
 
+}
