@@ -1,0 +1,272 @@
+html, #body {width: auto!important; overflow-x:hidden !important;}
+
+body {
+  font: 0.9em/1.2 'Inter Tight', sans-serif;
+  width: 100%;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: #fff;
+}
+
+header,
+footer {
+  text-align: center;
+  background-color: #000;
+  padding: 1px;
+  height: 5vh;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+header p,
+footer p {
+  font-weight: 100;
+  color: #fff;
+  font-size: 20px;
+  margin: 5px;
+}
+
+ion-icon {
+  color: #fff;
+  font-size: 28px;
+}
+
+/* JumboTron Styles Start */
+.jumboTron {
+  //background-image: url('img/IMG_0295.JPG');
+  background-size: cover;
+  background-position: top;
+  font-family: 'Inter Tight', sans-serif;
+  text-align: center;
+  width: 100%;
+  text-align: center;
+  padding: 5px;
+  text-align: center;
+}
+
+.jumboTron h1 {
+  font-weight: 900;
+  letter-spacing: 2px;
+  color: #000;
+  font-size: 32px;
+  text-transform: uppercase;
+  padding: 0;
+  margin: 10px;
+}
+
+.jumboTron p {
+  font-size: 12px;
+  font-weight: 100;
+  color: #fff;
+  font-weight: 400;
+  padding-bottom: 10px;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0.25rem 0.5rem;
+    font-size: .875rem;
+    line-height: 1.5;
+    border-radius: 0.2rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    margin-bottom: 20px;
+}
+
+.btn-dark  {
+  background: #000;
+  color: #fff;
+  border-width: .5px;
+  border-color: #fff;
+}
+
+.btn-dark:hover {
+  background: #fff;
+  color: #000;
+}
+
+.btn-light {
+  background-color: #fff;
+  color: #000;
+  border-width: .5px;
+  border-color: #000;
+}
+
+.btn-light:hover {
+  background: #000;
+  color: #fff;
+  border-width: .5px;
+  border-color: #fff;
+}
+/* JumboTron Styles End */
+
+/* Mobile Menu Start */
+
+.mobileHomePageMenu {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0px !important;
+  width: 100%;
+  height: 95vh;
+}
+
+ .mobileHomePageMenu a {
+  text-align: center;
+  padding:0px;
+  padding-top: 50px;
+  color: #fff;
+}
+
+.mobileHomePageMenu a:hover {
+  opacity: .5;
+  color: #000;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+
+.mobileHomePageMenu  i {
+  font-size: 35px;
+}
+
+.mobileHomePageMenu p {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+#mi1 {
+  background-color: #184e77;
+}
+
+#mi2 {
+  background-color: #1e6091;
+}
+
+#mi3 {
+  background-color: #1a759f;
+}
+
+#mi4 {
+  background-color: #168aad;
+}
+
+#mi5 {
+  background-color: #34a0a4;
+}
+
+#mi6 {
+  background-color: #52b69a;
+}
+
+#mi7 {
+  background-color: #76c893;
+}
+
+#mi8 {
+  background-color: #99d98c;
+}
+
+/* Mobile Menu End */
+
+/* Drop Down Menu Start */
+
+.dropdown {
+  text-align: center;
+  padding: 0;
+  padding-top: 0;
+  border-bottom: 1px solid #000;
+}
+
+.dropdownbtn {
+  cursor: pointer;
+  border: none;
+  background-color: #fff;
+  padding: 0px;
+  margin: 0px;
+  height: 0px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 100%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #fff;
+  padding:  20px 0px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content i {
+  font-size: 20px;
+}
+
+.dropdown-content a:hover {
+  opacity: .8;
+  color: #000;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+
+}
+
+.dropdown:hover .dropdown-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0px !important;
+  width: 100%;
+}
+
+.dropdown:hover .dropdownbtn {
+}
+
+#dropdownMenuTitle {
+  font-size: 18px;
+  font-weight: 100;
+
+}
+/* Drop Down Menu End */
+
+
+/* Research Menu Start */
+
+.researchHomePageMenu {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 0px !important;
+  width: 100%;
+  height: auto;
+}
+
+ .researchHomePageMenu a {
+  text-align: center;
+  padding: 20px 0px;
+  color: #fff;
+}
+
+.researchHomePageMenu a:hover {
+  opacity: .5;
+  color: #000;
+  box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+
+/* Research Menu End */
