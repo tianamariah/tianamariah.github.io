@@ -1,0 +1,618 @@
+html, #body {width: auto!important; overflow-x:hidden !important;}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #000;
+}
+
+  body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+  }
+
+/* Assigning Grid Area */
+/* For Larger Screen Sizes */
+  @media (min-width: 40em) {
+
+      .mainHomePageSection {
+        display: grid;
+        grid-gap: 20px;
+        min-height: 100vh;
+        grid-template-areas:
+
+        'main nav'
+        'section nav'
+        'footer footer'
+        ;
+      }
+  }
+
+  main { grid-area: main;}
+  nav { grid-area: nav;}
+  section { grid-area: section;}
+  footer {grid-area: footer;}
+
+
+  main,
+  nav,
+  section,
+  footer {
+    padding: 0;
+    //border: 1px solid red;
+  }
+
+  /* Assigning Grid Area End */
+
+  /* Animation */
+
+      @keyframes scroll {
+         100% {
+          background-position:0px -3000px;
+        }
+      }
+
+      @media (prefers-reduced-motion) {
+        .wrapper {
+          animation: scroll 200s linear infinite;
+        }
+      }
+  /* Animation */
+
+  /* Header Starts */
+  header {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    padding: .5em 2em;
+    margin-top: -10px;
+    color: #000;
+    height: 55px;
+    background-color: rgba(132, 117, 119, .8);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  }
+
+  header img {
+    width: 35px;
+  }
+
+  #menuBar {
+    width: 20px;
+  }
+
+  header h2:nth-child(2) {
+    font-family: 'Bodoni Moda', serif;
+    font-weight: 500;
+    text-align: left;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 0;
+  }
+
+  header h2:nth-child(3) {
+    text-align: right;
+    color: #000;
+  }
+
+  header h2:nth-child(3):hover {
+    color: #fff;
+  }
+
+  #upennTextBreak {
+    display: none;
+  }
+
+  #upennText {
+    font-family: 'Yaldevi', sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+  }
+
+  #upenn-img {
+    width: 15px;
+  }
+  /* Header Ends */
+
+  /* Navigation Starts */
+  .navigation {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    padding: 0 2em;
+    margin: 0px;
+    background-color: rgba(132, 117, 119, .2);
+    column-gap: 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  }
+
+  .navigation li {
+    list-style-type: none;
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Yaldevi', sans-serif;
+    padding-top: 10px;
+    color: #000;
+  }
+
+  .navigation li .bi {
+    font-size: 16px;
+  }
+
+  .navigation li p {
+    margin-top: 0px;
+  }
+
+  .navigation li:hover {
+    font-weight: 700;
+  }
+  /* Navigation Ends */
+
+  /* Annoucements Start */
+      nav {
+        padding: 0px 0px !important;
+        border-radius: 3px;
+        color: #000;
+        text-align: center;
+      }
+
+      nav h3 {
+        margin: 0;
+        padding: 0;
+        font-family: 'Bodoni Moda', serif;
+      }
+
+      nav #second-h3 {
+        padding-top: 1em;
+      }
+
+      .newsCard {
+        height: auto;
+        background-color: rgba(251, 251, 242, .2);
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        margin: 5px 0;
+        padding: 1em 1em;
+        border-radius: 3px;
+        width: auto;
+        text-align: left;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .newsCard small {
+        font-family: 'Yaldevi', sans-serif;
+        font-weight: 100;
+      }
+
+      .newsCard h4 {
+        font-family: 'Bodoni Moda', serif;
+      }
+
+      .newsCard a {
+        font-family: 'Yaldevi', sans-serif;
+        font-weight: 100;
+        padding: 3px 5px;
+        color: #000;
+        border: 1px solid #000;
+        border-radius: 3px;
+      }
+
+      .newsCard a:hover {
+        color: #fff;
+        border: 1px solid #fff;
+      }
+
+      #twitter-widget {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        padding-top: 1em;
+        padding-bottom: 0;
+        border: none !important;
+        box-shadow: none !important;
+        height: 38%;
+        border-top: none !important;
+      }
+  /* Annoucements End */
+
+
+    /* Main Section Start */
+
+      .mainHomePageSection {
+        margin: .5em 1em;
+      }
+
+      main {
+        animation: scroll 350s infinite;
+        background: url("img/ps-img7-ge4.png");
+        background-size: cover;
+        color: #FFF;
+        display: grid;
+        padding: 5em !important;
+      }
+
+      .intro {
+        width: 75%;
+        margin-top: 1em;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 3em;
+        text-align: center;
+      }
+
+      .intro h2 {
+        border-radius: 3px;
+        font-family: 'Bodoni Moda', serif;
+        font-weight: 600;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        background-color: rgba(132, 117, 119, .8);
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      }
+
+      .intro p {
+        border-radius: 3px;
+        margin: 10px 0px;
+        padding: 10px;
+        font-family: 'Yaldevi', sans-serif;
+        text-align: left;
+        font-weight: 400;
+        line-height: 22px;
+        background-color: rgba(132, 117, 119, .8);
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      }
+
+      #hpButtons {
+        display: grid;
+        grid-template-columns: 150px 150px 150px 150px;
+        column-gap: 1em;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0;
+      }
+
+      .buttonHomepage {
+        background-color: rgba(132, 117, 119, .8);
+        font-family: 'Yaldevi', sans-serif;
+        font-weight: 200;
+        padding: 5px;
+        color: #FFF;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        font-size: 20px;
+        text-align: center;
+        display: grid;
+        border-radius: 3px;
+      }
+
+      .buttonHomepage .material-symbols-sharp {
+          font-size: 42px !important;
+          padding: .5em .5em;
+          color: rgba(132, 117, 119, .8);
+          color: #FBFBF2;
+      }
+
+       .buttonHomepage .material-symbols-sharp:hover {
+        background-color: rgba(132, 117, 119, .8);
+        color: #000;
+      }
+
+      .buttonTitle {
+        margin: 0;
+        padding-top: 0;
+        font-weight: 400;
+      }
+  /* Main Section Ends */
+
+
+  /* Research Topics */
+  section {
+    background-color: rgba(251, 251, 242, .2);
+    padding: 0 !important;
+  }
+
+  section h2 {
+    font-family: 'Bodoni Moda', serif;
+    text-align: center;
+  }
+
+  .research-topics {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 0;
+    row-gap: 0;
+    padding: 0;
+    margin: 0;
+  }
+
+  .research-topics div {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 0;
+    margin: 0;
+  }
+
+  .research-topics .bi {
+    font-size: 24px;
+  }
+
+  .research-topics p {
+    font-size: 18px;
+    font-family: 'Yaldevi', sans-serif;
+    font-weight: 400;
+  }
+
+  .research-topics div:first-child {
+    background-color: rgba(132, 117, 119, .6);
+  }
+
+    .research-topics div:first-child:hover, a:hover {
+      background-color: rgb(132, 117, 119);
+      color: #fff !important;
+    }
+
+  .research-topics div:nth-child(2)  {
+    background-color: rgba(166, 162, 162, .6);
+  }
+    .research-topics div:nth-child(2):hover {
+      background-color: rgb(166, 162, 162);
+    }
+
+  .research-topics div:nth-child(3) {
+    background-color: rgb(207, 210, 205, .6);
+  }
+    .research-topics div:nth-child(3):hover {
+      background-color: rgb(207, 210, 205);
+    }
+
+  .research-topics div:nth-child(4) {
+    background-color: rgba(229, 230, 228, .6);
+  }
+    .research-topics div:nth-child(4):hover {
+      background-color: rgb(229, 230, 228);
+    }
+
+    .research-topics div:nth-child(5) {
+      background-color: rgba(229, 230, 228, .6);
+    }
+      .research-topics div:nth-child(5):hover {
+        background-color: rgb(229, 230, 228);
+      }
+
+    .research-topics div:nth-child(6) {
+      background-color: rgb(207, 210, 205, .6);
+    }
+        .research-topics div:nth-child(6):hover {
+          background-color: rgb(207, 210, 205);
+        }
+
+    .research-topics div:nth-child(7) {
+      background-color: rgba(166, 162, 162, .6);
+    }
+        .research-topics div:nth-child(7):hover {
+          background-color: rgb(166, 162, 162);
+        }
+
+    .research-topics div:nth-child(8) {
+      background-color: rgba(132, 117, 119, .6);
+    }
+        .research-topics div:nth-child(8):hover {
+          background-color: rgb(132, 117, 119);
+        }
+/* Research Topics End */
+
+
+  /* Fourth Section Start */
+
+    .fourth-section {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      padding: 1em;
+      margin: 0;
+      column-gap: 1em;
+    }
+
+    .fourth-section div {
+      //border: 1px solid red;
+      height: 250px;
+    }
+
+    #fourthSec-img {
+      background-image: url('img/IMG_0295.jpg');
+      text-align: center;
+    }
+
+    #fourthSec-img h1 {
+      font-family: 'Bodoni Moda', serif;
+      color: #fff;
+      padding: .2em;
+      text-align: center;
+      background-color: rgba(132, 117, 119, .8);
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      width: 50%;
+      //margin-top: 5em;
+      //margin-bottom: 5em;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    #fourthSec-img .material-symbols-rounded {
+      font-size: 44px;
+    }
+
+    .fourth-section iframe {
+      width: 100%;
+      height: 100%;
+    }
+
+  /* Fourth Section End */
+
+  /* Fifth Section */
+
+    .fifth-section {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      padding: 1em;
+      margin: 0;
+      column-gap: 1em;
+    }
+
+    .fifth-section div {
+      //border: 1px solid red;
+      border-radius: 3px;
+    }
+
+    #fifthSec-img {
+      background-image: url('img/IMG_0294.jpg');
+      background-size: cover;
+    }
+
+    #fifthSec-img h1 {
+      font-family: 'Bodoni Moda', serif;
+      color: #fff;
+      padding: .2em;
+      text-align: center;
+      background-color: rgba(132, 117, 119, .8);
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      width: 50%;
+      margin-top: 5em;
+      margin-bottom: 5em;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    #fifthSec-img .material-symbols-sharp {
+      font-size: 44px;
+    }
+
+    /* Fifth Section End */
+
+/* Media Queries */
+
+  @media (max-width: 1024px) {
+
+    .mainHomePageSection {
+      display: grid;
+      grid-gap: 20px;
+      min-height: 100vh;
+      grid-template-areas:
+        'main'
+        'nav'
+        'section'
+        'footer';
+    }
+
+    .hide {
+      display: none;
+    }
+
+    .show {
+      display: block;
+    }
+
+
+    .navigation {
+      grid-template-columns: repeat(4, minmax(100px, 1fr));
+    }
+
+    .research-topics {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+
+
+    #upennTextBreak {
+      display: none;
+    }
+
+    #twitter-widget, #second-h3 {
+      display: none;
+    }
+
+  }
+
+  @media (max-width: 768px) {
+
+    .mainHomePageSection {
+      display: grid;
+      grid-gap: 20px;
+      min-height: 100vh;
+      grid-template-areas:
+        'main'
+        'nav'
+        'section'
+        'footer';
+    }
+
+    .hide {
+      display: none;
+    }
+
+    .show {
+      display: block;
+    }
+
+    .navigation {
+      grid-template-columns: repeat(4, minmax(100px, 1fr));
+    }
+
+    .research-topics {
+      grid-template-columns: none;
+    }
+
+    #upennTextBreak {
+      display: none;
+    }
+
+    #twitter-widget, #second-h3 {
+      display: none;
+    }
+
+  }
+
+  @media (max-width: 425px), (max-width: 375px), (max-width: 320px) {
+
+    /* For Mobile */
+      .mainHomePageSection {
+        display: grid;
+        grid-gap: 20px;
+        min-height: 100vh;
+        grid-template-areas:
+          'main'
+          'nav'
+          'section'
+          'footer';
+      }
+
+    #hpButtons {
+      grid-template-columns: none;
+      grid-row: auto;
+      width: 320px;
+      row-gap: 1em;
+    }
+
+    #twitter-widget, #second-h3 {
+      display: none;
+    }
+
+    .research-topics {
+      grid-template-columns: none;
+    }
+
+    #upennTextBreak {
+      display: block;
+    }
+
+    header {
+      height: 80px;
+    }
+
+    header h2:nth-child(2) {
+      font-size: 20px;
+    }
+  }
