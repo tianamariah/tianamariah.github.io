@@ -702,7 +702,7 @@ footer .bi {
   }
 
   #gridPI, #gridRS, #gridTO {
-    padding: 6.5em !important;
+    padding: 6.5em;
   }
 
   #gridTwo {
@@ -714,7 +714,7 @@ footer .bi {
 @media (max-width: 1440px) {
 
   #gridPI, #gridRS, #gridTO {
-    padding: 6.5em !important;
+    padding: 6.5em;
   }
 }
 
@@ -764,7 +764,7 @@ footer .bi {
     }
 
     #gridPI, #gridRS, #gridTO {
-      padding: 5em !important;
+      padding: 6.5em;
     }
 
 }
