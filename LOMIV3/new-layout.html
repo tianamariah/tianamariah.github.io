@@ -28,21 +28,21 @@
 </head>
 
 <body id="body" onload="changeImage(); changeVideo();">
-
+  <!-- Mobile Header + Nav + Banner + Intro Section Start -->
   <div id="headerForMobile">
     <!-- Header Start -->
     <header>
       <a href="#"><h2><img  src="img/tagline-img.svg" alt="Microscope Icon image" onmouseover="this.src='img/tagline-img-w.svg'" onmouseout="this.src='img/tagline-img.svg'" ></h2></a>
       <a href="#"><h2 id="headerTitle">The Herbert Lab <br id="upennTextBreak"><span id="upennText">at UPENN <img src="img/penn-shield.png" alt="UPENN Shield" id="upenn-img"/></span></h2></a>
-      <h2 onclick="openMenu()"><span id="headerIcon" class="material-symbols-sharp">menu</span></h2>
+      <h2 onclick="toggleMobileMenu()"><span id="headerIcon" class="material-symbols-sharp">menu</span></h2>
     </header>
     <!-- Header End -->
     <!-- Nav Start -->
-      <div id="nav-menu" class="hide">
+      <div id="navMobileMenu" class="hide">
           <ul class="navigation">
             <li>
               <i class="bi bi-newspaper"></i>
-              <p>News</p>
+              <p>Annoucements</p>
             </li>
             <li>
               <i class="bi bi-search-heart"></i>
@@ -72,13 +72,38 @@
             </li>
             <li>
               <i class="bi bi-geo-alt"></i>
-              <p>Contact</p>
+              <a href="#footer"><p>Contact</p></a>
             </li>
           </ul>
       </div>
     <!-- Nav End -->
+    <!-- Banner Start -->
+    <div class="bg-img">
+      <div style="height: 250px;">&nbsp;</div>
+    </div>
+    <!-- Banner End -->
+    <!-- Intro Section Start -->
+    <div id="introSection" class="typeWriter">
+        <h1>The Laboratory of<br id="introTextBreak">Mucosal Immunology</h1>
+        <p>Discovering new information in Immunology & Neuroscience by following how parasitic helminths interact with their hosts. The members of this laboratory each bring a unique and valuable perspective on how the world can become a better place through biomedical research.</p>
+          <div id="buttonGroup">
+            <a href="#">
+              <span class="material-symbols-sharp">description</span>
+              <span>Learn More</span>
+              <span class="material-symbols-sharp">keyboard_arrow_right</span>
+            </a>
+            <a href="#">
+              <span class="material-symbols-sharp">redeem</span>
+              <span>Donate Here</span>
+              <span class="material-symbols-sharp">keyboard_arrow_right</span>
+            </a>
+        </div>
+    </div>
+    <!-- Intro Section End -->
   </div>
+  <!-- Mobile Header + Nav + Banner + Intro Section End -->
 
+  <!-- Large Screens Header + Nav + Banner + Sliding Div Sections Start -->
   <div id="mainPageGrid">
     <!-- First Section Start -->
     <div id="firstSection">
@@ -86,15 +111,15 @@
       <header>
         <a href="#"><h2><img  src="img/tagline-img.svg" alt="Microscope Icon image" onmouseover="this.src='img/tagline-img-w.svg'" onmouseout="this.src='img/tagline-img.svg'" ></h2></a>
         <a href="#"><h2 id="headerTitle">The Herbert Lab <br id="upennTextBreak"><span id="upennText">at UPENN <img src="img/penn-shield.png" alt="UPENN Shield" id="upenn-img"/></span></h2></a>
-        <h2><span id="headerIcon" class="material-symbols-sharp">menu</span></h2>
+        <h2 onclick="toggleMainMenu()"><span id="headerIcon" class="material-symbols-sharp">menu</span></h2>
       </header>
       <!-- Header End -->
       <!-- Nav Start -->
-        <div id="nav-menu" class="hide">
+        <div id="navMenu" class="show">
             <ul class="navigation">
               <li>
                 <i class="bi bi-newspaper"></i>
-                <p>News</p>
+                <p>Annoucements</p>
               </li>
               <li>
                 <i class="bi bi-search-heart"></i>
@@ -124,7 +149,7 @@
               </li>
               <li>
                 <i class="bi bi-geo-alt"></i>
-                <p>Contact</p>
+                <a href="#footer"><p>Contact</p></a>
               </li>
             </ul>
         </div>
@@ -142,10 +167,6 @@
     <div id="thirdSection">
 
       <div id="div0" style="display: block;">
-        <div class="strike" id="hideTitleMobile">
-          <span class="sectionTitle">The Herbert Lab</span>
-        </div>
-
         <div class="outerGrid" id="outerGridFirstDiv">
               <!-- Left Arrow -->
               <div id="leftArrow">
@@ -323,39 +344,7 @@
             </div>
             <!-- Research Topic End-->
 
-            <!-- PI Div
-            <div id="div3" style="display: none;">
-              <div class="strike">
-                <span class="sectionTitle">Introducing Dr. De’Broski R. Herbert</span>
-              </div>
-
-              <div class="outerGrid">
-
-                  <div id="leftArrow" onclick="replace('div3','div2')">
-                    <span class="material-symbols-sharp">keyboard_double_arrow_left</span>
-                  </div>
-
-                  <div id="gridThree">
-                    <div>
-                      <iframe class="iframe" src="http://www.youtube.com/embed/RBqUfMuCQXI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </div>
-                    <div>
-                      <iframe class="iframe" src="https://www.youtube.com/embed/XxfGSuQe9Fg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </div>
-                    <div>
-                      <iframe class="iframe" src="https://www.youtube.com/embed/ejG1Ph6_UHM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </div>
-                  </div>
-
-
-                <div id="rightArrow" onclick="replace('div3','div4')">
-                  <span class="material-symbols-sharp">keyboard_double_arrow_right</span>
-                </div>
-              </div>
-            </div>
-           PI Div End -->
-
-            <!-- TO Section Start-->
+            <!-- Team Members Section Start-->
             <div id="div3" style="display: none;">
               <div class="strike">
                 <span class="sectionTitle">Meet Our Current Team Members</span>
@@ -436,7 +425,7 @@
 
                     <a href="#">
                       <span><i class="bi bi-mortarboard"></i></span>
-                      <span>Olufemi Akinkuotu, PhD</span>
+                      <span>Olufemi Akinkuotu, DVM PhD</span>
                       <span class="material-symbols-sharp">keyboard_arrow_right</span>
                     </a>
 
@@ -451,6 +440,12 @@
                       <span>Imani Nicolis, DVM</span>
                       <span class="material-symbols-sharp">keyboard_arrow_right</span>
                     </a>
+
+                    <a href="#">
+                      <span><i class="bi bi-mortarboard"></i></span>
+                      <span>Name Needed</span>
+                      <span class="material-symbols-sharp">keyboard_arrow_right</span>
+                    </a>
                   </div>
 
                   <!-- Right Arrow -->
@@ -459,124 +454,387 @@
                   </div>
                 </div>
             </div>
-            <!-- TO Section End-->
+            <!-- Team Members Section End-->
       </div>
     <!-- 3rd Section End -->
   </div>
+  <!-- Large Screens Header + Nav + Banner + Sliding Div Sections End -->
 
   <!-- Prinicipal Investigator  Section Start-->
   <div id="piSection">
     <div class="strike">
       <span class="sectionTitle">Introducing Dr. De’Broski R. Herbert</span>
     </div>
+
     <div id="gridPI">
       <div class="centerText">
         <div>
-          <p>Meet Our <span id="c-fw">Prinicipal Investigator</span>  <span class="material-symbols-sharp">arrow_forward</span></p>
+          <p id="heading">Meet Our <span id="c-fw">Prinicipal Investigator</span></p>
+
+          <div id="innerPiGrid">
+            <div>
+              <a href="https://www.vet.upenn.edu/people/faculty-clinician-search/DE'BROSKIHERBERT" target="_blank"><img src="https://www.med.upenn.edu/apps/my/images/faculty_pics/herb2862.jpg" alt="Picture of Professor Herbert"/></a>
+            </div>
+            <div>
+              <strong><a href="https://www.vet.upenn.edu/people/faculty-clinician-search/DE'BROSKIHERBERT" target="_blank"><p>De'Broski R. Herbert, BS, PhD</p></a></strong>
+              <p>Professor of Pathobiology - UPENN VET</p>
+              <p>Presidential Professor of Immunology - UPENN</p>
+              <strong><a href="mailto:debroski@vet.upenn.edu"><p>debroski@vet.upenn.edu</p></a></strong>
+            </div>
+          </div>
+
         </div>
       </div>
       <div>
-        <iframe id="pi-vid" src="https://www.youtube.com/embed/ejG1Ph6_UHM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe id="pi-vid" src="http://www.youtube.com/embed/RBqUfMuCQXI" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0"></iframe>
       </div>
     </div>
   </div>
   <!-- Prinicipal Investigator Section End-->
 
-  <!-- Research Section Start -->
-  <div id="researchSection">
-    <div class="strike">
-      <span class="sectionTitle">Explore Our Research Findings ＋ Topics</span>
-    </div>
-    <div id="gridRS">
-        <div class="researchCard">
-          <a href="#">
-            <span><i class="bi bi-1-square"></i></span>
-            <span>Type 2 Immunity</span>
-            <span class="material-symbols-sharp">keyboard_arrow_right</span>
-          </a>
-        </div>
-
-        <div class="researchCard">
-          <a href="#">
-            <span><i class="bi bi-2-square"></i></span>
-            <span>M2 Macrophages</span>
-            <span class="material-symbols-sharp">keyboard_arrow_right</span>
-          </a>
-        </div>
-
-        <div class="researchCard">
-          <a href="#">
-            <span><i class="bi bi-3-square"></i></span>
-            <span>Trefoil Factor Family Proteins</span>
-            <span class="material-symbols-sharp">keyboard_arrow_right</span>
-          </a>
-        </div>
-
-        <div class="researchCard">
-          <a href="#">
-            <span><i class="bi bi-4-square"></i></span>
-            <span>Interleukin 33</span>
-            <span class="material-symbols-sharp">keyboard_arrow_right</span>
-          </a>
-        </div>
-
-        <div class="researchCard">
-          <a href="#">
-            <span><i class="bi bi-5-square"></i></span>
-            <span>Strongyloides Transgenesis</span>
-            <span class="material-symbols-sharp">keyboard_arrow_right</span>
-          </a>
-        </div>
-
-        <div class="researchCard">
-          <a href="#">
-            <span><i class="bi bi-6-square"></i></span>
-            <span>Neurons</span>
-            <span class="material-symbols-sharp">keyboard_arrow_right</span>
-          </a>
-        </div>
-
-        <div class="researchCard">
-          <a href="#">
-            <span><i class="bi bi-7-square"></i></span>
-            <span>Tuft Cell-Neuron Interactions</span>
-            <span class="material-symbols-sharp">keyboard_arrow_right</span>
-          </a>
-        </div>
-
-        <div class="researchCard">
-          <a href="#">
-            <span><i class="bi bi-8-square"></i></span>
-            <span>Commitment to Diversity</span>
-            <span class="material-symbols-sharp">keyboard_arrow_right</span>
-          </a>
-        </div>
-    </div>
-  </div>
-  <!-- Research Section End -->
-
-  <!-- Team Outings Section Start-->
+  <!-- Team Outings Section Start -->
+  <!-- For Mobile Start -->
   <div id="toSection">
     <div class="strike">
-      <span class="sectionTitle">Meet Our Current Team Members</span>
+      <span class="sectionTitle">Meet the Team</span>
     </div>
     <div id="gridTO">
+
       <div>
-        <img id="img" src="img/to-img-21.jpeg"></img>
+        <img id="img" src="img/thl-1.jpg"></img>
       </div>
 
-      <div class="centerText">
-        <div>
-          <p><span class="material-symbols-sharp">arrow_back</span>  Team Building ＋ <span id="c-fw">Lab Outings</span>
-        </div>
+      <div>
+        <img id="img2" src="img/thl-2.jpg"></img>
       </div>
+
+      <div>
+        <img id="img3" src="img/thl-3.jpg"></img>
+      </div>
+
     </div>
     <a href="#body"><p id="returnTop" style="border-bottom: none;"><span class="material-symbols-sharp"> expand_less</span></p></a>
   </div>
-  <!-- Team Outings Section End-->
+  <!-- For Mobile End -->
+
+  <!-- For Large Screens Start -->
+  <div id="meetTheTeamLargeScreens">
+    <div id="photoDiv0" style="display: block;">
+      <div class="strike">
+        <span class="sectionTitle">Meet The Team</span>
+      </div>
+
+      <div class="photoOuterGrid">
+            <!-- Left Arrow -->
+            <div id="leftArrow">
+              <span class="material-symbols-sharp">keyboard_double_arrow_left</span>
+            </div>
+
+              <div id="gridTONew">
+
+                <div>
+                  <img src="img/thl-1.jpg"></img>
+                </div>
+
+                <div>
+                  <img src="img/thl-2.jpg"></img>
+                </div>
+
+                <div>
+                  <img src="img/thl-3.jpg"></img>
+                </div>
+
+              </div>
+
+            <!-- Right Arrow -->
+            <div id="rightArrow" onclick="replace('photoDiv0','photoDiv1')">
+              <span class="material-symbols-sharp">keyboard_double_arrow_right</span>
+            </div>
+
+          </div>
+      </div>
+
+
+                <!-- Divs that will show once slider is clicked on Start-->
+                  <!-- Div 1 -->
+                  <div id="photoDiv1" style="display: none;">
+                    <div class="strike">
+                      <span class="sectionTitle">Meet The Team</span>
+                    </div>
+
+                      <div class="photoOuterGrid">
+                          <!-- Left Arrow -->
+                          <div id="leftArrow" onclick="replace('photoDiv1','photoDiv0')">
+                            <span class="material-symbols-sharp">keyboard_double_arrow_left</span>
+                          </div>
+
+
+                          <div id="gridTONew">
+
+                            <div>
+                              <img src="img/thl-4.jpg"></img>
+                            </div>
+
+                            <div>
+                              <img src="img/thl-5.jpg"></img>
+                            </div>
+
+                            <div>
+                              <img src="img/thl-6.jpg"></img>
+                            </div>
+
+                          </div>
+
+
+                          <!-- Right Arrow -->
+                          <div id="rightArrow" onclick="replace('photoDiv1','photoDiv2')">
+                            <span class="material-symbols-sharp">keyboard_double_arrow_right</span>
+                          </div>
+
+                        </div>
+                    </div>
+                    <!-- Div 1 End -->
+
+                    <!-- Div 2 -->
+                    <div id="photoDiv2" style="display: none;">
+                      <div class="strike">
+                        <span class="sectionTitle">Meet The Team</span>
+                      </div>
+
+                        <div class="photoOuterGrid">
+                            <!-- Left Arrow -->
+                            <div id="leftArrow" onclick="replace('photoDiv2','photoDiv1')">
+                              <span class="material-symbols-sharp">keyboard_double_arrow_left</span>
+                            </div>
+
+
+                            <div id="gridTONew">
+
+                              <div>
+                                <img src="img/thl-7.jpg"></img>
+                              </div>
+
+                              <div>
+                                <img src="img/thl-8.jpg"></img>
+                              </div>
+
+                              <div>
+                                <img src="img/thl-9.jpg"></img>
+                              </div>
+
+                            </div>
+
+
+                            <!-- Right Arrow -->
+                            <div id="rightArrow" onclick="replace('photoDiv2','photoDiv3')">
+                              <span class="material-symbols-sharp">keyboard_double_arrow_right</span>
+                            </div>
+
+                          </div>
+                      </div>
+                      <!-- Div 2 End -->
+
+                      <!-- Div 3 -->
+                      <div id="photoDiv3" style="display: none;">
+                        <div class="strike">
+                          <span class="sectionTitle">Meet The Team</span>
+                        </div>
+
+                          <div class="photoOuterGrid">
+                              <!-- Left Arrow -->
+                              <div id="leftArrow" onclick="replace('photoDiv3','photoDiv2')">
+                                <span class="material-symbols-sharp">keyboard_double_arrow_left</span>
+                              </div>
+
+
+                              <div id="gridTONew">
+
+                                <div>
+                                  <img src="img/thl-10.jpg"></img>
+                                </div>
+
+                                <div>
+                                  <img src="img/thl-11.jpg"></img>
+                                </div>
+
+                                <div>
+                                  <img src="img/thl-12.jpg"></img>
+                                </div>
+
+                              </div>
+
+
+                              <!-- Right Arrow -->
+                              <div id="rightArrow" onclick="replace('photoDiv3','photoDiv4')">
+                                <span class="material-symbols-sharp">keyboard_double_arrow_right</span>
+                              </div>
+
+                            </div>
+                        </div>
+                        <!-- Div 3 End -->
+
+                        <!-- Div 4 -->
+                        <div id="photoDiv4" style="display: none;">
+                          <div class="strike">
+                            <span class="sectionTitle">Meet The Team</span>
+                          </div>
+
+                            <div class="photoOuterGrid">
+                                <!-- Left Arrow -->
+                                <div id="leftArrow" onclick="replace('photoDiv4','photoDiv3')">
+                                  <span class="material-symbols-sharp">keyboard_double_arrow_left</span>
+                                </div>
+
+
+                                <div id="gridTONew">
+
+                                  <div>
+                                    <img src="img/thl-13.jpg"></img>
+                                  </div>
+
+                                  <div>
+                                    <img src="img/thl-14.jpg"></img>
+                                  </div>
+
+                                  <div>
+                                    <img src="img/thl-15.jpg"></img>
+                                  </div>
+
+                                </div>
+
+
+                                <!-- Right Arrow -->
+                                <div id="rightArrow" onclick="replace('photoDiv4','photoDiv5')">
+                                  <span class="material-symbols-sharp">keyboard_double_arrow_right</span>
+                                </div>
+
+                              </div>
+                          </div>
+                          <!-- Div 4 End -->
+
+                          <!-- Div 5 -->
+                          <div id="photoDiv5" style="display: none;">
+                            <div class="strike">
+                              <span class="sectionTitle">Meet The Team</span>
+                            </div>
+
+                              <div class="photoOuterGrid">
+                                  <!-- Left Arrow -->
+                                  <div id="leftArrow" onclick="replace('photoDiv5','photoDiv4')">
+                                    <span class="material-symbols-sharp">keyboard_double_arrow_left</span>
+                                  </div>
+
+
+                                  <div id="gridTONew">
+
+                                    <div>
+                                      <img src="img/thl-16.jpg"></img>
+                                    </div>
+
+                                    <div>
+                                      <img src="img/thl-17.jpg"></img>
+                                    </div>
+
+                                    <div>
+                                      <img src="img/thl-18.jpg"></img>
+                                    </div>
+
+                                  </div>
+
+
+                                  <!-- Right Arrow -->
+                                  <div id="rightArrow" onclick="replace('photoDiv5','photoDiv6')">
+                                    <span class="material-symbols-sharp">keyboard_double_arrow_right</span>
+                                  </div>
+
+                                </div>
+                            </div>
+                            <!-- Div 5 End -->
+
+                            <!-- Div 6 -->
+                            <div id="photoDiv6" style="display: none;">
+                              <div class="strike">
+                                <span class="sectionTitle">Meet The Team</span>
+                              </div>
+
+                                <div class="photoOuterGrid">
+                                    <!-- Left Arrow -->
+                                    <div id="leftArrow" onclick="replace('photoDiv6','photoDiv5')">
+                                      <span class="material-symbols-sharp">keyboard_double_arrow_left</span>
+                                    </div>
+
+
+                                    <div id="gridTONew">
+
+                                      <div>
+                                        <img src="img/thl-19.jpg"></img>
+                                      </div>
+
+                                      <div>
+                                        <img src="img/thl-20.jpg"></img>
+                                      </div>
+
+                                      <div>
+                                        <img src="img/thl-21.jpg"></img>
+                                      </div>
+
+                                    </div>
+
+
+                                    <!-- Right Arrow -->
+                                    <div id="rightArrow" onclick="replace('photoDiv6','photoDiv7')">
+                                      <span class="material-symbols-sharp">keyboard_double_arrow_right</span>
+                                    </div>
+
+                                  </div>
+                              </div>
+                              <!-- Div 6 End -->
+
+                              <!-- Div 7 -->
+                              <div id="photoDiv7" style="display: none;">
+                                <div class="strike">
+                                  <span class="sectionTitle">Meet The Team</span>
+                                </div>
+
+                                  <div class="photoOuterGrid">
+                                      <!-- Left Arrow -->
+                                      <div id="leftArrow" onclick="replace('photoDiv7','photoDiv6')">
+                                        <span class="material-symbols-sharp">keyboard_double_arrow_left</span>
+                                      </div>
+
+
+                                      <div id="gridTONew">
+
+                                        <div>
+                                          <img src="img/thl-22.jpg"></img>
+                                        </div>
+
+                                        <div>
+                                          <img src="img/thl-23.jpg"></img>
+                                        </div>
+
+                                        <div>
+                                          <img src="img/thl-1.jpg"></img>
+                                        </div>
+
+                                      </div>
+
+
+                                      <!-- Right Arrow -->
+                                      <div id="rightArrow" onclick="#">
+                                        <span class="material-symbols-sharp">keyboard_double_arrow_right</span>
+                                      </div>
+
+                                    </div>
+                                </div>
+                                <!-- Div 7 End -->
+      <a href="#body"><p id="returnTop" style="border-bottom: none;"><span class="material-symbols-sharp"> expand_less</span></p></a>
+  </div>
+  <!-- For Large Screens End -->
+  <!--Team Outings Section End-->
 
   <!-- Footer Start -->
-  <footer>
+  <footer id='footer'>
     <div id="leftCol">
       <h2>The Herbert Lab <br id="footerTextBreak"><span id="upennText">at UPENN <img src="img/penn-shield.png" alt="UPENN Shield" id="upenn-img"/></span></h2>
         <ul>
@@ -615,7 +873,6 @@
         <li><a href="#">Lab Members</a>
         <li><a href="#">Collaborators</a></li>
         <li><a href="#">Airway Physiology Core</a></li>
-        <li><a href="#">Contact</a></li>
       </ul>
     </div>
   </footer>
@@ -629,49 +886,45 @@ function replace( hide, show ) {
   document.getElementById(show).style.display="block";
 }
 
-function changeDiv() {
-    document.getElementById('sliderDiv').innerHTML = document.getElementById('secondSection').innerHTML;
-  };
-
-function changeHeading() {
-  document.getElementById('sectionHeading').innerHTML = document.getElementById('secondHeading').innerHTML;
-};
-
-
 var images = [], imgCount = -1;
-images[0] = "img/to-img-1.jpeg";
-images[1] = "img/to-img-2.jpeg";
-images[2] = "img/to-img-3.jpeg";
-images[3] = "img/to-img-4.jpeg";
-images[4] = "img/to-img-6.jpeg";
-images[5] = "img/to-img-7.jpeg";
-images[6] = "img/to-img-8.jpeg";
-images[7] = "img/to-img-9.jpeg";
-images[8] = "img/to-img-10.jpeg";
-images[9] = "img/to-img-11.jpeg";
-images[10] = "img/to-img-12.jpeg";
-images[11] = "img/to-img-13.jpeg";
-images[12] = "img/to-img-14.jpeg";
-images[13] = "img/to-img-15.jpeg";
-images[14] = "img/to-img-16.jpeg";
-images[15] = "img/to-img-17.jpeg";
-images[16] = "img/to-img-18.jpeg";
-images[17] = "img/to-img-19.jpeg";
-images[18] = "img/to-img-20.jpeg";
-images[19] = "img/to-img-1.jpeg";
+images[0] = "img/thl-4.jpg";
+images[1] = "img/thl-5.jpg";
+images[2] = "img/thl-6.jpg";
+images[3] = "img/thl-7.jpg";
+images[4] = "img/thl-8.jpg";
+images[5] = "img/thl-9.jpg";
+images[6] = "img/thl-10.jpg";
+images[7] = "img/thl-11.jpg";
+images[8] = "img/thl-12.jpg";
+images[9] = "img/thl-13.jpg";
+images[10] = "img/thl-14.jpg";
+images[11] = "img/thl-15.jpg";
+images[12] = "img/thl-16.jpg";
+images[13] = "img/thl-17.jpg";
+images[14] = "img/thl-18.jpg";
+images[15] = "img/thl-19.jpg";
+images[16] = "img/thl-20.jpg";
+images[17] = "img/thl-21.jpg";
+images[18] = "img/thl-22.jpg";
+images[19] = "img/thl-23.jpg";
 
 
 var video = [], vidCount = -1;
   video[0] = "https://www.youtube.com/embed/XxfGSuQe9Fg";
   video[1] = "http://www.youtube.com/embed/RBqUfMuCQXI";
-  video[2] = "https://www.youtube.com/embed/ejG1Ph6_UHM";
+  video[2] = "https://www.youtube.com/embed/rQ0HItHPS0Q";
+  video[3] = "https://www.youtube.com/embed/NpmBww5zVlM";
 
 
-// Toggle Menu Bar
-  function openMenu(fileName) {
-    document.getElementById("nav-menu").classList.toggle("show");
-  };
-// Toggle Menu Bar End
+  // Toggle Menu Bar
+    function toggleMobileMenu() {
+      document.getElementById("navMobileMenu").classList.toggle("show");
+    };
+
+    function toggleMainMenu(){
+      document.getElementById("navMenu").classList.toggle("hideMainMenu");
+    }
+  // Toggle Menu Bar End
 
 
 // SlideShow //
@@ -679,7 +932,13 @@ function displayNextImage() {
 
     imgCount = (imgCount === images.length - 1) ? 0 : imgCount + 1;
         document.getElementById("img").src = images[imgCount];
-    };
+
+    imgCount = (imgCount === images.length - 1) ? 0 : imgCount + 1;
+        document.getElementById("img2").src = images[imgCount];
+
+    imgCount = (imgCount === images.length - 1) ? 0 : imgCount + 1;
+      document.getElementById("img3").src = images[imgCount];
+  };
 
     function changeImage() {
         setInterval(displayNextImage, 9000);
