@@ -21,6 +21,18 @@ a:hover {
   color: #000;
 }
 
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.hideMainMenu {
+  display: none !important;
+}
+
 /* border on left and right side + text in the middle */
 .strike {
     display: block;
@@ -117,6 +129,10 @@ a:hover {
 /* Animation */
 
 /* Assigning Grid Area */
+
+#gridPI  {
+  padding: 6.5em !important;
+}
 
 #mainPageGrid {
   display: grid;
@@ -221,7 +237,6 @@ a:hover {
     width: 35px;
   }
 
-
   header a h2 {
     color: #000;
     font-family: 'Bodoni Moda', serif;
@@ -271,7 +286,7 @@ a:hover {
   .navigation {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
-    padding: 0 6em;
+    padding: 0;
     margin: 0px;
     column-gap: 5px;
     border-bottom: .5px solid;
@@ -282,16 +297,15 @@ a:hover {
   .navigation li {
     list-style-type: none;
     text-align: center;
-    font-size: 12px;
+    font-size: 16px;
     font-family: 'Yaldevi', sans-serif;
     padding-top: 10px;
     color: #000;
     font-weight: 600;
-    text-transform: uppercase;
   }
 
   .navigation li .bi {
-    font-size: 16px;
+    font-size: 20px;
   }
 
   .navigation li p {
@@ -302,6 +316,7 @@ a:hover {
     color: #000;
     font-weight: 700;
   }
+
   /* Navigation Ends */
 
   /* Intro Starts */
@@ -312,6 +327,8 @@ a:hover {
     fadeIn 7.5s;
     background: url("img/ps-img7-ge5.png");
     background-size: contain;
+    border-bottom: .5px solid;
+    border-bottom-color: rgb(132, 117, 119);
   }
 
 
@@ -485,6 +502,7 @@ a:hover {
   font-weight: 300;
   background-color: #fff !important;
   color: #000 !important;
+  margin-top: 60px;
 }
 
 .newsButtonGrid:hover {
@@ -504,7 +522,7 @@ a:hover {
 /* News Ends */
 
 
-/* Research Section Homepage Start */
+/* Research Section Homepage Start*/
 #gridRS {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -557,12 +575,10 @@ a:hover {
 .bi, .bi::before {
   vertical-align: 0px !important;
 }
-
 /* Research Section Homepage End */
 
 
 /* PI Section Start */
-
 #gridPI {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -578,13 +594,12 @@ a:hover {
   align-items: center;
 }
 
-#gridPI  div p {
+#gridPI #heading {
   font-size: 2em;
   font-family: 'Yaldevi', sans-serif;
   font-weight: 100;
   margin: 0 auto;
   color: #463f3a;
-  text-align: center;
   letter-spacing: 1.2px;
 }
 
@@ -592,10 +607,29 @@ a:hover {
   font-weight: 700;
 }
 
-#gridPI  div .material-symbols-sharp {
-  font-size: .8em;
-  margin-top: -5px;
+#innerPiGrid {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 1em;
+  margin-top: 2em;
 }
+
+#innerPiGrid img {
+  height: 175px;
+}
+
+#innerPiGrid div:nth-child(2) {
+  font-size: 1em;
+  font-family: 'Yaldevi', sans-serif;
+  font-weight: 100;
+  color: #463f3a;
+  letter-spacing: 1.2px;
+}
+
+#innerPiGrid a:hover {
+  font-weight: 700;
+}
+
 
 #piSection iframe {
   width: 100%;
@@ -604,50 +638,45 @@ a:hover {
   height: 250px;
   padding: 1em;
 }
-/* PI Section Start */
+/* PI Section End */
 
 
 /* Team Outings Section Start */
-
 #gridTO {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: auto auto auto;
   column-gap: 1em;
-  color: rgb(108, 88, 76);
-  margin: 0 auto;
-  width: 75%;
-  padding: 1em;
+  width: 100%;
+  margin: 6em auto;
   text-align: center;
-}
-
-#gridTO div p {
-  font-size: 2em;
-  font-family: 'Yaldevi', sans-serif;
-  font-weight: 100;
-  color: #463f3a;
-  text-align: center;
-  letter-spacing: 1.2px;
-}
-
-#gridTO #c-fw {
-  font-weight: 700;
-}
-
-#gridTO div .material-symbols-sharp {
-  font-size: .8em;
-  margin-top: -5px;
 }
 
 #gridTO img {
   width: auto;
   height: 250px;;
   border-radius: 3px;
-  padding: 1em;
 }
 
-#toSection .material-symbols-sharp {
-  font-size: 24px;
-  padding: 5px;
+.photoOuterGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 3em;
+}
+
+#gridTONew {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 1em;
+  width: 100%;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  text-align: center;
+}
+
+#gridTONew img {
+  width: auto;
+  height: 250px;
+  border-radius: 3px;
 }
 /* Team Outings Section End */
 
@@ -692,7 +721,6 @@ footer .bi {
 }
 /* Footer Section End */
 
-
 /* Media Queries */
 
 @media (min-width: 2560px) {
@@ -701,34 +729,66 @@ footer .bi {
     height: 100vh;
   }
 
-  #gridPI, #gridRS, #gridTO {
-    padding: 6.5em;
+  #gridPI {
+    padding: 6.5em !important;
   }
 
   #gridTwo {
     grid-template-columns: 1fr 1fr;
   }
 
+  #gridTONew img {
+    height: 350px;
+  }
+
+  .photoOuterGrid #leftArrow, .photoOuterGrid #rightArrow {
+    margin-top: 12em;
+  }
+
+  #meetTheTeamLargeScreens {
+    display: block;
+  }
+
+  #toSection {
+    display: none;
+  }
+
+
+
 }
 
 @media (max-width: 1440px) {
 
-  #gridPI, #gridRS, #gridTO {
-    padding: 6.5em;
+  #gridPI {
+    padding: 6.5em !important;
   }
+
+  .photoOuterGrid #leftArrow, .photoOuterGrid #rightArrow {
+    margin-top: 10em;
+  }
+
+  #meetTheTeamLargeScreens {
+    display: block;
+  }
+
+  #toSection {
+    display: none;
+  }
+
+
 }
 
 @media (max-width: 1024px) {
 
   #headerForMobile {
-      display: block;
-    }
-
-    #firstSection {
       display: none;
     }
 
-    #gridOne, #gridTwo, #gridRS {
+    #mainPageGrid {
+      display: block;
+    }
+
+    #gridOne, #gridTwo {
       grid-template-columns: 1fr 1fr;
     }
 
@@ -736,7 +796,7 @@ footer .bi {
       padding-bottom: 3em;
     }
 
-    #gridFour, #gridTO {
+    #gridFour {
       display: grid;
       grid-template-columns: 1fr 1fr;
   }
@@ -747,14 +807,6 @@ footer .bi {
       margin-right: auto;
     }
 
-    .hide {
-      display: none;
-    }
-
-    .show {
-      display: block;
-    }
-
   .navigation {
       grid-template-columns: repeat(4, minmax(100px, 1fr));
     }
@@ -763,8 +815,38 @@ footer .bi {
       display: none;
     }
 
-    #gridPI, #gridRS, #gridTO {
-      padding: 6.5em;
+    #gridPI {
+      padding: 6.5em !important;
+    }
+
+    .newsButtonGrid {
+      margin-top: 3em;
+    }
+
+    #gridPI, #gridTO {
+      grid-template-columns: none;
+    }
+
+    #gridTO img {
+      width: 600px;
+      height: auto;
+      border-radius: 3px;
+    }
+
+    #gridTONew img {
+      height: 175px;
+    }
+
+    .photoOuterGrid #leftArrow, .photoOuterGrid #rightArrow {
+      margin-top: 6em;
+    }
+
+    #meetTheTeamLargeScreens {
+      display: block;
+    }
+
+    #toSection {
+      display: none;
     }
 
 }
@@ -772,27 +854,18 @@ footer .bi {
   @media (max-width: 768px) {
 
     #headerForMobile {
-      display: block;
-    }
-
-    #firstSection {
       display: none;
     }
 
+    #mainPageGrid {
+      display: block;
+    }
 
     #upennTextBreak {
       display: none;
     }
 
    #introTextBreak, #footerTextBreak {
-      display: block;
-    }
-
-    .hide {
-      display: none;
-    }
-
-    .show {
       display: block;
     }
 
@@ -829,7 +902,7 @@ footer .bi {
       padding-top: 1em;
     }
 
-    #gridPI, #gridRS, #gridTO {
+    #gridPI {
       padding: 1em !important;
       margin-top: 2em;
       margin-bottom: 2em;
@@ -839,9 +912,29 @@ footer .bi {
       padding-bottom: 8em !important;
     }
 
+    .newsButtonGrid {
+      margin-top: 3em;
+    }
+
+    #gridTONew img {
+      height: 120px;
+    }
+
+    #meetTheTeamLargeScreens {
+      display: block;
+    }
+
+    #toSection {
+      display: none;
+    }
+
   }
 
   @media (max-width: 425px) {
+
+    #mainPageGrid {
+      display: none;
+    }
 
     #headerForMobile {
       display: block;
@@ -907,7 +1000,7 @@ footer .bi {
 
   }
 
-  #buttonGroup, #gridPI, #gridRS, #gridTO, footer {
+  #buttonGroup, #gridPI, #gridTO, footer {
     grid-template-columns: auto;
     margin: 0 auto;
   }
@@ -923,23 +1016,47 @@ footer .bi {
   }
 
   #piSection {
-    margin-top: 6em;
+    margin-top: 3em;
   }
 
-  #gridPI, #gridRS, #gridTO {
+  #gridPI {
     padding: 1em !important;
     margin-top: 2em;
     margin-bottom: 2em;
+  }
+
+  #gridTO {
+    margin-top: 3em;
+    margin-bottom: 3em;
   }
 
   #gridPI .material-symbols-sharp, #gridTO .material-symbols-sharp {
     display: none;
   }
 
+  #gridPI, #innerPiGrid {
+    grid-template-columns: none;
+    text-align: center;
+    width: 100%;
+  }
+
   #gridTO img {
-    max-width: 100%;
-    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    margin: 0;
     padding: 0;
+  }
+
+  #piSection iframe {
+    margin-left: -30px;
+  }
+
+  #meetTheTeamLargeScreens {
+    display: none;
+  }
+
+  #toSection {
+    display: block;
   }
 
 
@@ -951,7 +1068,7 @@ footer .bi {
       display: block;
     }
 
-    #firstSection {
+    #mainPageGrid {
       display: none;
     }
 
@@ -969,10 +1086,9 @@ footer .bi {
       display: block;
     }
 
-    #firstSection {
+    #mainPageGrid {
       display: none;
     }
-
 
     #hideTitleMobile {
       display: none;
