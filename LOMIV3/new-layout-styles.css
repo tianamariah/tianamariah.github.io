@@ -1,0 +1,1462 @@
+/* Universal Styles */
+html,
+#body {
+  width: auto!important;
+  overflow-x:hidden !important;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  color: #000;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #000;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.hideMainMenu {
+  display: none !important;
+}
+
+/* border on left and right side + text in the middle */
+.strike {
+    display: block;
+    text-align: center;
+    overflow: hidden;
+    white-space: nowrap;
+    z-index: 0;
+}
+
+.strike > span {
+    position: relative;
+    display: inline-block;
+}
+
+.strike > span:before,
+.strike > span:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 9999px;
+    height: 1px;
+    background: rgb(132, 117, 119);
+}
+
+.strike > span:before {
+    right: 100%;
+    margin-right: 15px;
+}
+
+.strike > span:after {
+    left: 100%;
+    margin-left: 15px;
+}
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+
+/* Animation */
+@keyframes scroll {
+  100% {
+    background-position:0px -3000px;
+      }
+    }
+
+@media (prefers-reduced-motion) {
+  .wrapper {
+    animation: scroll 200s linear infinite;
+  }
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-ms-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.typeWriter h1 {
+  color: #000;
+  font-family: monospace;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation:
+  typing 3.5s steps(30, end),
+  blink-caret .5s;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #fff; }
+}
+/* Animation */
+
+/* Assigning Grid Area */
+
+#gridPI  {
+  padding: 6.5em !important;
+}
+
+#mainPageGrid {
+  display: grid;
+  grid-template-rows: auto 1fr 1fr;
+  height: 100vh;
+}
+
+#gridOne {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 1em;
+  padding-top: 1em;
+}
+
+#gridTwo {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 1em;
+  row-gap: 1em;
+  padding-top: 2em;
+}
+
+#gridThree {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 10px;
+  margin-top: auto;
+}
+
+.iframe {
+    background-color: #000;
+    border: .5px solid;
+    border-color: #000;;
+    border-radius: 3px;
+    border-radius: 3px;
+    padding: 5px;
+  }
+
+#gridFour {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 10px;
+  row-gap: 10px;
+  padding-top: 2em;
+}
+
+#gridFour a {
+  display: grid;
+  grid-template-columns: 10% 1fr 10%;
+  border-radius: 3px;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(237, 224, 212, .1);
+  border: .5px solid;
+  border-color: rgb(132, 117, 119);
+  height: 30px;
+  width: 100%;
+}
+
+#gridFour a span:first-child {
+  margin:3px auto;
+  font-size: 22px;
+}
+
+#gridFour a span:nth-child(2) {
+  font-family: 'Yaldevi', sans-serif;
+  font-weight: 100;
+  font-size: 16px;
+  padding-top: 5px;
+  padding-left: 3px;
+}
+
+#gridFour a span:nth-child(3) {
+  font-size: 20px;
+  padding-top: 5px;
+}
+
+#gridFour a span:hover, #gridFour a:hover {
+  border-color: #000;
+  font-weight: 400;
+}
+/* Assigning Grid Area End */
+
+/* Header Starts */
+
+#headerForMobile {
+    display: none;
+  }
+
+  header {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    padding: .5em 6em;
+    margin-top: -10px;
+    color: #000;
+    height: 75px;
+    background-color: rgb(132, 117, 119);
+    border-bottom: .5px solid #260701;
+  }
+
+  header img {
+    width: 35px;
+  }
+
+  header a h2 {
+    color: #000;
+    font-family: 'Bodoni Moda', serif;
+    font-weight: 100;
+    font-size: 32px;
+  }
+
+  header a h2:hover {
+    color: #fff;
+  }
+
+  header h2:nth-child(2) {
+    font-family: 'Bodoni Moda', serif;
+    text-align: left;
+    letter-spacing: 1px;
+    text-align: center;
+    padding: 0;
+  }
+
+  header h2:nth-child(3) {
+    text-align: right;
+    color: #000;
+    margin-top: 35px;
+  }
+
+  header h2:nth-child(3):hover {
+    color: #fff;
+  }
+
+  #upennTextBreak {
+    display: none;
+  }
+
+  #upennText {
+    font-family: 'Yaldevi', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+  }
+
+  #upenn-img {
+    width: 18px;
+    margin-top: 5px;
+  }
+  /* Header Ends */
+
+  /* Navigation Starts */
+  .navigation {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    padding: 0;
+    margin: 0px;
+    column-gap: 5px;
+    border-bottom: .5px solid;
+    border-bottom-color: #260701;
+    background-color: rgb(253,252,251);
+  }
+
+  .navigation li {
+    list-style-type: none;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Yaldevi', sans-serif;
+    padding-top: 10px;
+    color: #000;
+    font-weight: 600;
+  }
+
+  .navigation li .bi {
+    font-size: 20px;
+  }
+
+  .navigation li p {
+    margin-top: 0px;
+  }
+
+  .navigation li:hover {
+    color: #000;
+    font-weight: 700;
+  }
+
+  /* Navigation Ends */
+
+  /* Intro Starts */
+  .bg-img {
+    background-color: #000 !important;
+    animation:
+    scroll 350s infinite,
+    fadeIn 7.5s;
+    background: url("img/ps-img7-ge5.png");
+    background-size: contain;
+    border-bottom: .5px solid;
+    border-bottom-color: rgb(132, 117, 119);
+  }
+
+
+  #introSection h1 {
+    font-family: 'Bodoni Moda', serif;
+    font-size: 40px;
+    font-weight: 400;
+    border-radius: 3px;
+    letter-spacing: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+
+
+  #introSection p {
+    font-family: 'Yaldevi', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    font-style: italic;
+    padding: 0;
+    text-align: center;
+    width: 75%;
+    margin: 0 auto;
+    padding: 10px;
+  }
+
+  #buttonGroup {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1em;
+    width: 60%;
+    margin:0 auto;
+    padding: 0;
+    text-align: center;
+  }
+
+  #buttonGroup a {
+    font-family: 'Yaldevi', sans-serif;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1.8em auto 1fr;
+    height: 25px;
+    border-radius: 3px;
+    border: .5px solid;
+    border-color: rgb(132, 117, 119);
+    color: #000;
+    background-color: #fff;
+    padding: 5px;
+  }
+
+  #buttonGroup span {
+    margin-top: 5px;
+  }
+
+  #buttonGroup a span:first-child {
+    font-size: 20px;
+    text-align: left;
+  }
+
+  #buttonGroup a span:nth-child(2) {
+    font-size: 14px;
+    text-align: left;
+  }
+
+  #buttonGroup a span:nth-child(3) {
+    font-size: 18px;
+    text-align: right;
+  }
+
+  #buttonGroup a span:hover {
+    font-weight: bold;
+  }
+
+/* Intro Ends */
+
+
+/* Section Three Outer Grid */
+.outerGrid {
+  display: grid;
+  grid-template-columns: .2fr 1fr .2fr;;
+}
+
+#outerGridFirstDiv {
+  padding: 2em;
+}
+
+#leftArrow, #rightArrow {
+  margin: 6em auto;
+}
+
+#leftArrow .material-symbols-sharp:hover, #rightArrow .material-symbols-sharp:hover {
+  font-weight: bolder;
+}
+
+#div0, #div1, #div2, #div3, #div4 {
+  margin-top: -17px;
+}
+/* Section Three Outer Grid End */
+
+/* News Starts */
+.news {
+  margin: 0;
+  padding: 0;
+}
+
+.sectionTitle {
+  font-family: 'Bodoni Moda', serif;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0;
+  text-align: center;
+  color: #fff;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background-color: rgb(132, 117, 119);
+  padding: 5px;
+  border: .5px solid;
+  border-color: #000;
+}
+
+#returnTop {
+  background-color: rgba(237, 224, 212, .1);
+  border-top: .5px solid;
+  border-top-color:rgb(132, 117, 119);
+  font-family: 'Bodoni Moda', serif;
+  font-size: 14px;
+  margin: 0;
+  text-align: center;
+}
+
+
+.newsCard {
+  background-color: rgba(237, 224, 212, .1);
+  border: .5px solid;
+  border-color: rgb(132, 117, 119);
+  color: #000;
+  padding: 1em;
+  margin-top: 1em;
+  border-radius: 3px;
+  text-align: left;
+}
+
+.newsCard small {
+  font-family: 'Yaldevi', sans-serif;
+  font-weight: 200;
+}
+
+.newsCard a h4 {
+  font-family: 'Bodoni Moda', serif;
+  font-weight: 500;
+  color: #000;
+}
+
+.newsCard a h4:hover {
+  font-weight: bolder;
+}
+
+ .newsButtonGrid {
+  border: .5px solid;
+  border-color: rgb(132, 117, 119);
+  border-radius: 3px;
+  font-family: 'Yaldevi', sans-serif;
+  padding: 5px 5px;
+  font-size: 12px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 60%;
+  font-weight: 300;
+  background-color: #fff !important;
+  color: #000 !important;
+  margin-top: 60px;
+}
+
+.newsButtonGrid:hover {
+  font-weight: bolder;
+  border: 1px solid #000;
+}
+
+.newsCard a span:nth-child(2) {
+  font-size: 18px;
+  text-align: right;
+}
+
+.newsCard a:first-child:hover {
+  font-weight: bolder;
+  border: 1px solid #000;
+}
+/* News Ends */
+
+
+/* Research Section Homepage Start*/
+#gridRS {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  background-color: #fff;
+  color: #000;
+  column-gap: 1em;
+  row-gap: 1em;
+  padding: 2em 12em;
+}
+
+.researchCard a {
+  background-color: rgba(237, 224, 212, .1);
+  border: .5px solid;
+  border-color: rgb(132, 117, 119);
+  border-radius: 3px;
+  font-family: 'Yaldevi', sans-serif;
+  padding: 10px 5px;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1.8em auto 1fr;
+  height: 30px;
+}
+
+.researchCard span {
+  margin-top: 5px;
+}
+
+.researchCard a span:first-child {
+  font-size: 18px;
+  text-align: left;
+}
+
+.researchCard a span:nth-child(2) {
+  font-size: 14px;
+  text-align: left;
+}
+
+.researchCard a span:nth-child(3) {
+  font-size: 20px;
+  text-align: right;
+}
+
+.researchCard a:hover {
+  background-color: #fff !important;
+  color: #000 !important;
+  font-weight: bolder;
+  border: .5px solid #000;
+}
+
+.bi, .bi::before {
+  vertical-align: 0px !important;
+}
+/* Research Section Homepage End */
+
+
+/* PI Section Start */
+#gridPI {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 1em;
+  margin: 0 auto;
+  width: 75%;
+  padding: 1em;
+}
+
+.centerText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#gridPI #heading {
+  font-size: 2em;
+  font-family: 'Yaldevi', sans-serif;
+  font-weight: 100;
+  margin: 0 auto;
+  color: #000;
+  letter-spacing: 1.2px;
+}
+
+#c-fw {
+  font-weight: 700;
+}
+
+#innerPiGrid {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 1em;
+  margin-top: 2em;
+}
+
+#innerPiGrid img {
+  height: 175px;
+}
+
+#innerPiGrid div:nth-child(2) {
+  font-size: 1em;
+  font-family: 'Yaldevi', sans-serif;
+  font-weight: 300;
+  color: #000;
+  letter-spacing: 1.2px;
+}
+
+#innerPiGrid a:hover {
+  font-weight: 700;
+}
+
+
+#piSection iframe {
+  width: 100%;
+  height: 100%;
+  border-radius: 3px !important;
+  height: 250px;
+  padding: 1em;
+}
+/* PI Section End */
+
+
+/* Team Outings Section Start */
+#gridTO {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 1em;
+  width: 100%;
+  margin: 6em auto;
+  text-align: center;
+}
+
+#gridTO img {
+  width: auto;
+  height: 250px;;
+  border-radius: 3px;
+}
+
+.photoOuterGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 3em;
+}
+
+#gridTONew {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 1em;
+  width: 100%;
+  padding-top: 3em;
+  padding-bottom: 3em;
+  text-align: center;
+}
+
+#gridTONew img {
+  width: auto;
+  height: 250px;
+  border-radius: 3px;
+}
+/* Team Outings Section End */
+
+
+/* Team Members Start */
+
+#teamMembersSection {
+  margin: 0 auto;
+  padding: 0;
+}
+
+#currentTeamMembersSection {
+  width: 75%;
+  margin: 5em auto;
+  text-align: center;
+}
+
+#currentTeamMembersSection h3 {
+  font-family: 'Yaldevi', sans-serif;
+  font-weight: 200;
+}
+
+.rowOne {
+  display: grid;
+}
+
+.rowTwo {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 10px;
+  width: 75%;
+  margin: -3em auto;
+}
+
+.rowThree {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 10px;
+  margin-top: -3em;
+}
+
+.rowFour {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  column-gap: 10px;
+  margin-top: -3em;
+}
+
+#formerMembersGrid, #currentRotationStudentsGrid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(200px, auto));
+  column-gap: 10px;
+  row-gap: 2em;
+  margin: 5em auto;
+  width: 75%;
+}
+
+#teamMembersSection img {
+  box-shadow: rgb(50 50 93 / 25%) 0px 13px 27px -5px, rgb(0 0 0 / 30%) 0px 8px 16px;
+  width: 200px;
+  height: auto;
+}
+
+.teamMemberBody {
+  display: grid;
+  row-gap: 10px;
+  font-family: 'Yaldevi', sans-serif;
+  font-weight: 300;
+}
+
+.teamMemberBody p {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0;
+  margin: 0;
+  margin-top: 10px;
+}
+.teamMemberBody a {
+  font-size: 14px;
+}
+
+.teamMemberBody a:nth-child(3) {
+  font-style: italic;
+  font-weight: 500;
+}
+
+.rowOne .bioLink {
+  display: grid;
+  grid-template-columns: 95% 5%;
+  width: 10%;
+  margin: 0 auto;
+}
+
+.rowTwo .bioLink {
+  display: grid;
+  grid-template-columns: 95% 5%;
+  width: 30%;
+  margin: 0 auto;
+}
+
+.rowThree .bioLink {
+  display: grid;
+  grid-template-columns: 95% 5%;
+  width: 35%;
+  margin: 0 auto;
+}
+
+.rowFour .bioLink {
+  display: grid;
+  grid-template-columns: 95% 5%;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.bioLink span:nth-child(2) {
+  text-align: left;
+}
+
+.bioLink .material-symbols-sharp {
+  font-size: 18px;
+}
+
+#formerMembersGrid div, #currentRotationStudentsGrid div {
+  display: grid;
+  margin: 0 auto;
+  padding: 1em;
+  background-color: rgba(237, 224, 212, .1);
+  border: .5px solid;
+  border-color: rgb(132, 117, 119);
+  border-radius: 3px;
+  height: auto;
+  width: 75%;
+  font-family: 'Yaldevi', sans-serif;
+  font-weight: 100;
+  font-size: 14px;
+  text-align: center;
+}
+
+#formerMembersGrid div span:first-child {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+#currentRotationStudentsGrid div span:first-child {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+#currentRotationStudentsGrid div span:nth-child(2) {
+  font-weight: 100;
+  font-size: 14px;
+  width: 50%;
+  margin: 0 auto;
+  padding: .5em;
+}
+
+#currentRotationStudentsGrid div span:nth-child(3) {
+  font-size: 20px;
+}
+
+
+#formerMembersGrid a span:first-child {
+  margin:3px auto;
+  font-size: 22px;
+}
+
+#formerMembersGrid a span:nth-child(2) {
+  font-family: 'Yaldevi', sans-serif;
+  font-weight: 100;
+  font-size: 14px;
+  padding-top: 5px;
+  padding-left: 3px;
+}
+
+#formerMembersGrid a span:nth-child(3) {
+  font-size: 20px;
+  padding-top: 5px;
+}
+
+#formerMembersGrid a span:hover, #gridFour a:hover {
+  border-color: #000;
+  font-weight: 400;
+}
+
+/* Modal Styles for Team Member Bios Start */
+  .overLay {
+   width:300px;
+   height:80px;
+   font-size:25px;
+   cursor:pointer
+   }
+
+ .modalbox {
+   font-family: 'Yaldevi', sans-serif;
+   min-width: 100%;
+   position: fixed;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   background: rgba(81, 51, 51, 0.5);
+   z-index: 99999;
+   pointer-events: auto;
+   display:none;
+   overflow-y:auto;
+   -webkit-overflow-scrolling: touch;
+ }
+
+ .modalbox > .dialog {
+   font-family: 'Yaldevi', sans-serif;
+   max-width: 100%;
+   position: relative;
+   top: 10px;
+   margin: 5% 10%;
+   padding: 5px 20px 13px 20px;
+   background: #ffffff;
+   box-shadow: 0 0 10px #000000;
+   -moz-box-shadow: 0 0 10px #000000;
+   -webkit-box-shadow: 0 0 10px #000000;
+   display: block;
+   pointer-events: auto;
+ }
+
+ .closebutton {
+   float: right;
+   color: #000;
+   cursor:pointer;
+ }
+
+/* Modal Styles for Team Member Bios End */
+
+/* Team Members End */
+
+
+/* Footer Section Start */
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 1em 6em;
+  background-color: rgba(132, 117, 119, .2);
+  border-top: .5px solid;
+  border-color: rgb(132, 117, 119);
+}
+
+footer ul {
+  padding-left: 0px;
+}
+
+footer ul li {
+  list-style-type: none;
+  font-size: 14px;
+}
+
+#leftCol {
+  text-align: left;
+  font-family: 'Yaldevi', sans-serif;
+}
+
+#leftCol h2 {
+  font-family: 'Bodoni Moda', serif;
+}
+
+#rightCol {
+  text-align: right;
+  font-family: 'Yaldevi', sans-serif;
+  padding-top: 55px;
+}
+
+footer .bi {
+  font-size: 24px;
+  margin-top: 5px;
+}
+/* Footer Section End */
+
+/* Media Queries */
+
+@media (min-width: 2560px) {
+  #mainPageGrid {
+    grid-template-rows: auto 1fr 1fr;
+    height: 100vh;
+  }
+
+  #gridPI {
+    padding: 6.5em !important;
+  }
+
+  #gridTwo {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  #gridTONew img {
+    height: 350px;
+  }
+
+  .photoOuterGrid #leftArrow, .photoOuterGrid #rightArrow {
+    margin-top: 12em;
+  }
+
+  #meetTheTeamLargeScreens {
+    display: block;
+  }
+
+
+
+
+}
+
+@media (max-width: 1440px) {
+
+  #gridPI {
+    padding: 6.5em !important;
+  }
+
+  .photoOuterGrid #leftArrow, .photoOuterGrid #rightArrow {
+    margin-top: 10em;
+  }
+
+  #meetTheTeamLargeScreens {
+    display: block;
+  }
+
+
+
+
+}
+
+@media (max-width: 1024px) {
+
+  #headerForMobile {
+      display: none;
+    }
+
+    #mainPageGrid {
+      display: block;
+    }
+
+    #gridOne, #gridTwo {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    #gridOne, #gridFour {
+      padding-bottom: 3em;
+    }
+
+    #gridFour {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+  }
+
+    #introMessage {
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+  .navigation {
+      grid-template-columns: repeat(4, minmax(100px, 1fr));
+    }
+
+  #upennTextBreak {
+      display: none;
+    }
+
+    #gridPI {
+      padding: 6.5em !important;
+    }
+
+    .newsButtonGrid {
+      margin-top: 3em;
+    }
+
+    #gridPI, #gridTO {
+      grid-template-columns: none;
+    }
+
+    #gridTO img {
+      width: 600px;
+      height: auto;
+      border-radius: 3px;
+    }
+
+    #gridTONew img {
+      height: 175px;
+    }
+
+    .photoOuterGrid #leftArrow, .photoOuterGrid #rightArrow {
+      margin-top: 6em;
+    }
+
+    #meetTheTeamLargeScreens {
+      display: block;
+    }
+
+    #currentTeamMembersSection {
+      width: 100%;
+    }
+
+
+
+}
+
+  @media (max-width: 768px) {
+
+    #headerForMobile {
+      display: none;
+    }
+
+    #mainPageGrid {
+      display: block;
+    }
+
+    #upennTextBreak {
+      display: none;
+    }
+
+   #introTextBreak, #footerTextBreak {
+      display: block;
+    }
+
+    .navigation {
+      grid-template-columns: repeat(4, minmax(100px, 1fr));
+    }
+
+    .outerGrid {
+    display: grid;
+    grid-template-columns: .2fr auto .2fr;
+  }
+
+    #outerGridFirstDiv,
+    #introSection {
+      width: 650px;
+      padding-top: 2em;
+      margin: 0 auto;
+    }
+
+    #gridOne,
+    #gridTwo,
+    #gridFour {
+      grid-template-columns: auto auto;
+      margin: 0 auto;
+      padding-top: 1em;
+      padding-bottom: 2em;
+      width: 100%;
+    }
+
+    #gridThree {
+      grid-template-columns: auto;
+      width: auto;
+      margin: 0 auto;
+      padding-top: 1em;
+    }
+
+    #gridPI {
+      padding: 1em !important;
+      margin-top: 2em;
+      margin-bottom: 2em;
+    }
+
+    .outerGridThree {
+      padding-bottom: 8em !important;
+    }
+
+    .newsButtonGrid {
+      margin-top: 3em;
+    }
+
+    #gridTONew img {
+      height: 120px;
+    }
+
+    #meetTheTeamLargeScreens {
+      display: block;
+    }
+
+    #formerMembersGrid {
+      grid-template-columns: repeat(3, minmax(200px, auto));
+      width: 80%;
+    }
+
+    .rowFour {
+      grid-template-columns: auto auto;
+    }
+
+
+
+  }
+
+  @media (max-width: 425px) {
+
+    #mainPageGrid {
+      display: none;
+    }
+
+    #headerForMobile {
+      display: block;
+    }
+
+    #firstSection {
+      display: none;
+    }
+
+    #upennTextBreak, #introTextBreak {
+      display: block;
+    }
+
+    header {
+      height: 80px;
+      padding: 1em;
+    }
+
+    #headerIcon {
+      margin-top: 10px;
+    }
+
+    #headerTitle {
+      font-size: 20px;
+      text-align: center;
+    }
+
+    header h2:nth-child(3) {
+      margin-top: 22px;
+    }
+
+    .navigation {
+      grid-template-columns: repeat(1, minmax(100px, 1fr));
+    }
+
+    #leftArrow, #rightArrow {
+      display: none;
+    }
+
+    .sectionTitle {
+      letter-spacing: 0px;
+      text-transform: none;
+      font-family: 'Bodoni Moda', serif;
+      font-size: 14px;
+      font-weight: 700;
+      color: #000;
+      letter-spacing: 1px;
+      background-color: #fff;
+      border: none;
+      border-color: none;
+    }
+
+
+  .outerGrid, #outerGridFirstDiv, #introSection {
+    width: 425px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .typeWriter h1 {
+    animation: none;
+  }
+
+  #introSection h1{
+    text-align: left;
+    padding: 10px;
+  }
+
+  #introSection p {
+    font-size: 16px;
+    text-align: left;
+    font-style: normal;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    width: auto;
+
+  }
+
+  #buttonGroup, #gridPI, #gridTO, footer {
+    grid-template-columns: auto;
+    margin: 0 auto;
+  }
+
+  #buttonGroup {
+    width: auto;
+    padding: 10px;
+  }
+
+
+  footer {
+    padding: 1em;
+  }
+
+ #rightCol {
+    text-align: left;
+    padding-top: 0px;
+  }
+
+  #piSection {
+    margin-top: 3em;
+  }
+
+  #gridPI {
+    padding: 1em;
+    margin-bottom: 2em;
+  }
+
+  #gridTO {
+    margin-top: 3em;
+    margin-bottom: 3em;
+  }
+
+
+  #gridPI, #innerPiGrid {
+    grid-template-columns: none;
+    width: 100%;
+  }
+
+  #innerPiGrid {
+    margin-top: 0;
+  }
+
+  #innerPiGrid div:nth-child(2) p {
+    font-size: 16px;
+    letter-spacing: 0;
+  }
+
+  #gridTO img {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+  }
+
+  #heading {
+    display: none;
+  }
+
+  #innerPiGrid img {
+    height: auto;
+  }
+
+  #piSection iframe {
+    margin-left: -30px;
+  }
+
+  #meetTheTeamLargeScreens {
+    display: none;
+  }
+
+  #toSection {
+    display: block !important;
+  }
+
+  .centerText {
+    display: block;
+  }
+
+  #innerPiGrid img {
+    height: 530px;
+  }
+
+  #innerPiGrid div:nth-child(2) p {
+    font-size: 20px;
+    letter-spacing: 0;
+  }
+
+  #formerMembersGrid {
+    grid-template-columns: repeat(2, minmax(200px, auto));
+    width: 100%;
+  }
+
+  .rowThree {
+    grid-template-columns: auto auto;
+    margin-top: auto;
+  }
+
+  .rowTwo {
+    width: 100%;
+    margin: auto;
+  }
+
+  }
+
+  @media (max-width: 375px) {
+
+    #headerForMobile {
+      display: block;
+    }
+
+    #mainPageGrid {
+      display: none;
+    }
+
+    #hideTitleMobile {
+      display: none;
+    }
+
+    #introSection {
+      width: 375px;
+  }
+
+  #introSection h1 {
+    font-size: 32px;
+  }
+
+  #toSection {
+    display: block !important;
+  }
+
+  .centerText {
+    display: block;
+  }
+
+  #innerPiGrid img {
+    height: 450px;
+  }
+
+  #innerPiGrid div:nth-child(2) p {
+    font-size: 16.5px;
+    letter-spacing: 0;
+  }
+
+  #formerMembersGrid {
+    grid-template-columns: auto;
+    width: 100%;
+    text-align: center;
+  }
+
+  .rowTwo,
+  .rowThree,
+  .rowFour {
+    grid-template-columns: auto;
+  }
+
+}
+
+  @media (max-width: 320px) {
+
+    #headerForMobile {
+      display: block;
+    }
+
+    #mainPageGrid {
+      display: none;
+    }
+
+    #hideTitleMobile {
+      display: none;
+    }
+
+    #introSection {
+      width: 300px;
+    }
+
+    #introSection h1{
+      font-size: 27px;
+    }
+
+  #introSection p {
+    text-align: left;
+  }
+
+  #toSection {
+    display: block !important;
+  }
+
+  .centerText {
+    display: block;
+  }
+
+  #innerPiGrid img {
+    height: 375px;
+  }
+
+  #innerPiGrid div:nth-child(2) p {
+    font-size: 14px;
+    letter-spacing: 0;
+  }
+
+}
