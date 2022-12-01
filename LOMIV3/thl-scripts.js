@@ -174,7 +174,7 @@ images[19] = "img/thl-23.jpg";
 
 var video = [], vidCount = -1;
   video[0] = "https://www.youtube.com/embed/XxfGSuQe9Fg";
-  video[1] = "http://www.youtube.com/embed/RBqUfMuCQXI";
+  video[1] = "https://www.youtube.com/embed/RBqUfMuCQXI";
   video[2] = "https://www.youtube.com/embed/rQ0HItHPS0Q";
   video[3] = "https://www.youtube.com/embed/NpmBww5zVlM";
 
