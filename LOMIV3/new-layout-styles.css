@@ -688,8 +688,24 @@ a:hover {
 /* Team Members Start */
 
 #teamMembersSection {
-  margin: 0 auto;
+  margin: 3em auto;
   padding: 0;
+  text-align: center !important;
+}
+
+#teamMembersSection .firstTitle {
+  text-align: center !important;
+  font-family: 'Bodoni Moda', serif;
+  font-size: 1.5em;
+  font-weight: 400;
+  margin: 0;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 0;
+  padding-bottom: 1em;
+  background-color: #fff;
+  color: #000;
+  border: none;
 }
 
 #currentTeamMembersSection {
@@ -987,6 +1003,84 @@ a:hover {
 /* Modal Styles for Team Member Bios End */
 
 /* Team Members End */
+
+/* News Section Start */
+#newsSectionGrid {
+  display: grid;
+  grid-template-columns: 8em auto;
+
+}
+
+#newsNavigationGrid {
+  display: grid;
+  height: auto;
+}
+
+#newsNavigation div  {
+  font-family: 'Yaldevi', sans-serif;
+  font-size: 12px;
+  padding: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+#newsNavigation a:hover {
+  text-decoration: underline;
+}
+
+#newsNavigation div:nth-child(9) {
+  border-bottom: none;
+}
+
+#newsNavigation{
+  border-right: .5px solid #eee;
+}
+
+#newsMain {
+  padding: 3em;
+}
+
+#newsMain #gridOne {
+  padding: 0;
+  margin: 0;
+}
+
+.mainNewsTitle {
+  font-family: 'Bodoni Moda', serif;
+  font-size: 1.2em;
+  font-weight: 400;
+  margin: 0;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 0;
+  padding-bottom: 1em;
+}
+
+.subNewsTitle, .subNewsTitle2 {
+  font-family: 'Yaldevi', sans-serif;
+  letter-spacing: 1px;
+  font-weight: 100;
+  font-size: 1em;
+  padding: 0;
+  margin: 0;
+  text-align: left !important;
+}
+
+.subNewsTitle2 {
+    margin-top: 2em;
+}
+
+#newsMain .newsCard {
+  background-color: rgba(237, 224, 212, .1);
+  border: none;
+  border-color: rgb(132, 117, 119);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  color: #000;
+  padding: .5em;
+  border-radius: 3px;
+  text-align: left;
+}
+/* News Section End */
 
 
 /* Footer Section Start */
