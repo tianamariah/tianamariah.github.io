@@ -1,0 +1,293 @@
+/* Fonts */
+  @font-face {
+    font-family: 'Coffe-Reg';
+    src: url('fonts/CoffekanRegular.ttf');
+  }
+
+  @font-face {
+    font-family: 'Artemis';
+    src: url('fonts/Artemis.otf');
+  }
+
+/* Fonts */
+
+/* Universal Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {width: auto!important; overflow-x:auto !important;}
+
+body {
+  background-image: url(img/bg.jpg);
+  background-size: cover;
+  background-position: cover;
+  height: 100vh; /* Set this to auto to get scroll functionality to work */
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+img, video {
+  object-fit: cover;
+}
+
+/* Universal Styles */
+
+
+#mainGrid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  column-gap: 5px;
+  row-gap: 5px;
+}
+
+.box {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.innerBox {
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+}
+
+#textBox  {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+#textBox div {
+  text-align: center;
+}
+
+.border {
+  border: .5px solid #000;
+}
+
+.borderTBR {
+  border-top:.5px solid #000;
+  border-bottom: .5px solid #000;
+  border-right: .5px solid #000;
+}
+
+.centerText div {
+  border: none !important;
+}
+
+.centerText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.innerBox img, .innerBox video {
+  animation: fadeIn 2s;
+  width: inherit;
+  height: inherit;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
+#infoBox1 {
+  border: 1px solid #000;
+  background: linear-gradient(to bottom, rgb(0,0,0, .3), transparent); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #000;
+  padding: 20px;
+}
+
+#infoBox2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  background: linear-gradient(to bottom, rgb(0,0,0, .3), transparent); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#infoBox2:hover {
+  background: linear-gradient(to bottom, rgb(255, 255, 255, .3), transparent); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#infoBox2 div:nth-child(1), #infoBox2 div:nth-child(2), #infoBox2 div:nth-child(3) {
+  border-right: .5px solid #000;
+}
+
+.infoBoxText {
+  padding: 0;
+  margin: 0;
+}
+
+.infoBoxText div {
+  display: grid;
+  grid-template-columns: 10% auto;
+  transform: rotate(90deg);
+  width: 50px;
+}
+
+.infoBoxText div a {
+  font-family: 'Artemis';
+  font-size: 40px;
+  letter-spacing: 10px;
+  text-decoration: none;
+  color: #000;
+  margin-left: -160px;
+  text-align: left;
+}
+
+.infoBoxText div a:hover {
+  letter-spacing: 20px;
+  font-weight: bolder;
+}
+
+
+.emoji {
+  margin-left: -390px;
+  margin-top: -10px;
+  font-size: 28px;
+  padding-left: 5px;
+  transform: rotate(90deg);
+}
+
+#contactDropDown {
+  background-color: #000;
+  color: #fff;
+  font-family: 'Artemis';
+  width: 100%;
+}
+
+#title {
+  color: #000;
+  font-family: 'Artemis';
+  font-size: 72px;
+}
+
+#addressName {
+  font-family: 'Artemis';
+  letter-spacing: 3px;
+}
+
+#tagline {
+  color: #000;
+  font-family: 'Coffe-Reg';
+  font-size: 50px;
+}
+
+#logo svg {
+  fill: #000;
+  animation: rise 2s;
+  position: relative;
+  stroke: #000;
+  stroke-width: 2px;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+
+#infoBox3 {
+  font-family: 'Exo', sans-serif;
+  line-height: 38px;
+  color: #000;
+  border-top: none;
+  font-weight: 300;
+  letter-spacing: 3px;
+  padding: 1em;
+  text-align: left;
+}
+
+#infoBox4 {
+  font-family: 'Exo', sans-serif;
+  color: #000;
+  font-size: 20px;
+  line-height: 38px;
+  font-weight: 300;
+  padding: 1em;
+  text-align: right;
+}
+
+
+/* Animations */
+.fade-in-image {
+  animation: fadeIn 5s;
+}
+
+@keyframes rise {
+  from {top: 150px;}
+  to {top: 0px;}
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Animations */
+
+@media (min-width: 2560px) {
+
+}
+
+
+
+@media (max-width: 1024px) {
+  #mainGrid {
+    grid-template-columns: auto;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+}
+
+
+@media (max-width: 425px) {
+
+  .box {
+    grid-template-columns: auto;
+  }
+
+  #infoBox2 {
+    display: none;
+  }
+
+  .emoji {
+    display: none;
+  }
+
+  footer {
+    background-color: #fff;
+    grid-template-columns: auto;
+    border: .5px solid #000;
+  }
+
+  .footerTitle {
+    font-family: 'Artemis';
+    font-weight: bold;
+    font-size: 24px;
+  }
+
+  #infoBox3, #infoBox4 {
+    padding: 10px;
+  }
+
+  #infoBox3 {
+    text-align: justify;
+  }
+
+  #infoBox4 {
+    border: none;
+    background-color: #000;
+    color: #fff;
+  }
+
+}
