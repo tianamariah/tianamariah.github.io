@@ -1,0 +1,1161 @@
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                                    /* Body Styles */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+html, body {width: auto!important; overflow-x:auto !important;}
+
+#body, #mobileMenu, #navbarNavAltMarkup #mobileNavbarNavAltMarkup, .nav, .navbar, #image1, #body.container-fluid {
+  background-color: #000 !important;
+}
+
+#navbarNavAltMarkup a,  #mobileNavbarNavAltMarkup a, {
+  background-color: #000 !important;
+}
+
+body {
+    background-color: #000 !important;
+}
+
+#main {
+  background-image: url('img/shopImage.jpg');
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 10%;
+  width: auto;
+}
+
+
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                                    /* Nav Styles */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+
+
+.navbar {
+  background-color: #000 !important;
+  height: 400px !important;
+}
+
+.navbar, .navbar a, .navbar-brand a {
+  font-family: 'Thasadith', sans-serif;
+  color: #ED6EAD;
+  font-weight: bolder !important;
+  background-color: #000 !important;
+}
+
+.navbar-nav {
+  text-transform: uppercase;
+  background-color: #000 !important;
+}
+
+
+.nav-item:hover.nav-link:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+#navbarNavAltMarkup {
+  margin-left: 50%;
+  text-align: center;
+}
+
+#title img {
+  width: auto;
+  height: 100px;
+  margin-left: 40% !important;
+}
+
+#title {
+    margin-top: -.6% !important;
+}
+
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                                    /* Nav Styles End */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                                    /* Background Images  Styles */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+#image1 {
+  background-image: url('img/shopImage.jpg');
+  background-position: top;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 15%;
+  height: 230px;
+  opacity: .5;
+
+}
+
+#image3 {
+  background-image: url('img/img4.jpg');
+  background-position: right;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 15%;
+  height: 230px;
+  opacity: .5;
+}
+
+#image4 {
+  background-image: url('img/img3.jpg');
+  background-position: bottom;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 15%;
+  height: 230px;
+  opacity: .5;
+}
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                                    /* Background Images Styles End  */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                                    /* Mobile Menu  Styles */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+#mobileBreak {
+  display: none !important;
+}
+
+#mobileMenu {
+  display: none !important;
+}
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                                    /* Mobile Menu Styles End */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                                    /* Intro  Styles */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+
+#intro {
+  text-align: right;
+  margin-left: 18%;
+  margin-top: 5%;
+  color: #000;
+}
+
+#intro h1 {
+  font-family: 'Thasadith', sans-serif;
+}
+
+#intro p, #intro a {
+  font-family: 'Thasadith', sans-serif;
+  text-align: center;
+    color:  #ED6EAD;
+}
+
+#hr1 {
+  background-color: #000 !important;
+}
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                                    /* Intro  Styles End */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+
+
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                                    /* Button  Styles */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+#mainButton.btn, #mobileTagline6.btn {
+  text-transform: none !important;
+  letter-spacing: 2.5px;
+  font-size: 10px !important;
+}
+
+#mobileTagline6:hover, #mainButton:hover {
+  background-color: #fff !important;
+}
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                                    /* Button Styles End */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+
+
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                                    /* About Section  Styles */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+#aboutMe {
+  padding: 10%;
+}
+
+#about h1 {
+  text-align: center;
+}
+
+#aboutMe {
+  margin-top: -15% !important;
+}
+
+#aboutContent {
+  margin-top: 5%;
+  color:  #ED6EAD;
+  padding: 20%;
+  font-family: 'Thasadith', sans-serif;
+  text-align: center;
+}
+#aboutSection {
+  font-family: 'Thasadith', sans-serif;
+  text-align: center;
+  color:  #ED6EAD;
+  margin-top: 10%;
+  padding: 5%;
+}
+
+#aboutContent a {
+  color: #ED6EAD !important;
+
+}
+
+#aboutContent a:hover {
+  color: #fff !important;
+  text-decoration: none !important;
+}
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                                    /* About Section Styles End */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                                    /* Gallery Styles */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+ #photoGallerySection {
+   color:  #ED6EAD;
+   font-family: 'Thasadith', sans-serif;
+   text-align: center;
+ }
+
+ #photoGallerySection {
+   padding: 5%;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: center !important;
+ }
+
+ #photoGallerySection img {
+   padding: 5%;
+ }
+ /* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                                     /* Gallery Styles End */
+ /* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+
+
+
+ /* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                                     /* Event Section  Styles */
+ /* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+#eventSection {
+  padding: 10%;
+  font-family: 'Thasadith', sans-serif;
+  text-align: center;
+  color:  #ED6EAD;
+  margin-top: 5%;
+  height: 300px !important
+}
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                                    /* Event Section Styles End */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+
+
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                                    /* Social Media Icon Styles */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+#socialsAbout a, #socialsAbout i, #intro i {
+    text-align: center;
+    margin-top: 1%;
+    padding: 1%;
+    font-size: 20px;
+    color: #ED6EAD;
+}
+
+#socials i {
+  margin-top: -.5% !important;
+  margin-top: 1%;
+  padding: 1%;
+  color: #ED6EAD;
+}
+
+#socials a {
+  margin-top: 1%;
+  padding: 1%;
+  color: #ED6EAD;
+}
+
+#socials i:hover {
+  color: #fff;
+}
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                                    /* Social Media Icon Styles End */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+
+
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                                    /* Footer  Styles */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+#footerButton {
+  background-color: transparent;
+  color: #ED6EAD;
+  border: .5px solid #ED6EAD;
+  font-family: 'Thasadith', sans-serif;
+  text-transform: none !important;
+  letter-spacing: 2.5px;
+  font-size: 10px !important;
+}
+
+ #footerButton:hover  {
+  background-color: white;
+  color: #ED6EAD;
+}
+
+
+#footer {
+  font-family: 'Thasadith', sans-serif;
+  background-color: #000 !important;
+  height: auto !important;
+  text-align: center;
+  padding: 1%;
+}
+
+#footer a  {
+  color: #fff;
+  font-size: 12px;
+  letter-spacing: 3px;
+  color: #ED6EAD;
+}
+
+#footer a:hover {
+  color: #fff;
+}
+
+#footerTagline, #footerButton, {
+  margin-top: 5px  !important;
+  color: #ED6EAD;
+}
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                                    /* Footer Styles End */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+
+
+
+/*♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                                    /* Body Styles End */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                        /* Media Queries For Responsive Design*/
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                        /*Small devices (landscape phones, 320px and up) */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+@media only screen and (min-width: 320px)  {
+
+  #title {
+    margin-top: -2% !important;
+    margin-left: 36%! important;
+  }
+
+
+  #title img {
+      margin-top: -15% !important;
+      margin-left: -2% !important;
+      width: auto;
+      height: 100px;
+  }
+
+
+  #mobileNavbarNavAltMarkup {
+    width: 150% !important
+  }
+
+  #mobileMenu {
+    display: block !important;
+    margin-top: -5% !important;
+    height: 44px !important;
+    margin-left: -25% !important;
+  }
+
+  #mobileMenu a {
+    font-size: 16px !important;
+  }
+
+
+  .navbar {
+    height: 100px !important;
+  }
+
+
+  #main {
+    background-image: none !important;
+
+  }
+
+  #intro {
+    margin-top: 50% !important;
+  }
+
+  #intro a {
+    text-decoration: none !important;
+    text-align: center;
+  }
+
+  #hr1 {
+    background-color: #ED6EAD !important;
+  }
+
+  #image1, #image3, #image4 {
+    display: none !important;
+  }
+
+  #mobileTagline6 {
+    color: #ED6EAD !important;
+    border-color: #ED6EAD !important;
+    background-color: #000 !important;
+    text-transform: none !important;
+    text-decoration: none !important;
+    text-align: center;
+  }
+
+  #mobileBreak {
+    display: inline !important;
+  }
+
+  #mobileTagline3, #mobileTagline4, #mobileTagline5, #mobileTagline6 {
+    color: #ED6EAD !important;
+  }
+
+  #intro {
+    width: 100% !important;
+    margin-left: -2% !important;
+  }
+
+  #mobileTagline1, #mobileTagline2 {
+    display: none !important;
+  }
+
+
+  #mobileTagline3, #mobileTagline4, #mobileTagline5, #mobileTagline6 {
+    text-align: center !important;
+  }
+
+  #mobileTagline6 {
+    display: none !important;
+  }
+
+  #aboutImage {
+    width: 350px !important;
+    margin-left: -34% !important;
+  }
+
+  #aboutContent p {
+    font-size: 16px !important;
+  }
+
+  #photoGallerySection img {
+    width: 320px !important;
+    height: auto !important;
+    margin-left: -20% !important;
+  }
+
+
+  #socials {
+    margin-left: 5% !important;
+    margin-top: -5% !important;
+  }
+
+  #footerTagline {
+    margin-top: -5%  !important;
+    margin-left: -5% !important;
+  }
+
+
+  #footerButton {
+    margin-top: 5% !important;
+    margin-left: 10% !important;
+  }
+
+
+  #footerTagline a {
+    font-size: 10px !important;
+    margin-top: -20% !important;
+  }
+
+}
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                        /*Small devices (landscape phones, 360px and up) */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+
+ @media only screen and (min-width: 375px) {
+
+   #title {
+     margin-top: -2% !important;
+     margin-left: 33%! important;
+   }
+
+
+   #title img {
+       margin-top: -5% !important;
+       margin-left: 35% !important;
+       width: auto;
+       height: 100px;
+   }
+
+
+   #mobileNavbarNavAltMarkup {
+     width: 150% !important
+   }
+
+
+   #mobileMenu {
+     display: block !important;
+     font-size: 10.5px !important;
+     margin-top: -2.5% !important;
+     height: 44px !important;
+     margin-left: -15% !important;
+   }
+
+   #intro {
+     margin-top: 45% !important;
+   }
+
+   #hr1 {
+     background-color: #ED6EAD !important;
+   }
+
+   #aboutImage {
+     width: 350px !important;
+     margin-left: -20% !important;
+   }
+
+   #photoGallerySection img {
+     width: 375px !important;
+     height: auto !important;
+     margin-left: -19% !important;
+   }
+
+   #footerTagline a {
+     margin-top: -25%  !important;
+     margin-left: 5% !important;
+   }
+
+ }
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                          /*Small devices (landscape phones, 425px and up) */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+
+@media only screen and (min-width: 425px) {
+
+  #title {
+    margin-top: -2% !important;
+    margin-left: 35%! important;
+  }
+
+  #mobileNavbarNavAltMarkup {
+    width: 150% !important
+  }
+
+  #mobileMenu {
+    display: block !important;
+    margin-top: -2% !important;
+    height: 44px !important;
+    margin-left: -15% !important;
+  }
+
+  #mobileMenu a {
+    font-size: 20px !important;
+  }
+
+  #intro {
+    margin-top: 40% !important;
+  }
+
+  #hr1 {
+    background-color: #ED6EAD !important;
+  }
+
+  #aboutImage {
+    width: 425px !important;
+    margin-left: -22% !important;
+  }
+
+  #photoGallerySection img {
+    width: 425px !important;
+    height: auto !important;
+    margin-left: -17% !important;
+  }
+
+  #socials {
+    margin-left: 5% !important;
+    margin-top: -3% !important;
+  }
+
+  #footerTagline {
+    margin-top: -5%  !important;
+    margin-left: -5% !important;
+  }
+
+  #footerButton {
+    margin-top: 1% !important;
+    margin-left: 10% !important;
+  }
+
+
+  #footerTagline a {
+    font-size: 10px !important;
+    margin-top: -20% !important;
+    margin-left: 7.5% !important;
+  }
+
+
+   }
+
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                           /*Medium devices (tablets, 506px and up)*/
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+
+@media only screen and (min-width: 500px) {
+
+  #title {
+    margin-top: -2% !important;
+    margin-left: 38%! important;
+  }
+
+  #mobileNavbarNavAltMarkup {
+    width: 150% !important
+  }
+
+  #mobileMenu {
+    display: block !important;
+    margin-top: -2% !important;
+    height: 44px !important;
+    margin-left: -5% !important;
+  }
+
+  #mobileMenu a {
+    font-size: 20px !important;
+  }
+
+  #intro {
+    margin-top: 40% !important;
+  }
+
+  #hr1 {
+    background-color: #ED6EAD !important;
+  }
+
+  #aboutImage {
+    width: 500px !important;
+    margin-left: -22% !important;
+  }
+
+  #photoGallerySection img {
+    width: 510px !important;
+    height: auto !important;
+    margin-left: -15% !important;
+  }
+
+  #socials {
+
+    margin-top: -3% !important;
+  }
+
+  #footerTagline {
+    margin-top: -5%  !important;
+
+  }
+
+  #footerButton {
+    margin-top: 1% !important;
+
+  }
+
+
+  #footerTagline a {
+    font-size: 10px !important;
+    margin-top: -20% !important;
+    margin-left: 12% !important;
+  }
+
+
+
+
+}
+
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                        /*Tablet Devices 768px and up) */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+@media  only screen and (min-width: 575px) {
+
+
+
+  #title img {
+    width: auto;
+    height: 100px;
+    margin-left: 55% !important;
+    margin-top: -5% !important;
+    width: 100% !important;
+  }
+
+
+  #mobileMenu {
+    display: block !important;
+    margin-top: -1% !important;
+    height: 44px !important;
+    margin-left: -24% !important;
+    background-color: #000 !important;
+    width: 100% !important;
+  }
+
+  #mobileMenu a {
+    background-color: #000 !important;
+    font-size: 25px !important;
+  }
+
+  #intro {
+    margin-top: 30% !important;
+    margin-left: 2% !important;
+  }
+
+  #hr1 {
+    background-color: #ED6EAD !important;
+  }
+
+  #aboutImage {
+    width: 450px !important;
+    margin-left: -5% !important;
+  }
+
+
+  #photoGallerySection {
+    width: 100% !important;
+  }
+
+
+  #photoGallerySection img {
+    width: 130px !important;
+    height: auto !important;
+    margin-left: 5% !important;
+  }
+
+  #socials {
+    margin-top: -3% !important;
+    margin-bottom: 3% !important;
+  }
+
+  #footerTagline {
+    margin-top: -5%  !important;
+
+  }
+
+  #footerButton {
+    margin-top: 1% !important;
+
+  }
+
+
+  #footerTagline a {
+    margin-top: -30% !important;
+    font-size: 14px !important;
+    margin-left: 10% !important;
+  }
+
+
+}
+
+
+@media only screen and (min-width: 768px) {
+
+  #title img {
+    width: auto;
+    height: 100px;
+    margin-left: 100% !important;
+    margin-top: -25% !important;
+  }
+
+  #main {
+    background-image: url('img/shopImage.jpg') !important;
+    background-color: none !important;
+    background-position: center !important;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+    padding: 10% !important;
+    width: auto !important;
+  }
+
+  #mobileMenu {
+    display: block !important;
+    margin-top: -4% !important;
+    height: 44px !important;
+    margin-left: -24% !important;
+    background-color: #000 !important;
+    width: 100% !important;
+  }
+
+  #mobileMenu a {
+    font-size: 20px !important;
+  }
+
+  #intro {
+    margin-top: 15% !important;
+  }
+
+  #hr1 {
+    background-color: #000 !important;
+  }
+
+  #intro i {
+    color: #000 !important;
+  }
+
+  #mobileTagline3, #mobileTagline4, #mobileTagline5, #mobileTagline7 {
+    color: #000 !important;
+  }
+
+  #mobileTagline6 {
+    display: inline-block !important;
+  }
+
+  #image1 {
+    display: none !important;
+  }
+
+  #image3, #image4 {
+    display: block !important;
+  }
+
+  #aboutImage {
+    width: 600px !important;
+    margin-left: -5% !important;
+  }
+
+  #aboutMe h4 {
+    margin-left: 5% !important;
+  }
+
+  #abooutContent {
+    margin-left: -25% !important;
+  }
+
+   #eventSection  {
+     margin-left: 3% !important;
+     height: 350px !important;
+   }
+
+   #eventSection h4 {
+     margin-left: -3% !important;
+   }
+
+  #photoGallerySection {
+    width: 100% !important;
+  }
+
+  #photoGallerySection img {
+    width: 150px !important;
+    height: auto !important;
+    margin-left: 40% !important;
+  }
+
+  #photoGallerySection h4 {
+    margin-left: 2% !important;
+  }
+
+#socials  {
+  margin-top: -.5% !important;
+}
+
+#footerTagline a {
+  margin-left: 8% !important;
+}
+
+
+
+
+}
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                        /* Large devices (desktops, 1024px and up) */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+@media only screen and (min-width: 1024px) {
+
+
+    #title img {
+      width: auto;
+      height: 110px;
+      margin-left: 150% !important;
+      margin-top: 2% !important;
+    }
+
+    #main {
+      background-image: url('img/shopImage.jpg') !important;
+      background-color: none !important;
+      background-position: center !important;
+      background-size: cover !important;
+      background-attachment: fixed !important;
+      padding: 10% !important;
+      width: auto !important;
+    }
+
+    #mobileMenu {
+      display: block !important;
+      margin-top: .4% !important;
+      height: 44px !important;
+      margin-left: -24% !important;
+      background-color: #000 !important;
+      width: 100% !important;
+    }
+
+    #mobileMenu a {
+      font-size: 20px !important;
+    }
+
+    #intro {
+      margin-top: 10% !important;
+    }
+
+    #mobileTagline6 {
+      display: inline-block !important;
+    }
+
+    #aboutImage {
+      width: 800px !important;
+      margin-left: -5% !important;
+    }
+
+    #aboutMe h4 {
+      margin-left: 5% !important;
+    }
+
+     #eventSection  {
+       margin-left: 3% !important;
+       height: 350px !important;
+     }
+
+     #eventSection h4 {
+       margin-left: -3% !important;
+     }
+
+    #photoGallerySection {
+      width: 100% !important;
+    }
+
+    #photoGallerySection img {
+      width: 250px !important;
+      height: auto !important;
+      margin-left: 20% !important;
+    }
+
+    #photoGallerySection h4 {
+      margin-left: 2% !important;
+    }
+
+    #socials {
+      margin-top: -1% !important;
+      margin-bottom: 3% !important;
+      padding: 1% !important;
+    }
+
+    #footerTagline a {
+      margin-left: 8% !important;
+    }
+
+
+
+}
+
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                /* Large devices (large desktops, 1440px and up) */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+@media only screen and (min-width: 1440px) {
+
+
+      #title img {
+        width: auto;
+        height: 100px;
+        margin-left: 275% !important;
+        margin-top: 15% !important;
+      }
+
+      #main {
+        background-image: url('img/shopImage.jpg') !important;
+        background-color: none !important;
+        background-position: center !important;
+        background-size: cover !important;
+        background-attachment: fixed !important;
+        padding: 10% !important;
+        width: auto !important;
+      }
+
+      #mobileMenu {
+        display: block !important;
+        margin-top: .8% !important;
+        height: 44px !important;
+        margin-left: -24% !important;
+        background-color: #000 !important;
+        width: 100% !important;
+      }
+
+      #mobileMenu a {
+        font-size: 20px !important;
+      }
+
+      #intro {
+        margin-top: 5% !important;
+      }
+
+      #mobileTagline6 {
+        display: inline-block !important;
+      }
+
+      #aboutImage {
+        width: 550px !important;
+        margin-left: -5% !important;
+      }
+
+
+      #aboutContent {
+        margin-top: -15% !important;
+
+      }
+
+       #eventSection  {
+         margin-left: 3% !important;
+         height: 350px !important;
+       }
+
+
+      #photoGallerySection {
+        width: 100% !important;
+        margin-left: 3% !important;
+      }
+
+      #photoGallerySection img {
+        width: 250px !important;
+        height: auto !important;
+        margin-left: 20% !important;
+      }
+
+      #photoGallerySection h4 {
+        margin-left: -2% !important;
+      }
+
+      #eventSection {
+        height: 450px !important;
+      }
+
+      #footerTagline a {
+        margin-left: 8% !important;
+      }
+
+
+
+
+}
+
+
+
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+                /* ExtraExtra large devices (large desktops, 2560px and up) */
+/* ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ ♥ */
+@media only screen and (min-width: 2560px) {
+
+        .navbar {
+          background-color: #000 !important;
+          height: 150px !important;
+        }
+
+        #main {
+          background-image: url('img/shopImage.jpg') !important;
+          background-color: none !important;
+          background-position: center !important;
+          background-size: cover !important;
+          background-attachment: fixed !important;
+          padding: 10% !important;
+          width: auto !important;
+        }
+
+
+
+        #title img {
+          width: auto;
+          height: 150px;
+          margin-left: 360% !important;
+          margin-top: 20% !important;
+        }
+
+        #mobileMenu {
+          display: block !important;
+          margin-top: 1% !important;
+          height: 44px !important;
+          margin-left: -24% !important;
+          background-color: #000 !important;
+          width: 100% !important;
+        }
+
+        #mobileMenu a {
+          font-size: 28px !important;
+        }
+
+        #intro {
+          margin-top: 0% !important;
+        }
+
+        #mobileTagline6 {
+          display: inline-block !important;
+        }
+
+        #aboutContent {
+          margin-top: -5% !important;
+        }
+
+
+        #aboutImage {
+          width: 800px !important;
+          margin-left: -5% !important;
+        }
+
+        #aboutMe h4 {
+          margin-left: 5% !important;
+        }
+
+         #eventSection  {
+           margin-left: 3% !important;
+           height: 350px !important;
+         }
+
+         #eventSection h4 {
+           margin-left: -3% !important;
+         }
+
+         #photoGallerySection {
+           width: 100% !important;
+           margin-left: 5% !important;
+         }
+
+         #photoGallerySection img {
+           width: 300px !important;
+           height: auto !important;
+           margin-left: 20% !important;
+         }
+
+         #photoGallerySection h4 {
+           margin-left: -4.5% !important;
+         }
+
+        #eventSection {
+          height: 750px !important;
+        }
+
+}
