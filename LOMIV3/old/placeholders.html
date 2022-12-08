@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>change picture</title>
+</head>
+  <body onload = "changeImage()">
+    <img id="img" src="img/to-img-1.jpeg"/>
+  </body>
+
+  <script>
+
+      function displayNextImage() {
+          x = (x === images.length - 1) ? 0 : x + 1;
+          document.getElementById("img").src = images[x];
+      }
+
+      function changeImage() {
+          setInterval(displayNextImage, 5000);
+      }
+
+      var images = [], x = -1;
+      images[0] = "img/to-img-2.jpeg";
+      images[1] = "img/to-img-3.jpeg";
+      images[2] = "img/to-img-4.jpeg";
+  </script>
+  </html>
+
+
+  <div class="slideshow-container">
+  <div class="mySlides fade">
+    <img src="img/to-img-1.jpeg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="img/to-img-2.jpeg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="img/to-img-3.jpeg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="img/to-img-4.jpeg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="img/to-img-5.jpeg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="img/to-img-6.jpeg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="img/to-img-7.jpeg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="img/to-img-8.jpeg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="img/to-img-9.jpeg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="img/to-img-10.jpeg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="img/to-img-11.jpeg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="img/to-img-12.jpeg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="img/to-img-13.jpeg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="img/to-img-14.jpeg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="img/to-img-15.jpeg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="img/to-img-16.jpeg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="img/to-img-17.jpeg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="img/to-img-18.jpeg" style="width:100%">
+  </div>
+
+  <div class="mySlides fade">
+    <img src="img/to-img-19.jpeg" style="width:100%">
+  </div>
+
+  <div style="text-align:center;width:50%;display:none;">
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+  </div>
+  </div>
+
+
+
+
+  let slideIndex = 0;
+  showSlides();
+
+  function showSlides() {
+    let i;
+    let slides = document.getElementsByClassName("mySlides");
+    let dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}
+    for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 10000); // Change image every 2 seconds
+  };
+
+
+
+
+      /* Img Slider Start */
+
+        footer * {box-sizing: border-box;}
+          .mySlides {display: none;}
+          img {vertical-align: middle;}
+
+          /* Overlay */
+
+          .overlay {
+            opacity: .7;
+          }
+
+
+          /* Slideshow container */
+          .slideshow-container {
+            max-width: auto;
+            position: relative;
+            margin: 0;
+          }
+
+          /* The dots/bullets/indicators */
+          .dot {
+            height: 15px;
+            width: 15px;
+            margin: 0 2px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+            transition: background-color 0.6s ease;
+          }
+
+          .active {
+            background-color: #717171;
+          }
+
+          /* Fading animation */
+          .fade {
+            animation-name: fade;
+            animation-duration: 1.5s;
+          }
+
+          @keyframes fade {
+            from {opacity: .4}
+            to {opacity: 1}
+          }
+
+          /* On smaller screens, decrease text size */
+          @media only screen and (max-width: 300px) {
+            .text {font-size: 11px}
+          }
+
+      /* Img Slider End */
