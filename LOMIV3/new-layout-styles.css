@@ -5,6 +5,7 @@ html, #body {
 }
 
 body {
+  height: 100%;
   width: 100%;
   margin: 0;
   padding: 0;
@@ -12,12 +13,13 @@ body {
 }
 
 a {
-  color: #000;
+  color: rgb(132, 117, 119);
   text-decoration: none;
 }
 
 a:hover {
-  color: #000;
+  color: rgb(132, 117, 119);
+  font-weight: bolder;
 }
 
 .hide {
@@ -40,7 +42,6 @@ a:hover {
 #returnTop .material-symbols-sharp:hover {
   color: rgb(138, 129, 124);
 }
-
 
 /* border on left and right side + text in the middle */
 .strike {
@@ -86,7 +87,6 @@ a:hover {
 /* Universal Styles End */
 
 /* Animation */
-
 
     .stage {
         border-bottom: 3px solid #444;
@@ -1251,7 +1251,6 @@ input[type="radio"]:checked {
 }
 
 .newsMainBody a:hover {
-  text-decoration: underline;
   border: none;
 }
 
@@ -1292,7 +1291,6 @@ input[type="radio"]:checked {
 }
 
 .breadCrumbMobileGrid a:hover {
-  text-decoration: underline;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 /* News Section End */
@@ -1314,6 +1312,10 @@ input[type="radio"]:checked {
 #researchSectionGrid {
   display: grid;
   grid-template-columns: 8em auto;
+}
+
+.apcTeamSectionGrid {
+  grid-template-columns: 6em auto !important;
 }
 
 .researchInfo {
@@ -1487,8 +1489,158 @@ input[type="radio"]:checked {
 }
 /* Collaborators End */
 
-/* Contact Start */
+/* APC Start */
 
+#apcImage {
+  background: url('img/pattern-4.png');
+  background-size: contain;
+  border-radius: 3px;
+  height: 400px;
+  margin: 1em;
+  text-align: center;
+  width: 600px;
+}
+
+#apcImage h1 {
+  background-color: rgba(132, 117, 119, .5);
+  border-radius: 3px;
+  color: #fff;
+  font-family: 'Bodoni Moda', serif;
+  font-size: 5em;
+  font-weight: 100;
+  padding: 10px;
+}
+
+.apcMainBody p a, .apcMainBody strong {
+  font-weight: 400;
+  color: rgb(132, 117, 119);
+}
+
+.apcMainBody p a:hover {
+  font-weight: bolder;
+}
+
+#apcServicesGrid {
+  column-gap: 5px;
+  display: grid;
+  grid-template-columns: auto auto;
+  row-gap: 5em;
+  width: 600px;
+  margin-top: 20px;
+}
+
+.apcInfoGrid {
+  grid-template-columns: auto;
+}
+
+.apcTitle {
+  padding: 1em !important;
+}
+
+#apcTeamGrid {
+  column-gap: 20px;
+  row-gap: 30px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  margin-top: 20px;
+  padding-left: 1em;
+}
+
+#apcTeamGrid div {
+  border-radius: 3px;
+  padding: 1em;
+  text-align: center;
+}
+
+#apcTeamGrid div p {
+  padding: 0;
+  margin: 0;
+  color: #fff;
+}
+
+#apcTeamGrid div img {
+  border-radius: 3px;
+  width: 250px;
+  height: auto;
+}
+
+
+#apcServicesGrid h2 {
+  color: #fff;
+  font-family: 'Bodoni Moda', serif;
+  letter-spacing: 1px;
+  padding: 1em;
+}
+
+#apcServicesGrid p {
+  color: #fff;
+  font-family: 'Bodoni Moda', serif;
+  font-size: 1em;
+  padding: 0;
+}
+
+.div1,
+#div1 {
+  background-color: rgb(88,110,128);
+}
+
+.div2,
+#div2 {
+  background-color: rgb(200,112,97);
+}
+
+.div3,
+#div3 {
+  background-color: rgb(227,160,160);
+}
+
+.div4,
+#div4 {
+  background-color: rgb(204,201,193);
+}
+
+/* Flipping Apc Services Grid Boxes Start */
+
+.flip-box {
+  height: 250px;
+  width: 250px;
+  perspective: 1000px;
+}
+
+.flip-box-inner {
+  border-radius: 3px;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 1s;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+  -webkit-backface-visibility: hidden;
+}
+
+.flip-box-back {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+/* Flipping Apc Services Grid Boxes End */
+
+
+/* APC End */
+
+
+/* Contact Start */
 .contactGrid {
   height: 100vh;
   position: relative;
@@ -1503,7 +1655,6 @@ input[type="radio"]:checked {
   right: 0;
   bottom: 0;
 }
-
 /* Contact End */
 
 
@@ -1654,6 +1805,10 @@ footer ul li {
 
 @media (max-width: 1024px) {
 
+  #navMenu {
+    display: none;
+  }
+
   #gridOne, #gridTwo {
     grid-template-columns: 1fr 1fr;
   }
@@ -1756,6 +1911,10 @@ footer ul li {
     text-align: center !important;
     font-size: 1.5em;
   }
+
+  #apcTeamGrid {
+    grid-template-columns: auto auto;
+  }
 }
 
   @media (max-width: 921px) {
@@ -1774,17 +1933,12 @@ footer ul li {
       padding: 0.5em 0.5em;
     }
 
-    #secondSection {
-      margin-top: 80px !important;
-    }
-
     .bg-img {
       grid-template-columns: auto;
     }
 
-
     #upennText {
-      display: none;
+      //display: none;
     }
 
     #upennTextBreak {
@@ -1798,10 +1952,6 @@ footer ul li {
     .navigation {
       height: 160px;
       grid-template-columns: repeat(4, minmax(100px, 1fr));
-    }
-
-    #navMenu {
-      display: none;
     }
 
     .smallScreenNav {
@@ -1926,11 +2076,17 @@ footer ul li {
       display: block !important;
     }
 
-
-
   }
 
   @media (max-width: 425px) {
+
+    #apcTeamGrid {
+      grid-template-columns: auto;
+    }
+
+    .bgImage {
+      background-color: transparent;
+    }
 
     .bg-img img {
       display: none;
@@ -1938,10 +2094,6 @@ footer ul li {
 
    .navigation {
       height: auto;
-    }
-
-    #secondSection {
-      margin-top: 100px !important;
     }
 
   .dialog div {
@@ -2229,6 +2381,19 @@ footer ul li {
 
   @media (max-width: 375px) {
 
+    .apcInfoGrid {
+      grid-template-columns: auto;
+    }
+
+    #apcTeamGrid {
+      grid-template-columns: auto;
+    }
+
+    #apcTeamGrid div {
+      padding: 0;
+      padding-top: 25px;
+    }
+
     #introSection {
       width: 375px;
     }
@@ -2296,6 +2461,10 @@ footer ul li {
   }
 
   @media (max-width: 320px) {
+
+    #apcTeamGrid {
+      margin-left: -5%;
+    }
 
 
     #hideTitleMobile {

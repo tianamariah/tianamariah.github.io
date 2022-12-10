@@ -226,30 +226,81 @@
     navToolTips[15].style.color = "#8a817c";
     navToolTips[15].style.fontWeight = "400";
   });
-
 /* Hover for Nav Items */
 
-
 /* Keeping 1st Section Fixed on Scroll */
-
 var fSec = document.getElementById('firstSection');
 var sSec = document.getElementById('secondSection');
+var mSec = document.getElementById('mobileSecSection');
 var nNames = document.getElementsByClassName('navName');
+var w = window.innerWidth;
 
-window.addEventListener("scroll", function() {
-  fSec.style.position = "fixed";
-  fSec.style.width = "100%";
-  fSec.style.zIndex = "2";
-  sSec.style.marginTop = "150px";
-  nNames[0].style.display = "none";
-  nNames[1].style.display = "none";
-  nNames[2].style.display = "none";
-  nNames[3].style.display = "none";
-  nNames[10].style.display = "none";
-  nNames[5].style.display = "none";
-  nNames[6].style.display = "none";
-  nNames[7].style.display = "none";
-});
+if (w <= 768) {
+  window.addEventListener("scroll", function() {
+    mSec.style.marginTop = "108px";
+    sSec.style.marginTop = "107px";
+    fSec.style.position = "fixed";
+    fSec.style.width = "100%";
+    fSec.style.zIndex = "2";
+    nNames[0].style.display = "none";
+    nNames[1].style.display = "none";
+    nNames[2].style.display = "none";
+    nNames[3].style.display = "none";
+    nNames[10].style.display = "none";
+    nNames[5].style.display = "none";
+    nNames[6].style.display = "none";
+    nNames[7].style.display = "none";
+  });
+}
+else if (w > 768 && w <= 1024) {
+  window.addEventListener("scroll", function() {
+    sSec.style.marginTop = "80px";
+    fSec.style.position = "fixed";
+    fSec.style.width = "100%";
+    fSec.style.zIndex = "2";
+    nNames[0].style.display = "none";
+    nNames[1].style.display = "none";
+    nNames[2].style.display = "none";
+    nNames[3].style.display = "none";
+    nNames[10].style.display = "none";
+    nNames[5].style.display = "none";
+    nNames[6].style.display = "none";
+    nNames[7].style.display = "none";
+  });
+}
+else if (w > 1024 && w <= 1440) {
+  window.addEventListener("scroll", function() {
+    sSec.style.marginTop = "140px";
+    fSec.style.position = "fixed";
+    fSec.style.width = "100%";
+    fSec.style.zIndex = "2";
+    nNames[0].style.display = "none";
+    nNames[1].style.display = "none";
+    nNames[2].style.display = "none";
+    nNames[3].style.display = "none";
+    nNames[10].style.display = "none";
+    nNames[5].style.display = "none";
+    nNames[6].style.display = "none";
+    nNames[7].style.display = "none";
+  });
+}
+else if (w > 1440 && w <= 2560) {
+  window.addEventListener("scroll", function() {
+    sSec.style.marginTop = "145px";
+    fSec.style.position = "fixed";
+    fSec.style.width = "100%";
+    fSec.style.zIndex = "2";
+    nNames[0].style.display = "none";
+    nNames[1].style.display = "none";
+    nNames[2].style.display = "none";
+    nNames[3].style.display = "none";
+    nNames[10].style.display = "none";
+    nNames[5].style.display = "none";
+    nNames[6].style.display = "none";
+    nNames[7].style.display = "none";
+  });
+}
+
 /* Keeping 1st Section Fixed on Scroll */
 
 
@@ -395,7 +446,6 @@ function toggleMainMenu() {
     images[19] = "img/thl-23.jpg";
 
   function displayNextImage() {
-
     imgCount = (imgCount === images.length - 1) ? 0 : imgCount + 1;
     document.getElementById("img").src = images[imgCount];
 
