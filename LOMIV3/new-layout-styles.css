@@ -360,7 +360,6 @@ header h2:nth-child(3):hover {
   visibility: visible;
 }
 
-
 /* Navigation Ends */
 
 /* Intro Starts */
@@ -682,10 +681,39 @@ header h2:nth-child(3):hover {
   height: 300px;
 }
 
-.piVideos iframe {
+.piVideos iframe, #sliderForPodcastImage {
   height: 300px;
   width: 100%;
 }
+
+#sliderForPodcastImage {
+  background-image: url('img/ps-img7-ge3.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: 'Bodoni Moda', serif;
+}
+
+#sliderForPodcastImage h1, #sliderForPodcastImage p {
+  width: max-content;
+  background-color: rgba(132, 117, 119, .7);
+  color: #fff;
+  padding: 5px;
+}
+
+#sliderForPodcastImage p {
+  font-family: 'Yaldevi', sans-serif;
+  font-weight: 300;
+}
+
+#sliderForPodcastImage a {
+  color: #fff;
+}
+
+#sliderForPodcastImage a:hover {
+  color: #000;
+}
+
 
 input[type="radio"] {
   /* remove standard background appearance */
@@ -1564,6 +1592,42 @@ input[type="radio"]:checked {
   height: auto;
 }
 
+#apcTeamGrid .div1 {
+  background-color: transparent;
+  border: .5px solid rgb(88,110,128);
+}
+
+#apcTeamGrid .div1 p {
+  color: rgb(88,110,128);
+}
+
+#apcTeamGrid .div2 {
+  background-color: transparent;
+  border: .5px solid rgb(200,112,97);
+}
+
+#apcTeamGrid .div2 p {
+  color: rgb(200,112,97);
+}
+
+#apcTeamGrid .div3 {
+  background-color: transparent;
+  border: .5px solid rgb(227,160,160);
+}
+
+#apcTeamGrid .div3 p {
+  color: rgb(227,160,160);
+}
+
+#apcTeamGrid .div4 {
+  background-color: transparent;
+  border: .5px solid rgb(204,201,193);
+}
+
+#apcTeamGrid .div4 p {
+  color: rgb(204,201,193);
+}
+
 
 #apcServicesGrid h2 {
   color: #fff;
@@ -1579,23 +1643,19 @@ input[type="radio"]:checked {
   padding: 0;
 }
 
-.div1,
-#div1 {
+.div1 {
   background-color: rgb(88,110,128);
 }
 
-.div2,
-#div2 {
+.div2  {
   background-color: rgb(200,112,97);
 }
 
-.div3,
-#div3 {
+.div3 {
   background-color: rgb(227,160,160);
 }
 
-.div4,
-#div4 {
+.div4 {
   background-color: rgb(204,201,193);
 }
 

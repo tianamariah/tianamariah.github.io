@@ -326,6 +326,10 @@ else if (w > 1440 && w <= 2560) {
     radioBtns[3].style.cursor = "pointer";
   });
 
+  radioBtns[4].addEventListener("mouseover", function() {
+    radioBtns[4].style.cursor = "pointer";
+  });
+
   //Clicking on Radio to Disply Next Vid
   radioBtns[0].addEventListener("click", function() {
     piVideos[0].style.display = "block";
@@ -334,6 +338,7 @@ else if (w > 1440 && w <= 2560) {
     piVideos[1].style.display = "none";
     piVideos[2].style.display = "none";
     piVideos[3].style.display = "none";
+    piVideos[4].style.display = "none";
   });
 
   radioBtns[1].addEventListener("click", function() {
@@ -342,6 +347,7 @@ else if (w > 1440 && w <= 2560) {
     piVideos[0].style.display = "none";
     piVideos[2].style.display = "none";
     piVideos[3].style.display = "none";
+    piVideos[4].style.display = "none";
   });
 
   radioBtns[2].addEventListener("click", function() {
@@ -350,6 +356,7 @@ else if (w > 1440 && w <= 2560) {
     piVideos[0].style.display = "none";
     piVideos[1].style.display = "none";
     piVideos[3].style.display = "none";
+    piVideos[4].style.display = "none";
   });
 
   radioBtns[3].addEventListener("click", function() {
@@ -358,6 +365,16 @@ else if (w > 1440 && w <= 2560) {
     piVideos[0].style.display = "none";
     piVideos[1].style.display = "none";
     piVideos[2].style.display = "none";
+    piVideos[4].style.display = "none";
+  });
+
+  radioBtns[4].addEventListener("click", function() {
+    piVideos[4].style.display = "block";
+
+    piVideos[0].style.display = "none";
+    piVideos[1].style.display = "none";
+    piVideos[2].style.display = "none";
+    piVideos[3].style.display = "none";
   });
 
 
