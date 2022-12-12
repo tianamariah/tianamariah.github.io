@@ -190,7 +190,7 @@
 
 
   <!-- Second Section Start -->
-  <div id="secondSection">
+  <div id="secondSection" class="apcSecondSection">
   <!-- research Section Start -->
   <div id="researchSectionGrid">
 
@@ -215,11 +215,21 @@
     <!-- APC Main Section Start -->
     <div id="researchMain">
       <!-- Breacrumb Nav for Mobile -->
-      <div class="breadCrumbMobile breadCrumbMobileGrid" style="display: none;">
-        <a href="apc.html">MISSION</a>
-        <a href="apc-services.html">SERVICES</a>
-        <a href="apc-team.html">TEAM</a>
-      </div>
+      <details class="mobileDetailsMenu">
+        <summary>
+          <div class="sumUp">
+            <div class="sumGrid">
+              <span>MENU</span>
+              <span class="material-symbols-sharp">expand_more</span>
+            </div>
+          </div>
+        </summary>
+        <div class="breadCrumbMobile breadCrumbMobileGrid" style="display: none;">
+          <a href="apc.html">MISSION</a>
+          <a href="apc-services.html">SERVICES</a>
+          <a href="apc-team.html">TEAM</a>
+        </div>
+      </details>
       <!-- Breacrumb Nav for Mobile End -->
 
         <div class="researchInfo">
@@ -240,9 +250,7 @@
           </div>
 
         <div class="researchImage apcImage">
-          <div id="apcImage" class="centerText">
-            <h1>Our Mission</h1>
-          </div>
+          <div id="apcImage" class="centerText"></div>
         </div>
       </div>
   </div>

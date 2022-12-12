@@ -1,3 +1,5 @@
+
+
 /* Hover for Nav Items */
   var navLinks = document.getElementsByClassName('navLinks');
   var navToolTips = document.getElementsByClassName('tooltiptext');
@@ -304,8 +306,7 @@ else if (w > 1440 && w <= 2560) {
 /* Keeping 1st Section Fixed on Scroll */
 
 
-/* Clicking on PI Vids */
-
+/* Clicking on PI Vids*/
   var radioBtns = document.getElementsByName('vidCarouselRB');
   var piVideos = document.getElementsByClassName('piVideos');
 
@@ -333,12 +334,13 @@ else if (w > 1440 && w <= 2560) {
   //Clicking on Radio to Disply Next Vid
   radioBtns[0].addEventListener("click", function() {
     piVideos[0].style.display = "block";
-    radioBtns[0].style.color = "orange !important";
+
 
     piVideos[1].style.display = "none";
     piVideos[2].style.display = "none";
     piVideos[3].style.display = "none";
     piVideos[4].style.display = "none";
+    piVideos[5].style.display = "none";
   });
 
   radioBtns[1].addEventListener("click", function() {
@@ -348,6 +350,7 @@ else if (w > 1440 && w <= 2560) {
     piVideos[2].style.display = "none";
     piVideos[3].style.display = "none";
     piVideos[4].style.display = "none";
+    piVideos[5].style.display = "none";
   });
 
   radioBtns[2].addEventListener("click", function() {
@@ -357,6 +360,7 @@ else if (w > 1440 && w <= 2560) {
     piVideos[1].style.display = "none";
     piVideos[3].style.display = "none";
     piVideos[4].style.display = "none";
+    piVideos[5].style.display = "none";
   });
 
   radioBtns[3].addEventListener("click", function() {
@@ -366,6 +370,7 @@ else if (w > 1440 && w <= 2560) {
     piVideos[1].style.display = "none";
     piVideos[2].style.display = "none";
     piVideos[4].style.display = "none";
+    piVideos[5].style.display = "none";
   });
 
   radioBtns[4].addEventListener("click", function() {
@@ -375,10 +380,20 @@ else if (w > 1440 && w <= 2560) {
     piVideos[1].style.display = "none";
     piVideos[2].style.display = "none";
     piVideos[3].style.display = "none";
+    piVideos[5].style.display = "none";
   });
 
+  radioBtns[5].addEventListener("click", function() {
+    piVideos[5].style.display = "block";
 
-/* Clicking on PI Vids */
+    piVideos[0].style.display = "none";
+    piVideos[1].style.display = "none";
+    piVideos[2].style.display = "none";
+    piVideos[3].style.display = "none";
+    piVideos[4].style.display = "none";
+  });
+
+  /*Clicking on PI Vids */
 
 /* Clicking on Research Links and Opening Correct Research Pages */
 var researchMenuItems = document.getElementsByClassName('researchMenuItems');

@@ -22,6 +22,11 @@ a:hover {
   font-weight: bolder;
 }
 
+small {
+  font-family: 'Yaldevi', sans-serif;
+  margin: 5px auto;
+}
+
 .hide {
   display: none;
 }
@@ -39,9 +44,27 @@ a:hover {
   font-size: 30px;
 }
 
+.newsMainBody #returnTop {
+  margin-top: 1em;
+  font-weight: 900;
+}
+
 #returnTop .material-symbols-sharp:hover {
   color: rgb(138, 129, 124);
 }
+
+.showDT {
+  display: block;
+}
+
+.readMoreDetails, .mobileDetailsMenu {
+  display: none;
+}
+
+.readMoreDetails {
+  border: none !important;
+}
+
 
 /* border on left and right side + text in the middle */
 .strike {
@@ -338,7 +361,7 @@ header h2:nth-child(3):hover {
   display: block;
 }
 
-.tooltip .tooltiptext {
+.tooltip .navText {
   color: #8a817c;
   width: auto;
   font-family: 'Yaldevi', sans-serif;
@@ -353,10 +376,45 @@ header h2:nth-child(3):hover {
   bottom: 0;
   right: 0;
   left: 5px;
-  z-index: 2;
+  z-index: 10;
+}
+
+.tooltiptext {
+  background-color: #fff;
+  border: 1px solid;
+  color: #8a817c;
+  width: auto;
+  height: max-content;
+  font-family: 'Yaldevi', sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  padding: 0;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  position: absolute;
+  top: 50px;
+  bottom: 0;
+  right: 0;
+  left: 5px;
+  z-index: 4;
+  visibility: hidden;
+}
+
+.tooltiptextMobile {
+  margin: 0 3px;
+}
+
+.dissLink:hover {
+  font-weight: bolder;
 }
 
 .tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+
+.tooltip:hover .navText {
   visibility: visible;
 }
 
@@ -677,26 +735,52 @@ header h2:nth-child(3):hover {
 }
 
 .videoCarousel {
+  height: auto;
+  width: 100%;
+  overflow: hidden;
+}
+
+.slides {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+
+.piVideos {
+  scroll-snap-align: start;
+  flex-shrink: 0;
   width: 100%;
   height: 300px;
+  margin-right: 50px;
+  border-radius: 10px;
+  background: #eee;
+  transform-origin: center center;
+  transform: scale(1);
+  transition: transform 0.5s;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .piVideos iframe, #sliderForPodcastImage {
-  height: 300px;
-  width: 100%;
+  height: inherit;
+  width: inherit;
+  border-radius: 3px;
 }
 
 #sliderForPodcastImage {
-  background-image: url('img/ps-img7-ge3.png');
+  background-image: url('img/IMG_0295.jpg');
   background-size: cover;
-  background-repeat: no-repeat;
   background-position: center;
   font-family: 'Bodoni Moda', serif;
 }
 
 #sliderForPodcastImage h1, #sliderForPodcastImage p {
   width: max-content;
-  background-color: rgba(132, 117, 119, .7);
+  background-color: rgba(0,0,0, .7);
+  border-radius: 3px;
   color: #fff;
   padding: 5px;
 }
@@ -720,8 +804,6 @@ input[type="radio"] {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-
-
   padding: 5px;
   /* background-color only for content */
   border: .5px solid #000;
@@ -732,8 +814,6 @@ input[type="radio"] {
 input[type="radio"]:checked {
   background-color: rgb(132, 117, 119);
 }
-
-
 /* PI Section End */
 
 /* Team Outings Section Start */
@@ -1309,18 +1389,61 @@ input[type="radio"]:checked {
 }
 
 .breadCrumbMobileGrid a {
-    background-color: rgba(237, 224, 212, .15);
     font-size: 16px;
-    font-family: 'Bodoni Moda', serif;
-    font-weight: 500;
-    border: 0.5px solid #eee;
+    font-family: 'Yaldevi', sans-serif;
+    font-weight: 600;
+    border: 0.5px solid rgba(132, 117, 119, .5);
     text-transform: uppercase;
-    letter-spacing: 7px;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    padding: 5px;
 }
 
 .breadCrumbMobileGrid a:hover {
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
+
+details {
+  padding: 5px;
+  border: 0.5px solid rgba(132, 117, 119, .5);
+  border-radius: 3px;
+  width: 95%;
+  margin: 5% auto;
+}
+
+summary {
+    display: grid;
+    grid-template-columns: auto auto;
+    font-family: 'Yaldevi', sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+    color: rgb(132, 117, 119);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    width: max-content;
+    margin: 0 auto;
+}
+
+.sumGrid {
+  display: grid;
+  grid-template-columns: 90% 10%;
+}
+
+.breadCrumbMobile .material-symbols-sharp {
+  margin-top: -5px;
+  margin-left: -10px;
+  font-weight: 900;
+}
+
+details[open] {
+  padding: 5px;
+  margin-top: 5%;
+}
+
+details[open] summary {
+    margin-bottom: 0;
+}
+
 /* News Section End */
 
 /* Research Section Start */
@@ -1519,9 +1642,14 @@ input[type="radio"]:checked {
 
 /* APC Start */
 
+.apcSecondSection {
+  height: 65vh;
+}
+
 #apcImage {
-  background: url('img/pattern-4.png');
+  background: url('img/pattern-7.png');
   background-size: contain;
+  //background: linear-gradient(to right, rgb(88,110,128), rgb(227,160,160) );  /* Chrome 10-25, Safari 5.1-6 */
   border-radius: 3px;
   height: 400px;
   margin: 1em;
@@ -1530,11 +1658,10 @@ input[type="radio"]:checked {
 }
 
 #apcImage h1 {
-  background-color: rgba(132, 117, 119, .5);
   border-radius: 3px;
-  color: #fff;
+  color: #000;
   font-family: 'Bodoni Moda', serif;
-  font-size: 5em;
+  font-size: 7em;
   font-weight: 100;
   padding: 10px;
 }
@@ -1603,20 +1730,20 @@ input[type="radio"]:checked {
 
 #apcTeamGrid .div2 {
   background-color: transparent;
-  border: .5px solid rgb(200,112,97);
+  border: .5px solid rgb(227,160,160);
 }
 
 #apcTeamGrid .div2 p {
-  color: rgb(200,112,97);
+  color: rgb(227,160,160);
 }
 
 #apcTeamGrid .div3 {
   background-color: transparent;
-  border: .5px solid rgb(227,160,160);
+  border: .5px solid rgb(32,38,55);
 }
 
 #apcTeamGrid .div3 p {
-  color: rgb(227,160,160);
+  color: rgb(32,38,55);
 }
 
 #apcTeamGrid .div4 {
@@ -1648,7 +1775,7 @@ input[type="radio"]:checked {
 }
 
 .div2  {
-  background-color: rgb(200,112,97);
+  background-color: rgb(32,38,55);
 }
 
 .div3 {
@@ -1862,6 +1989,13 @@ footer ul li {
   }
 
 }
+
+@media (max-width: 1363px) {
+  #apcTeamGrid {
+    grid-template-columns: auto auto;
+  }
+}
+
 
 @media (max-width: 1024px) {
 
@@ -2135,10 +2269,36 @@ footer ul li {
     #toSection {
       display: block !important;
     }
+  }
 
+  @media (max-width: 763px) {
+    #apcTeamGrid {
+      grid-template-columns: auto;
+    }
   }
 
   @media (max-width: 425px) {
+
+    .videoCarousel {
+      margin-left: -15px;
+    }
+
+    #sliderForPodcastImage h1, #sliderForPodcastImage p {
+      width: 365px;
+      margin: 0 auto;
+      background-color: rgba(0,0,0, .7);
+      border-radius: 3px;
+      color: #fff;
+      padding: 5px;
+    }
+
+    #sliderForPodcastImage h1 {
+      margin-top: 3em;
+    }
+
+    #sliderForPodcastImage p {
+      margin-top: 1em;
+    }
 
     #apcTeamGrid {
       grid-template-columns: auto;
@@ -2219,10 +2379,6 @@ footer ul li {
       width: 425px;
       padding: 0;
       margin: 0;
-    }
-
-    .typeWriter h1 {
-      animation: none;
     }
 
     #introSection h1{
@@ -2437,6 +2593,14 @@ footer ul li {
       grid-template-columns: auto !important;
     }
 
+    .showDT {
+      display: none;
+    }
+
+    .readMoreDetails, .mobileDetailsMenu {
+      display: block;
+    }
+
 }
 
   @media (max-width: 375px) {
@@ -2446,6 +2610,7 @@ footer ul li {
     }
 
     #apcTeamGrid {
+      margin-left: -10px;
       grid-template-columns: auto;
     }
 
