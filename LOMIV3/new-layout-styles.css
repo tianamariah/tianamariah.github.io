@@ -361,6 +361,7 @@ header h2:nth-child(3):hover {
   display: block;
 }
 
+
 .tooltip .navText {
   color: #8a817c;
   width: auto;
@@ -376,7 +377,7 @@ header h2:nth-child(3):hover {
   bottom: 0;
   right: 0;
   left: 5px;
-  z-index: 10;
+  z-index: 1;
 }
 
 .tooltiptext {
