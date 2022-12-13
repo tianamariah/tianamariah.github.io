@@ -1375,7 +1375,7 @@ input[type="radio"]:checked {
 }
 
 .newsMainBody ul li {
-  list-style-type: "\2212   ";
+  list-style-type: circle;
 }
 
 .breadCrumbMobileGrid {
@@ -1406,10 +1406,13 @@ input[type="radio"]:checked {
 
 details {
   padding: 5px;
-  border: 0.5px solid rgba(132, 117, 119, .5);
   border-radius: 3px;
   width: 95%;
   margin: 5% auto;
+}
+
+summary::-webkit-details-marker {
+  display: none;
 }
 
 summary {
@@ -1642,15 +1645,13 @@ details[open] summary {
 /* Collaborators End */
 
 /* APC Start */
-
 .apcSecondSection {
-  height: 65vh;
+  padding-bottom: 2em;
 }
 
 #apcImage {
   background: url('img/pattern-7.png');
   background-size: contain;
-  //background: linear-gradient(to right, rgb(88,110,128), rgb(227,160,160) );  /* Chrome 10-25, Safari 5.1-6 */
   border-radius: 3px;
   height: 400px;
   margin: 1em;
@@ -1824,9 +1825,32 @@ details[open] summary {
 }
 /* Flipping Apc Services Grid Boxes End */
 
-
 /* APC End */
 
+/* Dissertations Start */
+#dissSectionGrid {
+  display: grid;
+  grid-template-columns: 6em auto;
+}
+
+.dissNavGrid a {
+  font-size: 14px;
+}
+
+.subDissTitle2 {
+  margin-top: 1em;
+}
+
+.dissIframe {
+  text-align: center;
+}
+
+.dissIframe iframe {
+  width: 450px;
+  height: 328px;
+}
+
+/* Dissertations End */
 
 /* Contact Start */
 .contactGrid {
@@ -1901,9 +1925,11 @@ footer ul li {
 /* Footer Section End */
 
 /* Media Queries */
-
 @media (max-width: 2560px) {
 
+  .apcSecondSection {
+    height: 100vh;
+  }
 
   .researchImg img {
     max-width: 100%;
@@ -1920,6 +1946,10 @@ footer ul li {
 }
 
 @media (min-width: 2560px) {
+
+  .apcSecondSection {
+    height: 100vh;
+  }
 
   .dialog div {
 
@@ -1962,6 +1992,10 @@ footer ul li {
 
 @media (max-width: 1440px) {
 
+  .apcSecondSection {
+    height: 100vh;
+  }
+
   #gridPI {
     padding: 6.5em !important;
   }
@@ -1989,7 +2023,10 @@ footer ul li {
     height: 250px;
   }
 
+
+
 }
+
 
 @media (max-width: 1363px) {
   #apcTeamGrid {
@@ -1999,6 +2036,7 @@ footer ul li {
 
 
 @media (max-width: 1024px) {
+
 
   #navMenu {
     display: none;
@@ -2123,6 +2161,11 @@ footer ul li {
   }
 
   @media (max-width: 768px) {
+
+
+    .apcSecondSection {
+      height: auto;
+    }
 
     header {
       padding: 0.5em 0.5em;
@@ -2276,9 +2319,18 @@ footer ul li {
     #apcTeamGrid {
       grid-template-columns: auto;
     }
+
+  }
+
+  @media (max-width: 500px) {
+    .dissIframe iframe {
+      width: 320px;
+      height: 328px;
+    }
   }
 
   @media (max-width: 425px) {
+
 
     .videoCarousel {
       margin-left: -15px;
@@ -2528,7 +2580,7 @@ footer ul li {
       margin-top: 3em;
     }
 
-    #newsSectionGrid, #teamSectionGrid {
+    #newsSectionGrid, #teamSectionGrid, #dissSectionGrid {
       grid-template-columns: auto;
     }
 
@@ -2687,6 +2739,7 @@ footer ul li {
   }
 
   @media (max-width: 320px) {
+
 
     #apcTeamGrid {
       margin-left: -5%;
