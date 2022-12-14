@@ -13,12 +13,12 @@ body {
 }
 
 a {
-  color: rgb(132, 117, 119);
+  color: rgb(94, 84, 85);
   text-decoration: none;
 }
 
 a:hover {
-  color: rgb(132, 117, 119);
+  color: rgb(94, 84, 85);
   font-weight: bolder;
 }
 
@@ -266,7 +266,7 @@ header {
   margin-top: -10px;
   color: #fff;
   height: 75px;
-  background-color: rgb(132, 117, 119);
+  background-color: rgb(94, 84, 85);
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
@@ -451,7 +451,7 @@ header h2:nth-child(3):hover {
 
 #introSection h1 {
   animation: fadeIn 7.5s;
-  color: rgb(132, 117, 119);
+  color: rgb(94, 84, 85);
   font-family: 'Bodoni Moda', serif;
   font-size: 40px;
   font-weight: 500;
@@ -487,12 +487,12 @@ header h2:nth-child(3):hover {
 }
 
 #buttonGroup a {
-  color: rgb(132, 117, 119);
+  color: rgb(94, 84, 85);
   font-family: 'Yaldevi', sans-serif;
   margin: 0;
   height: 25px;
   border-radius: 3px;
-  border: .5px solid rgb(132, 117, 119);
+  border: .5px solid rgb(94, 84, 85);
   padding: 10px;
   text-align: center;
 }
@@ -517,7 +517,7 @@ header h2:nth-child(3):hover {
 
 #leftArrow, #rightArrow {
   margin: 6em auto;
-  color: #bcb8b1;
+  color: #5F544E;
 }
 
 #leftArrow .material-symbols-sharp:hover, #rightArrow .material-symbols-sharp:hover {
@@ -543,7 +543,7 @@ header h2:nth-child(3):hover {
   margin: -10px auto;
   text-align: center;
   color: #fff;
-  background-color: rgb(132, 117, 119);
+  background-color: rgb(94, 84, 85);
   letter-spacing: 1px;
   text-transform: uppercase;
   z-index: 0;
@@ -553,7 +553,7 @@ header h2:nth-child(3):hover {
 #div1 .sectionTitle,
 #div2 .sectionTitle,
 #div3 .sectionTitle {
-  background-color: rgb(132, 117, 119);
+  background-color: rgb(94, 84, 85);
   color: #fff;
 }
 
@@ -813,7 +813,7 @@ input[type="radio"] {
 }
 
 input[type="radio"]:checked {
-  background-color: rgb(132, 117, 119);
+  background-color: rgb(94, 84, 85);
 }
 /* PI Section End */
 
@@ -923,7 +923,7 @@ input[type="radio"]:checked {
 }
 
 #currentTeamMembersSection h3 {
-  color: rgb(132, 117, 119);
+  color: rgb(94, 84, 85);
   font-size: 24px;
   font-family: 'Yaldevi', sans-serif;
   font-weight: 500;
@@ -1240,7 +1240,7 @@ input[type="radio"]:checked {
 }
 
 .dialog div h1, .dialog div strong  {
-  color: rgb(132, 117, 119);
+  color: rgb(94, 84, 85);
   font-family: 'Bodoni Moda', serif;
 }
 
@@ -1299,7 +1299,7 @@ input[type="radio"]:checked {
 }
 
 .mainNewsTitle {
-  color: rgb(132, 117, 119);
+  color: rgb(94, 84, 85);
   font-family: 'Bodoni Moda', serif;
   font-size: 1.4em;
   font-weight: 700;
@@ -1310,7 +1310,7 @@ input[type="radio"]:checked {
 }
 
 .subNewsTitle, .subNewsTitle2, .subNewsTitle3  {
-  color: rgb(132, 117, 119);
+  color: rgb(94, 84, 85);
   font-family: 'Yaldevi', sans-serif;
   letter-spacing: 3px;
   font-weight: 100;
@@ -1393,7 +1393,7 @@ input[type="radio"]:checked {
     font-size: 16px;
     font-family: 'Yaldevi', sans-serif;
     font-weight: 600;
-    border: 0.5px solid rgba(132, 117, 119, .5);
+    border: 0.5px solid rgba(94, 84, 85, .8);
     text-transform: uppercase;
     letter-spacing: 1px;
     border-radius: 3px;
@@ -1421,7 +1421,7 @@ summary {
     font-family: 'Yaldevi', sans-serif;
     font-size: 18px;
     font-weight: 900;
-    color: rgb(132, 117, 119);
+    color: rgb(94, 84, 85);
     text-transform: uppercase;
     letter-spacing: 1px;
     width: max-content;
@@ -1521,7 +1521,7 @@ details[open] summary {
 
 
 .subResearchTitle, .subResearchTitle2 {
-  color: rgb(132, 117, 119);
+  color: rgb(94, 84, 85);
   font-family: 'Bodoni Moda', serif;
   font-weight: 500;
   letter-spacing: 1px;
@@ -1632,7 +1632,7 @@ details[open] summary {
 }
 
 .collabLink {
-  color: rgb(132, 117, 119);
+  color: rgb(94, 84, 85);
   font-family: 'Yaldevi', sans-serif;
   font-weight: 300;
   font-size: 14px;
@@ -1651,7 +1651,7 @@ details[open] summary {
 
 #apcImage {
   background: url('img/pattern-7.png');
-  background-size: contain;
+  background-size: cover;
   border-radius: 3px;
   height: 400px;
   margin: 1em;
@@ -1670,7 +1670,7 @@ details[open] summary {
 
 .apcMainBody p a, .apcMainBody strong {
   font-weight: 400;
-  color: rgb(132, 117, 119);
+  color: rgb(94, 84, 85);
 }
 
 .apcMainBody p a:hover {
@@ -1875,7 +1875,7 @@ footer {
   display: grid;
   grid-template-columns: auto 1fr;
   padding: 1em 1em;
-  background-color: rgba(132, 117, 119, .08);
+  background-color: rgba(94, 84, 85, .08);
   border-top: .5px solid;
   border-color: #eee;
 }
