@@ -28,7 +28,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;0,6..96,600;0,6..96,700;0,6..96,800;0,6..96,900;1,6..96,400;1,6..96,500;1,6..96,600;1,6..96,700;1,6..96,800;1,6..96,900&family=Yaldevi:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
-<body id="body" onload="changeImage(); resizingWindow();">
+<body id="body">
     <!-- First Section Start -->
     <div id="firstSection">
       <!-- Header Start -->
@@ -201,15 +201,11 @@
     <!-- Second Section Start -->
     <div id="secondSection" class="bg-img">
       <div id="firstBgImageDiv"></div>
-      <div class="bgImage"><img src="img/thl-3.jpg" alt="Committee and speakers at the helminthology symposium." width="600" height="400"/>
-
-      <!-- <div class="bgImage">
-        <video class="hpVid" preload="none" type="video/mp4" autoplay loop muted playsinline>
-          <source src="img/researchVideo.mp4" type="video/mp4">
-            Sorry, your browser does not support this mp4 video :(.
-        </video>
-      </div>-->
-    </div>
+        <picture class="bgImage">
+          <source type="image/webp" srcset="img/thl-3.webp">
+          <source type="image/jpeg" srcset="img/thl-3.jpg">
+          <img src="img/thl-3.jpg" alt="Committee and speakers at the helminthology symposium."  width="375" height="250">
+        </picture>
   </div>
   <!-- 2nd Section End -->
 
@@ -425,7 +421,6 @@
       <div class="scrollShow piVidGrid">
 
         <div class="videoCarousel">
-
           <div class="slides" id="slider">
             <div class="piVideos" id="slide1">
               <div id="sliderForPodcastImage" class="centerText" onclick="window.open('https://www.microbe.tv/immune/immune-62/')"></div>
@@ -469,15 +464,27 @@
     <div id="gridTO">
 
       <div class="scrollShow">
-        <img id="img" src="img/thl-1.jpg" alt="Organizing committee at the helminthology symposium." width="600" height="400" loading="lazy" ></img>
+       <picture>
+          <source type="image/webp" srcset="img/thl-1.webp">
+          <source type="image/jpeg" srcset="img/thl-1.jpg">
+          <img src="img/thl-1.jpg" alt="Organizing committee at the helminthology symposium." width="600" height="400" loading="lazy">
+        </picture>
       </div>
 
       <div class="scrollShow">
-        <img id="img2" src="img/thl-2.jpg" alt="Herbert lab members group out to eat." width="600" height="400" loading="lazy" ></img>
+        <picture>
+          <source type="image/webp" srcset="img/thl-2.webp">
+          <source type="image/jpeg" srcset="img/thl-2.jpg">
+          <img src="img/thl-2.jpg" alt="Members of the herbert lab out to eat." width="600" height="400" loading="lazy">
+        </picture>
       </div>
 
       <div class="scrollShow">
-        <img id="img3" src="img/thl-3.jpg" alt="Committee and speakers at the helminthology symposium." width="600" height="400" loading="lazy" ></img>
+        <picture>
+          <source type="image/webp" srcset="img/thl-3.webp">
+          <source type="image/jpeg" srcset="img/thl-3.jpg">
+          <img src="img/thl-3.jpg" alt="Committee and speakers at the helminthology symposium."  width="600" height="400" loading="lazy">
+        </picture>
       </div>
 
     </div>
@@ -500,15 +507,27 @@
               <div id="gridTONew">
 
                 <div class="scrollShow">
-                  <img src="img/thl-1.jpg" alt="Organizing committee at the helminthology symposium." width="600" height="400" loading="lazy" ></img>
+                  <picture>
+                    <source type="image/webp" srcset="img/thl-1.webp">
+                    <source type="image/jpeg" srcset="img/thl-1.jpg">
+                    <img src="img/thl-1.jpg" alt="Organizing committee at the helminthology symposium." width="467" height="350" loading="lazy">
+                  </picture>
                 </div>
 
                 <div class="scrollShow">
-                  <img src="img/thl-2.jpg" alt="Members of the herbert lab out to eat." width="600" height="400" loading="lazy"></img>
+                  <picture>
+                    <source type="image/webp" srcset="img/thl-2.webp">
+                    <source type="image/jpeg" srcset="img/thl-2.jpg">
+                    <img src="img/thl-2.jpg" alt="Members of the herbert lab out to eat." width="467" height="350" loading="lazy">
+                  </picture>
                 </div>
 
                 <div class="scrollShow">
-                  <img src="img/thl-3.jpg" alt="Committee and speakers at the helminthology symposium." width="600" height="400" loading="lazy"></img>
+                  <picture>
+                    <source type="image/webp" srcset="img/thl-3.webp">
+                    <source type="image/jpeg" srcset="img/thl-3.jpg">
+                    <img src="img/thl-3.jpg" alt="Committee and speakers at the helminthology symposium." width="467" height="350" loading="lazy">
+                  </picture>
                 </div>
 
               </div>
@@ -539,15 +558,27 @@
                           <div id="gridTONew">
 
                             <div>
-                              <img src="img/thl-4.jpg" alt="Members of the herbert lab at the park." width="467" height="350"  loading="lazy"></img>
+                              <picture>
+                                <source type="image/webp" srcset="img/thl-4.webp">
+                                <source type="image/jpeg" srcset="img/thl-4.jpg">
+                                <img src="img/thl-4.jpg" alt="Members of the herbert lab at the park." width="467" height="350" loading="lazy">
+                              </picture>
                             </div>
 
                             <div>
-                              <img src="img/thl-5.jpg" alt="Members of the herbert lab at the throw house lab outing event." width="467" height="350"  loading="lazy"></img>
+                              <picture>
+                                <source type="image/webp" srcset="img/thl-5.webp">
+                                <source type="image/jpeg" srcset="img/thl-5.jpg">
+                                <img src="img/thl-5.jpg" alt="Members of the herbert lab at the throw house lab outing event." width="467" height="350" loading="lazy">
+                              </picture>
                             </div>
 
                             <div>
-                              <img src="img/thl-6.jpg" alt="Members of the herbert lab outing." width="467" height="350"  loading="lazy"></img>
+                              <picture>
+                                <source type="image/webp" srcset="img/thl-6.webp">
+                                <source type="image/jpeg" srcset="img/thl-6.jpg">
+                                <img src="img/thl-6.jpg" alt="Members of the herbert lab outing." width="467" height="350" loading="lazy">
+                              </picture>
                             </div>
 
                           </div>
@@ -578,17 +609,28 @@
                             <div id="gridTONew">
 
                               <div>
-                                <img src="img/thl-7.jpg" alt="Two members of the herbert lab during covid at the park." width="467" height="350"  loading="lazy"></img>
+                                <picture>
+                                  <source type="image/webp" srcset="img/thl-7.webp">
+                                  <source type="image/jpeg" srcset="img/thl-7.jpg">
+                                  <img src="img/thl-7.jpg" alt="Two members of the herbert lab during covid at the park." width="467" height="350" loading="lazy">
+                                </picture>
                               </div>
 
                               <div>
-                                <img src="img/thl-8.jpg" alt="The herbert lab dog looking mischevious." width="467" height="350"  loading="lazy"></img>
+                                <picture>
+                                  <source type="image/webp" srcset="img/thl-8.webp">
+                                  <source type="image/jpeg" srcset="img/thl-8.jpg">
+                                  <img src="img/thl-8.jpg" alt="The herbert lab dog looking mischevious." width="467" height="350" loading="lazy">
+                                </picture>
                               </div>
 
                               <div>
-                                <img src="img/thl-9.jpg" alt="A member of the herbert lab at the park team outing showing the peace sign." width="467" height="350"  loading="lazy"></img>
+                                <picture>
+                                  <source type="image/webp" srcset="img/thl-9.webp">
+                                  <source type="image/jpeg" srcset="img/thl-9.jpg">
+                                  <img src="img/thl-9.jpg" alt="A member of the herbert lab at the park team outing showing the peace sign." width="467" height="350" loading="lazy">
+                                </picture>
                               </div>
-
                             </div>
 
 
@@ -617,17 +659,28 @@
                               <div id="gridTONew">
 
                                 <div>
-                                  <img src="img/thl-10.jpg" alt="A member of the herbert lab at the park team outing waving to the camera." width="467" height="350"  loading="lazy"></img>
+                                  <picture>
+                                    <source type="image/webp" srcset="img/thl-10.webp">
+                                    <source type="image/jpeg" srcset="img/thl-10.jpg">
+                                    <img src="img/thl-10.jpg" alt="A member of the herbert lab at the park team outing waving to the camera." width="467" height="350" loading="lazy">
+                                  </picture>
                                 </div>
 
                                 <div>
-                                  <img src="img/thl-11.jpg" alt="Two members of the herbert lab at the park team outing wearing masks." width="467" height="350" loading="lazy"></img>
+                                  <picture>
+                                    <source type="image/webp" srcset="img/thl-11.webp">
+                                    <source type="image/jpeg" srcset="img/thl-11.jpg">
+                                    <img src="img/thl-11.jpg" alt="Two members of the herbert lab at the park team outing wearing masks." width="467" height="350" loading="lazy">
+                                  </picture>
                                 </div>
 
                                 <div>
-                                  <img src="img/thl-12.jpg" alt="Members of the herbert lab at the throw house lab outing event making silly faces." width="467" height="350" loading="lazy"></img>
+                                  <picture>
+                                    <source type="image/webp" srcset="img/thl-12.webp">
+                                    <source type="image/jpeg" srcset="img/thl-12.jpg">
+                                    <img src="img/thl-12.jpg" alt="Members of the herbert lab at the throw house lab outing event making silly faces." width="467" height="350" loading="lazy">
+                                  </picture>
                                 </div>
-
                               </div>
 
 
@@ -654,19 +707,29 @@
 
 
                                 <div id="gridTONew">
-
                                   <div>
-                                    <img src="img/thl-13.jpg" alt="Dr. Herbert and speaker." width="467" height="350" loading="lazy"></img>
+                                    <picture>
+                                      <source type="image/webp" srcset="img/thl-13.webp">
+                                      <source type="image/jpeg" srcset="img/thl-13.jpg">
+                                      <img src="img/thl-13.jpg" alt="Dr. Herbert and speaker." width="467" height="350" loading="lazy">
+                                    </picture>
                                   </div>
 
                                   <div>
-                                    <img src="img/thl-14.jpg" alt="Members of the herbert lab throwing axes at the throw house event." width="467" height="350" loading="lazy"></img>
+                                    <picture>
+                                      <source type="image/webp" srcset="img/thl-14.webp">
+                                      <source type="image/jpeg" srcset="img/thl-14.jpg">
+                                      <img src="img/thl-14.jpg" alt="Members of the herbert lab throwing axes at the throw house event." width="467" height="350" loading="lazy">
+                                    </picture>
                                   </div>
 
                                   <div>
-                                    <img src="img/thl-15.jpg" alt="Dr. Herbert and speaker and lab member." width="467" height="350" loading="lazy"></img>
+                                    <picture>
+                                      <source type="image/webp" srcset="img/thl-15.webp">
+                                      <source type="image/jpeg" srcset="img/thl-15.jpg">
+                                      <img src="img/thl-15.jpg" alt="Dr. Herbert and speaker and lab member." width="467" height="350" loading="lazy">
+                                    </picture>
                                   </div>
-
                                 </div>
 
 
@@ -695,17 +758,28 @@
                                   <div id="gridTONew">
 
                                     <div>
-                                      <img src="img/thl-16.jpg" alt="Three members of the herbert lab throwing axes at the throw house event." width="467" height="350" loading="lazy"></img>
+                                      <picture>
+                                        <source type="image/webp" srcset="img/thl-16.webp">
+                                        <source type="image/jpeg" srcset="img/thl-16.jpg">
+                                        <img src="img/thl-16.jpg" alt="Three members of the herbert lab throwing axes at the throw house event." width="467" height="350" loading="lazy">
+                                      </picture>
                                     </div>
 
                                     <div>
-                                      <img src="img/thl-17.jpg" alt="Two members of the herbert retreiving axes at the throw house event." width="467" height="350" loading="lazy"></img>
+                                      <picture>
+                                        <source type="image/webp" srcset="img/thl-17.webp">
+                                        <source type="image/jpeg" srcset="img/thl-17.jpg">
+                                        <img src="img/thl-17.jpg" alt="Two members of the herbert retreiving axes at the throw house event." width="467" height="350" loading="lazy">
+                                      </picture>
                                     </div>
 
                                     <div>
-                                      <img src="img/thl-18.jpg" alt="Member of the herbert lab cutting celebratory cake." width="467" height="350" loading="lazy"></img>
+                                      <picture>
+                                        <source type="image/webp" srcset="img/thl-18.webp">
+                                        <source type="image/jpeg" srcset="img/thl-18.jpg">
+                                        <img src="img/thl-18.jpg" alt="Member of the herbert lab cutting celebratory cake." width="467" height="350" loading="lazy">
+                                      </picture>
                                     </div>
-
                                   </div>
 
 
@@ -732,19 +806,29 @@
 
 
                                     <div id="gridTONew">
-
                                       <div>
-                                        <img src="img/thl-19.jpg" alt="Three members of the herbert lab throwing axes at the throw house event." width="467" height="350" loading="lazy"></img>
+                                        <picture>
+                                          <source type="image/webp" srcset="img/thl-19.webp">
+                                          <source type="image/jpeg" srcset="img/thl-19.jpg">
+                                          <img src="img/thl-19.jpg" alt="Three members of the herbert lab throwing axes at the throw house event." width="467" height="350" loading="lazy">
+                                        </picture>
                                       </div>
 
                                       <div>
-                                        <img src="img/thl-20.jpg" alt="Two members of the herbert lab throwing axes at the throw house event." width="467" height="350" loading="lazy"></img>
+                                        <picture>
+                                          <source type="image/webp" srcset="img/thl-20.webp">
+                                          <source type="image/jpeg" srcset="img/thl-20.jpg">
+                                          <img src="img/thl-20.jpg" alt="Two members of the herbert lab throwing axes at the throw house event." width="467" height="350" loading="lazy">
+                                        </picture>
                                       </div>
 
                                       <div>
-                                        <img src="img/thl-21.jpg" alt="Two members of the herbert lab conducting scientific research." width="467" height="350" loading="lazy"></img>
+                                        <picture>
+                                          <source type="image/webp" srcset="img/thl-21.webp">
+                                          <source type="image/jpeg" srcset="img/thl-21.jpg">
+                                          <img src="img/thl-21.jpg" alt="Two members of the herbert lab conducting scientific research." width="467" height="350" loading="lazy">
+                                        </picture>
                                       </div>
-
                                     </div>
 
 
@@ -773,15 +857,27 @@
                                       <div id="gridTONew">
 
                                         <div>
-                                          <img src="img/thl-22.jpg" alt="A member of the herbert lab at the parking outing smiling and snacking." width="467" height="350" loading="lazy"></img>
+                                          <picture>
+                                            <source type="image/webp" srcset="img/thl-22.webp">
+                                            <source type="image/jpeg" srcset="img/thl-22.jpg">
+                                            <img src="img/thl-22.jpg" alt="A member of the herbert lab at the parking outing smiling and snacking." width="467" height="350" loading="lazy">
+                                          </picture>
                                         </div>
 
                                         <div>
-                                          <img src="img/thl-23.jpg" alt="Two members of the herbert lab throwing axes at the throw house event." width="467" height="350" loading="lazy"></img>
+                                          <picture>
+                                            <source type="image/webp" srcset="img/thl-23.webp">
+                                            <source type="image/jpeg" srcset="img/thl-23.jpg">
+                                            <img src="img/thl-23.jpg" alt="Two members of the herbert lab throwing axes at the throw house event." width="467" height="350" loading="lazy">
+                                          </picture>
                                         </div>
 
                                         <div>
-                                          <img src="img/thl-1.jpg" alt="Organizing committee at the helminthology symposium." width="467" height="350" loading="lazy"></img>
+                                          <picture>
+                                            <source type="image/webp" srcset="img/thl-1.webp">
+                                            <source type="image/jpeg" srcset="img/thl-1.jpg">
+                                            <img src="img/thl-1.jpg" alt="Organizing committee at the helminthology symposium." width="467" height="350" loading="lazy">
+                                          </picture>
                                         </div>
 
                                       </div>

@@ -425,7 +425,7 @@ header h2:nth-child(3):hover {
 /* Intro Starts */
 .bg-img {
   animation: scroll 350s infinite, fadeIn 7.5s;
-  background-image: url('img/ps-img7-ge5.png');
+  background-image: url('img/ps-img7-ge5.webp');
   background-size: contain;
   border-bottom: .5px solid;
   border-bottom-color: #eee;
@@ -433,12 +433,13 @@ header h2:nth-child(3):hover {
   grid-template-columns: 50% 50%;
 }
 
+_:default:not(:root:root), .bg-img { background-image: url('img/ps-img7-ge5.png'); }
+
 .bgImage {
   background-color: rgba(0,0,0, .8);
   height: 300px;
   padding: 1em;
   text-align: center;
-
 }
 
 .bgImage img {
@@ -777,11 +778,14 @@ header h2:nth-child(3):hover {
 }
 
 #sliderForPodcastImage {
-  background-image: url('img/IMG_0295.jpg');
+  background-image: url('img/IMG_0295.webp');
   background-size: cover;
   background-position: center;
   font-family: 'Bodoni Moda', serif;
 }
+
+_:default:not(:root:root), #sliderForPodcastImage { background-image: url('img/IMG_0295.jpg'); }
+
 
 #sliderForPodcastImage h1, #sliderForPodcastImage p {
   width: max-content;
@@ -834,7 +838,7 @@ input[type="radio"]:checked {
 
 #gridTO img {
   width: auto;
-  height: 250px;;
+  height: 250px;
   border-radius: 3px;
 }
 
@@ -925,6 +929,7 @@ input[type="radio"]:checked {
   text-align: center;
   padding: 0;
   padding-bottom: 5em;
+  margin-top: 1em;
 }
 
 #currentTeamMembersSection h3 {
@@ -1132,12 +1137,13 @@ input[type="radio"]:checked {
 }
 
 .learnMore, .contact {
-  font-size: 16px;
   text-transform: uppercase;
-  font-weight: 100;
   padding: 0;
   margin: 0;
-  color: #8a817c;
+  color: rgb(94, 84, 85);
+  font-family: 'Yaldevi', sans-serif;
+  font-weight: 300;
+  font-size: 14px;
 }
 
 .learnMore {
@@ -1651,7 +1657,7 @@ details[open] summary {
 }
 
 #apcImage {
-  background: url('img/pattern-7.png');
+  background-image: url('img/pattern-7.webp');
   background-size: cover;
   border-radius: 3px;
   height: 400px;
@@ -1659,6 +1665,8 @@ details[open] summary {
   text-align: center;
   width: 600px;
 }
+
+_:default:not(:root:root), #apcImage { background-image: url('img/pattern-7.png'); }
 
 #apcImage h1 {
   border-radius: 3px;
@@ -1943,13 +1951,6 @@ footer ul li {
     height: auto;
   }
 
-  #currentTeamMembersSection {
-    scale: 65%;
-    margin-top: -14%;
-    width: 100%;
-    padding-bottom: 0;
-  }
-
 }
 
 @media (min-width: 2560px) {
@@ -1983,12 +1984,7 @@ footer ul li {
     display: block;
   }
 
-  #currentTeamMembersSection {
-    scale: none;
-    margin-top: 0;
-    width: 75%;
-    margin: 3em auto;
-  }
+
 
   .researchMainBody {
     line-height: 42px;
@@ -2019,12 +2015,6 @@ footer ul li {
     width: 95% !important;
   }
 
-  #currentTeamMembersSection {
-    scale: 75%;
-    margin-top: -14%;
-    width: 100%;
-    padding-bottom: 0;
-  }
 
   .bgImage {
     height: 250px;
@@ -2097,9 +2087,8 @@ footer ul li {
     margin-top: 3em;
   }
 
-
   #gridTO img {
-    width: 600px;
+    width: auto;
     height: auto;
     border-radius: 3px;
   }
@@ -2116,12 +2105,6 @@ footer ul li {
     display: block;
   }
 
-  #currentTeamMembersSection {
-    scale: 75%;
-    margin-top: -20%;
-    width: 100%;
-    padding-bottom: 0;
-  }
 
   .researchMainGrid {
     grid-template-columns: auto;
@@ -2174,6 +2157,11 @@ footer ul li {
 
   @media (max-width: 768px) {
 
+    #gridTO img {
+        width:  auto;
+        height: auto;
+    }
+
 
     .apcSecondSection {
       height: auto;
@@ -2187,9 +2175,6 @@ footer ul li {
       grid-template-columns: auto;
     }
 
-    #upennText {
-      //display: none;
-    }
 
     #upennTextBreak {
       display: none;
@@ -2311,12 +2296,6 @@ footer ul li {
       color: #000;
     }
 
-    #currentTeamMembersSection {
-      scale: 75%;
-      margin-top: -30%;
-      width: 100%;
-      padding-bottom: 0;
-    }
 
     #toSection {
       display: block !important;
@@ -2331,6 +2310,10 @@ footer ul li {
   }
 
   @media (max-width: 500px) {
+
+    #gridTO img {
+      width: 100%;
+    }
 
     .piVideos {
       height: 185px;
