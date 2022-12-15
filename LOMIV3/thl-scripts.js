@@ -1,5 +1,3 @@
-
-
 /* Hover for Nav Items */
   var navLinks = document.getElementsByClassName('navLinks');
   var navToolTips = document.getElementsByClassName('tooltiptext');

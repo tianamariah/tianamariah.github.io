@@ -272,6 +272,7 @@ header {
 
 header svg {
   fill: #fff !important;
+
   stroke: #fff;
   width: 40px;
 }
@@ -284,7 +285,7 @@ header svg:hover {
 header a h2 {
   color: #fff;
   font-family: 'Bodoni Moda', serif;
-  font-weight: 100;
+  font-weight: 700;
   font-size: 32px;
 }
 
@@ -451,7 +452,6 @@ header h2:nth-child(3):hover {
 
 #introSection h1 {
   animation: fadeIn 7.5s;
-  color: rgb(94, 84, 85);
   font-family: 'Bodoni Moda', serif;
   font-size: 40px;
   font-weight: 500;
@@ -487,12 +487,12 @@ header h2:nth-child(3):hover {
 }
 
 #buttonGroup a {
-  color: rgb(94, 84, 85);
+  color: #000;
   font-family: 'Yaldevi', sans-serif;
   margin: 0;
   height: 25px;
   border-radius: 3px;
-  border: .5px solid rgb(94, 84, 85);
+  border: .5px solid #eee;
   padding: 10px;
   text-align: center;
 }
@@ -650,6 +650,7 @@ header h2:nth-child(3):hover {
 .researchCard a {
   border: .5px solid #eee;
   border-radius: 3px;
+  color: #000;
   font-family: 'Bodoni Moda', serif;
   font-weight: 400;
   padding: .5em;
@@ -661,7 +662,7 @@ header h2:nth-child(3):hover {
 
 .researchCard span {
   margin-top: 15px;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .researchCard a:hover {
@@ -708,6 +709,10 @@ header h2:nth-child(3):hover {
   grid-template-columns: auto auto;
   column-gap: 1em;
   margin-top: 2em;
+}
+
+#innerPiGrid a {
+  color: #000;
 }
 
 #innerPiGrid img {
@@ -1127,7 +1132,7 @@ input[type="radio"]:checked {
 }
 
 .learnMore, .contact {
-  font-size: 20px;
+  font-size: 16px;
   text-transform: uppercase;
   font-weight: 100;
   padding: 0;
@@ -1136,7 +1141,7 @@ input[type="radio"]:checked {
 }
 
 .learnMore {
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .learnMore:hover, .contact:hover {
@@ -1298,31 +1303,15 @@ input[type="radio"]:checked {
   margin: 0;
 }
 
-.mainNewsTitle {
-  color: rgb(94, 84, 85);
-  font-family: 'Bodoni Moda', serif;
-  font-size: 1.4em;
-  font-weight: 700;
-  margin: 1em auto;
-  letter-spacing: 3px;
-  text-align: center;
-  text-transform: uppercase;
-}
-
-.subNewsTitle, .subNewsTitle2, .subNewsTitle3  {
+.subNewsTitle, .subNewsTitle2, .subNewsTitle3, .subNewsTitle2 a  {
   color: rgb(94, 84, 85);
   font-family: 'Yaldevi', sans-serif;
   letter-spacing: 3px;
-  font-weight: 100;
+  font-weight: 500 !important;
   font-size: 1.2em;
   padding: 0;
   margin: 0;
   text-align: left !important;
-}
-
-.subNewsTitle2 {
-  margin-top: 0em;
-  font-weight: 400;
 }
 
 .subNewsTitle3 {
@@ -1371,7 +1360,16 @@ input[type="radio"]:checked {
   font-family: 'Yaldevi', sans-serif;
   font-weight: 300;
   font-size: 1em;
-  margin: 3em 0;
+}
+
+#year2023,
+#year2022,
+#year2021,
+#year2020,
+#year2019,
+#year2018,
+#year2017 {
+  padding: 3.5em 0em;
 }
 
 .newsMainBody ul li {
@@ -1431,6 +1429,9 @@ summary {
 .sumGrid {
   display: grid;
   grid-template-columns: 90% 10%;
+  border: 0.5px solid rgba(94, 84, 85, .8);
+  border-radius: 3px;
+  padding: 17px;
 }
 
 .breadCrumbMobile .material-symbols-sharp {
@@ -1523,7 +1524,7 @@ details[open] summary {
 .subResearchTitle, .subResearchTitle2 {
   color: rgb(94, 84, 85);
   font-family: 'Bodoni Moda', serif;
-  font-weight: 500;
+  font-weight: 700;
   letter-spacing: 1px;
   font-size: 1.5em;
   padding: 0;
@@ -1838,7 +1839,13 @@ details[open] summary {
 }
 
 .subDissTitle2 {
-  margin-top: 1em;
+  color: rgb(94, 84, 85);
+  font-family: 'Yaldevi', sans-serif;
+  font-size: 1.2em;
+  font-weight: 100 !important;
+  letter-spacing: 3px;
+  margin-top: 1.5em;
+  text-align: left !important;
 }
 
 .dissIframe {
@@ -2023,8 +2030,6 @@ footer ul li {
     height: 250px;
   }
 
-
-
 }
 
 
@@ -2032,6 +2037,16 @@ footer ul li {
   #apcTeamGrid {
     grid-template-columns: auto auto;
   }
+}
+
+
+@media (max-width: 1353px) {
+
+  #gridPI, #gridTO {
+    grid-template-columns: none;
+    row-gap: 4em;
+  }
+
 }
 
 
@@ -2082,9 +2097,6 @@ footer ul li {
     margin-top: 3em;
   }
 
-  #gridPI, #gridTO {
-    grid-template-columns: none;
-  }
 
   #gridTO img {
     width: 600px;
@@ -2227,10 +2239,6 @@ footer ul li {
       padding-bottom: 0 !important;
     }
 
-    .mainNewsTitle {
-      font-size: 1em;
-      letter-spacing: 1px;
-    }
 
     #gridThree {
       grid-template-columns: auto;
@@ -2323,6 +2331,12 @@ footer ul li {
   }
 
   @media (max-width: 500px) {
+
+    .piVideos {
+      height: 185px;
+    }
+
+
     .dissIframe iframe {
       width: 320px;
       height: 328px;
@@ -2336,22 +2350,6 @@ footer ul li {
       margin-left: -15px;
     }
 
-    #sliderForPodcastImage h1, #sliderForPodcastImage p {
-      width: 365px;
-      margin: 0 auto;
-      background-color: rgba(0,0,0, .7);
-      border-radius: 3px;
-      color: #fff;
-      padding: 5px;
-    }
-
-    #sliderForPodcastImage h1 {
-      margin-top: 3em;
-    }
-
-    #sliderForPodcastImage p {
-      margin-top: 1em;
-    }
 
     #apcTeamGrid {
       grid-template-columns: auto;
@@ -2393,8 +2391,9 @@ footer ul li {
     }
 
     #headerTitle {
-      font-size: 20px;
+      font-size: 1.5em;
       text-align: center;
+      margin-top: 10.95px;
     }
 
     header h2:nth-child(3) {
@@ -2415,18 +2414,7 @@ footer ul li {
       display: none;
     }
 
-    .sectionTitle {
-      letter-spacing: 0px;
-      text-transform: none;
-      font-family: 'Bodoni Moda', serif;
-      font-size: 14px;
-      font-weight: 700;
-      color: #000;
-      letter-spacing: 1px;
-      background-color: #fff;
-      border: none;
-      border-color: none;
-    }
+
 
     .outerGrid, #outerGridFirstDiv, #introSection {
       width: 425px;
@@ -2577,7 +2565,7 @@ footer ul li {
     .rowFour {
       grid-template-columns: auto;
       row-gap: 3em;
-      margin-top: 3em;
+      margin: 4em auto;
     }
 
     #newsSectionGrid, #teamSectionGrid, #dissSectionGrid {
@@ -2611,12 +2599,6 @@ footer ul li {
 
     .mobileImageHide {
       display: block !important;
-    }
-
-    .mainNewsTitle {
-      display: none;
-      font-size: 14px;
-      letter-spacing: 0px;
     }
 
     .breadCrumbMobileGrid {
@@ -2722,10 +2704,6 @@ footer ul li {
       width: 100%;
     }
 
-    .mainNewsTitle {
-      font-size: 12px;
-      letter-spacing: 0px;
-    }
 
     .subResearchTitle {
       font-size: 1.2em;
@@ -2797,11 +2775,6 @@ footer ul li {
       margin: 3em 0;
       padding: 0;
       width: 100%;
-    }
-
-    .mainNewsTitle {
-      font-size: 10px;
-      letter-spacing: 0px;
     }
 
     #footerTextBreak {
