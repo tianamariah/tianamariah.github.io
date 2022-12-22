@@ -395,7 +395,7 @@ header h2:nth-child(3):hover {
   text-transform: uppercase;
   letter-spacing: 1px;
   position: absolute;
-  top: 50px;
+  top: 5px;
   bottom: 0;
   right: 0;
   left: 5px;
@@ -672,7 +672,15 @@ _:default:not(:root:root), .bg-img { background-image: url('img/ps-img7-ge5.png'
 }
 
 .bi, .bi::before {
-  vertical-align: 0px !important;
+  vertical-align: 0px;
+}
+
+#moveDissIcon {
+  vertical-align: -15px !important;
+}
+
+#moveDissText {
+  top: -10px !important;
 }
 /* Research Section Homepage End */
 
