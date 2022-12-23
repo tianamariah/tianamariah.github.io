@@ -251,7 +251,7 @@
 
 .videoGrid {
   display: grid;
-  grid-template-rows: 50%;
+  grid-template-rows: auto;
 }
 
 #rowOne, #rowTwo {
@@ -284,10 +284,11 @@
 
 iframe {
   border-radius: 3px;
-  height: 100%;
-  width: 100%;
+  height: 350px;
+  width: 100% !important;
   box-shadow: rgb(0 0 0 / 16%) 0px 1px 4px;
 }
+
 
 /* Card Styles */
 
@@ -927,14 +928,6 @@ small {
       background-repeat: no-repeat;
     }
 
-    #youtubeVid, .wilc {
-      height: 350px;
-    }
-
-    #rowTwo {
-      display: none;
-    }
-
     #sectionThree h1 {
       margin-top: 1em;
     }
@@ -944,7 +937,7 @@ small {
       background-color: #fff;
     }
 
-    .moreVideosDiv iframe {
+    .moreVideosDiv iframe, #youtubeVid, .wilc {
       height: 350px;
     }
 
@@ -1044,13 +1037,6 @@ small {
           padding-top: 40px;
       }
 
-      #youtubeVid, .wilc {
-        height: 350px;
-      }
-
-      #rowTwo {
-        display: none;
-      }
 
     .productDiv, .hairQuizDiv {
         padding: 0px;
@@ -1233,9 +1219,6 @@ small {
     height: 350px;
   }
 
-  #rowTwo {
-    display: none;
-  }
 
 .productDiv, .hairQuizDiv {
     padding: 0px;
@@ -1306,8 +1289,8 @@ small {
 
 @media (max-width: 425px) {
 
-  #youtubeVid {
-    margin-left: -15px;
+  .thumbnailGrid  {
+    margin-left: -2.5%;
   }
 
   #sectionFour h1 {
@@ -1384,6 +1367,11 @@ small {
 
 @media (max-width: 375px) {
 
+  .thumbnailGrid  {
+    padding: 5%;
+    margin-left: -9%;
+  }
+
   .wilc div {
     margin-left: -70px;
   }
@@ -1449,6 +1437,11 @@ small {
 }
 
 @media (max-width: 320px) {
+
+  .thumbnailGrid  {
+    padding: 14%;
+    margin-left: -11%;
+  }
 
   .wilc div {
     margin-left: -75px;
