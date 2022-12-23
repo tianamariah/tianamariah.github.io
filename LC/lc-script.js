@@ -1,11 +1,3 @@
-var fODiv = document.getElementById('fadeOutDiv');
-var ytVid = document.getElementById('youtubeVid');
-
-fODiv.addEventListener('animationend', (event) => {
-  fODiv.style.display = "none";
-  ytVid.style.display = "block";
-});
-
 var navigation = document.getElementById('mainGrid');
 var mainSection = document.getElementById('sectionGridOne');
 const w = window.innerWidth;
