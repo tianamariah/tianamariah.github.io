@@ -1,0 +1,1513 @@
+
+  html, body {width: auto!important; overflow-x: hidden!important}
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  a {
+    color: #61007d;
+    text-decoration: none;
+  }
+
+  .showMobileOnly, .waveBackground, #youtubeVid {
+    display: none;
+  }
+
+  .hideMobileOnly {
+    display: none !important;
+  }
+
+  .showDesktopOnly {
+    display: block;
+  }
+
+  .centerText {
+    display: flex;
+    justify-content: center;
+  }
+
+  nav {
+    background: #A13DFE;
+    margin: 0;
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  }
+
+  #mainGrid {
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: center;
+    width: 100%;
+    padding: 5px 0px;
+  }
+
+  #outerNavGrid {
+    display: grid;
+    font-family: 'Nunito', sans-serif;
+    font-size: 12px;
+    font-weight: 900;
+    text-align: center;
+    grid-template-columns: repeat(9, 1fr);
+    margin-top: 10px;
+  }
+
+  .innerNavGrid {
+    color: #fff;
+    display: grid;
+    padding: 5px;
+  }
+
+  .innerNavGrid img {
+    width: 40px;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  #logo img {
+    width: 450px;
+    height: auto;
+    padding: 0 auto;
+  }
+
+  #logoMobile, #mobileMenu, details {
+    display: none;
+  }
+
+  .centerText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .navLink {
+    color: #000;
+    text-decoration: none;
+  }
+
+  .navLink:hover {
+    opacity: .4;
+  }
+
+  details > summary:first-of-type {
+    list-style: none;
+  }
+
+  summary::-webkit-details-marker {
+    display: none;
+  }
+
+  summary {
+    font-family: 'Nunito', sans-serif;
+    font-size: 25px;
+    font-weight: 900;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 5px;
+    width: 90%;
+    margin: 5% auto;
+    border-radius: 65px;
+  }
+
+  .mainBtn {
+    font-family: 'Nunito', sans-serif;
+    margin: 1em auto;
+    padding: 10px;
+    background-color: #A239E7;
+    border-radius: 65px;
+    color: #fff;
+    font-size: 25px;
+    width: 95%;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  }
+
+  .mainBtn #btnArrows {
+    font-size: 25px;
+  }
+
+  .mainBtn:hover {
+    opacity: .4;
+    color: #000;
+  }
+
+
+/* Slider Styles */
+
+.slider {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  overflow: hidden;
+}
+
+.slides {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  scroll-snap-points-x: repeat(300px);
+  scroll-snap-type: mandatory;
+}
+
+.slides::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+.slides::-webkit-scrollbar-thumb {
+  background: #5A189A;
+  border-radius: 10px;
+}
+
+.slides::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.slides > div {
+  scroll-snap-align: start;
+  flex-shrink: 0;
+  width: 100%;
+  height: 100%;
+  margin-right: 50px;
+  border-radius: 10px;
+  transform-origin: center center;
+  transform: scale(1);
+  transition: transform 0.5s;
+  position: relative;
+  display: flex;
+}
+
+.slides > div:target {
+  /* transform: scale(0.8); */
+}
+
+.slider img {
+  object-fit: fill;
+  width: inherit;
+  height: inherit;
+}
+
+.slides img {
+  border-radius: 3px;
+}
+
+.thumbnailGrid {
+  column-gap: 5px;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  width: 100%;
+  height: 100%;
+}
+
+.thumbnailGrid img {
+  height: auto;
+  width: 100%;
+  border-radius: 3px;
+  box-shadow: rgb(0 0 0 / 16%) 0px 1px 4px;
+}
+
+/* Don't need button navigation */
+@supports (scroll-snap-type) {
+  .slider > a {
+    display: none;
+  }
+}
+/* Slider Styles */
+
+
+/* Section One Styles */
+
+#sectionGridOne {
+  display: grid;
+  font-family: 'Nunito';
+  grid-template-columns: 50% 50%;
+  padding: 1em;
+  row-gap: 1em;
+  column-gap: 1em;
+}
+
+
+#sectionGridOne h1, #sectionFour h1 {
+  font-size: 1.8em;
+  font-weight: 900;
+  text-align: center;
+  letter-spacing: 1.2px;
+}
+
+#sectionGridOne ul li {
+  list-style-type: none;
+}
+
+#sectionGridOne a {
+  text-decoration: none;
+}
+
+
+.videoGrid {
+  display: grid;
+  grid-template-rows: 50%;
+}
+
+#rowOne, #rowTwo {
+  padding: 10px;
+}
+
+.wilc {
+  color: #eaafc8;
+  border: 1px dotted #eaafc8;
+  border-radius: 3px;
+  height: 100%;
+  width: 100%;
+}
+
+.wilc h1 {
+  font-weight: 400;
+  font-size: 2.8em !important;
+  color: #eaafc8;
+  font-family: 'MuseoModerno', cursive;
+}
+
+.wilc p {
+  font-size: 20px !important;
+  text-transform: uppercase;
+}
+
+.wilc div {
+  text-align: center;
+}
+
+iframe {
+  border-radius: 3px;
+  height: 100%;
+  width: 100%;
+  box-shadow: rgb(0 0 0 / 16%) 0px 1px 4px;
+}
+
+/* Card Styles */
+
+.card {
+  width:95%;
+  border: 1px solid #B000FC;
+  border-radius: 3px;
+  margin: 0 auto;
+}
+
+
+.cardTop {
+  border-bottom: 1px solid #B000FC;
+  font-family:'Nunito';
+  text-align: center;
+  font-size: 18px;
+  padding: 5px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.cardTop img {
+  display: inline-block;
+  height: 22px;
+  vertical-align: middle;
+}
+
+.cardBody {
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.cardOne {
+    padding-bottom: 1.5em;
+}
+
+.cardOne .cardBody ul li {
+  padding-top: 15px;
+}
+
+.cardBody strong {
+  font-weight: 900;
+}
+
+.cardBody .btn, .cardBody a {
+  background-color: #d05cc0;
+  border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  color: #fff;
+  font-size: 14px;
+  padding: 10px;
+  font-weight: 900;
+}
+
+.cardBody .btn:hover {
+  opacity: .4;
+  color: #000;
+}
+
+.cardText {
+  padding-bottom: 15px;
+}
+
+/* Card Styles */
+
+/* Section One Styles */
+
+
+/* Hair Quiz Styles */
+#sectionGridTwo {
+  display: grid;
+  font-family: 'Nunito';
+  grid-template-columns: 50% 50%;
+  padding: 1em;
+  column-gap: 2em;
+  row-gap: 1em;
+  margin-top: 10%;
+}
+
+.innerGridTwo {
+  display: grid;
+  grid-template-rows: 50% 50%;
+}
+
+.hairTypeGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  column-gap: 5px;
+  row-gap: 5px;
+  margin-top: 5px;
+}
+
+.hairTypeGrid img {
+  height: 100%;
+  width: 100%;
+  border-radius: 3px;
+}
+
+#hairQuizText {
+  position: relative;
+  text-align: center;
+  top: -25%;
+  z-index: 3;
+  width: 85%;
+  margin: 0 auto;
+}
+
+#hairQuizText h1 {
+  color: #000;
+  font-weight: 900;
+  font-size: 1.8em;
+}
+
+#hairQuizText  a {
+  color: #fff;
+  font-weight: 900;
+  font-size: 1em;
+}
+
+#hairQuizText  p {
+  background-color: rgba(0,0,0, .5);
+  width: 65%;
+  padding: 10px;
+  border-radius: 25px;
+  margin: 0 auto;
+}
+
+#hairQuizText a:hover, #hairQuizText p:hover {
+  opacity: .7 !important;
+}
+
+.productDiv, .hairQuizDiv {
+  border: 1px solid transparent;
+  border-radius: 3px;
+}
+
+.productDiv img {
+  height: auto;
+  width: 100%;
+}
+
+.hairQuizDiv img {
+  height: 100%;
+  width: 100%;
+  border-radius: 3px;
+}
+
+.hairQuizDiv img {
+  z-index: 1;
+}
+
+.productDiv {
+  text-align: center;
+}
+
+.productDiv h1 {
+  font-family: 'MuseoModerno', cursive;
+  font-weight: 100;
+  padding: 10px;
+}
+
+.productDiv p {
+  font-family: 'Nunito';
+  font-weight: 500;
+  font-size: 2em;
+}
+/* Hair Quiz Styles */
+
+/* Section Three Styles */
+
+#sectionThree {
+  text-align: center;
+  background: #ECE9E6;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#sectionThree h1 {
+  color: #d05cc0;
+  font-family: 'MuseoModerno', cursive;
+  font-size: 4em;
+  font-weight: 100;
+  margin-top: 3em;
+}
+
+#sectionThree p {
+  font-family: 'Nunito';
+  font-size: 1.8em;
+  font-weight: 400;
+  width: 75%;
+  margin: 0 auto;
+}
+
+#sectionThree .mainBtn {
+  width: 40%;
+  margin: 1em auto;
+  margin-bottom: 1em;
+  position: relative;
+}
+
+#sectionThree img {
+  width: 100vw;
+  margin-top: -10%;
+}
+
+/* Section Three Styles */
+
+/* Section Four Styles */
+
+#sectionFour {
+  text-align: center;
+  padding: 3em;
+}
+
+#sectionFour img {
+  width: 75%;
+  height: auto;
+}
+
+
+
+#sectionFour h1 {
+  color: #fff;
+  font-family: 'Nunito';
+  font-weight: 900;
+  font-size: 3em;
+  text-align: center;
+  width: 85%;
+  padding: 3em;
+  margin: 0 auto;
+  text-transform: uppercase;
+}
+
+#sectionGridThree {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  text-align: center;
+  margin-top: 3em;
+}
+
+.innerSectionGridThree {
+  display: grid;
+}
+
+.reviewDiv {
+    background-image: url(review-image-rb.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 550px;
+    background-position: center;
+    width: auto;
+}
+
+.reviewDiv h3 {
+  background-color: #000;
+  border-radius: 3px;
+  color: #fff;
+  font-family: 'MuseoModerno', cursive;
+  font-weight: 200;
+  text-transform: uppercase;
+  margin-top: 120%;
+  width: 100%;
+  padding: 5px;
+}
+
+.reviewDiv p {
+    font-family: 'Nunito';
+    background-color: #d05cc0;
+    box-shadow: rgb(0 0 0 / 16%) 0px 1px 4px;
+    padding: 10px;
+    border-radius: 25px;
+    width: 65%;
+    margin: 5px auto;
+}
+
+.reviewDiv a {
+    color: #fff;
+    font-weight: 900;
+    font-size: 1.2em;
+  }
+
+  .reviewDiv p:hover, .reviewDiv .btn:hover {
+    opacity: .7;
+    color: #000;
+   }
+
+.moreVideosDiv {
+  height: 550px;
+  width: 100%;
+}
+
+.moreVideosDiv iframe {
+  height: 350px;
+  width: 100% !important;
+}
+
+.moreVideosDiv h2 {
+  font-family: 'Nunito';
+  font-weight: bolder;
+}
+
+.moreVideosDiv  a {
+  color: #fff;
+  font-weight: 900;
+  font-size: 1.2em;
+}
+
+.moreVideosDiv p {
+  font-family: 'Nunito';
+  background-color: #000;
+  color: #fff;
+  width: 50% !important;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.moreVideosDiv a:hover, .moreVideosDiv p:hover {
+  opacity: .7 !important;
+  color: #fff !important;
+}
+
+/* Section Four Styles */
+
+/* Section Five Styles */
+
+#sectionFive {
+  text-align: center;
+  margin: 10% 0;
+}
+
+#sectionGridFour {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  width: 100%;
+  padding: 0;
+}
+
+#sectionGridFour div {
+  height: 100%;
+  width: 100%;
+}
+
+#sectionGridFour img {
+  height: 150px;
+  width: 150px;
+}
+
+/* Section Five Styles */
+
+/* Footer Styles */
+
+footer {
+  background-color: rgba(225,208,239, .4);
+}
+
+footer a:hover {
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+#sectionGridFive {
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  border: 1px solid;
+  border-style: dotted;
+}
+
+#sectionGridFive div {
+  width: 100%;
+  height: 100%;
+  border-right: 1px solid;
+  border-right-style: dotted;
+  padding: 2em 4em;
+}
+
+footer h3 {
+  color: #A239E7;
+  font-family: 'MuseoModerno', cursive !important;
+  font-weight: 400;
+  letter-spacing: 3px;
+}
+
+
+footer ul li, footer ul li h3  {
+  font-family: 'Nunito';
+  list-style-type: none;
+  margin-top: 2em;
+  font-size: 12px;
+  margin-left: 0;
+  letter-spacing: 3px;
+  text-align: left;
+  font-weight: normal;
+}
+
+footer section {
+  color: #A239E7;
+  font-family: 'Nunito';
+  font-weight: 900;
+  letter-spacing: 2px;
+  padding: 10px;
+  text-align: center;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+footer section:last-child {
+  background-color: #fff;
+  margin-bottom: 0 !important;
+
+}
+
+small {
+  color: #000;
+  font-family: 'Nunito';
+}
+/* Footer Styles */
+
+
+/* Animations */
+
+.bounce-1 {
+  animation-name: bounce-1;
+  animation-timing-function: linear;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+}
+
+
+@keyframes bounce-1 {
+
+  100% {
+      transform: translateY(0);
+  }
+
+  50% {
+      transform: translateY(-3px);
+  }
+  0% {
+      transform: translateY(0);
+  }
+
+}
+
+
+.fadeColorOut {
+  animation-name: fadeColorOut;
+  animation-timing-function: ease-out;
+  animation-duration: 4s;
+  animation-delay: 5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeColorOut {
+
+  0% {
+      opacity: .9;
+  }
+
+  50% {
+      opacity: .5;
+  }
+
+  100% {
+      opacity: 0;
+  }
+
+}
+
+/* Animations */
+
+
+/* Media Queries */
+
+@media (max-width: 2560px) {
+
+
+}
+
+
+@media (min-width: 1440px) {
+
+  .mainBtn {
+    width: 50%;
+    margin: 10% auto;
+  }
+
+  .videoGrid {
+      padding: 55px;
+  }
+
+}
+
+@media (max-width: 1024px) {
+
+    #mainGrid {
+      grid-template-columns: auto;
+    }
+
+    #logoDesktop {
+      display: none;
+    }
+
+    #logoMobile {
+      display: block;
+      margin: 0 auto;
+    }
+
+    #logo img {
+      margin-top: 0px;
+    }
+
+    .mainBtn, .mainBtn #btnArrows {
+      font-size: 25px;
+      margin: 10% auto;
+    }
+  }
+
+
+
+  @media (min-width: 901px) and (max-width: 1024px) {
+
+    #mainGrid {
+      grid-template-columns: auto;
+    }
+
+    #logoDesktop {
+      display: none;
+    }
+
+    #logoMobile {
+      display: block;
+      margin: 0 auto;
+    }
+
+    #logo img {
+      margin-top: 0px;
+    }
+
+  }
+
+
+  @media (max-width: 835px) {
+    .desktopMenu {
+      display: none !important;
+    }
+
+    details {
+      display: block !important;
+    }
+
+    #mobileMenu {
+      display: grid;
+      font-family: 'Nunito', sans-serif;
+      text-align: center;
+    }
+
+    #mobileMenu #outerNavGrid {
+      grid-template-columns: repeat(5, 1fr);
+      row-gap: 2em;
+      padding-bottom: 2em;
+    }
+
+  }
+
+  @media (max-width: 745px) {
+    #sectionGridFour {
+      grid-template-columns: repeat(2, auto);
+      width: 100%;
+      margin: 0 auto;
+    }
+
+    #sectionGridFive {
+      grid-template-columns: repeat(2, 50%);
+      row-gap: 2em;
+      row-gap: 0;
+    }
+
+    #colThree, #colFour {
+      border-top: 1px dotted #000;
+    }
+  }
+
+  @media (max-width: 768px) {
+
+    #sectionGridFive {
+      grid-template-columns: repeat(2, 50%);
+      row-gap: 2em;
+      row-gap: 0;
+    }
+
+    #colThree, #colFour {
+      border-top: 1px dotted #000;
+    }
+
+
+    .waveBackground, .waveBackgroundTwo {
+      margin-top: 20%;
+    }
+
+    #sectionThree img {
+      display: none;
+    }
+
+    .showDesktopOnly {
+      display: none;
+    }
+
+
+    .innerNavGrid {
+      padding: 0;
+    }
+
+    #outerNavGrid{
+      font-size: 11px;
+    }
+
+    #sectionGridOne, #sectionGridTwo, #sectionGridThree {
+      grid-template-columns: auto;
+      padding: 0px;
+    }
+
+    #sectionGridOne h1, #sectionFour h1 {
+      padding: 40px 5px;
+    }
+
+    .waveBackground {
+      display: block;
+      background-image: url('wave.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    #youtubeVid, .wilc {
+      height: 350px;
+    }
+
+    #rowTwo {
+      display: none;
+    }
+
+    #sectionThree h1 {
+      margin-top: 1em;
+    }
+
+    #sectionFour {
+      padding: 0;
+      background-color: #fff;
+    }
+
+    .moreVideosDiv iframe {
+      height: 350px;
+    }
+
+    #sectionThree h1, #sectionThree p {
+      width: 100%;
+    }
+
+    #sectionThree .mainBtn {
+      width: 75%;
+    }
+
+      #sectionFour img {
+        width: 100%;
+        height: auto;
+        margin-top: 40%;
+        position: relative;
+      }
+
+      .waveBackgroundTwo {
+        display: block;
+        background-image: url('wave-2.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 380px;
+      }
+
+      #sectionGridThree {
+        background-color: #9b53f7;
+        margin-top: -5%;
+        padding-bottom: 5em;
+        row-gap: 2em;
+      }
+
+      #sectionThree .mainBtn {
+        width: 95%;
+      }
+
+
+      .cardOne {
+        background: #dca7fe;
+        width: 100%;
+        margin-top: -20px;
+        padding-bottom: 5em;
+      }
+
+      .waveBackground h1 {
+        font-family: 'Nunito';
+        font-size: 2.5em !important;
+        margin-top: 50%;
+        width: 100% !important;
+        padding: 40px 0px;
+      }
+
+      .cardTop h4 {
+        font-size: 1.8em;
+        padding-top: 10px;
+        font-weight: 900;
+      }
+
+      .cardTop img {
+        height: 40px;
+      }
+
+      .card, .cardBody {
+        border: none;
+        font-size: 24px;
+      }
+
+      .cardOne .cardBody {
+        margin-top: 30px;
+      }
+
+      .cardTop {
+        background: transparent;
+        border: none;
+      }
+
+      .cardOne .btn {
+        background-color: #fff;
+        color: #AD00F9;
+      }
+
+      .cardTwo h4 {
+        color: #000;
+        font-weight: 900;
+      }
+
+      .cardBody .btn, .cardBody a {
+        font-size: 20px;
+      }
+
+      .cardOne ul li {
+        padding-top: 20px;
+      }
+
+      .cardTwo ul li {
+          padding-top: 40px;
+      }
+
+      #youtubeVid, .wilc {
+        height: 350px;
+      }
+
+      #rowTwo {
+        display: none;
+      }
+
+    .productDiv, .hairQuizDiv {
+        padding: 0px;
+      }
+
+      #sectionFour img {
+        width: 100%;
+        height: auto;
+        margin-top: 40%;
+        position: relative;
+      }
+
+
+      .waveBackgroundTwo h1 {
+        display: none;
+      }
+
+      .reviewDiv {
+        background-position: center;
+        background-size: 86%;
+        background-repeat: no-repeat;
+        height: 800px;
+      }
+
+      .videoDivText h1 {
+        color: #000 !important;
+        font-weight: bold !important;
+      }
+
+      .videoDivText .btn {
+        font-size: 20px;
+        background-color: #000;
+        color: #fff;
+        padding: 10px;
+        border-radius: 25px;
+        font-weight: 900;
+        font-family: 'Nunito';
+      }
+
+      .videoDivText .btn:hover {
+        opacity: .4;
+      }
+
+      .moreVideosDiv {
+        padding: 0px;
+        margin-top: -5%;
+      }
+
+      .showMobileOnly {
+        display: block;
+      }
+}
+
+
+@media (max-width: 500px) {
+  #youtubeVid {
+    margin-top: 50px;
+  }
+
+  .wilc {
+    border: none;
+  }
+
+  #hairQuizText {
+    top: -30%;
+  }
+
+  #hairQuizText h1 {
+    font-size: 1.4em;
+  }
+
+  .hideMobileOnly {
+    display: none !important;
+  }
+
+  .showMobileOnly {
+    display: block;
+  }
+
+  #mobileMenu #outerNavGrid {
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 2em;
+    padding-bottom: 2em;
+  }
+
+  #outerNavGrid{
+    font-size: 14px;
+  }
+
+  #sectionGridOne {
+    padding: 0;
+  }
+
+  .slides > div {
+    height: 468px;
+  }
+
+  .slider img {
+    object-fit: fill;
+  }
+
+  #sectionGridOne h1, #sectionFour h1 {
+    width: 95%;
+    padding: 40px 5px;
+  }
+
+  .mainBtn, .mainBtn #btnArrows {
+    font-size: 25px;
+  }
+
+  .waveBackground {
+    display: block;
+    background-image: url('wave.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .cardOne {
+    background: #dca7fe;
+    width: 100%;
+    margin-top: -20px;
+    padding-bottom: 5em;
+  }
+
+  .waveBackground h1 {
+    font-family: 'Nunito';
+    font-size: 2.5em !important;
+    margin-top: 50%;
+    width: 100% !important;
+    padding: 40px 0px;
+  }
+
+  .cardTop h4 {
+    font-size: 1.8em;
+    padding-top: 10px;
+    font-weight: 900;
+  }
+
+  .cardTop img {
+    height: 40px;
+  }
+
+  .card, .cardBody {
+    border: none;
+    font-size: 24px;
+  }
+
+  .cardOne .cardBody {
+    margin-top: 30px;
+  }
+
+  .cardTop {
+    background: transparent;
+    border: none;
+  }
+
+  .cardOne .btn {
+    background-color: #fff;
+    color: #AD00F9;
+  }
+
+  .cardTwo h4 {
+    color: #000;
+    font-weight: 900;
+  }
+
+  .cardBody .btn, .cardBody a {
+    font-size: 20px;
+  }
+
+  .cardOne ul li {
+    padding-top: 20px;
+  }
+
+  .cardTwo ul li {
+      padding-top: 40px;
+  }
+
+  #youtubeVid, .wilc {
+    height: 350px;
+  }
+
+  #rowTwo {
+    display: none;
+  }
+
+.productDiv, .hairQuizDiv {
+    padding: 0px;
+  }
+
+  #sectionFour img {
+    width: 100%;
+    height: auto;
+    margin-top: 40%;
+    position: relative;
+  }
+
+  .waveBackgroundTwo {
+    display: block;
+    background-image: url('wave-2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+  }
+
+  #sectionGridThree {
+    background-color: #9b53f7;
+    margin-top: -5%;
+    padding-bottom: 5em;
+    row-gap: 2em;
+  }
+
+  #sectionThree .mainBtn {
+    width: 95%;
+  }
+
+  .waveBackgroundTwo h1 {
+    display: none;
+  }
+
+  .reviewDiv {
+    background-position: bottom;
+    background-size: 125%;
+    background-repeat: no-repeat;
+  }
+
+  .videoDivText h1 {
+    color: #000 !important;
+    font-weight: bold !important;
+  }
+
+  .videoDivText .btn {
+    font-size: 20px;
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    border-radius: 25px;
+    font-weight: 900;
+    font-family: 'Nunito';
+  }
+
+  .videoDivText .btn:hover {
+    opacity: .4;
+  }
+
+  .moreVideosDiv {
+    padding: 0px;
+    margin-top: -5%;
+  }
+
+}
+
+
+@media (max-width: 425px) {
+
+  #youtubeVid {
+    margin-left: -15px;
+  }
+
+  #sectionFour h1 {
+    font-size: 2.5em;
+  }
+
+  .reviewDiv {
+    background-size: 145%;
+  }
+
+  #hairQuizText {
+    top: -30%;
+  }
+
+  #hairQuizText h1 {
+    font-size: 1.2em;
+  }
+
+  #hairQuizText a {
+    font-size: 14px;
+  }
+
+  #logoMobile {
+    width: 395px !important;
+  }
+
+  .mainBtn, .mainBtn #btnArrows {
+    font-size: 20px;
+  }
+
+  .slider img {
+    object-fit: fill;
+    margin-left: -10px;
+  }
+
+  .waveBackground h1 {
+    font-size: 2.2em !important;
+    margin-top: 55%;
+    width: 100% !important;
+    margin-left: -10px;
+  }
+
+  .card {
+    width: 100%;
+    margin-left: -15px;
+    border: none;
+  }
+
+  .cardBody {
+    padding: 0 40px;
+  }
+
+  .cardBody .btn, .cardBody a {
+    font-size: 16px;
+  }
+
+  .showMobileOnly {
+    display: block;
+  }
+
+  #sectionGridFive {
+    grid-template-columns: auto;
+    row-gap: 2em;
+    padding-bottom: 2em;
+  }
+
+  #colTwo {
+    border-top: 1px dotted #000;
+  }
+
+
+}
+
+
+@media (max-width: 375px) {
+
+  .wilc div {
+    margin-left: -70px;
+  }
+
+  .wilc h1 {
+    font-size: 2em !important;
+  }
+
+  .reviewDiv {
+    background-size: 185%;
+  }
+
+  #hairQuizText h1 {
+    font-size: 1em;
+  }
+
+  #hairQuizText a {
+    font-size: 12px;
+  }
+
+  #logoMobile {
+    width: 355px !important;
+  }
+
+  .slides > div {
+    height: 350px;
+  }
+
+  .slider img {
+    object-fit: contain;
+    margin-left: -35px;
+  }
+
+  .card {
+    width: 95%;
+    margin-left: -25px;
+  }
+
+  .cardBody {
+    font-size: 22px;
+  }
+
+  .cardTop h4 {
+    font-size: 1.5em;
+  }
+
+
+  .waveBackground h1 {
+    font-size: 2em !important;
+    margin-top: 55%;
+    margin-left: -35px;
+  }
+
+  .cardBody .btn, .cardBody a {
+    font-size: 14px;
+  }
+
+  .cardTop h4 {
+    margin-left: -15px;
+  }
+
+
+}
+
+@media (max-width: 320px) {
+
+  .wilc div {
+    margin-left: -75px;
+  }
+
+  .reviewDiv {
+    background-size: 230%;
+  }
+
+  #hairQuizText {
+    top: -33%;
+  }
+
+  #hairQuizText h1 {
+    font-size: 14px;
+  }
+
+  #hairQuizText a {
+    font-size: 10px;
+  }
+
+
+  #logoMobile {
+    width: 315px !important;
+  }
+
+  .slides > div {
+    height: 315px;
+    margin-left: -3.7px;
+  }
+
+  .slides > div img  {
+    height: 315px;
+  }
+
+  .slider img {
+    object-fit: contain;
+    margin-left: -45px;
+  }
+
+  .card {
+    width: 77%;
+    margin-left: 2px;
+    border: none;
+  }
+
+  .waveBackground h1 {
+    font-size: 1.68em !important;
+    margin-left: -48px;
+  }
+
+  .cardBody .btn, .cardBody a {
+    font-size: 14px;
+  }
+
+  .cardBody {
+    padding: 0 0px;
+  }
+
+}
+
+/* Media Queries */
