@@ -1,0 +1,844 @@
+/* Media Queries */
+@media (max-width: 2560px) {
+    .apcSecondSection {
+        height: 100vh;
+    }
+
+    .researchImg img {
+        max-width: 100%;
+        height: auto;
+    }
+
+}
+
+@media (min-width: 2560px) {
+    .apcSecondSection {
+        height: 100vh;
+    }
+
+    .dialog div {
+
+        line-height: 49px;
+    }
+
+    #gridPI {
+        padding: 6.5em !important;
+    }
+
+    #gridTwo {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #gridTONew img {
+        height: 350px;
+    }
+
+    .photoOuterGrid #leftArrow,
+    .photoOuterGrid #rightArrow {
+        margin-top: 12em;
+    }
+
+    #meetTheTeamLargeScreens {
+        display: block;
+    }
+
+    .researchMainBody {
+        line-height: 42px;
+    }
+
+
+}
+
+@media (max-width: 1440px) {
+    .apcSecondSection {
+        height: 100vh;
+    }
+
+    #gridPI {
+        padding: 6.5em !important;
+    }
+
+    .photoOuterGrid #leftArrow,
+    .photoOuterGrid #rightArrow {
+        margin-top: 10em;
+    }
+
+    #meetTheTeamLargeScreens {
+        display: block;
+    }
+
+    .researchImg img {
+        width: 95% !important;
+    }
+
+
+    .bgImage {
+        height: 250px;
+    }
+
+}
+
+
+@media (max-width: 1363px) {
+    #apcTeamGrid {
+        grid-template-columns: auto auto;
+    }
+}
+
+
+@media (max-width: 1353px) {
+    #gridPI,
+    #gridTO {
+        grid-template-columns: none;
+        row-gap: 4em;
+    }
+
+}
+
+@media (max-width: 1024px) {
+    #navMenu {
+        display: none;
+    }
+
+    #gridOne,
+    #gridTwo {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .lhGrid {
+        grid-template-columns: 1fr 1fr 1fr 1fr !important;
+        padding-bottom: 0 !important;
+    }
+
+    #gridOne,
+    #gridFour {
+        padding-bottom: 3em;
+    }
+
+    #gridFour {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #introMessage {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .navigation {
+        grid-template-columns: repeat(4, minmax(100px, 1fr));
+    }
+
+    #upennTextBreak {
+        display: none;
+    }
+
+    #gridPI {
+        padding: 6.5em !important;
+    }
+
+    .newsButtonGrid {
+        margin-top: 3em;
+    }
+
+    #gridTO img {
+        width: auto;
+        height: auto;
+        border-radius: 3px;
+    }
+
+    #gridTONew img {
+        height: 175px;
+    }
+
+    .photoOuterGrid #leftArrow,
+    .photoOuterGrid #rightArrow {
+        margin-top: 6em;
+    }
+
+    #meetTheTeamLargeScreens {
+        display: block;
+    }
+
+
+    .researchMainGrid {
+        grid-template-columns: auto;
+    }
+
+    .researchImage {
+        display: none;
+    }
+
+    .mobileImage {
+        display: block !important;
+        text-align: center;
+        margin: 2em auto;
+    }
+
+    .mobileImage img {
+        padding-top: 0;
+        padding-bottom: 2em;
+        width: 75% !important;
+        text-align: justify !important;
+    }
+
+    .mobileImage figcaption {
+        width: 55% !important;
+        text-align: justify !important;
+        padding: 0 !important;
+        margin: -40px auto;
+        padding-bottom: 2em !important;
+    }
+
+    .subResearchTitle {
+        text-align: center !important;
+        font-size: 1.5em;
+    }
+
+    #apcTeamGrid {
+        grid-template-columns: auto auto;
+    }
+}
+
+@media (max-width: 921px) {
+    #meetTheTeamLargeScreens {
+        display: none;
+    }
+
+    #toSection {
+        display: block !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .bg-img-row {
+        grid-template-rows: auto;
+    }
+
+    #gridTO img {
+        width: auto;
+        height: auto;
+    }
+
+    .apcSecondSection {
+        height: auto;
+    }
+
+    header {
+        padding: 0.5em 0.5em;
+    }
+
+    .bg-img {
+        grid-template-columns: auto;
+    }
+
+
+    #upennTextBreak {
+        display: none;
+    }
+
+    #introTextBreak {
+        display: block;
+    }
+
+    .navigation {
+        height: 160px;
+        grid-template-columns: repeat(4, minmax(100px, 1fr));
+    }
+
+    .smallScreenNav {
+        display: block;
+    }
+
+    .outerGrid {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    #outerGridFirstDiv,
+    #introSection {
+        margin: 0 auto;
+    }
+
+    #buttonGroup,
+    #introSection p {
+        width: 100%;
+    }
+
+
+    #leftArrow,
+    #rightArrow {
+        display: none;
+    }
+
+    #gridOne,
+    #gridTwo,
+    #gridFour {
+        grid-template-columns: auto auto;
+        margin: 0 auto;
+        padding-top: 1em;
+        padding-bottom: 2em;
+        width: 100%;
+    }
+
+    .lhGrid {
+        grid-template-columns: 1fr 1fr !important;
+        padding-bottom: 0 !important;
+    }
+
+
+    #gridThree {
+        grid-template-columns: auto;
+        width: auto;
+        margin: 0 auto;
+        padding-top: 1em;
+    }
+
+    #gridPI {
+        padding: 1em !important;
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+
+    .outerGridThree {
+        padding-bottom: 8em !important;
+    }
+
+    .newsButtonGrid {
+        margin-top: 3em;
+    }
+
+    #gridTONew img {
+        height: 120px;
+    }
+
+    #meetTheTeamLargeScreens {
+        display: none;
+    }
+
+    #formerMembersGrid,
+    #currentRotationStudentsGrid {
+        grid-template-columns: repeat(3, minmax(200px, auto));
+        width: 80%;
+    }
+
+    .rowFour {
+        grid-template-columns: auto auto auto;
+    }
+
+    .newsMainBody {
+        margin: 3em auto;
+        padding: 0;
+    }
+
+    #collaboratorsGrid {
+        grid-template-columns: repeat(2, minmax(200px, auto));
+    }
+
+    .mobileImage figcaption {
+        width: 75% !important;
+    }
+
+    #contactGrid {
+        display: grid;
+        grid-template-columns: auto;
+        height: auto;
+    }
+
+    #leftSide video {
+        display: none;
+    }
+
+    #leftSide {
+        background-color: #fff;
+        border: .5px solid #eee;
+        padding: 1em;
+    }
+
+    #contactInfo {
+        color: #000;
+    }
+
+    #toSection {
+        display: block !important;
+    }
+}
+
+@media (max-width: 763px) {
+    #apcTeamGrid {
+        grid-template-columns: auto;
+    }
+}
+
+@media (max-width: 500px) {
+    #gridTO img {
+        width: 100%;
+    }
+
+    .piVideos {
+        height: 185px;
+    }
+
+
+    .dissIframe iframe {
+        width: 320px;
+        height: 328px;
+    }
+}
+
+@media (max-width: 425px) {
+    .videoCarousel {
+        margin-left: -15px;
+    }
+
+    #apcTeamGrid {
+        grid-template-columns: auto;
+    }
+
+    .bgImage {
+        background-color: transparent;
+    }
+
+    .bg-img img {
+        display: none;
+    }
+
+    .navigation {
+        height: auto;
+    }
+
+    .dialog div {
+        font-size: 14px;
+        padding: 0;
+        letter-spacing: none;
+        line-height: normal;
+    }
+
+    header {
+        margin: 0 auto;
+    }
+
+    #upennTextBreak,
+    #introTextBreak {
+        display: block;
+    }
+
+    header {
+        padding: 1em;
+    }
+
+    #headerIcon {
+        margin-top: 10px;
+    }
+
+    #headerTitle {
+        font-size: 1.5em;
+        text-align: center;
+        margin-top: 10.95px;
+    }
+
+    header h2:nth-child(3) {
+        margin-top: 22px;
+    }
+
+    .navigation {
+        grid-template-columns: repeat(2, minmax(100px, 1fr));
+        background-color: #fff;
+        column-gap: 0px;
+    }
+
+    .navigation li {
+        border: 0.5px solid #eee;
+    }
+
+    #leftArrow,
+    #rightArrow {
+        display: none;
+    }
+
+    .outerGrid,
+    #outerGridFirstDiv,
+    #introSection {
+        width: 425px;
+        padding: 0;
+        margin: 0;
+    }
+
+    #introSection h1 {
+        text-align: left;
+        padding: 10px;
+        margin-top: 1em;
+    }
+
+    #introSection p {
+        font-size: 16px;
+        text-align: left;
+        font-style: normal;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        width: auto;
+    }
+
+    #buttonGroup,
+    #gridPI,
+    #gridTO,
+    footer {
+        grid-template-columns: auto;
+        margin: 0 auto;
+    }
+
+    #buttonGroup {
+        width: auto;
+        padding: 10px;
+    }
+
+    footer {
+        padding: 1em;
+    }
+
+    #rightCol {
+        text-align: left;
+        padding-top: 0px;
+    }
+
+    #piSection {
+        margin-top: 3em;
+    }
+
+    #gridPI {
+        padding: 1em;
+        margin-bottom: 2em;
+    }
+
+    #gridTO {
+        margin-top: 3em;
+        margin-bottom: 3em;
+    }
+
+    #gridPI,
+    #innerPiGrid {
+        grid-template-columns: none;
+        width: 100%;
+    }
+
+    #innerPiGrid {
+        margin-top: 0;
+    }
+
+    #innerPiGrid div:nth-child(2) p {
+        font-size: 16px;
+        letter-spacing: 0;
+    }
+
+    #gridTO img {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+    }
+
+    #heading {
+        display: none;
+    }
+
+    #innerPiGrid img {
+        height: auto;
+    }
+
+    #piSection iframe {
+        margin-left: -30px;
+    }
+
+    #meetTheTeamLargeScreens {
+        display: none;
+    }
+
+    #toSection {
+        display: block !important;
+    }
+
+    .centerText {
+        display: block;
+    }
+
+    #innerPiGrid img {
+        height: 350px;
+        margin: 4em;
+    }
+
+    #innerPiGrid div:nth-child(2) p {
+        font-size: 20px;
+        letter-spacing: 0;
+    }
+
+    #formerMembersGrid,
+    #currentRotationStudentsGrid {
+        grid-template-columns: repeat(2, minmax(200px, auto));
+        width: 100%;
+    }
+
+    .rowThree {
+        grid-template-columns: auto auto;
+        margin-top: auto;
+    }
+
+    .rowTwo {
+        width: 100%;
+        margin: auto;
+    }
+
+    .rowFour {
+        grid-template-columns: auto auto;
+    }
+
+    .introPara {
+        width: auto;
+        text-align: justify;
+        padding: 10px;
+    }
+
+    .introPara br {
+        display: none;
+    }
+
+    #currentTeamMembersSection {
+        margin-top: 2em;
+        scale: none;
+    }
+
+    .rowTwo,
+    .rowThree,
+    .rowFour {
+        grid-template-columns: auto;
+        row-gap: 3em;
+        margin: 4em auto;
+    }
+
+    #newsSectionGrid,
+    #teamSectionGrid,
+    #dissSectionGrid {
+        grid-template-columns: auto;
+    }
+
+    #newsNavigationGrid,
+    #teamNavigationGrid {
+        display: none;
+    }
+
+    #newsMain #gridOne,
+    #researchSectionGrid {
+        grid-template-columns: auto;
+        width: 100%;
+    }
+
+    .newsMainBody {
+        margin: 3em 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    #researchNavigation {
+        display: none;
+        visibility: hidden;
+    }
+
+    .mobileImage img {
+        width: 100% !important;
+        padding: 0;
+    }
+
+    .mobileImageHide {
+        display: block !important;
+    }
+
+    .breadCrumbMobileGrid {
+        display: grid !important;
+    }
+
+    #newsMain {
+        overflow: hidden;
+        height: auto;
+    }
+
+    #rsTopic2,
+    #rsTopic3,
+    #rsTopic4,
+    #rsTopic5,
+    #rsTopic6,
+    #rsTopic7,
+    #rsTopic8 {
+        display: block !important;
+    }
+
+    #collaboratorsGrid {
+        grid-template-columns: auto;
+    }
+
+    .mobileImage figcaption {
+        width: 100% !important;
+        margin: 0 auto;
+        padding-bottom: 0 !important;
+    }
+
+    .lhGrid {
+        grid-template-columns: auto !important;
+    }
+
+    .showDT {
+        display: none;
+    }
+
+    .readMoreDetails,
+    .mobileDetailsMenu {
+        display: block;
+    }
+
+}
+
+@media (max-width: 375px) {
+
+    .apcInfoGrid {
+        grid-template-columns: auto;
+    }
+
+    #apcTeamGrid {
+        margin-left: -10px;
+        grid-template-columns: auto;
+    }
+
+    #apcTeamGrid div {
+        padding: 0;
+        padding-top: 25px;
+    }
+
+    #introSection {
+        width: 375px;
+    }
+
+    #introSection h1 {
+        font-size: 32px;
+    }
+
+    #toSection {
+        display: block !important;
+    }
+
+    .centerText {
+        display: block;
+    }
+
+    #innerPiGrid img {
+        height: 280px;
+        margin: 4em;
+    }
+
+    #innerPiGrid div:nth-child(2) p {
+        font-size: 16.5px;
+        letter-spacing: 0;
+    }
+
+    #formerMembersGrid,
+    #currentRotationStudentsGrid {
+        grid-template-columns: auto;
+        width: 100%;
+        text-align: center;
+    }
+
+    .rowTwo,
+    .rowThree,
+    .rowFour {
+        grid-template-columns: auto;
+        row-gap: 3em;
+        margin-top: 3em;
+    }
+
+    #newsNavigationGrid,
+    #teamNavigationGrid {
+        display: none;
+    }
+
+    .newsMainBody {
+        margin: 3em 0;
+        padding: 0;
+        width: 100%;
+    }
+
+
+    .subResearchTitle {
+        font-size: 1.2em;
+    }
+
+    .contactInfo {
+        width: 60%;
+        margin: 0 auto;
+    }
+
+}
+
+@media (max-width: 320px) {
+
+    #apcTeamGrid {
+        margin-left: -5%;
+    }
+
+
+    #hideTitleMobile {
+        display: none;
+    }
+
+    #introSection {
+        width: 300px;
+    }
+
+    #introSection h1 {
+        font-size: 27px;
+    }
+
+    #introSection p {
+        text-align: left;
+    }
+
+    #toSection {
+        display: block !important;
+    }
+
+    .centerText {
+        display: block;
+    }
+
+    #innerPiGrid img {
+        height: 250px;
+        margin: 3em;
+    }
+
+    #innerPiGrid div:nth-child(2) p {
+        font-size: 14px;
+        letter-spacing: 0;
+    }
+
+    #newsNavigationGrid,
+    #teamNavigationGrid {
+        display: none;
+    }
+
+    #newsNavigationGrid div,
+    #teamNavigationGrid div {
+        padding: 10px;
+    }
+
+    #newsMain {
+        margin: 0;
+        padding: 1em;
+    }
+
+    .newsMainBody {
+        margin: 3em 0;
+        padding: 0;
+        width: 100%;
+    }
+
+    #footerTextBreak {
+        display: block;
+    }
+}
