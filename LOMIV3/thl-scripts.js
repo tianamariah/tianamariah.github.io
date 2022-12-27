@@ -1,3 +1,228 @@
+/* Hovering Over Homepage Images */
+const hpImages = document.getElementsByClassName('hpImages');
+const mobileImages = document.getElementsByClassName('mobileImages');
+const imageTitles = document.getElementsByClassName('imageTitles');
+const mobileImageTitles = document.getElementsByClassName('mobileImageTitles');
+
+mobileImages[0].addEventListener("mouseover", function() { 
+  mobileImageTitles[0].style.visibility = "visible";
+});
+
+mobileImages[0].addEventListener("mouseout", function() { 
+  mobileImageTitles[0].style.visibility = "hidden";
+});
+
+mobileImages[1].addEventListener("mouseover", function() { 
+  mobileImageTitles[1].style.visibility = "visible";
+});
+
+mobileImages[1].addEventListener("mouseout", function() { 
+  mobileImageTitles[1].style.visibility = "hidden";
+});
+
+mobileImages[2].addEventListener("mouseover", function() { 
+  mobileImageTitles[2].style.visibility = "visible";
+});
+
+mobileImages[2].addEventListener("mouseout", function() { 
+  mobileImageTitles[2].style.visibility = "hidden";
+});
+
+hpImages[0].addEventListener("mouseover", function() { 
+  imageTitles[0].style.visibility = "visible";
+});
+
+hpImages[0].addEventListener("mouseout", function() { 
+  imageTitles[0].style.visibility = "hidden";
+});
+
+hpImages[1].addEventListener("mouseover", function() { 
+  imageTitles[1].style.visibility = "visible";
+});
+
+hpImages[1].addEventListener("mouseout", function() { 
+  imageTitles[1].style.visibility = "hidden";
+});
+
+hpImages[2].addEventListener("mouseover", function() { 
+  imageTitles[2].style.visibility = "visible";
+});
+
+hpImages[2].addEventListener("mouseout", function() { 
+  imageTitles[2].style.visibility = "hidden";
+});
+
+hpImages[3].addEventListener("mouseover", function() { 
+  imageTitles[3].style.visibility = "visible";
+});
+
+hpImages[3].addEventListener("mouseout", function() { 
+  imageTitles[3].style.visibility = "hidden";
+});
+
+hpImages[4].addEventListener("mouseover", function() { 
+  imageTitles[4].style.visibility = "visible";
+});
+
+hpImages[4].addEventListener("mouseout", function() { 
+  imageTitles[4].style.visibility = "hidden";
+});
+
+hpImages[5].addEventListener("mouseover", function() { 
+  imageTitles[5].style.visibility = "visible";
+});
+
+hpImages[5].addEventListener("mouseout", function() { 
+  imageTitles[5].style.visibility = "hidden";
+});
+
+hpImages[6].addEventListener("mouseover", function() { 
+  imageTitles[6].style.visibility = "visible";
+});
+
+hpImages[6].addEventListener("mouseout", function() { 
+  imageTitles[6].style.visibility = "hidden";
+});
+
+hpImages[7].addEventListener("mouseover", function() { 
+  imageTitles[7].style.visibility = "visible";
+});
+
+hpImages[7].addEventListener("mouseout", function() { 
+  imageTitles[7].style.visibility = "hidden";
+});
+
+hpImages[8].addEventListener("mouseover", function() { 
+  imageTitles[8].style.visibility = "visible";
+});
+
+hpImages[8].addEventListener("mouseout", function() { 
+  imageTitles[8].style.visibility = "hidden";
+});
+
+hpImages[9].addEventListener("mouseover", function() { 
+  imageTitles[9].style.visibility = "visible";
+});
+
+hpImages[9].addEventListener("mouseout", function() { 
+  imageTitles[9].style.visibility = "hidden";
+});
+
+hpImages[10].addEventListener("mouseover", function() { 
+  imageTitles[10].style.visibility = "visible";
+});
+
+hpImages[10].addEventListener("mouseout", function() { 
+  imageTitles[10].style.visibility = "hidden";
+});
+
+hpImages[11].addEventListener("mouseover", function() { 
+  imageTitles[11].style.visibility = "visible";
+});
+
+hpImages[11].addEventListener("mouseout", function() { 
+  imageTitles[11].style.visibility = "hidden";
+});
+
+hpImages[12].addEventListener("mouseover", function() { 
+  imageTitles[12].style.visibility = "visible";
+});
+
+hpImages[12].addEventListener("mouseout", function() { 
+  imageTitles[12].style.visibility = "hidden";
+});
+
+hpImages[13].addEventListener("mouseover", function() { 
+  imageTitles[13].style.visibility = "visible";
+});
+
+hpImages[13].addEventListener("mouseout", function() { 
+  imageTitles[13].style.visibility = "hidden";
+});
+
+hpImages[14].addEventListener("mouseover", function() { 
+  imageTitles[14].style.visibility = "visible";
+});
+
+hpImages[14].addEventListener("mouseout", function() { 
+  imageTitles[14].style.visibility = "hidden";
+});
+
+hpImages[15].addEventListener("mouseover", function() { 
+  imageTitles[15].style.visibility = "visible";
+});
+
+hpImages[15].addEventListener("mouseout", function() { 
+  imageTitles[15].style.visibility = "hidden";
+});
+
+hpImages[16].addEventListener("mouseover", function() { 
+  imageTitles[16].style.visibility = "visible";
+});
+
+hpImages[16].addEventListener("mouseout", function() { 
+  imageTitles[16].style.visibility = "hidden";
+});
+
+hpImages[17].addEventListener("mouseover", function() { 
+  imageTitles[17].style.visibility = "visible";
+});
+
+hpImages[17].addEventListener("mouseout", function() { 
+  imageTitles[17].style.visibility = "hidden";
+});
+
+hpImages[18].addEventListener("mouseover", function() { 
+  imageTitles[18].style.visibility = "visible";
+});
+
+hpImages[18].addEventListener("mouseout", function() { 
+  imageTitles[18].style.visibility = "hidden";
+});
+
+hpImages[19].addEventListener("mouseover", function() { 
+  imageTitles[19].style.visibility = "visible";
+});
+
+hpImages[19].addEventListener("mouseout", function() { 
+  imageTitles[19].style.visibility = "hidden";
+});
+
+hpImages[20].addEventListener("mouseover", function() { 
+  imageTitles[20].style.visibility = "visible";
+});
+
+hpImages[20].addEventListener("mouseout", function() { 
+  imageTitles[20].style.visibility = "hidden";
+});
+
+hpImages[21].addEventListener("mouseover", function() { 
+  imageTitles[21].style.visibility = "visible";
+});
+
+hpImages[21].addEventListener("mouseout", function() { 
+  imageTitles[21].style.visibility = "hidden";
+});
+
+hpImages[22].addEventListener("mouseover", function() { 
+  imageTitles[22].style.visibility = "visible";
+});
+
+hpImages[22].addEventListener("mouseout", function() { 
+  imageTitles[22].style.visibility = "hidden";
+});
+
+hpImages[23].addEventListener("mouseover", function() { 
+  imageTitles[23].style.visibility = "visible";
+});
+
+hpImages[23].addEventListener("mouseout", function() { 
+  imageTitles[23].style.visibility = "hidden";
+});
+
+/* Hovering Over Homepage Images */
+
+
 /* Hover for Nav Items */
   var navLinks = document.getElementsByClassName('navLinks');
   var navToolTips = document.getElementsByClassName('tooltiptext');
