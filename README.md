@@ -1,7 +1,7 @@
 # tianamariah.github.io
 Hello, World! 
 
-My name is Tiana & I am currently a Freelance front-end Web Developer available or hire! 
+My name is Tiana & I am currently a Freelance front-end Web Developer available for hire! 
 
 Current Projects: 
 
@@ -15,5 +15,6 @@ Top Skills:
 
 HTML<br>
 CSS<br>
+Adobe Illustrator<br>
 JavaScript<br>
 React.js 
