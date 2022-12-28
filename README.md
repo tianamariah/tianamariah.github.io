@@ -13,7 +13,7 @@ My First React Project: An Expense Tracker
 
 Top Skills: 
 
-HTML
-CSS
-JavaScript
+HTML<br>
+CSS<br>
+JavaScript<br>
 React.js 
