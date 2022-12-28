@@ -87,6 +87,7 @@
 
 
 @media (max-width: 1353px) {
+
     #gridPI,
     #gridTO {
         grid-template-columns: none;
@@ -127,6 +128,7 @@
     }
 
     .navigation {
+        height: auto;
         grid-template-columns: repeat(4, minmax(100px, 1fr));
     }
 
@@ -247,10 +249,6 @@
         grid-template-columns: repeat(4, minmax(100px, 1fr));
     }
 
-    .smallScreenNav {
-        display: block;
-    }
-
     .outerGrid {
         display: grid;
         grid-template-columns: auto;
@@ -265,7 +263,6 @@
     #introSection p {
         width: 100%;
     }
-
 
     #leftArrow,
     #rightArrow {
@@ -320,7 +317,7 @@
     #formerMembersGrid,
     #currentRotationStudentsGrid {
         grid-template-columns: repeat(3, minmax(200px, auto));
-        width: 80%;
+        width: 100%;
     }
 
     .rowFour {
@@ -346,15 +343,6 @@
         height: auto;
     }
 
-    #leftSide video {
-        display: none;
-    }
-
-    #leftSide {
-        background-color: #fff;
-        border: .5px solid #eee;
-        padding: 1em;
-    }
 
     #contactInfo {
         color: #000;
@@ -371,6 +359,18 @@
     }
 }
 
+@media (max-width: 691px) {
+
+    .rowTwo,
+    .rowThree,
+    .rowFour {
+        grid-template-columns: auto;
+        row-gap: 3em;
+        margin: 4em auto;
+    }
+}
+
+
 @media (max-width: 500px) {
     #gridTO img {
         width: 100%;
@@ -384,6 +384,10 @@
     .dissIframe iframe {
         width: 320px;
         height: 328px;
+    }
+
+    #formerMembersGrid, #currentRotationStudentsGrid {
+        grid-template-columns: repeat(2, minmax(200px, auto));
     }
 }
 
@@ -571,26 +575,7 @@
         font-size: 20px;
         letter-spacing: 0;
     }
-
-    #formerMembersGrid,
-    #currentRotationStudentsGrid {
-        grid-template-columns: repeat(2, minmax(200px, auto));
-        width: 100%;
-    }
-
-    .rowThree {
-        grid-template-columns: auto auto;
-        margin-top: auto;
-    }
-
-    .rowTwo {
-        width: 100%;
-        margin: auto;
-    }
-
-    .rowFour {
-        grid-template-columns: auto auto;
-    }
+  
 
     .introPara {
         width: auto;
@@ -605,14 +590,6 @@
     #currentTeamMembersSection {
         margin-top: 2em;
         scale: none;
-    }
-
-    .rowTwo,
-    .rowThree,
-    .rowFour {
-        grid-template-columns: auto;
-        row-gap: 3em;
-        margin: 4em auto;
     }
 
     #newsSectionGrid,
@@ -764,7 +741,6 @@
         width: 100%;
     }
 
-
     .subResearchTitle {
         font-size: 1.2em;
     }
@@ -781,7 +757,6 @@
     #apcTeamGrid {
         margin-left: -5%;
     }
-
 
     #hideTitleMobile {
         display: none;

@@ -1,6 +1,6 @@
 /* Rotating Collab Images on Hover Start */
-var iconLinks = document.getElementsByClassName('collabLink');
-var iconImages = document.getElementsByClassName('collabIcon')
+const iconLinks = document.getElementsByClassName('collabLink');
+const iconImages = document.getElementsByClassName('collabIcon')
 
 iconLinks[0].addEventListener("mouseover", function() {
   iconImages[0].style.transform = "rotate(20deg)";
