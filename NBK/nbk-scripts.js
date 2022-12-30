@@ -1,3 +1,12 @@
+//Adding Meta El to Head
+let head = document.getElementsByTagName("head");
+let newMetaEl = document.createElement('meta');
+newMetaEl.name = "viewport";
+newMetaEl.content = "width=device-width, initial-scale=1";
+head[0].appendChild(newMetaEl);
+console.log(head);
+
+
 //Scroll Functionality for Sticky Nav
 let fSec = document.getElementById('firstSection');
 let heder = document.getElementById('header');
