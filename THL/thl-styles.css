@@ -804,6 +804,7 @@ _:default:not(:root:root),
 
 #innerPiGrid a {
   color: #000;
+  font-weight: 500;
 }
 
 #innerPiGrid img {
