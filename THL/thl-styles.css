@@ -1097,7 +1097,9 @@ input[type="radio"]:checked {
   display: grid;
   grid-template-columns: auto auto auto auto;
   column-gap: 10px;
+  row-gap: 2em;
 }
+
 
 #formerMembersGrid,
 #currentRotationStudentsGrid {
