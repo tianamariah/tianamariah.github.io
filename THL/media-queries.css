@@ -96,6 +96,12 @@
 
 }
 
+@media (max-width: 1260px) {
+    .rowThree {
+        grid-template-columns: auto auto auto;
+    }
+}
+
 @media (max-width: 1024px) {
     #navMenu {
         display: none;
@@ -199,6 +205,10 @@
     }
 
     #apcTeamGrid {
+        grid-template-columns: auto auto;
+    }
+    
+    .rowThree {
         grid-template-columns: auto auto;
     }
 }
@@ -320,10 +330,6 @@
         width: 100%;
     }
 
-    .rowFour {
-        grid-template-columns: auto auto auto;
-    }
-
     .newsMainBody {
         margin: 3em auto;
         padding: 0;
@@ -362,8 +368,7 @@
 @media (max-width: 691px) {
 
     .rowTwo,
-    .rowThree,
-    .rowFour {
+    .rowThree {
         grid-template-columns: auto;
         row-gap: 3em;
         margin: 4em auto;
@@ -731,8 +736,7 @@
     }
 
     .rowTwo,
-    .rowThree,
-    .rowFour {
+    .rowThree {
         grid-template-columns: auto;
         row-gap: 3em;
         margin-top: 3em;
