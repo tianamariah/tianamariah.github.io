@@ -819,6 +819,7 @@ _:default:not(:root:root),
   font-weight: 300;
   color: #000;
   letter-spacing: 1.2px;
+  margin-top: -15px;
 }
 
 #innerPiGrid a:hover {
@@ -1021,6 +1022,7 @@ input[type="radio"]:checked {
 #teamMembersSection {
   padding: 0;
   text-align: center !important;
+  margin-top: 1em;
 }
 
 #teamMembersSection .firstTitle {
@@ -1042,24 +1044,25 @@ input[type="radio"]:checked {
   text-align: center;
   padding: 0;
   padding-bottom: 5em;
-  margin-top: 1em;
 }
 
 #currentTeamMembersSection h3 {
-  color: rgb(94, 84, 85);
-  font-size: 24px;
+  background-color: rgb(204,201,193);
+  font-size: 14px;
   font-family: 'Yaldevi', sans-serif;
-  font-weight: 500;
-  padding: 0;
-  margin: 0;
-  letter-spacing: 1px;
+  font-weight: 300;
+  padding: 10px;
+  letter-spacing: 2px;
+  width: max-content;
+  margin: 10px auto;
+  text-transform: uppercase;
 }
 
 .bioContactGrid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin: 0 auto;
-  padding: 10px;
+  padding: 5px;
   text-align: center !important;
 }
 
@@ -1106,7 +1109,7 @@ input[type="radio"]:checked {
 }
 
 #teamMembersSection img {
-  box-shadow: rgb(50 50 93 / 25%) 0px 13px 27px -5px, rgb(0 0 0 / 30%) 0px 8px 16px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   width: 200px;
   height: auto;
 }
@@ -1157,6 +1160,7 @@ input[type="radio"]:checked {
 }
 
 .teamMemberBody a {
+  color: #000 !important;
   font-size: 14px;
 }
 
@@ -1244,7 +1248,7 @@ input[type="radio"]:checked {
 }
 
 #currentTeamMembersSection .memberName {
-  font-size: 22px !important;
+  font-size: 1em !important;
   letter-spacing: .5px;
 }
 
@@ -1256,12 +1260,13 @@ input[type="radio"]:checked {
   margin: 0;
 }
 
+
+
 .learnMore,
 .contact {
   text-transform: uppercase;
   padding: 0;
   margin: 0;
-  color: rgb(94, 84, 85);
   font-family: 'Yaldevi', sans-serif;
   font-weight: 300;
   font-size: 14px;
@@ -1856,11 +1861,12 @@ _:default:not(:root:root),
   border-radius: 3px;
   width: 250px;
   height: auto;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
-#apcTeamGrid .div1, 
-#apcTeamGrid .div2, 
-#apcTeamGrid .div3, 
+#apcTeamGrid .div1,
+#apcTeamGrid .div2,
+#apcTeamGrid .div3,
 #apcTeamGrid .div4 {
   background-color: transparent;
 }
@@ -1896,6 +1902,7 @@ _:default:not(:root:root),
   transition: transform 1s;
   transition: transform 1s;
   transform-style: preserve-3d;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .flip-box:hover .flip-box-inner {
@@ -1931,6 +1938,7 @@ _:default:not(:root:root),
 .div4 {
   background-color: rgb(204, 201, 193);
 }
+
 /* Flipping Apc Services Grid Boxes End */
 /* APC End */
 
@@ -1973,6 +1981,7 @@ _:default:not(:root:root),
   font-family: 'Bodoni Moda', serif;
   padding-top: 5%;
 }
+
 /* Dissertations End */
 
 /* Contact Start */
@@ -1990,6 +1999,7 @@ _:default:not(:root:root),
   right: 0;
   bottom: 0;
 }
+
 /* Contact End */
 
 
