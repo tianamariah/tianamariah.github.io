@@ -87,11 +87,10 @@
 
 @media (max-width: 1354px) {
     .innerPhotoGrid {
-        width: 50%
-        margin: 0 auto;
+        width: 50% margin: 0 auto;
         padding: 0;
         grid-template-columns: repeat(3, auto);
-      }
+    }
 }
 
 
@@ -113,7 +112,8 @@
 
 @media (max-width: 1024px) {
 
-    .prev, .next {
+    .prev,
+    .next {
         display: none;
     }
 
@@ -124,7 +124,7 @@
 
     .innerPhotoGrid {
         grid-template-columns: repeat(3, auto);
-      }
+    }
 
     #navMenu {
         display: none;
@@ -230,7 +230,7 @@
     #apcTeamGrid {
         grid-template-columns: auto auto;
     }
-    
+
     .rowThree {
         grid-template-columns: auto auto;
     }
@@ -420,7 +420,21 @@
 @media (max-width: 500px) {
     .innerPhotoGrid {
         grid-template-columns: auto auto;
-      }
+    }
+
+    .bgImage-1 img,
+    .bgImage-3 img,
+    .bgImage-5 img {
+        animation: slideFromLeft ease 4s;
+        position: relative;
+    }
+
+    .bgImage-2 img,
+    .bgImage-4 img,
+    .bgImage-6 img {
+        animation: slideFromRight ease 4s;
+        position: relative;
+    }
 
     #gridTO img {
         width: 100%;
@@ -436,13 +450,18 @@
         height: 328px;
     }
 
-    #formerMembersGrid, #currentRotationStudentsGrid {
+    #formerMembersGrid,
+    #currentRotationStudentsGrid {
         grid-template-columns: repeat(2, minmax(200px, auto));
     }
 }
 
 @media (max-width: 425px) {
-    
+
+    .showOnTimer .bgImage {
+        padding: 5px;
+    }
+
     .mobileImageTitles {
         margin-top: -40%;
         width: 100%;
@@ -624,7 +643,7 @@
         font-size: 20px;
         letter-spacing: 0;
     }
-  
+
 
     .introPara {
         width: auto;
@@ -724,6 +743,10 @@
 
 @media (max-width: 375px) {
 
+    .showOnTimer img {
+        width: 150px !important;
+    }
+
     .mobileImageTitles {
         margin-top: -40%;
     }
@@ -811,11 +834,15 @@
 
 @media (max-width: 320px) {
 
+    .column {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
     .mobileImageTitles {
         margin-top: -45%;
     }
 
-     .bgImage img {
+    .bgImage img {
         width: 280px;
         height: auto;
     }
