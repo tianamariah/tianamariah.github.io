@@ -85,6 +85,15 @@
     }
 }
 
+@media (max-width: 1354px) {
+    .innerPhotoGrid {
+        width: 50%
+        margin: 0 auto;
+        padding: 0;
+        grid-template-columns: repeat(3, auto);
+      }
+}
+
 
 @media (max-width: 1353px) {
 
@@ -103,6 +112,20 @@
 }
 
 @media (max-width: 1024px) {
+
+    .prev, .next {
+        display: none;
+    }
+
+    .column {
+        grid-template-columns: repeat(3, 1fr);
+        width: 50%;
+    }
+
+    .innerPhotoGrid {
+        grid-template-columns: repeat(3, auto);
+      }
+
     #navMenu {
         display: none;
     }
@@ -223,6 +246,15 @@
     }
 }
 
+@media (max-width: 845px) {
+
+    .column {
+        grid-template-columns: repeat(3, 1fr);
+        width: 60%;
+    }
+}
+
+
 @media (max-width: 768px) {
     .bg-img-row {
         grid-template-rows: auto;
@@ -241,7 +273,7 @@
         padding: 0.5em 0.5em;
     }
 
-    .bg-img {
+    .innerGrid {
         grid-template-columns: auto;
     }
 
@@ -376,7 +408,20 @@
 }
 
 
+@media (max-width: 650px) {
+
+    .column {
+        grid-template-columns: repeat(3, 1fr);
+        width: 100%;
+    }
+}
+
+
 @media (max-width: 500px) {
+    .innerPhotoGrid {
+        grid-template-columns: auto auto;
+      }
+
     #gridTO img {
         width: 100%;
     }

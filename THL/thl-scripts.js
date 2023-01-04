@@ -1,3 +1,20 @@
+/* Showing 2nd Banner */
+const firstSecondSection = document.getElementById('secondSection');
+const secondSecondSection = document.getElementsByClassName('showOnTimer');
+const innerGrids = document.getElementsByClassName('innerGrid');
+const bannerImages = document.getElementsByClassName('bgImage');
+
+
+function showBannerPhotos() {
+  firstSecondSection.style.display = "none";
+  secondSecondSection[0].style.display = "grid";
+  secondSecondSection[0].style.backgroundImage = "none";
+  innerGrids[1].style.backgroundColor = "rgba(0,0,0,.6)";
+
+}
+/* Showing 2nd Banner */
+
+
 /* Hovering Over Homepage Images */
 const hpImages = document.getElementsByClassName('hpImages');
 const mobileImages = document.getElementsByClassName('mobileImages');
