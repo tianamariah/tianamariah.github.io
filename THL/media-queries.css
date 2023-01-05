@@ -473,6 +473,16 @@
 
 @media (max-width: 425px) {
 
+    #left-arrow,
+    #right-arrow {
+        padding: 0px;
+        margin-top: -5%;
+        margin-left: -1%;
+        font-size: 20px;
+        position: absolute;
+        z-index: 10;
+    }
+
     .mobileImageTitles {
         margin-top: -40%;
         width: 100%;
@@ -754,6 +764,14 @@
 
 @media (max-width: 375px) {
 
+    #left-arrow {
+        margin-left: 1%;
+    }
+
+    #right-arrow {
+        margin-left: -3%;
+    }
+
     .mobileImageTitles {
         margin-top: -40%;
     }
@@ -840,6 +858,10 @@
 }
 
 @media (max-width: 320px) {
+
+    .bgImage {
+        height: auto;
+    }
 
     .column {
         grid-template-columns: repeat(2, 1fr);
