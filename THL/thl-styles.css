@@ -513,76 +513,40 @@ header h2:nth-child(3):hover {
 
 .innerGrid {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto;
   background-color: rgba(0, 0, 0, .7);
   text-align: center;
 }
 
-.showOnTimer .innerGrid {
-  display: block;
-}
-
-.bgImage-1 img:hover,
-.bgImage-2 img:hover,
-.bgImage-3 img:hover,
-.bgImage-4 img:hover,
-.bgImage-5 img:hover,
-.bgImage-6 img:hover {
-  box-shadow: rgba(255, 255, 255, .4) 0px 1px 1px, rgba(255, 255, 255, .4) 0px 0px 1px 1px;
-  cursor: pointer;
-}
-
-.bgImage-1 img,
-.bgImage-2 img,
-.bgImage-3 img {
-  animation: slideFromLeft ease 4s;
-  position: relative;
-}
-
-.bgImage-4 img,
-.bgImage-5 img,
-.bgImage-6 img {
-  animation: slideFromRight ease 4s;
-  position: relative;
-}
-
-.bgImage-6 #pictureSource3 {
-  border: 0.5px solid rgba(255, 255, 255, .15);
-}
-
-.innerPhotoGrid {
-  padding: 3em 0;
-  display: grid;
-  grid-template-columns: repeat(6, auto);
-  background-color: #000;
-}
-
-.innerPhotoGrid .tooltip {
-  margin-top: 0px;
-}
-
-.innerPhotoGrid .tooltiptext {
-  color: #000;
-  font-size: 10px;
-  top: 30px;
-  background-color: rgba(255, 255, 255, .7);
-  border-radius: 3px;
-  width: 70%;
+.photoGrid {
   margin: 0 auto;
+  display: grid;
+  grid-template-columns: min-content min-content min-content;
+}
+
+.bannerImages img:hover {
+  box-shadow: rgba(255, 255, 255, .4) 0px 2px 8px 0px;
+}
+
+.slider {
+  color: #fff;
+  width: max-content;
+  height: max-content;
+  margin: auto;
+}
+
+#left-arrow, #right-arrow {
   padding: 5px;
+  margin-top: 50px;
+  font-size: 20px;
 }
 
-.showOnTimer .bgImage {
-  background-color: transparent;
-  height: auto;
-  padding: 10px;
+#left-arrow:hover, 
+#right-arrow:hover {
+  background-color: rgba(255,255,255,.3);
+  color: #000;
 }
 
-.showOnTimer img {
-  width: 200px !important;
-  height: inherit !important;
-  border-radius: 3px;
-}
 
 _:default:not(:root:root),
 .bg-img {
@@ -595,7 +559,7 @@ _:default:not(:root:root),
   color: #fff;
   text-align: center;
   display: grid;
-  grid-template-rows: 33.33%;
+  grid-template-rows: auto;
 }
 
 .titleFont {
@@ -615,7 +579,6 @@ _:default:not(:root:root),
 
 .bgImage img {
   width: auto;
-  height: inherit;
   border-radius: 3px;
 }
 
@@ -641,7 +604,6 @@ _:default:not(:root:root),
   font-family: 'Yaldevi', sans-serif;
   font-weight: 300;
   font-size: 16px;
-  //font-style: italic;
   padding: 0;
   text-align: center;
   width: 75%;
@@ -933,7 +895,8 @@ img.hover-shadow {
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
-.newsCard small {
+.newsCard small,
+.newsCard p {
   font-family: 'Yaldevi', sans-serif;
   font-weight: 200;
   padding: 1em;
