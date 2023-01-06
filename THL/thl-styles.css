@@ -520,12 +520,6 @@ header h2:nth-child(3):hover {
   text-align: center;
 }
 
-.photoGrid {
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: min-content min-content min-content;
-}
-
 .bannerImages img:hover {
   box-shadow: rgba(255, 255, 255, .4) 0px 2px 8px 0px;
 }
@@ -537,16 +531,24 @@ header h2:nth-child(3):hover {
   margin: auto;
 }
 
+#sliderGrid {
+  display: grid;
+  grid-template-columns: max-content max-content;
+  margin-left: 50%;
+  width: 100%;
+  column-gap: 10px;
+}
+
 #left-arrow, #right-arrow {
-  padding: 5px;
+  padding: 0 75px;
   margin-top: 50px;
   font-size: 20px;
 }
 
 #left-arrow:hover, 
 #right-arrow:hover {
-  background-color: rgba(255,255,255,.3);
-  color: #000;
+  color: #fff;
+  border: 1px solid #fff;
 }
 
 

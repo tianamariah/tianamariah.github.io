@@ -226,11 +226,7 @@
           </picture>
         </div>
 
-        <div class="photoGrid showOnTablet" style="display: none;">
-
-          <div class="slider fadeIn"><span id="left-arrow">
-              < </span>
-          </div>
+        <div class="showOnTablet" style="display: none;">
 
           <picture class="bgImage">
             <source id="pictureSource1" type="image/webp" srcset="img/thl-3.webp">
@@ -239,7 +235,12 @@
               width="375" height="250">
           </picture>
 
-          <div class="slider fadeIn"><span id="right-arrow"> > </span></div>
+          <div>
+            <p class="sliderGrid slider fadeIn">
+              <span id="left-arrow"> < </span>
+              <span id="right-arrow"> > </span>
+           </p>
+        </div>
         </div>
 
         <div>
@@ -251,14 +252,11 @@
       <div class="bg-img-row" id="bannerRightSide">
         <div>
           <p>
-            <br>
             <span class="titleFont">Current Research Photos</span><br>
+            <span class="bodyFont" id="captionTitle"></span>
           </p>
         </div>
-        <div class="photoGrid">
-          <div class="slider fadeIn" onclick="activateSlider(-1)"><span id="left-arrow">
-              < </span>
-          </div>
+        <div>
 
           <div class="bannerImages">
             <picture class="bgImage" onclick="openModal(); currentSlide(1);">
@@ -311,11 +309,12 @@
             </picture>
           </div>
 
-          <div class="slider" onclick="activateSlider(+1)"><span id="right-arrow"> > </span></div>
         </div>
         <div>
-          <p class="bodyFont" id="captionTitle"></p>
-          <br>
+            <p class="sliderGrid">
+              <span onclick="activateSlider(-1)" id="left-arrow"> < </span>
+              <span onclick="activateSlider(+1)" id="right-arrow"> > </span>
+           </p>
         </div>
       </div>
     </div>

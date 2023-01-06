@@ -449,6 +449,10 @@
 
 @media (max-width: 500px) {
 
+    #left-arrow, #right-arrow {
+        padding: 0 20px;
+    }
+
     #upennText {
         display: none;
     }
@@ -503,16 +507,6 @@
     .bgImage img {
         width: 250px;
         height: auto;
-    }
-
-    #left-arrow,
-    #right-arrow {
-        padding: 0px;
-        margin-top: -5%;
-        margin-left: -1%;
-        font-size: 20px;
-        position: absolute;
-        z-index: 10;
     }
 
     .mobileImageTitles {
