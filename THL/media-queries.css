@@ -100,6 +100,7 @@
     #gridTO {
         grid-template-columns: none;
         row-gap: 4em;
+        text-align: center;
     }
 
 }
@@ -447,6 +448,11 @@
 
 
 @media (max-width: 500px) {
+
+    #upennText {
+        display: none;
+    }
+
     .innerPhotoGrid {
         grid-template-columns: auto auto;
     }
@@ -456,7 +462,24 @@
     }
 
     .piVideos {
-        height: 185px;
+        height: 300px;
+    }
+
+    #gridPI {
+        padding: 0 !important;
+        width: 100%;
+    }
+
+    #innerPiGrid {
+        grid-template-columns: auto;
+    }
+
+    #innerPiGrid img {
+        height: 250px;
+    }
+
+    #innerPiGrid div:nth-child(2) {
+        margin-top: 0px;
     }
 
 
@@ -473,6 +496,15 @@
 
 @media (max-width: 425px) {
 
+    .bgImage {
+        height: auto;
+    }
+
+    .bgImage img {
+        width: 250px;
+        height: auto;
+    }
+
     #left-arrow,
     #right-arrow {
         padding: 0px;
@@ -488,14 +520,21 @@
         width: 100%;
     }
 
+    #introSection h1 {
+        font-size: 36px;
+    }
+
     .videoCarousel {
-        margin-left: -15px;
+        margin: 0 5px;
+    }
+
+    #sliderForPodcastImage {
+        background-size: contain;
     }
 
     #apcTeamGrid {
         grid-template-columns: auto;
     }
-
 
     .navigation {
         height: auto;
@@ -517,18 +556,20 @@
         display: block;
     }
 
-    header {
-        padding: 1em;
-    }
-
-    #headerIcon {
+    #headerTitle,#headerIcon {
         margin-top: 10px;
     }
 
     #headerTitle {
         font-size: 1.5em;
         text-align: center;
-        margin-top: 10.95px;
+        margin-top: 25px;
+    }
+
+    #logo img {
+        width: 35px;
+        height: 35px;
+        margin-top: -5px;
     }
 
     header h2:nth-child(3) {
@@ -559,14 +600,12 @@
     }
 
     #introSection h1 {
-        text-align: left;
         padding: 10px;
         margin-top: 1em;
     }
 
     #introSection p {
         font-size: 16px;
-        text-align: left;
         font-style: normal;
         padding-top: 1em;
         padding-bottom: 1em;
@@ -616,18 +655,19 @@
     }
 
     #innerPiGrid {
-        margin-top: 0;
+        margin-left: -3%;
     }
 
     #innerPiGrid div:nth-child(2) p {
         font-size: 16px;
         letter-spacing: 0;
+        text-align: center;
     }
 
     #gridTO img {
         width: 100%;
         height: auto;
-        margin: 0;
+        margin: 0 5px;
         padding: 0;
     }
 
@@ -655,10 +695,7 @@
         display: block;
     }
 
-    #innerPiGrid img {
-        height: 350px;
-        margin: 4em;
-    }
+    #innerPiGrid img {}
 
     #innerPiGrid div:nth-child(2) p {
         font-size: 20px;
@@ -764,20 +801,13 @@
 
 @media (max-width: 375px) {
 
-    #left-arrow {
-        margin-left: 1%;
-    }
-
-    #right-arrow {
-        margin-left: -3%;
-    }
 
     .mobileImageTitles {
         margin-top: -40%;
     }
 
     .bgImage img {
-        width: 345px;
+        width: 250px;
         height: auto;
     }
 
@@ -811,10 +841,6 @@
         display: block;
     }
 
-    #innerPiGrid img {
-        height: 280px;
-        margin: 4em;
-    }
 
     #innerPiGrid div:nth-child(2) p {
         font-size: 16.5px;
@@ -872,7 +898,7 @@
     }
 
     .bgImage img {
-        width: 280px;
+        width: 220px;
         height: auto;
     }
 
@@ -889,12 +915,18 @@
     }
 
     #introSection h1 {
-        font-size: 27px;
+        font-size: 26px;
     }
 
-    #introSection p {
-        text-align: left;
+    #sliderForPodcastImage {
+        background-size: contain;
+        background-repeat: no-repeat;
     }
+
+    .piVideos {
+        background: transparent;
+    }
+
 
     #toSection {
         display: block !important;
@@ -902,11 +934,6 @@
 
     .centerText {
         display: block;
-    }
-
-    #innerPiGrid img {
-        height: 250px;
-        margin: 3em;
     }
 
     #innerPiGrid div:nth-child(2) p {
