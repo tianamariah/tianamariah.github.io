@@ -617,7 +617,7 @@ _:default:not(:root:root),
 
 #buttonGroup {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto;
   gap: 1em;
   width: 40%;
   margin: 0 auto;

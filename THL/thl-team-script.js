@@ -153,14 +153,4 @@ document.getElementById("closeFourteen").addEventListener("click", function() {
 
 });
 
-document.getElementById("overLayFifteen").addEventListener("click", function() {
-  const getModalBox = document.getElementsByClassName("modalBoxFifteen");
-  getModalBox[0].style.display = 'block';
-});
-
-document.getElementById("closeFifteen").addEventListener("click", function() {
-  const getModalBox = document.getElementsByClassName("modalBoxFifteen");
-  getModalBox[0].style.display= 'none';
-
-});
 /* Showing + Closing Bios End */

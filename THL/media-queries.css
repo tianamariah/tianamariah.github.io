@@ -616,7 +616,7 @@
     #buttonGroup {
         width: 280px;
         padding: 10px;
-        grid-template-columns: auto auto;
+        grid-template-columns: auto;
     }
 
     footer {
