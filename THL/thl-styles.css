@@ -383,12 +383,12 @@ header h2:nth-child(2) {
 
 header h2:nth-child(3) {
   text-align: right;
-  color: #fff;
+  color: #000;
   margin-top: 35px;
 }
 
 header h2:nth-child(3):hover {
-  color: #000;
+  color: #fff;
 }
 
 #upennTextBreak {
