@@ -331,7 +331,6 @@
         margin: 0 auto;
     }
 
-    #buttonGroup,
     #introSection p {
         width: 100%;
     }
@@ -611,12 +610,6 @@
     footer {
         grid-template-columns: auto;
         margin: 0 auto;
-    }
-
-    #buttonGroup {
-        width: 280px;
-        padding: 10px;
-        grid-template-columns: auto;
     }
 
     footer {
