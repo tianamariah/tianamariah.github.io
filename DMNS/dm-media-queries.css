@@ -1,0 +1,337 @@
+@media (min-width: 2560px) {
+
+#menu-card-grid div {
+  width: 415px;
+}
+
+.arrow {
+  margin-top: 10%;
+}
+
+#book-shop-text {
+  margin-top: 35%;
+}
+
+#contact {
+  padding-bottom: 15%;
+}
+
+#contact-grid {
+  width: 50%;
+}
+
+.spotlight-grid {
+  width: 50%;
+}
+
+textarea {
+  width: 85%;
+  height: auto;
+}
+
+}
+
+
+@media (max-width: 2560px) {
+  #contact input,
+   {
+    width: 40%;
+  }
+
+  textarea {
+    width: 85%;
+    height: auto;
+}
+
+}
+
+@media (min-width: 1440px) {
+  #menu-card-grid {
+    width: 50%;
+  }
+}
+
+@media (max-width: 1024px) {
+
+  #jumbotron {
+    padding-top: 10em;
+  }
+
+  #bs-grid {
+    grid-template-columns: auto auto;
+  }
+
+  #events-grid {
+    grid-template-columns: auto auto auto;
+    column-gap: 20px;
+    width: 55%;
+  }
+
+  #menu-card-grid {
+    width: 80%;
+    grid-template-columns: auto auto auto;
+  }
+
+
+  .spotlight-grid,
+  #contact-grid  {
+    grid-template-columns: auto;
+  }
+
+  #socials {
+    font-size: 22px;
+  }
+
+  #nav-l-s, #nav-r-s {
+    width: 65%;
+  }
+
+  #nav-r-s {
+    margin-left: -25%;
+  }
+
+  #book-shop {
+    height: 1400px;
+  }
+
+  #about-section {
+    margin-bottom: 100%;
+  }
+
+  #spotlight-text,
+  #book-shop-text {
+    margin-top: 50%;
+  }
+
+  .reviews-btn,
+  #review-text {
+    margin-top: 15%;
+  }
+
+#contact-text {
+    margin-top: 40%;
+  }
+
+  input {
+    width: 370px;
+  }
+
+}
+
+@media (max-width: 950px) {
+  #d-nav,
+  #socials-inner-grid {
+    display: none;
+  }
+
+  #m-nav {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    height: 60px;
+    width: auto;
+  }
+
+  #m-nav #socials {
+    margin-top: 20px;
+  }
+
+  #mnav-r-side {
+    text-align: right;
+    padding-right: 1em;
+  }
+
+  input {
+    width: 340px;
+  }
+}
+
+@media (max-width: 768px) {
+
+#jumbotron h1 {
+  font-size: 45px;
+}
+
+#menu-card-grid {
+  width: 90%;
+}
+
+#book-shop-text,
+#about-text {
+  position: static;
+}
+
+#about-text {
+  margin-top: 20%;
+}
+
+#about-section {
+  margin-bottom: 0;
+}
+
+#bs-grid {
+  row-gap: 20px;
+}
+
+#bio {
+  padding: 0 5em;
+}
+
+input {
+  width: 235px;
+}
+
+textarea {
+  width: 63%;
+}
+
+#menu-card-grid {
+  grid-template-columns: auto auto;
+  width: 65%;
+}
+
+#bs-grid {
+  width: auto;
+}
+
+#inner-bio-grid {
+  margin-top: 15%;
+}
+
+#spotlight-text {
+  margin-top: 55%;
+}
+
+
+#reviews-box,
+#reviews-box-2,
+#reviews-box-3 {
+  width: 85%;
+}
+
+.reviews-btn,
+#review-text {
+  margin-top: 25%;
+}
+
+textarea {
+  width: 73%;
+}
+
+#events-grid  {
+  width: 75%;
+}
+
+
+}
+
+
+@media (max-width: 500px) {
+
+  #header-img {
+    display: none;
+  }
+
+  #jumbotron h1 {
+    font-size: 40px;
+  }
+
+  #jumbotron h2 {
+    font-size: 25px;
+  }
+
+  #menu-card-grid {
+      width: 80%;
+  }
+
+  #bs-grid {
+    margin: 3em auto;
+  }
+
+  #spotlight {
+    padding-bottom: 0%;
+  }
+
+
+  #spotlight p {
+    width: 85%;
+    margin: 0 auto;
+  }
+
+  .si-1 {
+    margin-top: -25px !important;
+  }
+
+  .si-2 {
+    margin-top: -10%;
+  }
+
+
+  .hide-m,
+  .series-review-btn{
+    display: none;
+  }
+
+  #section-subtitle {
+    margin: 0;
+    padding: 0;
+  }
+
+  #review-text {
+    margin-top: 40%;
+  }
+
+  #reviews-box,
+  #reviews-box-2,
+  #reviews-box-3 {
+    position: static;
+    margin-top: 0%;
+  }
+
+  .reviews-btn #intro-btn {
+    margin-top: -10%;
+  }
+
+  textarea {
+    width: 80%;
+  }
+
+  .flyer {
+    height: 250px;
+  }
+
+  #footer-grid {
+    grid-template-columns: auto;
+  }
+
+  #col-2 {
+    padding: 3em 0;
+  }
+
+}
+
+@media (max-width: 425px) {
+  #jumbotron h1 {
+    font-size: 30px;
+  }
+
+}
+
+
+@media (max-width: 375px) {
+
+  #m-nav #socials {
+    width: 150px;
+  }
+
+  #m-logo {
+    margin-top: -5px;
+  }
+
+}
+
+@media (max-width: 320px) {
+  #m-logo {
+    width: 75px;
+    margin-top: 0px;
+  }
+}

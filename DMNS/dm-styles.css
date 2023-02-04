@@ -1,0 +1,1018 @@
+/* Universal Styles */
+/* Fonts */
+  @font-face {
+    font-family: 'Nightfall';
+    src: url('fonts/nightfall.otf');
+  }
+/* Fonts */
+
+html,
+body {
+    display: grid;
+    grid-template-rows: 1fr;
+    margin: 0;
+    padding: 0;
+    width: auto !important;
+    //overflow-x: hidden !important;
+  }
+
+
+a {
+    color: #000;
+    text-decoration: none !important;
+  }
+
+a:hover {
+  text-decoration: underline;
+}
+
+.center-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+button {
+    border: .5px solid #333;
+    border-radius: 25px;
+    font-family: 'Kodchasan', sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 190px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+button:hover {
+    cursor: pointer;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+
+.hide {
+  display: none;
+}
+
+.section-title {
+  font-family: 'Coiny';
+  font-size: 3em;
+  display: grid;
+  grid-template-columns: auto auto;
+  width: max-content;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.section-subtitle {
+  font-family: 'Nightfall', serif;
+  font-size: 1.5em;
+  -webkit-text-stroke-width: .5px;
+  -webkit-text-stroke-color: black;
+  letter-spacing: 2px;
+  padding: 0;
+  margin: 0;
+  margin-top: -15px;
+}
+
+.section-body-text {
+  font-family: 'Kodchasan', sans-serif;
+  font-weight: 300;
+  font-size: 1em;
+  padding: 0;
+  margin: .5em auto;
+}
+
+/* Universal Styles */
+
+/* Socials */
+
+#socials-grid {
+  position: fixed;
+  z-index: 6;
+  margin-left: 50px;
+}
+
+#socials-inner-grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+#socials {
+  display: grid;
+  font-size: 30px;
+  grid-template-columns: auto auto auto auto;
+  width: 124px;
+  column-gap: 10px;
+  margin: 1em auto;
+}
+
+#socials .bi {
+    color: #fff;
+}
+
+#socials .bi:hover {
+  color: #000;
+  cursor: pointer;
+}
+
+/* Socials */
+
+
+/* Desktop Navigation */
+
+#logo {
+  width: 115px;
+  height: auto;
+}
+
+#logo-div {
+  width: 135px;
+  margin: 0px auto;
+}
+
+#d-nav {
+  background-color: #ea64fe;
+  display: grid;
+  font-family: 'Kodchasan', sans-serif;
+  font-weight: 700;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding-top: 15%;
+}
+
+nav p {
+  padding: 0;
+  margin: 0;
+}
+
+#nav-l-s,
+#nav-r-s {
+  width: 75%;
+  margin: 0 auto;
+}
+
+#nav-l-s {
+  margin-left: 60%;
+}
+
+#nav-r-s {
+  margin-left: -35%;
+}
+
+
+#nav-l-s div,
+#nav-r-s div {
+  color: #000;
+}
+
+#nav-r-s div:hover,
+#nav-l-s div:hover {
+  color: #fff !important;
+  cursor: pointer;
+}
+/* Desktop Navigation */
+
+/* Mobile Navigation */
+
+#m-nav {
+  background-color: #ea64fe;
+  display: none;
+  padding: 0 .5em;
+  width: 100%;
+}
+
+#m-logo {
+  width: 90px;
+  height: auto;
+  margin-top: -5px;
+}
+
+#mnav-l-side,
+#mnav-r-side {
+  margin-top: 10px;
+}
+
+#m-nav #socials .bi {
+  color: #000;
+  font-size: 20px;
+}
+
+#m-nav #socials .bi:hover {
+  cursor: pointer;
+  color: #fff;
+}
+
+#m-nav #socials {
+  text-align: center;
+  margin-top: 10px;
+}
+
+#menu-icon {
+  font-size: 45px;
+}
+/* Mobile Navigation */
+
+/* Side Menu */
+
+.close-icon {
+  margin-left: 90%;
+  font-weight: bolder;
+}
+
+#side-menu {
+  display: none;
+  position: fixed;
+  height: 100%;
+  width: 100vw;
+  background-color: #fff;
+  border: .5px solid #333;
+}
+
+#side-menu .nav-item {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+#side-menu .material-symbols-rounded {
+  font-size: 35px;
+}
+
+#side-menu h1 {
+  font-family: 'Kodchasan', sans-serif;
+  font-size: 1.2em;
+}
+
+#side-menu h1:hover {
+  cursor: pointer;
+  font-size: 1.5em;
+}
+
+.nav-item-1 {
+  margin-top: -40px;
+}
+/* Side Menu */
+
+
+/* Jumbotron Styles */
+
+#header-img {
+  width: 100%;
+  height: auto;
+}
+
+
+#jumbotron {
+  text-align: center;
+  padding-top: 5em;
+}
+
+#jumbotron h1 {
+  color: #ea64fe;
+  font-family: 'Coiny';
+  font-size: 50px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  padding: 0;
+  margin: 0;
+}
+
+#jumbotron h2 {
+  font-family: 'Nightfall';
+  font-size: 32px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  padding: 0;
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+
+/* Menu Card Grid Styles */
+
+#menu-card-grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 20px;
+  row-gap: 20px;
+  width: 65%;
+  margin: 2em auto;
+  padding: 5em 0;
+}
+
+#menu-card-grid div {
+  width: 250px;
+}
+
+.card {
+  border-radius: 8px;
+  display: grid;
+  font-family: 'Coiny';
+}
+
+.card:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+.card-top {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  height: 150px;
+}
+
+.card-bottom {
+  height: 200px;
+  border: 1px solid #000;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.card-text-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.text {
+  text-align: left;
+  padding-left: 1em;
+}
+
+.arrow {
+  text-align: right;
+  margin-top: 15%;
+  padding-right: 1em;
+}
+
+.c-1:hover {
+  color: #a7c45a;
+}
+
+#c-t-1 {
+  background-color: #E6F8B6;
+  border-bottom: 1px solid #000;
+}
+
+#c-t-1 img {
+  width: 80px;
+  height: auto;
+}
+
+.c-2:hover {
+  color: #E29FFD;
+}
+
+#c-t-2 {
+  background-color: #E29FFD;
+  border-bottom: 1px solid #000;
+}
+
+#c-t-2 img {
+  width: 80px;
+  height: auto;
+}
+
+.c-3:hover {
+  color: #79d4a8;
+}
+
+#c-t-3 {
+  background-color: #B4F7D7;
+  border-bottom: 1px solid #000;
+}
+
+#c-t-3 img {
+  width: 80px;
+  height: auto;
+}
+
+.c-4:hover {
+  color: #81ddeb;
+}
+
+#c-t-4 {
+  background-color: #C3F4FB;
+  border-bottom: 1px solid #000;
+}
+
+#c-t-4 img {
+  width: 120px;
+  height: auto;
+}
+
+.c-5:hover {
+  color: #F9D2A7;
+}
+
+#c-t-5 {
+  background-color: #F9D2A7;
+  border-bottom: 1px solid #000;
+}
+
+#c-t-5 img {
+  width: 80px;
+  height: auto;
+}
+
+.c-6:hover {
+  color: #F5BFCE;
+}
+
+#c-t-6 {
+  background-color: #F5BFCE;
+  border-bottom: 1px solid #000;
+}
+
+#c-t-6 img {
+  width: 120px;
+  height: auto;
+}
+
+#intro-btn {
+  background-color: #ea64fe;
+  color: #000;
+  font-family: 'Coiny';
+  width: 350px;
+  border-radius: 65px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  margin: 5em auto;
+  text-align: left;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+#intro-btn:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.btn-text {
+  font-size: 18px;
+  padding-left: 5px;
+}
+
+.btn-arrow {
+  font-size: 12px;
+  text-align: right;
+  padding-right: 5px;
+}
+
+/* Menu Card Grid Styles */
+
+/* Jumbotron Styles */
+
+
+/* Book Shop Styles */
+
+#book-shop {
+  background-image: url('imgs/layout-bg-y.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: auto;
+  text-align: center;
+  padding-bottom: 100%;
+}
+
+#book-shop-text {
+  position: absolute;
+  margin-top: 20%;
+  left: 0;
+  right: 0;
+}
+
+
+.st-icon img {
+  width: 40px;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  margin-top: 15px;
+}
+
+.st-text {
+  margin-left: 10px;
+}
+
+#bs-grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 75%;
+  margin: 5em auto;
+}
+
+.bs-inner-grid {
+  display: grid;
+}
+
+.book img {
+  border-radius: 8px;
+  border: 1px solid #000;
+  width: 300px;
+  height: auto;
+}
+
+.book-title {
+  font-family: 'Kodchasan', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.book-subtitle {
+  font-family: 'Kodchasan', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+}
+
+.r-w {
+  font-weight: 400;
+}
+
+.book-info button {
+  font-family: 'Kodchasan', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  width: 220px;
+}
+
+.book-info .btn-1 {
+  background-color: #fff;
+  color: #000;
+}
+
+.book-info .btn-1:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.book-info .btn-2 {
+  background-color: #000;
+  color: #fff;
+}
+
+.book-info .btn-2:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+#sticker-2 {
+  margin-bottom: 25px;
+}
+
+.bs-btn  {
+  background-color: #000 !important;
+  color: #fff !important;
+}
+
+.bs-btn:hover  {
+  background-color: #fff !important;
+  color: #000 !important;
+}
+/* Book Shop Styles */
+
+/* About Styles */
+
+#about-section {
+  margin-bottom: 75%;
+}
+
+#about-text {
+  position: absolute;
+  margin-top: 5%;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+#about-text .st-icon img {
+  margin-top: 0px;
+}
+
+#bio-images-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 50%;
+  height: auto;
+  background-color: #B4F7D7;
+  margin: 2em auto;
+  column-gap: 10px;
+  padding: 10px;
+}
+
+#bio-images-grid img {
+  width: 100%;
+}
+
+#bio {
+  padding: 0 11em;
+  margin-top: 5%;
+}
+
+#bio h4 {
+    font-family: 'Nightfall', serif;
+    font-size: 1.5em;
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: black;
+    letter-spacing: 2px;
+    padding: 0;
+    margin: 0;
+    margin-top: -15px;
+    text-align: left;
+}
+
+#bio p {
+  padding-bottom: 1em;
+  font-family: 'Kodchasan', sans-serif;
+  font-weight: 200;
+  text-align: left;
+}
+
+#inner-bio-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin: 5% auto;
+}
+
+.phone-icon,
+.email-icon {
+  font-size: 16px !important;
+}
+
+
+.about-btn {
+  margin-top: -5%;
+}
+
+.about-btn #intro-btn {
+  background-color: #B4F7D7;
+}
+
+.about-btn #intro-btn:hover {
+  background-color: #fff;
+  color: #000;
+}
+/* About Styles */
+
+/* Spotlight Styles */
+
+#spotlight {
+  background-image: url('imgs/layout-bg-p.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: auto;
+  text-align: center;
+  padding-bottom: 10%;
+}
+
+#spotlight-text {
+  margin-top: 25%;
+  text-align: center;
+}
+
+.spotlight-item {
+  margin-top: 5%;
+}
+
+.spotlight-item h4 {
+  padding-top: 15px;
+}
+
+.spotlight-item h5 {
+  font-family: 'Kodchasan', sans-serif;
+  font-weight: 600;
+  font-size: 1.2em;
+}
+
+.spotlight-item p {
+  font-family: 'Kodchasan', sans-serif;
+  font-weight: 300;
+}
+
+.spotlight-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 65%;
+  margin: 50px auto;
+}
+
+.inner-spotlight-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin: 0 auto;
+  column-gap: 20px;
+}
+
+
+.series-order-btn #intro-btn {
+  background-color: #9C58B1;
+  color: #fff;
+}
+
+.series-order-btn-2 #intro-btn {
+  background-color: #7ED6E4;
+  color: #fff;
+}
+.series-review-btn #intro-btn {
+  background-color: #B3F396;
+  color: #000;
+  margin-top: -40px;
+}
+
+.series-order-btn #intro-btn:hover,
+.series-order-btn-2 #intro-btn:hover,
+.series-review-btn #intro-btn:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+#book-2,
+#book-3 {
+  width: 250px;
+  height: auto;
+  border-radius: 8px;
+  border: 1px solid #000;
+}
+/* Spotlight Styles */
+
+/* Review Styles */
+
+#review-text {
+  text-align: center;
+  margin-top: 5%;
+}
+
+#review-img {
+  width: 100%;
+  height: auto;
+}
+
+#reviews-box,
+#reviews-box-2,
+#reviews-box-3 {
+  width: 50%;
+  height: 200px;
+  margin: 0 auto;
+  background-color: rgba(0,0,0,.8);
+  border-radius: 15px;
+  color: #fff;
+  margin-top: -10%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  display: grid;
+  grid-template-columns: 10% 80% 10%;
+}
+
+.quote {
+  font-family: 'Kodchasan', sans-serif;
+  font-weight: 600;
+  padding: 1em;
+  text-align: center;
+}
+
+#reviews-box-2,
+#reviews-box-3 {
+  display: none;
+}
+
+#left-arrow,
+#right-arrow {
+  color: transparent !important;
+  -webkit-text-stroke-width: .5px;
+  -webkit-text-stroke-color: #fff;
+  font-size: 40px !important;
+}
+
+#left-arrow:hover,
+#right-arrow:hover {
+  color: #fff !important;
+  cursor: pointer;
+  font-size: 45px !important;
+}
+
+.reviews-btn #intro-btn {
+  background-color: #DF88B3;
+  margin-top: 10%;
+}
+
+.reviews-btn #intro-btn:hover {
+  background-color: #fff;
+}
+
+#planet-icon,
+#formula-icon {
+  width: 70px;
+}
+/* Review Styles */
+
+/* Contact Styles */
+
+
+#contact {
+  background-image: url('imgs/layout-bg-g.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: auto;
+  text-align: center;
+  padding-bottom: 10%;
+}
+
+#contact-text {
+  margin-top: 25%;
+}
+
+#contact-text .st-icon img {
+  margin-top: 5px;
+}
+
+#contact-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 90%;
+  margin: 80px auto;
+}
+
+#contact-grid iframe {
+  border-radius: 8px;
+  border: 1px solid #000;
+}
+
+.contact-btn #intro-btn {
+  background-color: #9C58B1 ;
+}
+
+.contact-btn #intro-btn:hover {
+  background-color: #fff;
+}
+
+/* Form Styles */
+form p {
+  font-family: 'Kodchasan', sans-serif;
+  font-weight: 400;
+}
+
+input,
+textarea {
+    background-color: #fff;
+    border: .5px solid #000;
+    border-radius: 10px;
+    color: #000;
+    font-family: 'Kodchasan', sans-serif;
+    font-weight: 200;
+    padding: 10px;
+    width: 255px;
+    margin: 5px;
+}
+
+textarea {
+  width: 65%;
+  height: auto;
+}
+
+#submit-btn {
+  background-color: #000;
+  color: #fff;
+}
+
+#reset-btn {
+  background-color: #fff;
+  color: #000;
+}
+
+#reset-btn:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+#submit-btn:hover {
+  background-color: #fff;
+  color: #000;
+}
+/* Form Styles */
+
+/* Upcoming Events Styles */
+
+#uc-events {
+  margin-top: 10%;
+}
+
+#uc-events-text p {
+  font-family: 'Kodchasan', sans-serif;
+  font-weight: 400;
+}
+
+.flyer {
+  height: 300px;
+  width: auto;
+  border-radius: 8px;
+  border: 1px solid #000;
+}
+
+#events-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 45%;
+  margin: 5% auto;
+}
+
+#events-grid small {
+  font-weight: 400;
+}
+
+/* Upcoming Events Styles */
+/* Contact Styles */
+
+/* Newsletter Styles */
+
+#newsletter {
+  text-align: center;
+  margin-top: 10%;
+  padding-bottom: 10%;
+}
+
+.newsletter-btn #intro-btn {
+  background-color: #000;
+  color: #fff;
+  margin-top: -10px;
+}
+
+.newsletter-btn #intro-btn:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+#email-nl {
+  width: 450px;
+  height: auto;
+  margin: 5% auto;
+}
+/* Newsletter Styles */
+
+/* Footer Styles */
+
+footer {
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+footer #logo {
+  width: 125px;
+  height: auto;
+  text-align: center;
+}
+
+#footer-grid {
+  display: grid;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  background-color: #FCE8EF;
+  padding: 1em 0;
+}
+
+
+#f-m-t-1 {
+  font-family: 'Nightfall', serif;
+  -webkit-text-stroke-width: .5px;
+  -webkit-text-stroke-color: black;
+  letter-spacing: 2px;
+  padding: 0;
+  margin: 0;
+}
+
+#f-m-t-2 {
+  font-family: 'Kodchasan', sans-serif;
+  font-weight: 700;
+  letter-spacing: 2px;
+  padding: 0;
+  margin: 0;
+}
+
+small {
+  font-family: 'Kodchasan', sans-serif;
+  font-weight: 200;
+}
+
+#tagline {
+  font-family: 'Kodchasan', sans-serif;
+  font-weight: 200;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Footer Styles */
