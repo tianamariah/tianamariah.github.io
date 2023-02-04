@@ -227,6 +227,59 @@ textarea {
 
 @media (max-width: 500px) {
 
+#jumbotron,
+#book-shop,
+#about-section,
+#spotlight,
+#review,
+#contact,
+#uc-events,
+#newsletter,
+footer {
+  width: 500px;
+  height: auto;
+}
+
+#menu-card-grid {
+  width: 90%;
+  column-gap: 10px;
+  grid-template-columns: auto auto;
+  margin: 0 auto;
+}
+
+#menu-card-grid div {
+  width: 220px;
+}
+
+#book-shop-text {
+    margin-top: 100%;
+}
+
+#bs-grid,
+#inner-bio-grid,
+.inner-spotlight-grid,
+#events-grid,
+#footer-grid {
+  grid-template-columns: auto;
+}
+
+#spotlight {
+    padding-bottom: 50%;
+}
+
+#spotlight-text {
+    margin-top: 100%;
+}
+
+.spotlight-grid {
+  width: 100%;
+}
+
+  #spotlight p {
+    width: 85%;
+    margin: 0 auto;
+  }
+
   #header-img {
     display: none;
   }
@@ -236,26 +289,14 @@ textarea {
   }
 
   #jumbotron h2 {
-    font-size: 25px;
+    font-size: 20px;
   }
 
-  #menu-card-grid {
-      width: 80%;
-  }
 
   #bs-grid {
     margin: 3em auto;
   }
 
-  #spotlight {
-    padding-bottom: 0%;
-  }
-
-
-  #spotlight p {
-    width: 85%;
-    margin: 0 auto;
-  }
 
   .si-1 {
     margin-top: -25px !important;
@@ -299,12 +340,36 @@ textarea {
     height: 250px;
   }
 
-  #footer-grid {
-    grid-template-columns: auto;
-  }
-
   #col-2 {
     padding: 3em 0;
+  }
+
+  .section-title {
+    font-size: 40px;
+  }
+
+  #contact-grid {
+    width: 100%;
+  }
+
+  iframe {
+    width: 100%;
+  }
+
+  input {
+    width: 80%;
+  }
+
+  #contact {
+    padding-bottom: 50%;
+  }
+
+  #contact-text {
+    margin-top: 80%;
+  }
+
+  #bio-images-grid {
+    width: 75%;
   }
 
 }
