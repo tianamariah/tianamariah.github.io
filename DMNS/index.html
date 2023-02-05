@@ -45,13 +45,13 @@
 
             <div id="socials">
                 <div>
-                  <a href="https://www.amazon.com/stores/author/B09J1QDWSZ/allbooks?ingress=0&visitId=d5abcb54-dbe8-4be4-aa62-88078149441a&store_ref=ap_rdr&ref_=ap_rdr" target="_blank"><i class="bi bi-bag-heart-fill"></i></a>
+                  <a href="https://www.amazon.com/stores/author/B09J1QDWSZ/allbooks?ingress=0&visitId=d5abcb54-dbe8-4be4-aa62-88078149441a&store_ref=ap_rdr&ref_=ap_rdr" target="_blank" aria-label="Go to Dawn's Amazon Online Shop"><i class="bi bi-bag-heart-fill"></i></a>
                 </div>
                 <div>
-                  <a href="https://www.facebook.com/Nickiedenim" target="_blank"><i class="bi bi-facebook"></i></a>
+                  <a href="https://www.facebook.com/Nickiedenim" target="_blank" aria-label="Go to Dawn's Facebook"><i class="bi bi-facebook"></i></a>
                 </div>
                 <div>
-                  <a href="https://www.instagram.com/wecandoitbook/" target="_blank"><i class="bi bi-instagram"></i></a>
+                  <a href="https://www.instagram.com/wecandoitbook/" target="_blank" aria-label="Go to Dawn's Instagram"><i class="bi bi-instagram"></i></a>
                 </div>
             </div>
 
@@ -64,73 +64,87 @@
         <!-- Side Menu Start  -->
         <div id="side-menu" class="hide">
             <span class="material-symbols-rounded close-icon" onclick="closeMenu()">close</span>
-            <div class="nav-item nav-item-1">
-                <div class="center-text">
-                  <span class="material-symbols-rounded">home</span>
-                </div>
-                <div class="center-text">
-                    <h1>HOME</h1>
-                </div>
-                <div class="center-text">
-                    <span class="material-symbols-rounded arrow-icon">arrow_forward</span>
-                </div>
-            </div>
-            <div class="nav-item nav-item-2">
-                <div class="center-text">
-                  <span class="material-symbols-rounded">tips_and_updates</span>
-                </div>
-                <div class="center-text">
-                    <h1>ABOUT</h1>
-                </div>
-                <div class="center-text">
-                    <span class="material-symbols-rounded arrow-icon">arrow_forward</span>
-                </div>
-            </div>
-            <div class="nav-item nav-item-3">
-                <div class="center-text">
-                  <span class="material-symbols-rounded">event</span>
-                </div>
-                <div class="center-text">
-                    <h1>EVENTS</h1>
-                </div>
-                <div class="center-text">
-                    <span class="material-symbols-rounded arrow-icon">arrow_forward</span>
-                </div>
-            </div>
-            <div class="nav-item nav-item-4">
-                <div class="center-text">
-                  <span class="material-symbols-rounded">import_contacts</span>
-                </div>
-                <div class="center-text">
-                    <h1>BOOKS</h1>
-                </div>
-                <div class="center-text">
-                    <span class="material-symbols-rounded arrow-icon">arrow_forward</span>
-                </div>
-            </div>
-            <div class="nav-item nav-item-5">
-                <div class="center-text">
-                  <span class="material-symbols-rounded">shopping_cart</span>
-                </div>
-                <div class="center-text">
-                    <h1>SHOP</h1>
-                </div>
-                <div class="center-text">
-                    <span class="material-symbols-rounded arrow-icon">arrow_forward</span>
-                </div>
-            </div>
+            <a href="index.html" aria-label="Home">
+              <div class="nav-item nav-item-1">
+                  <div class="center-text">
+                    <span class="material-symbols-rounded">home</span>
+                  </div>
+                  <div class="center-text">
+                      <h1>HOME</h1>
+                  </div>
+                  <div class="center-text">
+                      <span class="material-symbols-rounded arrow-icon">arrow_forward</span>
+                  </div>
+              </div>
+            </a>
+
+            <a href="index.html#about-section" onclick="closeMenuLink()" aria-label="About">
+              <div class="nav-item nav-item-2">
+                    <div class="center-text">
+                      <span class="material-symbols-rounded">tips_and_updates</span>
+                    </div>
+                  <div class="center-text">
+                      <h1>ABOUT</h1>
+                  </div>
+                  <div class="center-text">
+                      <span class="material-symbols-rounded arrow-icon">arrow_forward</span>
+                  </div>
+              </div>
+            </a>
+            <a href="index.html#uc-events" onclick="closeMenuLink()" aria-label="Events">
+              <div class="nav-item nav-item-3">
+                  <div class="center-text">
+                    <span class="material-symbols-rounded">event</span>
+                  </div>
+                  <div class="center-text">
+                      <h1>EVENTS</h1>
+                  </div>
+                  <div class="center-text">
+                      <span class="material-symbols-rounded arrow-icon">arrow_forward</span>
+                  </div>
+              </div>
+            </a>
+            <a href="index.html#spotlight-link" onclick="closeMenuLink()" aria-label="Books">
+              <div class="nav-item nav-item-4">
+                  <div class="center-text">
+                    <span class="material-symbols-rounded">import_contacts</span>
+                  </div>
+                  <div class="center-text">
+                      <h1>BOOKS</h1>
+                  </div>
+                  <div class="center-text">
+                      <span class="material-symbols-rounded arrow-icon">arrow_forward</span>
+                  </div>
+              </div>
+            </a>
+
+            <a href="index.html#bs-grid" onclick="closeMenuLink()" aria-label="Shop">
+              <div class="nav-item nav-item-5">
+                  <div class="center-text">
+                    <span class="material-symbols-rounded">shopping_cart</span>
+                  </div>
+                  <div class="center-text">
+                      <h1>SHOP</h1>
+                  </div>
+                  <div class="center-text">
+                      <span class="material-symbols-rounded arrow-icon">arrow_forward</span>
+                  </div>
+              </div>
+            </a>
+
+            <a href="index.html#contact" onclick="closeMenuLink()" aria-label="Contact">
             <div class="nav-item nav-item-6">
                 <div class="center-text">
                   <span class="material-symbols-rounded">send</span>
-
                 </div>
                 <div class="center-text">
                     <h1>CONTACT</h1>
                 </div>
-                <div class="center-text">
+                <div class="center-text" onclick="closeMenuLink()">
                     <span class="material-symbols-rounded arrow-icon">arrow_forward</span>
                 </div>
             </div>
+          </a>
         </div>
       <!-- Side Menu End -->
 
@@ -139,13 +153,13 @@
       <div id="socials-inner-grid">
         <div id="socials">
           <div>
-            <a href="https://www.amazon.com/stores/author/B09J1QDWSZ/allbooks?ingress=0&visitId=d5abcb54-dbe8-4be4-aa62-88078149441a&store_ref=ap_rdr&ref_=ap_rdr" target="_blank"><i class="bi bi-bag-heart-fill"></i></a>
+            <a href="https://www.amazon.com/stores/author/B09J1QDWSZ/allbooks?ingress=0&visitId=d5abcb54-dbe8-4be4-aa62-88078149441a&store_ref=ap_rdr&ref_=ap_rdr" target="_blank" aria-label="Go to Dawn's Amazon Online Shop"><i class="bi bi-bag-heart-fill"></i></a>
           </div>
           <div>
-            <a href="https://www.facebook.com/Nickiedenim" target="_blank"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.facebook.com/Nickiedenim" target="_blank" aria-label="Go to Dawn's Facebook"><i class="bi bi-facebook"></i></a>
           </div>
           <div>
-            <a href="https://www.instagram.com/wecandoitbook/" target="_blank"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.instagram.com/wecandoitbook/" target="_blank" aria-label="Go to Dawn's Instagram"><i class="bi bi-instagram"></i></a>
           </div>
         </div>
       </div>
@@ -157,19 +171,19 @@
   <section id="hp-bg-img">
     <div id="d-nav">
       <nav id="nav-l-s" class="nav">
-        <a href="#">
+        <a href="#" aria-label="Home">
           <div>
           <span class="material-symbols-rounded">home</span>
           <p>HOME</p>
         </div>
       </a>
-      <a href="#about-section">
+      <a href="#about-section" aria-label="About">
         <div>
           <span class="material-symbols-rounded">tips_and_updates</span>
           <p>ABOUT</p>
         </div>
       </a>
-      <a href="#uce">
+      <a href="#uce" aria-label="Events">
         <div>
           <span class="material-symbols-rounded">event</span>
           <p>EVENTS</p>
@@ -182,19 +196,19 @@
       </div>
 
       <nav id="nav-r-s" class="nav">
-        <a href="#spotlight">
+        <a href="#spotlight" aria-label="Books">
           <div>
           <span class="material-symbols-rounded">import_contacts</span>
           <p>BOOKS</p>
         </div>
       </a>
-      <a href="#book-shop">
+      <a href="#book-shop" aria-label="Shop">
         <div>
           <span class="material-symbols-rounded">shopping_cart</span>
           <p>SHOP</p>
         </div>
       </a>
-      <a href="#contact">
+      <a href="#contact" aria-label="Contact">
         <div>
           <span class="material-symbols-rounded">send</span>
           <p>CONTACT</p>
@@ -218,7 +232,7 @@
 
     <!-- Menu Card Grid Start -->
     <div id="menu-card-grid">
-      <a href="#book-shop">
+      <a href="#book-shop" aria-label="Shop Books">
         <div class="card c-1">
           <div class="card-bottom">
             <div class="card-top center-text" id="c-t-1">
@@ -235,7 +249,7 @@
         </div>
       </a>
 
-      <a href="#about-section">
+      <a href="#about-section" aria-label="About Dawn">
         <div class="card c-2">
           <div class="card-bottom">
             <div class="card-top center-text" id="c-t-2">
@@ -252,7 +266,7 @@
         </div>
       </a>
 
-      <a href="#contact">
+      <a href="#contact" aria-label="Book an event">
         <div class="card c-3">
           <div class="card-bottom">
             <div class="card-top center-text" id="c-t-3">
@@ -269,7 +283,7 @@
         </div>
       </a>
 
-      <a href="#review">
+      <a href="#review" aria-label="Customer Reviews">
         <div class="card c-4 scrollShow">
           <div class="card-bottom">
             <div class="card-top center-text" id="c-t-4">
@@ -286,7 +300,7 @@
         </div>
       </a>
 
-      <a href="#spotlight">
+      <a href="#spotlight" aria-label="Series Spotlight">
         <div class="card c-5 scrollShow">
           <div class="card-bottom">
             <div class="card-top center-text" id="c-t-5">
@@ -303,7 +317,7 @@
         </div>
       </a>
 
-      <a href="#newsletter">
+      <a href="#newsletter" aria-label="Join Newsletter">
         <div class="card c-6 scrollShow">
           <div class="card-bottom">
             <div class="card-top center-text" id="c-t-6">
@@ -323,10 +337,12 @@
     </div>
     <!-- Menu Card Grid End -->
 
-    <button id="intro-btn">
-      <span class="btn-text">Shop Now</span>
-      <span class="material-symbols-rounded btn-arrow">arrow_circle_right</span>
-    </button>
+    <a href="#book-shop" aria-label="Shop Now">
+      <button id="intro-btn">
+        <span class="btn-text">Shop Now</span>
+        <span class="material-symbols-rounded btn-arrow">arrow_circle_right</span>
+      </button>
+    </a>
   </section>
   <!-- Jumbotron End -->
 
@@ -346,7 +362,7 @@
         <h4 class="section-subtitle">Home to Our Latest Available Titles</h4>
         <p class="section-body-text">Give your child the gift of African-American history, science, and mystery.</p>
         <div id="bs-grid">
-          <div class="bs-inner-grid scrollShow">
+          <div class="bs-inner-grid scrollShow show">
             <div class="sticker">
               <picture>
                 <source type="image/webp" srcset="imgs/sticker-1.webp">
@@ -362,9 +378,9 @@
             <div class="book-info">
               <h6 class="book-title">Mystery Scientists</h6>
               <p class="book-subtitle">HARDCOVER <span class="r-w">or</span> PAPERBACK</p>
-              <a href="https://checkout.square.site/buy/NXR7PIBYGMYC4XPBIAMIMQZ3" target="_blank"><button class="btn-1">order Hardcover</button></a>
+              <a href="https://checkout.square.site/buy/NXR7PIBYGMYC4XPBIAMIMQZ3" target="_blank" aria-label="Order Hardcover"><button class="btn-1">Order Hardcover</button></a>
               <br>
-              <a href="https://checkout.square.site/buy/WFCOP7UVJG55ZNX6JO4ECDYM" target="_blank"><button class="btn-2">order Paperback</button></a>
+              <a href="https://checkout.square.site/buy/WFCOP7UVJG55ZNX6JO4ECDYM" target="_blank" aria-label="Order Paperback"><button class="btn-2">Order Paperback</button></a>
             </div>
           </div>
           <div class="bs-inner-grid scrollShow">
@@ -383,9 +399,9 @@
             <div class="book-info">
               <h6 class="book-title">We Can Do It!</h6>
               <p class="book-subtitle">HARDCOVER <span class="r-w">or</span> PAPERBACK</p>
-              <a href="https://square.link/u/s0f8FJhD" target="_blank"><button class="btn-1">order Hardcover</button></a>
+              <a href="https://square.link/u/s0f8FJhD" target="_blank"><button class="btn-1"  aria-label="Order Hardcover">Order Hardcover</button></a>
               <br>
-              <a href="https://square.link/u/m2cCqQhQ" target="_blank"><button class="btn-2">order Paperback</button></a>
+              <a href="https://square.link/u/m2cCqQhQ" target="_blank"><button class="btn-2" aria-label="Order Paperback">Order Paperback</button></a>
             </div>
           </div>
           <div class="bs-inner-grid scrollShow">
@@ -404,14 +420,14 @@
             <div class="book-info">
               <h6 class="book-title">Mystery Scientists</h6>
               <p class="book-subtitle">COLORING BOOK</p>
-              <a href="https://checkout.square.site/merchant/MLJMQVKDJ6YZD/checkout/FEX5T22NUY2T7DY735JMM4EK" target="_blank"><button class="btn-1">order Now</button></a>
+              <a href="https://checkout.square.site/merchant/MLJMQVKDJ6YZD/checkout/FEX5T22NUY2T7DY735JMM4EK" target="_blank" aria-label="Order Now"><button class="btn-1">Order Now</button></a>
               <br>
               <button class="btn-2" style="visibility: hidden;">Order Now</button>
             </div>
           </div>
         </div>
 
-        <a href="https://www.amazon.com/stores/author/B09J1QDWSZ/allbooks?ingress=0&visitId=d5abcb54-dbe8-4be4-aa62-88078149441a&store_ref=ap_rdr&ref_=ap_rdr" target="_blank">
+        <a href="https://www.amazon.com/stores/author/B09J1QDWSZ/allbooks?ingress=0&visitId=d5abcb54-dbe8-4be4-aa62-88078149441a&store_ref=ap_rdr&ref_=ap_rdr" target="_blank" aria-label="Shop Books on Amazon">
           <button id="intro-btn" class="bs-btn">
             <span class="btn-text">Shop On Amazon</span>
             <span class="material-symbols-rounded btn-arrow">arrow_circle_right</span>
@@ -470,15 +486,17 @@
           <div>
             <h4>Contact Dawn</h4>
             <p><span class="material-symbols-rounded phone-icon">call</span>&nbsp;702-677-8376</p>
-            <a href="mailto:dawn.denham@gmail.com"><p><span class="material-symbols-rounded email-icon">mail</span>&nbsp;dawn.denham@gmail.com</p></a>
-            <a href="https://www.instagram.com/nickiemccuin/" target="_blank"><p><span><i class="bi bi-instagram"></i></span>&nbsp;instagram</p></a>
+            <a href="mailto:dawn.denham@gmail.com" aria-label="Email Dawn"><p><span class="material-symbols-rounded email-icon">mail</span>&nbsp;dawn.denham@gmail.com</p></a>
+            <a href="https://www.instagram.com/nickiemccuin/" target="_blank" aria-label="Go to Dawn's Instagram"><p><span><i class="bi bi-instagram"></i></span>&nbsp;instagram</p></a>
           </div>
 
           <div class="about-btn">
-            <button id="intro-btn">
-              <span class="btn-text">Book An Event</span>
-              <span class="material-symbols-rounded btn-arrow">arrow_circle_right</span>
-            </button>
+            <a href="#contact" aria-label="Book an event">
+              <button id="intro-btn">
+                <span class="btn-text">Book An Event</span>
+                <span class="material-symbols-rounded btn-arrow">arrow_circle_right</span>
+              </button>
+            </a>
           </div>
         </div>
        </div>
@@ -496,7 +514,7 @@
               <img src="imgs/card-icon-5.png" width="150" height="169" alt="Smiling Measuring Cup Illustration" />
           </picture>
         </span>
-        <span class="st-text">Series Spotlight</span>
+        <span class="st-text" id="spotlight-link">Series Spotlight</span>
       </h2>
       <h4 class="section-subtitle">We Can Do It! Series Book Spotlight</h4>
     </div>
@@ -518,23 +536,36 @@
       <div>
         <picture>
           <source type="image/webp" srcset="imgs/book-1-hc.webp">
-            <img src="imgs/book-1-hc.png" width="400" height="391" alt="Hardcover We Can Do It! Book"/>
+            <img class="hc-book" src="imgs/book-1-hc.png" width="400" height="391" alt="Hardcover We Can Do It! Book"/>
         </picture>
       </div>
       <div class="center-text">
         <div>
           <div class="series-order-btn">
-          <button id="intro-btn">
-            <span class="btn-text">Order Now</span>
-            <span class="material-symbols-rounded btn-arrow">arrow_circle_right</span>
-          </button>
+          <a href="https://checkout.square.site/buy/SU6KQAYRZS6YSGATBLKQQ6YR" target="_blank" aria-label="Order Hardcover">
+            <button id="intro-btn">
+              <span class="btn-text">Order Hardcover</span>
+              <span class="material-symbols-rounded btn-arrow">arrow_circle_right</span>
+            </button>
+          </a>
+        </div>
+
+        <div class="series-order-hc-btn">
+          <a href="https://checkout.square.site/buy/DG4O7ACJI54ATCS45VQGBGHL" target="_blank" aria-label="Order Paperback">
+            <button id="intro-btn">
+              <span class="btn-text">Order Paperback</span>
+              <span class="material-symbols-rounded btn-arrow">arrow_circle_right</span>
+            </button>
+          </a>
         </div>
 
         <div class="series-review-btn">
-          <button id="intro-btn">
-            <span class="btn-text">Read Reviews</span>
-            <span class="material-symbols-rounded btn-arrow">arrow_circle_right</span>
-          </button>
+          <a href="#review" aria-label="Read Reviews">
+            <button id="intro-btn">
+              <span class="btn-text">Read Reviews</span>
+              <span class="material-symbols-rounded btn-arrow">arrow_circle_right</span>
+            </button>
+          </a>
         </div>
       </div>
     </div>
@@ -565,18 +596,31 @@
       </div>
       <div class="center-text">
         <div>
-          <div class="series-order-btn-2">
-          <button id="intro-btn">
-            <span class="btn-text">Order Now</span>
-            <span class="material-symbols-rounded btn-arrow">arrow_circle_right</span>
-          </button>
+          <div class="series-order-btn">
+          <a href="https://checkout.square.site/buy/NXR7PIBYGMYC4XPBIAMIMQZ3" target="_blank" aria-label="Order Hardcover">
+            <button id="intro-btn">
+              <span class="btn-text">Order Hardcover</span>
+              <span class="material-symbols-rounded btn-arrow">arrow_circle_right</span>
+            </button>
+          </a>
+        </div>
+
+        <div class="series-order-hc-btn">
+          <a href="https://checkout.square.site/buy/WFCOP7UVJG55ZNX6JO4ECDYM" target="_blank" aria-label="Order Paperback">
+            <button id="intro-btn">
+              <span class="btn-text">Order Paperback</span>
+              <span class="material-symbols-rounded btn-arrow">arrow_circle_right</span>
+            </button>
+          </a>
         </div>
 
         <div class="series-review-btn">
-          <button id="intro-btn">
-            <span class="btn-text">Read Reviews</span>
-            <span class="material-symbols-rounded btn-arrow">arrow_circle_right</span>
-          </button>
+          <a href="https://checkout.square.site/buy/W4U4EM3ZYNGZTHVV6WF6YTYZ" target="_blank" aria-label="Order Coloring Book">
+            <button id="intro-btn">
+              <span class="btn-text">Order Coloring Book</span>
+              <span class="material-symbols-rounded btn-arrow">arrow_circle_right</span>
+            </button>
+          </a>
         </div>
       </div>
     </div>
@@ -660,10 +704,12 @@
       </div>
 
       <div class="reviews-btn">
-        <button id="intro-btn">
-          <span class="btn-text">Order Now</span>
-          <span class="material-symbols-rounded btn-arrow">arrow_circle_right</span>
-        </button>
+        <a href="#book-shop" aria-label="Order Now">
+          <button id="intro-btn">
+            <span class="btn-text">Order Now</span>
+            <span class="material-symbols-rounded btn-arrow">arrow_circle_right</span>
+          </button>
+        </a>
       </div>
 
     </section>
@@ -730,22 +776,22 @@
 
       <div id="events-grid">
         <div class="scrollShow">
-          <a href="https://www.springspreserve.org/events/?id=2161" target="_blank">
+          <a href="https://www.springspreserve.org/events/?id=2161" target="_blank" aria-label="Find out more event information for Springs Reserve's Black History Month Festival">
             <picture>
               <source type="image/webp" srcset="imgs/sp-bh-flyer.webp">
                 <img class="flyer" src="imgs/sp-bh-flyer.png" alt="Springs Reserve Black History Month Family Festival Flyer"/>
             </picture>
           </a>
-          <a href="https://www.springspreserve.org/events/?id=2161" target="_blank"><p><small>Springs Reserve Black History Month Festival</small></p></a>
+          <a href="https://www.springspreserve.org/events/?id=2161" target="_blank" aria-label="Find out more event information for Springs Reserve's Black History Month Festival"><p><small>Springs Reserve Black History Month Festival</small></p></a>
         </div>
         <div class="scrollShow">
-          <a href="https://www.theknowledgeshopla.com/facts" target="_blank">
+          <a href="https://www.theknowledgeshopla.com/facts" target="_blank" aria-label="Find out more event information for The Knowledge Shop LA's Annual Math Summit">
             <picture>
               <source type="image/webp" srcset="imgs/fcts-fbom-flyer.webp">
                 <img class="flyer" src="imgs/fcts-fbom-flyer.png" alt="ASCE Engineering Day at the Mall Flyer"/>
             </picture>
           </a>
-          <a href="https://www.theknowledgeshopla.com/facts" target="_blank"><p><small>The Knowledge Shop LA's Annual Math Summit</small></p></a>
+          <a href="https://www.theknowledgeshopla.com/facts" target="_blank" aria-label="Find out more event information for The Knowledge Shop LA's Annual Math Summit"><p><small>The Knowledge Shop LA's Annual Math Summit</small></p></a>
       </div>
     </div>
 
@@ -773,7 +819,7 @@
         <input type="email" id="email-nl" name="user_email-nl" placeholder="Email" />
 
         <div class="newsletter-btn">
-          <button id="intro-btn">
+          <button type="submit" id="intro-btn" aria-label="Join Now">
             <span class="btn-text">Join Now</span>
             <span class="material-symbols-rounded btn-arrow">arrow_circle_right</span>
           </button>
@@ -794,7 +840,7 @@
                 <img id="logo" src="imgs/dm-logo.png" width="400" height="528" alt="Dawn McCuin Logo by TM"/>
             </picture>
             <p><span class="material-symbols-rounded phone-icon">call</span>&nbsp;702-677-8376</p>
-            <a href="mailto:dawn.denham@gmail.com"><p><span class="material-symbols-rounded email-icon">mail</span>&nbsp;dawn.denham@gmail.com</p></a>
+            <a href="mailto:dawn.denham@gmail.com" aria-label="Email Dawn"><p><span class="material-symbols-rounded email-icon">mail</span>&nbsp;dawn.denham@gmail.com</p></a>
           </div>
         </div>
         <div id="col-2" class="center-text">
@@ -811,16 +857,16 @@
         </div>
         <div id="col-3" class="center-text">
           <div>
-            <a href="#"><p><small>HOME</small></p></a>
-            <a href="#about-section"><p><small>ABOUT</small></p></a>
-            <a href="#uce"><p><small>EVENTS</small></p></a>
-            <a href="#spotlight"><p><small>BOOKS</small></p></a>
-            <a href="#book-shop"><p><small>SHOP</small></p></a>
-            <a href="#contact"><p><small>CONTACT</small></p></a>
+            <a href="#" aria-label="Home"><p><small>HOME</small></p></a>
+            <a href="#about-section" aria-label="About"><p><small>ABOUT</small></p></a>
+            <a href="#uce" aria-label="Events"><p><small>EVENTS</small></p></a>
+            <a href="#spotlight" aria-label="Books"><p><small>BOOKS</small></p></a>
+            <a href="#book-shop" aria-label="Shop"><p><small>SHOP</small></p></a>
+            <a href="#contact" aria-label="Contact"><p><small>CONTACT</small></p></a>
           </div>
         </div>
       </div>
-      <p id="tagline"><small>Copyright &copy; 2022 Dawn McCuin. ALL RIGHTS RESERVED</small></p>
+      <p id="tagline"><small>Copyright &copy; 2022 Dawn McCuin. ALL RIGHTS RESERVED. Site By: <a href="https://vtee28.github.io/port2023/" target="_blank" aria-label="Go to site developer's website">TM</a></small></p>
     </footer>
     <!-- Footer End -->
 

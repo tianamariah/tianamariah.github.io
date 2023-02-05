@@ -226,16 +226,29 @@ nav p {
 /* Side Menu */
 
 .close-icon {
-  margin-left: 90%;
+  margin-left: 80%;
   font-weight: bolder;
 }
 
+.close-icon:hover {
+  color: #ee709d;
+  cursor: pointer;
+}
+
+#side-menu a {
+  color: #fff;
+}
+
+#side-menu a:hover {
+  color: #ee709d;
+}
+
 #side-menu {
+  color: #fff;
   display: none;
   position: fixed;
   height: 100%;
-  width: 100vw;
-  background-color: #fff;
+  background-color: rgba(0,0,0,.95);
   border: .5px solid #333;
 }
 
@@ -244,9 +257,10 @@ nav p {
   grid-template-columns: auto auto auto;
 }
 
-#side-menu .material-symbols-rounded {
-  font-size: 35px;
+#side-menu .nav-item:hover {
+  cursor: pointer;
 }
+
 
 #side-menu h1 {
   font-family: 'Kodchasan', sans-serif;
@@ -255,12 +269,8 @@ nav p {
 
 #side-menu h1:hover {
   cursor: pointer;
-  font-size: 1.5em;
 }
 
-.nav-item-1 {
-  margin-top: -40px;
-}
 /* Side Menu */
 
 
@@ -722,19 +732,21 @@ nav p {
   color: #fff;
 }
 
-.series-order-btn-2 #intro-btn {
-  background-color: #7ED6E4;
+.series-order-hc-btn #intro-btn {
   color: #fff;
+  background-color: #7ED6E4;
+  margin-top: -40px;
 }
+
 .series-review-btn #intro-btn {
-  background-color: #B3F396;
-  color: #000;
+  background-color: #79d4a8;
+  color: #fff;
   margin-top: -40px;
 }
 
 .series-order-btn #intro-btn:hover,
-.series-order-btn-2 #intro-btn:hover,
-.series-review-btn #intro-btn:hover {
+.series-review-btn #intro-btn:hover,
+.series-order-hc-btn #intro-btn:hover {
   background-color: #fff;
   color: #000;
 }
@@ -965,6 +977,7 @@ textarea {
 /* Footer Styles */
 
 footer {
+  font-family: 'Kodchasan', sans-serif;
   padding-bottom: 5px;
   text-align: center;
 }
@@ -973,6 +986,10 @@ footer #logo {
   width: 125px;
   height: auto;
   text-align: center;
+}
+
+footer small:hover {
+  font-weight: 700;
 }
 
 #footer-grid {
@@ -1012,6 +1029,12 @@ small {
   font-weight: 200;
   margin: 0;
   padding: 0;
+  font-size: 11px;
+}
+
+#tagline small:hover {
+  text-decoration: none !important;
+  font-weight: 200 !important;
 }
 
 

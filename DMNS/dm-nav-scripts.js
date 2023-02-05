@@ -122,6 +122,11 @@ function closeMenu() {
     rSide.style.display = 'grid';
 }
 
+function closeMenuLink() {
+  sideMenu.style.display = 'none';
+  rSide.style.display = 'grid';
+}
+
 /* Opening & Closing Side Menu */
 
 
