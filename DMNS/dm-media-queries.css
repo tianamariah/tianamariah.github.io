@@ -227,6 +227,8 @@ textarea {
 
 @media (max-width: 500px) {
 
+
+#m-nav,
 #jumbotron,
 #book-shop,
 #about-section,
@@ -375,14 +377,109 @@ footer {
 }
 
 @media (max-width: 425px) {
-  #jumbotron h1 {
-    font-size: 30px;
+
+  #m-nav,
+  #jumbotron,
+  #book-shop,
+  #about-section,
+  #spotlight,
+  #review,
+  #contact,
+  #uc-events,
+  #newsletter,
+  footer {
+    width: 425px;
+    height: auto;
   }
+
+  #jumbotron h1,
+  #jumbotron h2 {
+    font-size: 25px;
+  }
+
+  #menu-card-grid {
+    width: 95%;
+  }
+
+  #menu-card-grid div {
+    width: 190px;
+  }
+
+  .text {
+    font-size: 12px;
+  }
+
+  #book-shop-text {
+    margin-top: 125%;
+  }
+
+  #spotlight p {
+    width: 95%;
+  }
+
+  .spotlight-item h4 {
+    padding-bottom: 5px;
+  }
+
+  #bio {
+    padding: 0 2em;
+  }
+
+  .cr-text,
+  .nl-text {
+    font-size: 35px;
+  }
+
+  .section-subtitle {
+    font-size: 1.5em;
+  }
+
+#planet-icon,
+#formula-icon {
+  width: 50px;
+}
+
+.st-icon img {
+  margin-top: 5px;
+}
+
+
+#reviews-box,
+#reviews-box-2,
+#reviews-box-3 {
+  height: 275px;
+}
+
+#contact-text {
+  margin-top: 95%;
+}
+
+#email-nl {
+  width: 300px;
+}
+
+.newsletter-btn #intro-btn {
+  width: 275px;
+}
 
 }
 
 
 @media (max-width: 375px) {
+
+  #m-nav,
+  #jumbotron,
+  #book-shop,
+  #about-section,
+  #spotlight,
+  #review,
+  #contact,
+  #uc-events,
+  #newsletter,
+  footer {
+    width: 375px;
+    height: auto;
+  }
 
   #m-nav #socials {
     width: 150px;
@@ -395,6 +492,21 @@ footer {
 }
 
 @media (max-width: 320px) {
+
+  #m-nav,
+  #jumbotron,
+  #book-shop,
+  #about-section,
+  #spotlight,
+  #review,
+  #contact,
+  #uc-events,
+  #newsletter,
+  footer {
+    width: 320px;
+    height: auto;
+  }
+
   #m-logo {
     width: 75px;
     margin-top: 0px;
