@@ -6,7 +6,8 @@ My name is Tiana & I am currently a Freelance front-end Web Developer available 
 Current Projects: 
 
 http://thenailbarbykc.com/<br>
-https://drherbertlab.org/
+https://drherbertlab.org/<br>
+https://www.dawnmccuin.com/
 
 My First React Project: An Expense Tracker
 
