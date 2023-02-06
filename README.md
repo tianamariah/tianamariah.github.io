@@ -3,13 +3,19 @@ Hello, World!
 
 My name is Tiana & I am currently a Freelance front-end Web Developer available for hire! 
 
+Online Portfolio Link: 
+https://vtee28.github.io/port2023/
+
+
+
 Current Projects: 
 
 http://thenailbarbykc.com/<br>
 https://drherbertlab.org/<br>
 https://www.dawnmccuin.com/
 
-My First React Project: An Expense Tracker
+
+
 
 
 Top Skills: 
