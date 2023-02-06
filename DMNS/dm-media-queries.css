@@ -225,8 +225,14 @@ textarea {
 }
 
 
-@media (max-width: 500px) {
 
+@media (min-width: 501px) and  (max-width: 730px) {
+  #menu-card-grid {
+    width: 70%;
+  }
+}
+
+@media (max-width: 500px) {
 
 #m-nav,
 #jumbotron,
@@ -287,6 +293,7 @@ footer {
   }
 
   #jumbotron h1 {
+    color: #000;
     font-size: 40px;
   }
 
@@ -309,8 +316,7 @@ footer {
   }
 
 
-  .hide-m,
-  .series-review-btn{
+  .hide-m {
     display: none;
   }
 
@@ -481,12 +487,44 @@ footer {
     height: auto;
   }
 
+  #jumbotron h1, #jumbotron h2 {
+    font-size: 23px;
+  }
+
   #m-nav #socials {
     width: 150px;
   }
 
   #m-logo {
     margin-top: -5px;
+  }
+
+  #menu-card-grid div {
+    width: 170px;
+  }
+
+  .about-btn {
+    margin-left: -10%;
+  }
+
+  #spotlight-text {
+    margin-top: 115%;
+  }
+
+  .section-title {
+    font-size: 35px;
+  }
+
+.section-subtitle {
+    font-size: 1em;
+  }
+
+.hc-book {
+    margin-left: -30px
+  }
+
+  .cr-text, .nl-text {
+    font-size: 30px;
   }
 
 }
@@ -510,5 +548,81 @@ footer {
   #m-logo {
     width: 75px;
     margin-top: 0px;
+  }
+
+  #jumbotron h1{
+    font-size: 30px;
+  }
+
+   #jumbotron h2 {
+     font-size: 25px;
+   }
+
+   #menu-card-grid div {
+    width: 140px;
+  }
+
+  #intro-btn {
+    width: 270px;
+  }
+
+  #book-shop-text {
+    margin-top: 140%;
+}
+
+.section-title {
+    font-size: 30px;
+  }
+
+  .st-icon img {
+    width: 25px;
+  }
+
+  #planet-icon,
+  #formula-icon {
+    width: 35px;
+  }
+
+  .section-subtitle {
+    margin-top: 0px;
+  }
+
+  #spotlight-text {
+    margin-top: 135%;
+  }
+
+  .hc-book {
+
+    width: 300px;
+    height: auto;
+  }
+
+  .cr-text, .nl-text {
+    font-size: 25px;
+  }
+
+  #reviews-box,
+  #reviews-box-2,
+  #reviews-box-3 {
+    height: 350px;
+  }
+
+  #contact-text {
+    margin-top: 130%;
+  }
+
+  iframe {
+    width: 308px;
+    height: auto;
+    margin-top: -15%;
+    }
+
+    #email-nl {
+    width: 220px;
+  }
+
+  .newsletter-btn #intro-btn {
+    width: 220px;
+    margin-top: 5%;
   }
 }
