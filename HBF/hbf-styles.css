@@ -14,7 +14,7 @@ body {
 }
 
 a {
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 .center-text {
@@ -48,6 +48,36 @@ button:hover {
     box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
 }
 
+
+.semi-bold-para {
+    font-weight: 600;
+}
+
+@media (max-width: 375px) {
+  #first-section,
+  #second-section,
+  #third-section,
+  #fourth-section,
+  #fifth-section,
+  #sixth-section,
+  #seventh-section,
+  footer {
+    width: 375px;
+  }
+}
+
+@media (max-width: 320px) {
+  #first-section,
+  #second-section,
+  #third-section,
+  #fourth-section,
+  #fifth-section,
+  #sixth-section,
+  #seventh-section,
+  footer {
+    width: 320px;
+  }
+}
 
 /* Animations */
 .swaying {
@@ -265,7 +295,7 @@ button:hover {
 
 #intro h1 {
     color: #00422C;
-    font-family: 'Averia Serif Libre', cursive;
+    font-family: 'Averia Serif Libre', serif;
     font-size: 44px;
     font-weight: 700;
     letter-spacing: 5px;
@@ -288,15 +318,9 @@ button:hover {
 #intro #scroll-down-img-hp {
     height: auto;
     margin-top: 20px;
-    width: 40px;
+    width: 20px;
 }
 
-#scroll-down-text-hp {
-    color: #333;
-    font-family: 'Urbanist', sans-serif;
-    font-size: 12px;
-    font-weight: 800;
-}
 
 #mission-section {
     background-color: rgba(255, 255, 255, .9);
@@ -337,10 +361,6 @@ button:hover {
     display: grid;
 }
 
-.semi-bold-para {
-    font-weight: 600;
-}
-
 .section-one {
     padding: 1em 0px;
 }
@@ -355,6 +375,25 @@ button:hover {
     border-bottom: .5px solid #333;
 }
 
+.two-col-ig {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 95%;
+  margin: 0 auto;
+  column-gap: 5px;
+}
+
+.two-col-ig p {
+  padding: 0px 5px;
+}
+
+.l-col {
+  border-right: .5px solid #333;
+}
+
+.b-col {
+  margin-top: 1em;
+}
 
 /* Mission Media Queries */
 @media (max-width: 1024px) {
@@ -368,7 +407,7 @@ button:hover {
     #first-section {
         background-image: none;
         background-color: #2A6767;
-        height: 1000px;
+        height: auto;
     }
 
     #intro {
@@ -417,6 +456,19 @@ button:hover {
     .section-two {
         border-bottom: .5px solid #eee;
     }
+
+    .two-col-ig {
+      grid-template-columns: auto;
+    }
+
+    .l-col {
+      border-right: none;
+    }
+
+    .r-col {
+      border-top: .5px solid #eee;
+      margin-top: 1em;
+    }
 }
 
 @media (max-width: 425px) {
@@ -455,6 +507,11 @@ button:hover {
 
 
 /* History Styles */
+
+.section-grid {
+  text-align: center;
+}
+
 #second-section-ls,
 #second-section-rs {
     height: 100vh;
@@ -466,10 +523,12 @@ button:hover {
     background-size: 95%;
     background-repeat: no-repeat;
     background-position: center;
+    display: grid;
+    grid-template-rows: 33.33%
 }
 
 #second-section-ls h1 {
-    background-color: #333;
+  background-color: rgba(51,51,51, .8);
     border-radius: 5px;
     color: #fff;
     font-family: 'Averia Serif Libre', cursive;
@@ -478,6 +537,79 @@ button:hover {
     letter-spacing: 10px;
     padding: 5px;
     width: max-content;
+    margin: 0 auto;
+    margin-top: 1em;
+}
+
+#second-section-ls h4 {
+  background-color: rgba(51,51,51, .8);
+  border-radius: 5px;
+  color: #fff;
+  letter-spacing: 5px;
+  padding: 5px;
+  width: max-content;
+  font-family: 'Syncopate', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0 auto;
+}
+
+.facts-slider-box {
+  width: 75%;
+  margin: 1em auto;
+  background-color: rgba(51,51,51, .8);
+  border-radius: 5px;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.slider-grid {
+  display: grid;
+  grid-template-columns: 5% 90% 5%;
+}
+
+#l-a,
+#r-a {
+  color: #fff;
+}
+
+#l-a:hover,
+#r-a:hover {
+  color: rgb(219, 234, 183) !important;
+  cursor: pointer;
+  font-size: 32px !important;
+}
+
+#second-section-ls p {
+  color: #fff;
+  font-family: 'Urbanist', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  padding: 15px;
+  margin: 0 auto;
+  line-height: 32px;
+  margin-top: 1em;
+}
+
+#facts-slider-box-2 {
+  display: none;
+}
+
+.history-source {
+  width: max-content;
+  margin: 0 auto;
+}
+
+#second-section-ls a {
+  color: #fff;
+  font-size: 16px;
+  font-family: 'Urbanist', sans-serif;
+  font-weight: 400;
+}
+
+#second-section-ls a:hover {
+  color: rgb(219, 234, 183);
+  text-decoration: underline;
 }
 
 #second-section-rs {
@@ -531,12 +663,12 @@ button:hover {
 
 @media (max-width: 500px) {
 
-    #second-section {
-        margin-top: 350px;
+  .facts-slider-box {
+    width: 95%;
     }
 
-    #second-section-ls {
-        height: 300px;
+    #second-section {
+        margin-top: -20%;
     }
 
     #second-section-rs {
@@ -708,7 +840,6 @@ button:hover {
 /* Team Styles */
 
 /* Bamboo FAQ Styles */
-
 #fourth-section {
     text-align: center;
     color: #807c4e;
@@ -972,26 +1103,57 @@ button:hover {
 /* Bamboo FAQ Styles Media Queries */
 /* Bamboo FAQ Styles */
 
+/* Mushroom FAQ Styles */
+#fifth-section {
+    text-align: center;
+    color: #807c4e;
+    padding: 10em 0;
+}
+
+#fifth-section h1 {
+    font-size: 54px;
+    font-family: 'Averia Serif Libre', cursive;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+#fifth-section h3 {
+    color: #333;
+    font-family: 'Syncopate', sans-serif;
+    font-weight: 400;
+    margin-top: -35px;
+    letter-spacing: 1px;
+}
+
+#fifth-section small {
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+    color: #333;
+}
+
+
+/* Mushroom FAQ Styles */
 
 /* Construction Journey Styles */
-#fifth-section {
+#sixth-section {
     display: grid;
     grid-template-columns: 50% 50%;
     height: 3250px;
     border-top: .5px solid #386466;
 }
 
-#fifth-section-ls {
+#sixth-section-ls {
     border-right: .5px solid #386466;
 }
 
-#fifth-section-title {
+#sixth-section-title {
     position: relative;
     text-align: center;
     margin-top: -160%;
 }
 
-#fifth-section-title h1 {
+#sixth-section-title h1 {
     background-color: #fff;
     color: #386466;
     font-size: 54px;
@@ -1000,7 +1162,7 @@ button:hover {
     letter-spacing: 10px;
 }
 
-#fifth-section-title h3 {
+#sixth-section-title h3 {
     background-color: #fff;
     color: #333;
     font-family: 'Syncopate', sans-serif;
@@ -1081,7 +1243,7 @@ button:hover {
 
 @media (max-width: 1696px) {
 
-    #fifth-section-title {
+    #sixth-section-title {
         margin-top: -180%;
     }
 
@@ -1089,7 +1251,7 @@ button:hover {
 
 @media (max-width: 1440px) {
 
-    #fifth-section-title {
+    #sixth-section-title {
         margin-top: -200%;
     }
 
@@ -1098,7 +1260,7 @@ button:hover {
 
 @media (max-width: 1300px) {
 
-    #fifth-section-title {
+    #sixth-section-title {
         margin-top: -230%;
     }
 
@@ -1106,7 +1268,7 @@ button:hover {
 
 @media (max-width: 1024px) {
 
-    #fifth-section-title {
+    #sixth-section-title {
         margin-top: -300%;
     }
 
@@ -1114,26 +1276,26 @@ button:hover {
 
 @media (max-width: 768px) {
 
-    #fifth-section-title {
+    #sixth-section-title {
         margin-top: -400%;
     }
 
 }
 
 @media (max-width: 500px) {
-    #fifth-section {
+    #sixth-section {
         margin-top: -16%;
     }
 
-    #fifth-section-title {
+    #sixth-section-title {
         margin-top: -600%;
     }
 
-    #fifth-section-title h1 {
+    #sixth-section-title h1 {
         font-size: 2.5em;
     }
 
-    #fifth-section-title h3 {
+    #sixth-section-title h3 {
         margin-top: -32px;
         padding: 10px;
     }
@@ -1141,21 +1303,21 @@ button:hover {
 }
 
 @media (max-width: 425px) {
-    #fifth-section-title {
+    #sixth-section-title {
         margin-top: -730%;
     }
 
-    #fifth-section {
+    #sixth-section {
         margin-top: -19%;
     }
 }
 
 @media (max-width: 320px) {
-    #fifth-section-title {
+    #sixth-section-title {
         margin-top: -770%;
     }
 
-    #fifth-section {
+    #sixth-section {
         margin-top: -20%;
     }
 
@@ -1168,22 +1330,22 @@ button:hover {
 
 
 /* Sponsorship Styles */
-#sixth-section {
+#seventh-section {
     border-top: .5px solid #333;
     border-bottom: .5px solid #333;
 }
 
-#sixth-section-ls,
-#sixth-section-rs {
+#seventh-section-ls,
+#seventh-section-rs {
     height: 100vh;
 }
 
-#sixth-section-ls {
+#seventh-section-ls {
     background-color: #eaf6d3;
     border-right: .5px solid #333;
 }
 
-#sixth-section-ls h1 {
+#seventh-section-ls h1 {
     background-color: #333;
     border-radius: 5px;
     color: #fff;
@@ -1195,14 +1357,14 @@ button:hover {
     width: max-content;
 }
 
-#sixth-section-rs h3 {
+#seventh-section-rs h3 {
     color: #296767;
     font-family: 'Syncopate', sans-serif;
     font-weight: 400;
     letter-spacing: 3px;
 }
 
-#sixth-section-rs p {
+#seventh-section-rs p {
     font-family: 'Urbanist', sans-serif;
     font-weight: 300;
     letter-spacing: 1px;
@@ -1260,20 +1422,20 @@ input {
 /* Sponsorship Styles Media Queries */
 @media (max-width: 500px) {
 
-    #sixth-section img {
+    #seventh-section img {
         width: 150px;
         height: auto;
     }
 
-    #sixth-section-ls {
+    #seventh-section-ls {
         height: 300px;
     }
 
-    #sixth-section-ls h1 {
+    #seventh-section-ls h1 {
         font-size: 2em;
     }
 
-    #sixth-section-rs {
+    #seventh-section-rs {
         padding: 0px 1em;
     }
 
