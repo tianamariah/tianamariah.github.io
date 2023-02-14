@@ -259,5 +259,42 @@ a:hover {
    }
 }
 
+@media (max-width: 500px) {
+  main  {
+    width: 100%;
+  }
+
+  .inner-tape-container,
+  .top-tape-title {
+    font-size: auto;
+  }
+
+  .top-tape-l-side,
+  .top-tape-r-side {
+    font-size: auto;
+  }
+
+  .tape-icon {
+     width: 25px;
+   }
+}
+
+@media (max-width: 320px) {
+
+  .top-tape-title {
+    font-size: 1em;
+  }
+
+  .top-tape-l-side,
+  .top-tape-r-side {
+    font-size: 1em !important;
+  }
+
+  .tape-icon {
+     width: 15px;
+   }
+}
+
+
 
 /* Media Queries*/
