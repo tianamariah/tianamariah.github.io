@@ -295,10 +295,13 @@ footer {
   #jumbotron h1 {
     color: #000;
     font-size: 40px;
+    -webkit-text-stroke-width: 0;
+    -webkit-text-stroke-color: transparent;
   }
 
   #jumbotron h2 {
     font-size: 20px;
+    -webkit-text-stroke-width: 0.5px;
   }
 
 
@@ -449,7 +452,6 @@ footer {
   margin-top: 5px;
 }
 
-
 #reviews-box,
 #reviews-box-2,
 #reviews-box-3 {
@@ -466,6 +468,10 @@ footer {
 
 .newsletter-btn #intro-btn {
   width: 275px;
+}
+
+.section-title {
+    padding-top: 1.5em;
 }
 
 }
