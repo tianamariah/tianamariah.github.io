@@ -1,0 +1,229 @@
+/* Universal Styles */
+.center-element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 24px !important;
+}
+/* Universal Styles */
+
+/* Header Styles */
+nav {
+  background-color: #fff;
+  font-family: 'Fredoka', sans-serif;
+  padding: 1%;
+}
+
+.outer-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.inner-grid {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  text-align: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000;
+  font-size: 12px;
+  font-weight: 600;
+}
+/* Header Styles */
+
+/* Banner Styles */
+.banner {
+  background-color: #083865;
+  color: #fff;
+  text-align: center;
+  padding: 3%;
+}
+
+.banner h1 {
+  font-family: 'Fredoka', sans-serif;
+}
+
+.banner h6 {
+  font-family: 'Anek Latin', sans-serif;
+  font-weight: 200;
+  margin-top: 3%;
+}
+/* Banner Styles */
+
+/* Student Info Styles */
+.outer-grid-si {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  margin-top: 5%;
+  text-align: center;
+  font-family: 'Anek Latin', sans-serif;
+  padding: 3%;
+}
+
+.outer-grid-si div {
+  text-align: center;
+}
+
+.outer-grid-si h6 {
+  font-family: 'Fredoka', sans-serif;
+}
+
+#student-img {
+  padding: 5%;
+  margin-top: 25%;
+  margin-left: -15%;
+}
+
+.student-info-box {
+  background-color: #bed8f4;
+  padding: 3%;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.inner-grid-si,
+.inner-grid-si-2 {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.inner-grid-si div {
+  padding: 3%;
+  text-align: justify;
+}
+
+.inner-grid-si div span,
+.inner-grid-si-2 div span {
+  font-size: 11px;
+  margin-left: 15%;
+}
+
+.outer-grid-si-2 {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  column-gap: 5px;
+  text-align: center;
+  padding: 3%;
+}
+
+.outer-grid-si-2 button {
+  border: none;
+  border-radius: 5px;
+  background-color: #083865;
+  color: #fff;
+  font-size: 12px;
+  font-family: 'Fredoka', sans-serif;
+  font-weight: 500;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+/* Student Info Styles */
+
+/* Additional Student Info Styles */
+.admin-student-info {
+  margin-top: 5%;
+}
+
+.heading {
+  color: #083865;
+  padding-left: 3%;
+  font-family: 'Fredoka', sans-serif;
+  font-weight: 500;
+}
+/* Additional Student Info Styles */
+
+/* Goals Styles */
+.para {
+  font-size: 14px;
+  font-family: 'Anek Latin', sans-serif;
+  padding-left: 3%;
+}
+/* Goals Styles */
+
+/* Menu Styles */
+.outer-grid-menu {
+  display: grid;
+  grid-template-columns: auto auto;
+  width: 75%;
+  margin: 15% auto;
+  text-align: center;
+  row-gap: 10%;
+  column-gap: 10%;
+}
+
+.inner-grid-menu {
+  background-color: #bed8f4;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: grid;
+  text-align: center;
+  padding: 5%;
+  border-radius: 25px;
+  font-family: 'Fredoka', sans-serif;
+  font-weight: 500;
+}
+
+.inner-grid-menu:hover {
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+/* Menu Styles */
+
+
+
+
+/* Accordion Styles */
+.accordion {
+  margin-top: 50% !important;
+}
+
+.ai-1 {
+  background-color: #02111e !important;
+}
+
+.ai-2 {
+  background-color: #041e36 !important;
+}
+
+.ai-3 {
+  background-color: #062b4d !important;
+}
+
+.ai-4 {
+  background-color: #083865 !important;
+}
+
+.ai-5 {
+  background-color: #0a457d !important;
+}
+
+.ai-6 {
+  background-color: #0e5fac !important;
+}
+
+.ai-7 {
+  background-color: #106cc4 !important;
+}
+
+.ai-8 {
+  background-color: #2397e5 !important;
+}
+
+.accordion-button {
+  color: #fff !important;
+  font-family: 'Fredoka', sans-serif;
+  font-weight: 500;
+}
+/* Accordion Styles */
+
+
+/* Media Queries */
+@media (max-width: 500px) {
+
+  #menu {
+    margin-top: 3%;
+  }
+}
+/* Media Queries */
