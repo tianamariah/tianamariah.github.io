@@ -1,4 +1,10 @@
 /* Universal Styles */
+html,
+body {
+  overflow-x: auto !important;
+  width: auto !important;
+}
+
 .center-element {
   display: flex;
   justify-content: center;
