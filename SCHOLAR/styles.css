@@ -5,6 +5,12 @@ body {
   width: auto !important;
 }
 
+html {
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
 .center-element {
   display: flex;
   justify-content: center;
