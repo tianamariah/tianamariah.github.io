@@ -44,6 +44,12 @@ nav a {
   padding: 3%;
 }
 
+.banner-hs {
+  background-color: #fff !important;
+  padding: 0% !important;
+}
+
+
 .banner h1 {
   font-family: 'Fredoka', sans-serif;
 }
@@ -122,6 +128,76 @@ nav a {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 /* Student Info Styles */
+
+
+/* School Info Styles */
+
+.school-info-box {
+  background-color: #bed8f4;
+  padding: 3%;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin: 2%;
+}
+
+.school-info-box h6 {
+  text-align: center;
+  font-family: 'Fredoka', sans-serif;
+  font-weight: 500;
+}
+/* School Info Styles */
+
+/* Posts Styles */
+.posts {
+  margin-top: 10% !important;
+}
+
+.posts h3 {
+  text-align: center;
+  font-family: 'Fredoka', sans-serif;
+  font-weight: 500;
+}
+
+.posts .card {
+  margin: 1.5%;
+}
+
+.posts .card-title {
+  font-family: 'Fredoka', sans-serif;
+  font-weight: 500;
+}
+
+.posts .card-subtitle {
+  text-align: left !important;
+}
+
+.posts .card-text {
+  font-family: 'Anek Latin', sans-serif;
+}
+
+/* Posts Styles */
+
+/* Suggestions Styles */
+.suggestions {
+  text-align: center !important;
+  margin-top: 10% !important;
+}
+
+.suggestions h3 {
+  text-align: center;
+  font-family: 'Fredoka', sans-serif;
+  font-weight: 500;
+}
+
+.suggestions .btn {
+  margin: 1.5%;
+}
+
+.suggestion-input {
+  margin-top: 2%;
+}
+/* Suggestions Styles */
+
 
 /* Additional Student Info Styles */
 .admin-student-info {
@@ -211,10 +287,22 @@ nav a {
   background-color: #2397e5 !important;
 }
 
+.ai-9 {
+  background-color: #4eb7f2 !important;
+}
+
+.ai-10 {
+  background-color: #76c7f4 !important;
+}
+
 .accordion-button {
   color: #fff !important;
   font-family: 'Fredoka', sans-serif;
   font-weight: 500;
+}
+
+.accordion-hs {
+  margin-top: 10% !important;
 }
 /* Accordion Styles */
 
