@@ -2,11 +2,7 @@
 html,
 body {
   overflow-x: auto !important;
-}
-
-html {
-  width: 500px !important;
-  margin: 0 auto !important;
+  width: auto !important;
 }
 
 .center-element {
