@@ -2,7 +2,9 @@
 html,
 body {
   overflow-x: auto !important;
-  width: auto !important;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .center-element {
@@ -21,6 +23,7 @@ nav {
   background-color: #fff;
   font-family: 'Fredoka', sans-serif;
   padding: 1%;
+  z-index: 5;
 }
 
 .outer-grid {
@@ -91,6 +94,12 @@ nav a {
   margin-left: -15%;
 }
 
+#club-img {
+  padding: 5%;
+  margin-top: 5%;
+  margin-left: -15%;
+}
+
 .student-info-box {
   background-color: #bed8f4;
   padding: 3%;
@@ -151,7 +160,25 @@ nav a {
   font-family: 'Fredoka', sans-serif;
   font-weight: 500;
 }
+
+.outer-grid-school-info {
+  grid-template-columns: auto auto !important;
+}
 /* School Info Styles */
+
+/* Teacher Info Styles */
+
+.outer-grid-ti {
+  grid-template-columns: auto auto auto auto !important;
+}
+
+/* Teacher Info Styles */
+
+/* Club Info Styles */
+.outer-grid-club {
+  grid-template-columns: auto !important;
+}
+/* Club Info Styles */
 
 /* Posts Styles */
 .posts {
@@ -320,4 +347,30 @@ nav a {
     margin-top: 3%;
   }
 }
+
+@media (max-width: 425px) {
+  html,
+  body {
+    width: 425px;
+  }
+
+}
+
+@media (max-width: 375px) {
+  html,
+  body {
+    width: 375px;
+  }
+
+}
+
+
+@media (max-width: 320px) {
+  html,
+  body {
+    width: 320px;
+  }
+
+}
+
 /* Media Queries */
