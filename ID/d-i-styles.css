@@ -1,0 +1,147 @@
+@font-face {
+  font-family: "Love Story";
+  src: url('LoveStory.otf');
+}
+
+@font-face {
+  font-family: "Recoba";
+  src: url('Recoba.otf');
+}
+body { margin: 0; padding: 0; }
+h2 { font-size: 1.8em;}
+h3 { font-size: 1.5em; }
+p { font-family: 'Josefin Slab', serif; }
+
+.main-grid{
+  display: grid;
+  width: 80%;
+  margin: 0 auto;
+  padding: 0px;
+  text-align: center;
+  row-gap: 1em;
+}
+
+.nav-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  column-gap: 1em;
+}
+
+.nav-grid div,
+.arrows {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-grid a {
+  color: #3d252f;
+  font-family: 'Recoba', sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.nav-grid a:hover {
+  font-weight: bolder;
+}
+
+.our-story {
+  color: #3d252f;
+  font-family: 'Love Story', cursive;
+  margin-top: 3em;
+}
+
+.media-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+#gradient-div {
+  background-image: linear-gradient(#3D252F, #714261);
+  border-radius: 10px;
+  height: auto;
+  padding: .5em;
+  width: auto;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.our-story h1 {
+  font-size: 3em;
+  letter-spacing: 3px;
+}
+
+.our-story p {
+  width: 70%;
+  margin: 0 auto;
+  padding-bottom: 1em;
+}
+
+#main-image {
+  width: auto;
+  height: 350px;
+  border-radius: 10px;
+}
+
+.arrows img {
+  width: 20px;
+  height: auto;
+}
+
+.details { margin-top: 3em; }
+
+.details h2,
+.details h3 {
+  font-family: 'Love Story', cursive;
+  color: #3d252f;
+}
+
+.details p {
+  font-family: 'Josefin Slab';
+}
+
+.details-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 1em;
+}
+
+.left-align { text-align: left !important;}
+.right-align { text-align: right !important;}
+
+.wedding-party h2,
+.wedding-party h3 {
+  font-family: 'Love Story', cursive;
+  color: #3d252f;
+}
+
+.wedding-party p {
+  font-family: 'Josefin Slab';
+}
+
+.hide-on-mobile { display: block; }
+
+.vendors h2, h3 {
+  font-family: 'Love Story', cursive;
+  color: #3d252f;
+}
+
+.vendors p {
+  font-family: 'Josefin Slab';
+}
+
+@media (max-width: 768px) {
+  .main-grid { width: 100%;}
+  .nav-grid,
+  .details-grid
+   { grid-template-columns: auto;
+     row-gap: 1.5em;
+   }
+
+   .left-align,
+   .right-align { text-align: center !important; }
+   .hide-on-mobile { display: none !important; }
+}
