@@ -11,6 +11,54 @@ body { margin: 0; padding: 0; }
 h2 { font-size: 1.8em;}
 h3 { font-size: 1.5em; }
 p { font-family: 'Josefin Slab', serif; }
+button {
+  background-color: #3d252f;
+  color: #fff;
+  width: 250px;
+  padding: 10px 5px;
+  font-family: "Recoba";
+  border-radius: 6px;
+  border: none;
+}
+button:hover {
+  background-color: #fff;
+  color: #3d252f;
+  border: 2px solid #3d252f;
+  font-weight: 600;
+}
+form {
+  font-family: 'Josefin Slab', serif;
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+}
+
+.entry-body {
+  height: 100vh;
+  background: hsla(335, 24%, 19%, 1);
+  background: linear-gradient(180deg, hsla(335, 24%, 19%, 1) 0%, hsla(320, 26%, 35%, 1) 100%);
+  background: -moz-linear-gradient(180deg, hsla(335, 24%, 19%, 1) 0%, hsla(320, 26%, 35%, 1) 100%);
+  background: -webkit-linear-gradient(180deg, hsla(335, 24%, 19%, 1) 0%, hsla(320, 26%, 35%, 1) 100%);
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#3D252F", endColorstr="#714261", GradientType=1 );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#entry-text h1 {
+  color: #fff;
+  font-family: "Love Story";
+  text-align: center;
+}
+
+#entry-text p { font-family: 'Josefin Slab'; text-align: center; color: #fff; font-size: 18px;}
+#entry-text button { width: 100%; }
+
+.input-box-entry { width: 100% !important; }
+
+.nav-grid a:hover { text-decoration: underline; }
 
 .main-grid{
   display: grid;
@@ -54,7 +102,32 @@ p { font-family: 'Josefin Slab', serif; }
 
 .media-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  column-gap: 1em;
+}
+
+.gallery {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  column-gap: 5px;
+  row-gap: 5px;
+}
+
+.gallery-grid div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery-grid img {
+  height: auto;
+  width: auto;
+  border-radius: 6px;
 }
 
 #gradient-div {
@@ -87,14 +160,15 @@ p { font-family: 'Josefin Slab', serif; }
 }
 
 .arrows img {
-  width: 20px;
+  width: 10px;
   height: auto;
 }
 
 .details { margin-top: 3em; }
 
 .details h2,
-.details h3 {
+.details h3,
+.gallery h2 {
   font-family: 'Love Story', cursive;
   color: #3d252f;
 }
@@ -132,6 +206,33 @@ p { font-family: 'Josefin Slab', serif; }
 .vendors p {
   font-family: 'Josefin Slab';
 }
+
+.di-form {
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+
+.center-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.di-form label {
+  display: grid;
+}
+
+.di-form h1 {
+  font-family: 'Love Story', cursive;
+  color: #3d252f;
+}
+
+.di-form p {
+  font-family: 'Josefin Slab';
+}
+
+.input-box { width: 250px !important; }
+.margin-top { margin-top: 1em;}
 
 @media (max-width: 768px) {
   .main-grid { width: 100%;}
