@@ -233,6 +233,10 @@ button:hover {
   color: #fff;
 }
 
+.flower-img {
+  max-width: 100vw;
+  height: 100%;
+}
 
 /* Media Queries */
 @media (max-width: 1400px){
@@ -271,4 +275,32 @@ button:hover {
    .left-align,
    .right-align { text-align: center !important; }
    .hide-on-mobile { display: none !important; }
+}
+
+@media (max-width: 500px) {
+  .flower-img {
+    max-width: 500px !important;
+    height: auto !important;
+  }
+}
+
+@media (max-width: 425px) {
+  .flower-img {
+    max-width: 425px !important;
+    height: auto !important;
+  }
+}
+
+@media (max-width: 320px) {
+  .flower-img {
+    max-width: 320px !important;
+    height: auto !important;
+  }
+}
+
+@media (max-width: 280px) {
+  .flower-img {
+    max-width: 280px !important;
+    height: auto !important;
+  }
 }
