@@ -48,8 +48,8 @@
         </h2>
       </a>
       <a href="index.html" aria-label="Go to Homepage">
-        <h2 id="headerTitle">The Herbert Lab <br id="upennTextBreak"><span id="upennText">at UPENN <img
-              src="img/penn-shield.png" alt="Upenn shield" id="upenn-img" width="20" height="22" /></span></h2>
+        <h2 id="headerTitle">The Herbert Lab <br id="upennTextBreak"><span id="upennText"> <img
+              src="img/tulane-logo.svg" alt="Tulane logo." id="upenn-img"/></span></h2>
       </a>
       <h2 onclick="toggleMainMenu()"><span id="headerIcon" class="material-symbols-sharp">menu</span></h2>
     </header>
@@ -212,43 +212,61 @@
     <div class="innerGrid" id="bannerGrid">
       <div class="bg-img-row" id="bannerLeftSide">
         <div>
-          <p><span class="titleFont">Parasitic Helminths Symposium:</span><br><span class="bodyFont">Genetic
-              Determinants
-              of Development and Host Interactions</span></p>
+          <p><span class="titleFont">Our recent paper published in Nature Immunology, research spear-headed by Dr. Juan Inclan-Rico and Dr. De’Broski Herbert sheds light on how a parasitic worm:</span></p>
         </div>
 
         <div class="hideOnTablet">
-          <picture class="bgImage">
-            <source id="pictureSource1" type="image/webp" srcset="img/thl-3.webp">
-            <source id="pictureSource2" type="image/jpeg" srcset="img/thl-3.jpg">
-            <img id="pictureSource3" src="img/thl-3.jpg" alt="Committee and speakers at the helminthology symposium."
-              width="375" height="250">
-          </picture>
+          <iframe width="375" height="250" src="https://www.youtube.com/embed/6SLfx0K2Krg?si=xTQ_900P-Grx463F" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
 
         <div class="showOnTablet" style="display: none;">
+          <iframe width="375" height="250" src="https://www.youtube.com/embed/6SLfx0K2Krg?si=xTQ_900P-Grx463F" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-          <picture class="bgImage">
-            <source id="pictureSource1" type="image/webp" srcset="img/thl-3.webp">
-            <source id="pictureSource2" type="image/jpeg" srcset="img/thl-3.jpg">
-            <img id="pictureSource3" src="img/thl-3.jpg" alt="Committee and speakers at the helminthology symposium."
-              width="375" height="250">
-          </picture>
-
-          <div>
+          <!-- <div>
             <p class="sliderGrid slider fadeIn">
               <span id="left-arrow"> < </span>
               <span id="right-arrow"> > </span>
            </p>
-        </div>
+         </div> -->
         </div>
 
         <div>
-          <p><span class="titleFont">Celebrating the career of James B. “Sparky” Lok, Ph.D.</span><br><span
-              class="bodyFont">Hosted by Dr. Herbert</span></p>
+          <p><span class="bodyFont">Schistosoma mansoni, can sneak into the human body by evading this very defense mechanism, bypassing the itch response entirely. While there are prophylactic therapeutics for those who may encounter S. mansoni, options for treating someone who has unknowingly been exposed are relatively scant, and these research findings pave the way for addressing this concern.</span></p>
         </div>
+      </div>
+
+      <div class="bg-img-row" id="bannerRightSide">
+
+        <div>
+          <p><span class="titleFont">Congratulations to Dr. Annabel Ferguson, PhD!</span></p>
+      </div>
+
+      <div class="hideOnTablet">
+        <picture class="bgImage">
+          <source id="pictureSource1" type="image/webp" srcset="img/IMG_0735-cropped.webp">
+          <source id="pictureSource2" type="image/jpeg" srcset="img/IMG_0735-cropped.jpg">
+          <img id="pictureSource3" src="img/IMG_0735-cropped.jpg" alt="Annabel celebrating her achievement."
+            width="375" height="250">
+        </picture>
+      </div>
+
+      <div class="showOnTablet" style="display: none;">
+        <picture class="bgImage">
+          <source id="pictureSource1" type="image/webp" srcset="img/IMG_0735-cropped.webp">
+          <source id="pictureSource2" type="image/jpeg" srcset="img/IMG_0735-cropped.jpg">
+          <img id="pictureSource3" src="img/IMG_0735-cropped.jpg" alt="Annabel celebrating her achievement."
+            width="375" height="250">
+        </picture>
+      </div>
+
+      <div>
+        <p><span class="bodyFont">She successfully defended her dissertation.</span></p>
+      </div>
+
 
       </div>
+
+      <!--
       <div class="bg-img-row" id="bannerRightSide">
         <div>
           <p>
@@ -316,7 +334,7 @@
               <span onclick="activateSlider(+1)" id="right-arrow"> > </span>
            </p>
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
   <!-- 2nd Section End -->
@@ -367,11 +385,11 @@
 
         <div id="gridOne">
           <div class="newsCard" onclick="window.location.replace('announcements.html')">
-            <span class="emoji">🏆</span>
-            <h5>Research Awards</h5>
+            <span class="emoji">🎓</span>
+            <h5>Achievements</h5>
             <p>
               <small>
-                Juan was awarded the 2023 <a href="#">SBDRC Pilot and Feasibility Grant</a> for his project on <a href="#"><em>Neuronal suppression of myeloid-derived IL-33 exacerbates skin barrier function and keratinization</em></a>.
+                Annabel Ferguson Ph.D. is our latest graduate from the Herbertlab!
               </small>
             </p>
             <a href="announcements.html" class="newsButtonGrid" aria-label="Go to Announcements page">
@@ -381,14 +399,13 @@
           </div>
 
           <div class="newsCard" onclick="window.location.replace('announcements.html')">
-            <span class="emoji">📌</span>
-            <h5>Upcoming Event</h5>
+            <span class="emoji">🔬</span>
+            <h5>Research</h5>
             <p>
               <small>
-                Evonne, Jay, and Juan will be presenting their projects in the 2nd edition of the <a
-                  href="https://www.vibconferences.be/events/type-2-immunity-in-homeostasis-and-disease-2nd-edition"
-                  target="_blank" aria-label="Find out conference information on vibconferences.be">Type 2 Immunity in
-                  Homeostasis and Disease</a> conference <br>in Ghent, Belgium.
+                Erin Evonne Jean is a 5 th year Immunology graduate student in the Herbertlab who is
+                currently writing their first manuscript from their dissertation work that is focused on
+                the role of gamma delta T cells in host immunity against hookworms!
               </small>
             </p>
             <a href="announcements.html" class="newsButtonGrid" aria-label="Go to Announcements page">
@@ -398,12 +415,14 @@
           </div>
 
           <div class="newsCard" onclick="window.location.replace('announcements.html')">
-            <span class="emoji">✈️</span>
-            <h5>Conferences</h5>
+            <span class="emoji">💡</span>
+            <h5>Presentations</h5>
             <p>
               <small>
-                Evonne, Annabel, and Juan presented their work this past April in the <a href="#">25th Woods Hole Immunoparasitology</a> meeting.
-                Annabel won a prize for best poster presentation!  
+                Adriana Stephenson is a 4 th year Biology graduate student who just gave a splendid oral
+                presentation in our departmental Joint Laboratory Meeting on her dissertation work
+                focused on the role of sensory neurons in host immunity against distinct parasitic
+                nematode species!
               </small>
             </p>
             <a href="announcements.html" class="newsButtonGrid" aria-label="Go to Announcements page">
@@ -412,12 +431,12 @@
             </a>
           </div>
 
-          <div class="newsCard" onclick="window.location.replace('announcements.html')">
+          <div class="newsCard" onclick="window.location.replace('https://www.microbe.tv/immune/immune-62/')">
             <span class="emoji">👥</span>
             <h5>Outreach</h5>
             <p>
               <small>
-                Check out Dr.Herbert’s <a href="https://www.microbe.tv/immune/immune-62/" target="_blank">latest podcast feature</a> where he discusses current research endeavors and his career path.             
+                Check out Dr.Herbert’s <a href="https://www.microbe.tv/immune/immune-62/" target="_blank">latest podcast feature</a> where he discusses current research endeavors and his career path.
               </small>
             </p>
             <a href="announcements.html" class="newsButtonGrid" aria-label="Go to Announcements page">
@@ -615,13 +634,13 @@
 
         <div class="scrollShow centerText mobileImages">
           <picture>
-            <source type="image/webp" srcset="img/thl-2.webp">
-            <source type="image/jpeg" srcset="img/thl-2.jpg">
-            <img src="img/thl-2.jpg" alt="Members of the herbert lab out to eat." width="600" height="400"
+            <source type="image/webp" srcset="img/IMG_0744-cropped.webp">
+            <source type="image/jpeg" srcset="img/IMG_0744-cropped.jpg">
+            <img src="img/IMG_0744-cropped.jpg" alt="Members of the herbert lab celebrating Annabel's PHD completion." width="600" height="400"
               loading="lazy">
           </picture>
           <div class="mobileImageTitles">
-            <p>Members of the herbert lab out to eat</p>
+            <p>Members of the herbert lab celebrating Annabel's PHD completion.</p>
           </div>
         </div>
 
@@ -670,13 +689,13 @@
 
             <div class="scrollShow centerText hpImages">
               <picture>
-                <source type="image/webp" srcset="img/thl-2.webp">
-                <source type="image/jpeg" srcset="img/thl-2.jpg">
-                <img src="img/thl-2.jpg" alt="Members of the herbert lab out to eat." width="467" height="350"
+                <source type="image/webp" srcset="img/IMG_0744-cropped.webp">
+                <source type="image/jpeg" srcset="img/IMG_0744-cropped.jpg">
+                <img src="img/IMG_0744-cropped.jpg" alt="Members of the herbert lab celebrating Annabel's PHD completion." width="467" height="350"
                   loading="lazy">
               </picture>
               <div class="imageTitles">
-                <p>Members of the herbert lab out to eat</p>
+                <p>Members of the herbert lab celebrating Annabel's PHD completion.</p>
               </div>
             </div>
 
@@ -721,13 +740,13 @@
 
             <div class="centerText hpImages">
               <picture>
-                <source type="image/webp" srcset="img/thl-4.webp">
-                <source type="image/jpeg" srcset="img/thl-4.jpg">
-                <img src="img/thl-4.jpg" alt="Members of the herbert lab at the park." width="467" height="350"
+                <source type="image/webp" srcset="img/IMG_0727-cropped.webp">
+                <source type="image/jpeg" srcset="img/IMG_0727-cropped.jpg">
+                <img src="img/IMG_0707-cropped.jpg" alt="Dr. Herbert and Dr. Annabel Ferguson" width="467" height="350"
                   loading="lazy">
               </picture>
               <div class="imageTitles">
-                <p>Lab Group Outing</p>
+                <p>Celebrating Dr. Ferguson</p>
               </div>
 
             </div>
@@ -1271,6 +1290,16 @@
 
 
           <div id="gridTONew">
+            <div class="centerText hpImages">
+              <picture>
+                <source type="image/webp" srcset="img/IMG_0700-cropped.webp">
+                <source type="image/jpeg" srcset="img/IMG_0700-cropped.jpg">
+                <img src="img/IMG_0700-cropped.jpg" alt="Lab member smiling and wearing a cowboy hat." width="467" height="350" loading="lazy">
+              </picture>
+              <div class="imageTitles">
+                <p>Howdy, Cowgirl!</p>
+              </div>
+            </div>
 
             <div class="centerText hpImages">
               <picture>
@@ -1306,6 +1335,52 @@
         </div>
       </div>
       <!-- Div 10 End -->
+
+      <!-- Div 11 -->
+      <div id="photoDiv11" style="display: none;">
+        <div class="strike">
+          <span class="sectionTitle">Meet The Team</span>
+        </div>
+
+        <div class="photoOuterGrid">
+          <!-- Left Arrow -->
+          <div id="leftArrow" onclick="replace('photoDiv11','photoDiv10')">
+            <span class="material-symbols-sharp">keyboard_double_arrow_left</span>
+          </div>
+
+
+          <div id="gridTONew">
+            <div class="centerText hpImages">
+              <picture>
+                <source type="image/webp" srcset="img/IMG_0727-cropped.webp">
+                <source type="image/jpeg" srcset="img/IMG_0727-cropped.jpg">
+                <img src="img/IMG_0727-cropped.jpg" alt="Dr. Herbert and Dr. Ferguson smiling." width="467" height="350" loading="lazy">
+              </picture>
+              <div class="imageTitles">
+                <p>Dr. Herbert and Dr. Ferguson celebrating her achievement</p>
+              </div>
+            </div>
+
+            <div class="centerText hpImages">
+              <picture>
+                <source type="image/webp" srcset="img/IMG_0707-cropped.webp">
+                <source type="image/jpeg" srcset="img/IMG_0707-cropped.jpg">
+                <img src="img/IMG_0707-cropped.jpg" alt="Lab team outing." width="467" height="350" loading="lazy">
+              </picture>
+              <div class="imageTitles">
+                <p>Lab team out to eat</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Arrow -->
+          <div id="rightArrow" onclick="#">
+            <span class="material-symbols-sharp">keyboard_double_arrow_right</span>
+          </div>
+
+        </div>
+      </div>
+      <!-- Div 11 End -->
     </div>
     <!-- For Large Screens End -->
     <!--Team Outings Section End-->
@@ -1323,30 +1398,25 @@
     <!-- Footer Start -->
     <footer id='footer'>
       <div id="leftCol">
-        <h2>The Herbert Lab <br id="footerTextBreak"><span id="upennText">at UPENN <img src="img/penn-shield.png"
-              alt="UPENN Shield" id="upenn-img" width="20" height="22" /></span></h2>
+        <h2>The Herbert Lab</h2>
         <ul>
           <li>
-            <strong>Department of Pathobiology</strong>
+            Tulane University of Louisiana
           </li>
           <li>
-            University of Pennsylvania (Penn Vet)
+            6823 St Charles Ave
           </li>
           <li>
-            3800 Spruce Street | Office #369E | Lab - #372E
+            New Orleans, LA 70118
           </li>
           <li>
-            Philadelphia, PA 19104
+            &nbsp;
           </li>
           <li>
-            Office - 215-898-9151
+            &nbsp;
           </li>
           <li>
-            Lab - 215-746-5740
-          </li>
-          <li>
-            <small>Site By: <strong><a href="https://vtee28.github.io/port2023/" target="_blank"
-                  aria-label="View Web Developer's Portfolio Page">TM</a></strong></small>
+            <small>Site By: <strong><a href="https://tianamariah.github.io/PORT-2024/" target="_blank" aria-label="View Web Developer's Portfolio Page">TM</a></strong></small>
           </li>
         </ul>
       </div>

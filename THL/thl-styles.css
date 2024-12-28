@@ -6,6 +6,8 @@ body,
   overflow-x: hidden !important;
 }
 
+p { text-wrap: pretty; }
+
 
 body {
   height: 100%;
@@ -16,12 +18,12 @@ body {
 }
 
 a {
-  color: rgb(94, 84, 85);
+  color: #000;
   text-decoration: none;
 }
 
 a:hover {
-  color: rgb(94, 84, 85);
+  color: #3b7e9b;
   font-weight: bolder;
 }
 
@@ -43,7 +45,7 @@ small {
 }
 
 #returnTop .material-symbols-sharp {
-  color: #8a817c;
+  color: #000;
   font-size: 30px;
 }
 
@@ -118,152 +120,6 @@ scrollbar-color {
 
 /* Universal Styles End */
 
-/* Animation */
-
-.stage {
-  border-bottom: 3px solid #444;
-  display: flex;
-  height: auto;
-  width: 100%;
-}
-
-.box {
-  align-self: flex-end;
-  animation-duration: 1.5s;
-  animation-iteration-count: infinite;
-  height: 20px;
-  margin: 0 auto 0 auto;
-  transform-origin: bottom;
-}
-
-.bounce-1 {
-  animation-name: bounce-1;
-  animation-timing-function: linear;
-}
-
-.fadeIn {
-  -webkit-animation: animat_show 0.8s;
-  animation: animat_show 0.8s;
-  visibility: visible;
-}
-
-@-webkit-keyframes animat_show {
-  0% {
-    opacity: 0
-  }
-
-  100% {
-    opacity: 1
-  }
-}
-
-@keyframes bounce-1 {
-  0% {
-    transform: translateY(0);
-  }
-
-  50% {
-    transform: translateY(-8px);
-  }
-
-  100% {
-    transform: translateY(0);
-  }
-}
-
-@keyframes scroll {
-  100% {
-    background-position: 0px -3000px;
-  }
-}
-
-@media (prefers-reduced-motion) {
-  .wrapper {
-    animation: scroll 200s linear infinite;
-  }
-}
-
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-@-moz-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-@-webkit-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-@-o-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-@-ms-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
-
-@keyframes fadeOut {
-  0% {
-    opacity: 1;
-  }
-
-  100% {
-    opacity: 0;
-  }
-}
-
-@keyframes slideFromLeft {
-  from {
-    left: -100%;
-  }
-
-  to {
-    left: 0%;
-  }
-}
-
-@keyframes slideFromRight {
-  from {
-    right: -100%;
-  }
-
-  to {
-    right: 0%;
-  }
-}
-
-/* Animation */
 
 /* Assigning Grid Area */
 
@@ -358,7 +214,7 @@ header {
   margin-top: -10px;
   color: #fff;
   height: 75px;
-  background-color: rgb(94, 84, 85);
+  background-color: #3b7e9b;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
@@ -402,9 +258,7 @@ header h2:nth-child(3):hover {
 }
 
 #upenn-img {
-  width: 18px;
-  height: auto;
-  margin-top: 5px;
+  width: 90px;
 }
 
 /* Header Ends */
@@ -506,17 +360,12 @@ header h2:nth-child(3):hover {
 
 /* Intro Starts */
 .bg-img {
-  animation: scroll 350s infinite, fadeIn 7.5s;
-  background-image: url('img/ps-img7-ge5.webp');
-  background-size: contain;
-  border-bottom: .5px solid;
-  border-bottom-color: #eee;
+  background-color: #a1c5ce;
 }
 
 .innerGrid {
   display: grid;
   grid-template-columns: auto auto;
-  background-color: rgba(0, 0, 0, .7);
   text-align: center;
 }
 
@@ -545,7 +394,7 @@ header h2:nth-child(3):hover {
   font-size: 20px;
 }
 
-#left-arrow:hover, 
+#left-arrow:hover,
 #right-arrow:hover {
   color: #fff;
   border: 1px solid #fff;
@@ -771,7 +620,7 @@ _:default:not(:root:root),
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
-  color: rgb(94, 84, 85);
+  color: #3b7e9b;
 }
 
 /* Number text (1/3 etc) */
@@ -859,7 +708,7 @@ img.hover-shadow {
   margin: -10px auto;
   text-align: center;
   color: #fff;
-  background-color: rgb(94, 84, 85);
+  background-color: #3b7e9b;
   letter-spacing: 1px;
   text-transform: uppercase;
   z-index: 0;
@@ -869,14 +718,12 @@ img.hover-shadow {
 #div1 .sectionTitle,
 #div2 .sectionTitle,
 #div3 .sectionTitle {
-  background-color: rgb(94, 84, 85);
+  background-color: #3b7e9b;
   color: #fff;
 }
 
 #returnTop {
-  background-color: rgb(253, 252, 251);
-  border-top: .5px solid;
-  border-top-color: #eee;
+  background-color: rgba(0, 0, 0, .1);
   font-family: 'Bodoni Moda', serif;
   font-size: 14px;
   margin: 0;
@@ -1154,7 +1001,7 @@ input[type="radio"] {
 }
 
 input[type="radio"]:checked {
-  background-color: rgb(94, 84, 85);
+  background-color: #3b7e9b;
 }
 
 /* PI Section End */
@@ -1283,7 +1130,7 @@ input[type="radio"]:checked {
 }
 
 #currentTeamMembersSection h3 {
-  background-color: rgb(204, 201, 193);
+  background-color: rgb(253, 252, 251);
   font-size: 14px;
   font-family: 'Yaldevi', sans-serif;
   font-weight: 300;
@@ -1603,7 +1450,7 @@ input[type="radio"]:checked {
 
 .dialog div h1,
 .dialog div strong {
-  color: rgb(94, 84, 85);
+  color: #3b7e9b;
   font-family: 'Bodoni Moda', serif;
 }
 
@@ -1666,7 +1513,7 @@ input[type="radio"]:checked {
 .subNewsTitle2,
 .subNewsTitle3,
 .subNewsTitle2 a {
-  color: rgb(94, 84, 85) !important;
+  color: #3b7e9b !important;
   font-family: 'Yaldevi', sans-serif;
   letter-spacing: 3px;
   font-weight: 500 !important;
@@ -1785,7 +1632,7 @@ summary {
   font-family: 'Yaldevi', sans-serif;
   font-size: 18px;
   font-weight: 900;
-  color: rgb(94, 84, 85);
+  color: #3b7e9b;
   text-transform: uppercase;
   letter-spacing: 1px;
   width: max-content;
@@ -1888,7 +1735,7 @@ details[open] summary {
 
 .subResearchTitle,
 .subResearchTitle2 {
-  color: rgb(94, 84, 85);
+  color: #3b7e9b;
   font-family: 'Bodoni Moda', serif;
   font-weight: 700;
   letter-spacing: 1px;
@@ -1999,7 +1846,7 @@ details[open] summary {
 }
 
 .collabLink {
-  color: rgb(94, 84, 85);
+  color: #3b7e9b;
   font-family: 'Yaldevi', sans-serif;
   font-weight: 300;
   font-size: 14px;
@@ -2172,7 +2019,7 @@ _:default:not(:root:root),
 }
 
 .div4 {
-  background-color: rgb(204, 201, 193);
+  background-color: rgb(253, 252, 251);
 }
 
 /* Flipping Apc Services Grid Boxes End */
@@ -2189,7 +2036,7 @@ _:default:not(:root:root),
 }
 
 .subDissTitle2 {
-  color: rgb(94, 84, 85);
+  color: #3b7e9b;
   font-family: 'Yaldevi', sans-serif;
   font-size: 1.2em;
   font-weight: 100 !important;
@@ -2213,7 +2060,7 @@ _:default:not(:root:root),
 }
 
 .dissIframe p {
-  color: rgb(94, 84, 85);
+  color: #3b7e9b;
   font-family: 'Bodoni Moda', serif;
   padding-top: 5%;
 }
@@ -2244,12 +2091,13 @@ footer {
   display: grid;
   grid-template-columns: auto 1fr;
   padding: 1em 1em;
-  background-color: rgba(94, 84, 85, .08);
+  background-color: #a1c5ce;
   border-top: .5px solid;
   border-color: #eee;
 }
 
 footer ul {
+  margin-top: -20px;
   padding-left: 0px;
 }
 
