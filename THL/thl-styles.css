@@ -23,7 +23,7 @@ a {
 }
 
 a:hover {
-  color: #3b7e9b;
+  color: #003049;
   font-weight: bolder;
 }
 
@@ -209,13 +209,12 @@ scrollbar-color {
 /* Header Starts */
 header {
   display: grid;
-  grid-template-columns: 1fr auto 1fr;
-  padding: .5em 6em;
+ grid-template-columns: 1fr auto 1fr;
+  padding: 5px 10px;
   margin-top: -10px;
   color: #fff;
   height: 75px;
-  background-color: #3b7e9b;
-  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  background-color: #003049;
 }
 
 header a h2 {
@@ -225,9 +224,6 @@ header a h2 {
   font-size: 32px;
 }
 
-header a h2:hover {
-  color: #000;
-}
 
 header h2:nth-child(2) {
   font-family: 'Bodoni Moda', serif;
@@ -239,13 +235,10 @@ header h2:nth-child(2) {
 
 header h2:nth-child(3) {
   text-align: right;
-  color: #000;
+  color: #fff;
   margin-top: 35px;
 }
 
-header h2:nth-child(3):hover {
-  color: #fff;
-}
 
 #upennTextBreak {
   display: none;
@@ -365,8 +358,10 @@ header h2:nth-child(3):hover {
 
 .innerGrid {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 50% 50%;
   text-align: center;
+  padding: 1.5rem;
+  column-gap: 1rem;
 }
 
 .bannerImages img:hover {
@@ -410,8 +405,15 @@ header h2:nth-child(3):hover {
   grid-template-rows: auto;
 }
 
+.titleFont, .bodyFont {
+  text-wrap: pretty;
+  color: #000;
+  padding: 5px;
+  background-color: #fff;
+}
+
 .titleFont {
-  font-family: 'Bodoni Moda', serif;
+  font-family: 'Yaldevi', sans-serif;
   font-weight: bolder;
 }
 
@@ -615,7 +617,7 @@ header h2:nth-child(3):hover {
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
-  color: #3b7e9b;
+  color: #003049;
 }
 
 /* Number text (1/3 etc) */
@@ -703,7 +705,7 @@ img.hover-shadow {
   margin: -10px auto;
   text-align: center;
   color: #fff;
-  background-color: #3b7e9b;
+  background-color: #003049;
   letter-spacing: 1px;
   text-transform: uppercase;
   z-index: 0;
@@ -713,7 +715,7 @@ img.hover-shadow {
 #div1 .sectionTitle,
 #div2 .sectionTitle,
 #div3 .sectionTitle {
-  background-color: #3b7e9b;
+  background-color: #003049;
   color: #fff;
 }
 
@@ -996,7 +998,7 @@ input[type="radio"] {
 }
 
 input[type="radio"]:checked {
-  background-color: #3b7e9b;
+  background-color: #003049;
 }
 
 /* PI Section End */
@@ -1445,7 +1447,7 @@ input[type="radio"]:checked {
 
 .dialog div h1,
 .dialog div strong {
-  color: #3b7e9b;
+  color: #003049;
   font-family: 'Bodoni Moda', serif;
 }
 
@@ -1508,7 +1510,7 @@ input[type="radio"]:checked {
 .subNewsTitle2,
 .subNewsTitle3,
 .subNewsTitle2 a {
-  color: #3b7e9b !important;
+  color: #003049 !important;
   font-family: 'Yaldevi', sans-serif;
   letter-spacing: 3px;
   font-weight: 500 !important;
@@ -1627,7 +1629,7 @@ summary {
   font-family: 'Yaldevi', sans-serif;
   font-size: 18px;
   font-weight: 900;
-  color: #3b7e9b;
+  color: #003049;
   text-transform: uppercase;
   letter-spacing: 1px;
   width: max-content;
@@ -1730,7 +1732,7 @@ details[open] summary {
 
 .subResearchTitle,
 .subResearchTitle2 {
-  color: #3b7e9b;
+  color: #003049;
   font-family: 'Bodoni Moda', serif;
   font-weight: 700;
   letter-spacing: 1px;
@@ -1841,7 +1843,7 @@ details[open] summary {
 }
 
 .collabLink {
-  color: #3b7e9b;
+  color: #003049;
   font-family: 'Yaldevi', sans-serif;
   font-weight: 300;
   font-size: 14px;
@@ -2031,7 +2033,7 @@ _:default:not(:root:root),
 }
 
 .subDissTitle2 {
-  color: #3b7e9b;
+  color: #003049;
   font-family: 'Yaldevi', sans-serif;
   font-size: 1.2em;
   font-weight: 100 !important;
@@ -2055,7 +2057,7 @@ _:default:not(:root:root),
 }
 
 .dissIframe p {
-  color: #3b7e9b;
+  color: #003049;
   font-family: 'Bodoni Moda', serif;
   padding-top: 5%;
 }

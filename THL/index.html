@@ -41,16 +41,24 @@
   <div id="firstSection">
     <!-- Header Start -->
     <header>
-      <a href="index.html" aria-label="Go to Homepage">
-        <h2 id="logo">
-          <img src="img/logo-2-b.svg" onmouseout="this.src='img/logo-2-b.svg'" onmouseover="this.src='img/logo-2.svg'"
-            width="45" height="45" />
-        </h2>
+
+      <div class="showOnDesktop">
+        &nbsp;
+      </div>
+
+      <a class="showOnTablet" style="display: none;" href="index.html" aria-label="Go to Homepage">
+        <h2 id="headerTitle">The Herbert Lab <br id="upennTextBreak"><span id="upennText"> <img src="img/tulane-logo.svg" alt="Tulane logo." id="upenn-img"/></span></h2>
       </a>
-      <a href="index.html" aria-label="Go to Homepage">
+
+      <a class="showOnDesktop" style="text-align: center;" href="index.html" aria-label="Go to Homepage">
         <h2 id="headerTitle">The Herbert Lab <br id="upennTextBreak"><span id="upennText"> <img
               src="img/tulane-logo.svg" alt="Tulane logo." id="upenn-img"/></span></h2>
       </a>
+
+      <div>
+        &nbsp;
+      </div>
+
       <h2 onclick="toggleMainMenu()"><span id="headerIcon" class="material-symbols-sharp">menu</span></h2>
     </header>
     <!-- Header End -->
@@ -210,7 +218,34 @@
   <!-- Second Section Start -->
   <div id="secondSection" class="bg-img">
     <div class="innerGrid" id="bannerGrid">
-      <div class="bg-img-row" id="bannerLeftSide">
+      <div class="showOnTablet" style="display: none;">
+        <p class="titleFont">Our recent paper published in Nature Immunology, research spear-headed by Dr. Juan Inclan-Rico and Dr. De’Broski Herbert sheds light on how a parasitic worm:</p>
+
+        <div class="centerText">
+          <iframe width="375" height="250" src="https://www.youtube.com/embed/6SLfx0K2Krg?si=xTQ_900P-Grx463F" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+        <p class="bodyFont">Schistosoma mansoni, can sneak into the human body by evading this very defense mechanism, bypassing the itch response entirely. While there are prophylactic therapeutics for those who may encounter S. mansoni, options for treating someone who has unknowingly been exposed are relatively scant, and these research findings pave the way for addressing this concern.</p>
+      </div>
+
+      <div class="hideOnTablet centerText">
+        <div>
+          <p class="titleFont" style="text-align: left; font-size: 1.1rem;letter-spacing: 1px;">Our recent paper published in Nature Immunology, research spear-headed by Dr. Juan Inclan-Rico and Dr. De’Broski Herbert sheds light on how a parasitic worm:</p>
+          <p class="bodyFont" style="text-align: left; font-size: 1.1rem;letter-spacing: 1px;">Schistosoma mansoni, can sneak into the human body by evading this very defense mechanism, bypassing the itch response entirely. While there are prophylactic therapeutics for those who may encounter S. mansoni, options for treating someone who has unknowingly been exposed are relatively scant, and these research findings pave the way for addressing this concern.</p>
+        </div>
+      </div>
+
+
+      <div class="hideOnTablet">
+        <div class="centerText">
+          <iframe style="width: 100%; height: 320px;" src="https://www.youtube.com/embed/6SLfx0K2Krg?si=xTQ_900P-Grx463F" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+      </div>
+
+
+
+
+      <!-- <div class="bg-img-row" id="bannerLeftSide">
         <div>
           <p><span class="titleFont">Our recent paper published in Nature Immunology, research spear-headed by Dr. Juan Inclan-Rico and Dr. De’Broski Herbert sheds light on how a parasitic worm:</span></p>
         </div>
@@ -222,12 +257,12 @@
         <div class="showOnTablet" style="display: none;">
           <iframe width="375" height="250" src="https://www.youtube.com/embed/6SLfx0K2Krg?si=xTQ_900P-Grx463F" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-          <!-- <div>
+          <div>
             <p class="sliderGrid slider fadeIn">
               <span id="left-arrow"> < </span>
               <span id="right-arrow"> > </span>
            </p>
-         </div> -->
+         </div>
         </div>
 
         <div>
@@ -243,6 +278,8 @@
 
       <div class="hideOnTablet">
         <picture class="bgImage">
+          <img id="pictureSource3" src="http://drherbertlab.org/img/IMG_0727-cropped.webp" alt="Annabel celebrating her achievement."
+            width="375" height="250">
           <source id="pictureSource1" type="image/webp" srcset="img/IMG_0735-cropped.webp">
           <source id="pictureSource2" type="image/jpeg" srcset="img/IMG_0735-cropped.jpg">
           <img id="pictureSource3" src="img/IMG_0735-cropped.jpg" alt="Annabel celebrating her achievement."
@@ -260,13 +297,13 @@
       </div>
 
       <div>
-        <p><span class="bodyFont">She successfully defended her dissertation.</span></p>
+        <p><span class="bodyFont">She successfully defended her dissertation.<br><br><br><br><br><br></span></p>
       </div>
 
 
       </div>
 
-      <!--
+
       <div class="bg-img-row" id="bannerRightSide">
         <div>
           <p>

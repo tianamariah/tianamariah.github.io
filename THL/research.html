@@ -37,21 +37,29 @@
 <body id="body">
   <!-- First Section Start -->
   <div id="firstSection">
-    <    <!-- Header Start -->
-        <header>
-          <a href="index.html" aria-label="Go to Homepage">
-            <h2 id="logo">
-              <img src="img/logo-2-b.svg" onmouseout="this.src='img/logo-2-b.svg'" onmouseover="this.src='img/logo-2.svg'"
-                width="45" height="45" />
-            </h2>
-          </a>
-          <a href="index.html" aria-label="Go to Homepage">
-            <h2 id="headerTitle">The Herbert Lab <br id="upennTextBreak"><span id="upennText"> <img
-                  src="img/tulane-logo.svg" alt="Tulane logo." id="upenn-img"/></span></h2>
-          </a>
-          <h2 onclick="toggleMainMenu()"><span id="headerIcon" class="material-symbols-sharp">menu</span></h2>
-        </header>
-        <!-- Header End -->
+    <!-- Header Start -->
+    <header>
+
+      <div class="showOnDesktop">
+        &nbsp;
+      </div>
+
+      <a class="showOnTablet" style="display: none;" href="index.html" aria-label="Go to Homepage">
+        <h2 id="headerTitle">The Herbert Lab <br id="upennTextBreak"><span id="upennText"> <img src="img/tulane-logo.svg" alt="Tulane logo." id="upenn-img"/></span></h2>
+      </a>
+
+      <a class="showOnDesktop" style="text-align: center;" href="index.html" aria-label="Go to Homepage">
+        <h2 id="headerTitle">The Herbert Lab <br id="upennTextBreak"><span id="upennText"> <img
+              src="img/tulane-logo.svg" alt="Tulane logo." id="upenn-img"/></span></h2>
+      </a>
+
+      <div>
+        &nbsp;
+      </div>
+
+      <h2 onclick="toggleMainMenu()"><span id="headerIcon" class="material-symbols-sharp">menu</span></h2>
+    </header>
+    <!-- Header End -->
     <!-- Nav Start -->
     <div id="navMenu" class="show">
       <ul class="navigation">
