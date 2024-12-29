@@ -401,11 +401,6 @@ header h2:nth-child(3):hover {
 }
 
 
-_:default:not(:root:root),
-.bg-img {
-  background-image: url('img/ps-img7-ge5.png');
-}
-
 .bg-img-row {
   font-family: 'Yaldevi', sans-serif;
   font-size: 14px;
