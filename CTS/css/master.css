@@ -4,6 +4,10 @@ body {
   margin: 0 auto;
 }
 
+.text-center-mobile {
+  @media (max-width: 769px) { text-align: center; }
+}
+
 /* Header Styles */
 h1 {
   font-family: "Epilogue", sans-serif;
@@ -13,7 +17,6 @@ h1 {
 
   @media (max-width: 1150px) { font-size: 28px !important; }
   @media (max-width: 541px) { font-size: 24px !important; }
-  @media (max-width: 476px) { font-size: 4.5vw !important; }
 }
 
 
@@ -29,7 +32,10 @@ header {
   @media (max-width: 1101px) { max-width: 95%; }
   @media (max-width: 991px) { padding: 0 10px; }
   @media (max-width: 541px) { padding: 0 5px; max-width: 100%; }
+}
 
+#hide-btn {
+  @media (max-width: 501px) { display: none !important; }
 }
 
 .align-center {
@@ -71,7 +77,7 @@ nav {
 }
 
 button {
-  background-color: #000;
+  background-color: #fc5d03;
   padding: .5rem;
   width: 100%;
   max-width: 180px;
@@ -84,6 +90,7 @@ button {
   font-size: 16px;
   text-transform: uppercase;
   border-radius: 6px;
+  border: none;
 
   @media (max-width: 1150px) {
     max-width: 210px;
@@ -93,6 +100,11 @@ button {
   @media (max-width: 828px) { max-width: 100%; }
   @media (max-width: 541px) { font-size: 12px; }
   @media (max-width: 476px) { font-size: 2.5vw; }
+}
+
+#main-btn {
+    @media (max-width: 769px) { font-size: 22px !important; }
+    @media (max-width: 508px) { font-size: 14px !important; }
 }
 
 button:focus,
@@ -140,9 +152,6 @@ button:hover {
 }
 
 .hamburger-box {
-  @media (max-width: 541px) {
-
-  }
 }
 
 .hamburger-inner, .hamburger-inner:after, .hamburger-inner:before {
@@ -217,6 +226,9 @@ aside h1 {
 
 #jumbotron {
   margin-top: 40px;
+  padding: 0 15px;
+
+  @media (max-width: 769px) { margin-top: 15px;}
 }
 
 .h1 {
@@ -228,9 +240,10 @@ aside h1 {
   margin-top: 20px;
   margin-bottom: 0px;
 
-  @media (max-width: 728px) { font-size: 100px !important;}
-  @media (max-width: 592px) { font-size: 80px !important; letter-spacing: -6px;}
+  @media (max-width: 1025px) { font-size: 95px !important; letter-spacing: -3px;}
+  @media (max-width: 805px) { font-size: 70px !important; letter-spacing: -6px;}
   @media (max-width: 475px) { font-size: 60px !important; letter-spacing: -4px;}
+  @media (max-width: 394px) { font-size: 50px !important; letter-spacing: -2px;}
 }
 
 .eyebrow {
@@ -243,18 +256,73 @@ aside h1 {
   font-size: 14px;
   color: #fb5d03;
   line-height: 1.5em;
+
+    @media (max-width: 769px) { margin-top: 0px;}
 }
 
 .mt-0 { margin-top: 0px; }
 .mt-15 { margin-top: 15px !important; }
 .mb-15 { margin-bottom: 15px; }
 
-#jumbotron p {
+ p {
+   font-size: 18px;
   max-width: 750px;
   margin: 0 auto;
   line-height: 1.4;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
+
+  @media (max-width: 769px) { font-size: 16px;}
+
 }
 
 .text-center { text-align: center; }
+
+
+/* Side Styles */
+.side {
+  padding: 0 120px;
+  margin: 90px auto;
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 4rem;
+
+  @media (max-width: 1337px) { padding: 0 15px;}
+  @media (max-width: 1025px) { column-gap: 1rem; margin: 40px auto;}
+  @media (max-width: 769px) {grid-template-columns: auto; row-gap: 2rem;}
+}
+
+.side img {
+  height: 950px;
+  width: auto;
+
+    @media (max-width: 1025px) { height: 720px;}
+    @media (max-width: 805px) { height: 675px;}
+    @media (max-width: 769px) { height: auto; width: 100%; max-width: 80%; margin: 0 auto; }
+}
+
+.side h2 {
+  font-family: "Epilogue", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: -2px;
+  font-size: 60px;
+  margin: 0px;
+
+    @media (max-width: 1025px) { font-size: 45px;}
+    @media (max-width: 805px) { font-size: 32px;}
+}
+
+.inner-side-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: .1rem;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.inner-side-grid img {
+  width: 100%;
+  height: auto;
+}
