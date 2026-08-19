@@ -96,13 +96,13 @@
     <section id="styles-section">
       <h1 class="h1">Our Styles</h1>
       <div class="styles-grid">
-        <div><p>Traditional</p></div>
-        <div><p>Color</p></div>
-        <div><p>Black & White</p></div>
+        <div id="btn1"><p id="title1">Traditional</p></div>
+        <div id="btn2"><p id="title2">Color</p></div>
+        <div id="btn3"><p id="title3">Black & White</p></div>
       </div>
 
       <div class="gallery traditional">
-        <div class="gallery-grid">
+        <div class="gallery-grid" id="gallery-grid-1">
           <img src="img\traditional\img-1.jpg" alt="">
           <img src="img\traditional\img-2.jpg" alt="">
           <img src="img\traditional\img-3.jpg" alt="">
@@ -158,7 +158,7 @@
       </div>
 
       <div class="gallery color">
-        <div class="gallery-grid">
+        <div class="gallery-grid" id="gallery-grid-2">
           <img src="img\color\img-1.jpg" alt="">
           <img src="img\color\img-2.jpg" alt="">
           <img src="img\color\img-3.jpg" alt="">
@@ -174,7 +174,7 @@
 
 
       <div class="gallery bw">
-        <div class="gallery-grid">
+        <div class="gallery-grid" id="gallery-grid-3">
           <img src="img\bw\img-1.jpg" alt="">
           <img src="img\bw\img-2.jpg" alt="">
           <img src="img\bw\img-3.jpg" alt="">
@@ -213,5 +213,70 @@
 
   </main>
   <script src="mobile-nav.js" charset="utf-8"></script>
+  <script type="text/javascript">
+
+    const styleBtn1 = document.getElementById('btn1');
+    const styleBtn2 = document.getElementById('btn2');
+    const styleBtn3 = document.getElementById('btn3');
+
+    let p1 = document.getElementById('title1');
+    let p2 = document.getElementById('title2');
+    let p3 = document.getElementById('title3');
+
+    let gallery1 = document.getElementById('gallery-grid-1');
+    let gallery2 = document.getElementById('gallery-grid-2');
+    let gallery3 = document.getElementById('gallery-grid-3');
+
+
+    // Triggers when entering the element boundary
+      styleBtn1.addEventListener('mouseenter', () => {
+        styleBtn1.style.backgroundColor = '#fb5d03';
+        p1.style.color = "#000";
+      });
+
+      // Triggers when exiting the element boundary
+      styleBtn1.addEventListener('mouseleave', () => {
+        styleBtn1.style.backgroundColor = 'transparent';
+          p1.style.color = "#fb5d03";
+      });
+
+      // Triggers when entering the element boundary
+        styleBtn1.addEventListener('click', () => {
+          console.log(gallery2);
+          gallery2.style.display = "none !important;"
+          gallery3.style.display = "none !important;"
+        });
+
+
+
+
+
+      // Triggers when entering the element boundary
+        styleBtn2.addEventListener('mouseenter', () => {
+          styleBtn2.style.backgroundColor = '#fb5d03';
+          p2.style.color = "#000";
+        });
+
+        // Triggers when exiting the element boundary
+        styleBtn2.addEventListener('mouseleave', () => {
+          styleBtn2.style.backgroundColor = 'transparent';
+            p2.style.color = "#fb5d03";
+        });
+
+
+        // Triggers when entering the element boundary
+          styleBtn3.addEventListener('mouseenter', () => {
+            styleBtn3.style.backgroundColor = '#fb5d03';
+            p3.style.color = "#000";
+          });
+
+          // Triggers when exiting the element boundary
+          styleBtn3.addEventListener('mouseleave', () => {
+            styleBtn3.style.backgroundColor = 'transparent';
+              p3.style.color = "#fb5d03";
+          });
+
+
+  </script>
 </body>
 </html>
