@@ -103,8 +103,8 @@ button {
 }
 
 #main-btn {
-    @media (max-width: 769px) { font-size: 22px !important; }
-    @media (max-width: 508px) { font-size: 14px !important; }
+  @media (max-width: 769px) { font-size: 22px !important; }
+  @media (max-width: 508px) { font-size: 14px !important; }
 }
 
 button:focus,
@@ -257,15 +257,15 @@ aside h1 {
   color: #fb5d03;
   line-height: 1.5em;
 
-    @media (max-width: 769px) { margin-top: 0px;}
+  @media (max-width: 769px) { margin-top: 0px;}
 }
 
 .mt-0 { margin-top: 0px; }
 .mt-15 { margin-top: 15px !important; }
 .mb-15 { margin-bottom: 15px; }
 
- p {
-   font-size: 18px;
+p {
+  font-size: 18px;
   max-width: 750px;
   margin: 0 auto;
   line-height: 1.4;
@@ -296,9 +296,9 @@ aside h1 {
   height: 950px;
   width: auto;
 
-    @media (max-width: 1025px) { height: 720px;}
-    @media (max-width: 805px) { height: 675px;}
-    @media (max-width: 769px) { height: auto; width: 100%; max-width: 80%; margin: 0 auto; }
+  @media (max-width: 1025px) { height: 720px;}
+  @media (max-width: 805px) { height: 675px;}
+  @media (max-width: 769px) { height: auto; width: 100%; max-width: 80%; margin: 0 auto; }
 }
 
 .side h2 {
@@ -309,20 +309,70 @@ aside h1 {
   font-size: 60px;
   margin: 0px;
 
-    @media (max-width: 1025px) { font-size: 45px;}
-    @media (max-width: 805px) { font-size: 32px;}
+  @media (max-width: 1025px) { font-size: 45px;}
+  @media (max-width: 805px) { font-size: 32px;}
 }
 
 .inner-side-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: .1rem;
+  gap: 15px;
   width: 100%;
   margin-top: 30px;
   margin-bottom: 30px;
+
+  @media (max-width: 769px) {
+    grid-template-columns: auto auto auto auto;
+    width: 100%;
+    margin: 30px auto 0px;
+  }
 }
 
 .inner-side-grid img {
   width: 100%;
   height: auto;
+  background: #000;
+}
+
+/* Styles Section */
+
+.styles-grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.styles-grid div {
+  border: 2px solid #fc5d03;
+  padding: .5em;
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 6px;
+}
+
+.styles-grid p {
+  font-family: Roboto, sans-serif;
+  text-transform: uppercase;
+  color: #fb5d03;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Gallery Styles */
+.gallery {
+  margin: 30px auto;
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  max-width: 300px;
+  background-color: #000;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 1rem;
 }
