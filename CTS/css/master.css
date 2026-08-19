@@ -341,6 +341,11 @@ p {
   grid-template-columns: auto auto auto;
   text-align: center;
   margin-top: 30px;
+
+  @media (max-width: 505px) {
+    grid-template-columns: auto;
+    row-gap: 20px;
+  }
 }
 
 .styles-grid div {
@@ -349,6 +354,8 @@ p {
   width: 50%;
   margin: 0 auto;
   border-radius: 6px;
+
+    @media (max-width: 769px) {   width: 60%; }
 }
 
 .styles-grid p {
@@ -357,6 +364,7 @@ p {
   color: #fb5d03;
   font-size: 24px;
   font-weight: bold;
+      @media (max-width: 769px) {   font-size: 16px;}
 }
 
 /* Gallery Styles */
@@ -375,4 +383,13 @@ p {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   gap: 1rem;
+
+  @media (max-width: 769px) {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+
+    @media (max-width: 426px) {
+      grid-template-columns: 1fr 1fr;
+    }
 }
